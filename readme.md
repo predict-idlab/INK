@@ -7,13 +7,15 @@ This repository contains:
 * The code INK Miner code: Semantic rule mining on the INK representation for both task-specific and task-agnostic use cases.
 
 ## Installation
-
+* pip install semantic_ink
+* or clone this repository
 ## Usage
-
+See the example notebook for more information on how to use INK and the INK miner.
 ## Publications
-
+Coming soon.
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. <br>
+For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 [IMEC](https://github.com/IBCNServices/INK/blob/master/LICENSE)
