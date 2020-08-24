@@ -4,7 +4,7 @@ with open("readme.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="bsteenwi",
+    name="semantic_ink",
     version="0.0.1",
     author="Bram Steenwinckel",
     author_email="bram.steenwinckel@ugent.be",
