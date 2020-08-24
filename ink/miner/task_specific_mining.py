@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 import multiprocessing as mp
-import semantic_ink.miner.utils as utils
+import ink.miner.utils as utils
 from multiprocessing import Pool
 from sklearn.ensemble import RandomForestClassifier
 

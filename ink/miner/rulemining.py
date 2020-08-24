@@ -13,9 +13,9 @@ import random
 import numpy as np
 import pandas as pd
 from scipy import sparse
-import semantic_ink.miner.utils as utils
-from semantic_ink.miner.task_agnostic_mining import agnostic_fit
-from semantic_ink.miner.task_specific_mining import specific_fit
+import ink.miner.utils as utils
+from ink.miner.task_agnostic_mining import agnostic_fit
+from ink.miner.task_specific_mining import specific_fit
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'

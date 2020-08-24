@@ -4,10 +4,10 @@ Defines the functions and classes to construct the binary INK representation.
 """
 
 import numpy as np
-from semantic_ink.base.graph import KnowledgeGraph
-from semantic_ink.base.transform.counts import create_counts
-from semantic_ink.base.transform.levels import create_levels
-from semantic_ink.base.transform.binarize import create_representation
+from ink.base.graph import KnowledgeGraph
+from ink.base.transform.counts import create_counts
+from ink.base.transform.levels import create_levels
+from ink.base.transform.binarize import create_representation
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'

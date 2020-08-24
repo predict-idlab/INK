@@ -5,7 +5,7 @@ with open("readme.md", "r") as fh:
 
 setuptools.setup(
     name="semantic_ink",
-    version="0.0.1",
+    version="0.0.2",
     author="Bram Steenwinckel",
     author_email="bram.steenwinckel@ugent.be",
     description="INK: Instance Neighbouring by using Knowledge",
@@ -18,7 +18,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
-        "License :: OSI Approved :: IMEC License",
         "Operating System :: OS Independent",
     ],
     project_urls={
