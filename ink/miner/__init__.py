@@ -1,0 +1,3 @@
+"""
+Miner module
+"""

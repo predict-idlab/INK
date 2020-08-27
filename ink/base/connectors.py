@@ -58,9 +58,10 @@ class StardogConnector(AbstractConnector):
     :param database: database of interest.
     :type database: str
 
-    Example::
-        details = {'endpoint': 'http://localhost:5820'}
-        connector = StardogConnector(details, "example_database")
+    :example:
+    >>> details = {'endpoint': 'http://localhost:5820'}
+    >>> connector = StardogConnector(details, "example_database")
+
     """
     def __init__(self, conn_details, database):
         self.details = conn_details
