@@ -25,7 +25,7 @@ This repository contains:
 * or clone this repository
 ## Usage
 See the [example notebook](https://github.com/IBCNServices/INK/blob/master/example.ipynb) for more information on how to use INK and the INK miner.<br>
-The latest documentation made available by [Read the Docs](https://readthedocs.org/projects/ink/badge/?version=latest)
+The latest documentation is made available by [Read the Docs](https://ink.readthedocs.io/)
 ## Publications
 Coming soon.
 ## Contributing
