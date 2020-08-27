@@ -9,6 +9,9 @@
     <a href="https://badge.fury.io/py/semantic-ink">
         <img src="https://badge.fury.io/py/semantic-ink.svg" alt="PyPI">
     </a>
+    <a href='https://ink.readthedocs.io/en/latest/?badge=latest'>
+       <img src='https://readthedocs.org/projects/ink/badge/?version=latest' alt='Documentation Status' />
+    </a>
 </p>
 
 INK is a binary data structure for representing a knowledge graph (KG), taking into account nodes and their neighbourhoods till a certain, specified depth.
@@ -21,7 +24,8 @@ This repository contains:
 * `pip install semantic-ink`
 * or clone this repository
 ## Usage
-See the [example notebook](https://github.com/IBCNServices/INK/blob/master/example.ipynb) for more information on how to use INK and the INK miner.
+See the [example notebook](https://github.com/IBCNServices/INK/blob/master/example.ipynb) for more information on how to use INK and the INK miner.<br>
+The latest documentation is made available by [Read the Docs](https://ink.readthedocs.io/)
 ## Publications
 Coming soon.
 ## Contributing
