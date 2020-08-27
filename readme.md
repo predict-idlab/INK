@@ -9,6 +9,9 @@
     <a href="https://badge.fury.io/py/semantic-ink">
         <img src="https://badge.fury.io/py/semantic-ink.svg" alt="PyPI">
     </a>
+    <a href='https://ink.readthedocs.io/en/latest/?badge=latest'>
+       <img src='https://readthedocs.org/projects/ink/badge/?version=latest' alt='Documentation Status' />
+    </a>
 </p>
 
 INK is a binary data structure for representing a knowledge graph (KG), taking into account nodes and their neighbourhoods till a certain, specified depth.
