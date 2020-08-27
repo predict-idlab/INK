@@ -1,4 +1,15 @@
-# INK: Instance Neighbouring using Knowledge
+<p align="center">
+	<img width="75%" src="assets/INK.png">
+</p>
+
+<p align="center">
+    <a href="https://www.python.org/downloads/release/python-360/">
+        <img src="https://img.shields.io/badge/python-3.6-blue.svg" alt="Python">
+    </a>
+    <a href="https://badge.fury.io/py/semantic-ink">
+        <img src="https://badge.fury.io/py/semantic-ink.svg" alt="PyPI">
+    </a>
+</p>
 
 INK is a binary data structure for representing a knowledge graph (KG), taking into account nodes and their neighbourhoods till a certain, specified depth.
 
