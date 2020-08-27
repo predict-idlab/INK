@@ -23,6 +23,7 @@ __email__ = 'bram.steenwinckel@ugent.be'
 def specific_fit(miner, X_trans, y):
     """
     Function to mine task-specific rules
+
     :param miner: instance of the RuleSetMiner
     :param X_trans: Tuple value containing 1) a sparse binary representation, 2) list of indices, 3) column features.
     :type X_trans: tuple
