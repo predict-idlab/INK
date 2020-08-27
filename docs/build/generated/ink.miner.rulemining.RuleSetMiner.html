@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ink.miner.rulemining.RuleSetMiner &#8212; INK 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="ink-miner-rulemining-rulesetminer">
+<h1>ink.miner.rulemining.RuleSetMiner<a class="headerlink" href="#ink-miner-rulemining-rulesetminer" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="ink.miner.rulemining.RuleSetMiner">
+<em class="property">class </em><code class="sig-prename descclassname">ink.miner.rulemining.</code><code class="sig-name descname">RuleSetMiner</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">support</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">max_rules</span><span class="o">=</span><span class="default_value">100000000000000.0</span></em>, <em class="sig-param"><span class="n">max_len_rule_set</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">max_iter</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">chains</span><span class="o">=</span><span class="default_value">1000</span></em>, <em class="sig-param"><span class="n">forest_size</span><span class="o">=</span><span class="default_value">1000</span></em>, <em class="sig-param"><span class="n">criteria</span><span class="o">=</span><span class="default_value">'precision'</span></em>, <em class="sig-param"><span class="n">propose_threshold</span><span class="o">=</span><span class="default_value">0.1</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>The INK RuleSetMiner.
+Class which can mine both task specific and task agnostic rules.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>support</strong> (<em>int</em>) – Support measure, only rules with this level of support will be taken into account.</p></li>
+<li><p><strong>max_rules</strong> (<em>int</em>) – Maximal number of rules which can be mined.</p></li>
+<li><p><strong>max_len_rule_set</strong> (<em>int</em>) – Maximal number of rules used to separate the classes during task-specific mining.</p></li>
+<li><p><strong>max_iter</strong> (<em>int</em>) – Maximal number of iterations used for the task-specific miner.</p></li>
+<li><p><strong>chains</strong> (<em>int</em>) – Maximal number of chains used for the task-specific miner.</p></li>
+<li><p><strong>forest_size</strong> (<em>int</em>) – Maximal number of forest within the classifier for the task-specific miner.</p></li>
+<li><p><strong>criteria</strong> (<em>str</em>) – Criteria used to screen the generated rules. Possible criteria’s are precision, specificity,
+sensitivity, mcc (matthew correlation coefficient) or cross-entropy (default).</p></li>
+<li><p><strong>propose_threshold</strong> (<em>int</em>) – Threshold used to propose new combinations of possible rules for the task-specific mining.</p></li>
+<li><p><strong>verbose</strong> – Parameter to show tqdm tracker (default False).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="ink.miner.rulemining.RuleSetMiner.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">support</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">max_rules</span><span class="o">=</span><span class="default_value">100000000000000.0</span></em>, <em class="sig-param"><span class="n">max_len_rule_set</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">max_iter</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">chains</span><span class="o">=</span><span class="default_value">1000</span></em>, <em class="sig-param"><span class="n">forest_size</span><span class="o">=</span><span class="default_value">1000</span></em>, <em class="sig-param"><span class="n">criteria</span><span class="o">=</span><span class="default_value">'precision'</span></em>, <em class="sig-param"><span class="n">propose_threshold</span><span class="o">=</span><span class="default_value">0.1</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.miner.rulemining.RuleSetMiner.html#ink.miner.rulemining.RuleSetMiner.__init__" title="ink.miner.rulemining.RuleSetMiner.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([support, max_rules, …])</p></td>
+<td><p>Initialize self.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.miner.rulemining.RuleSetMiner.html#ink.miner.rulemining.RuleSetMiner.exec_chain" title="ink.miner.rulemining.RuleSetMiner.exec_chain"><code class="xref py py-obj docutils literal notranslate"><span class="pre">exec_chain</span></code></a>(t)</p></td>
+<td><p>Function to execute chaining in parallel.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.miner.rulemining.RuleSetMiner.html#ink.miner.rulemining.RuleSetMiner.fit" title="ink.miner.rulemining.RuleSetMiner.fit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fit</span></code></a>(data[, label])</p></td>
+<td><p>Fit function to train the classifier or generate agnostic rules :param data: Tuple value containing 1) a sparse binary representation, 2) list of indices, 3) column features.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.miner.rulemining.RuleSetMiner.html#ink.miner.rulemining.RuleSetMiner.precompute" title="ink.miner.rulemining.RuleSetMiner.precompute"><code class="xref py py-obj docutils literal notranslate"><span class="pre">precompute</span></code></a>(y)</p></td>
+<td><p>Precompute values based on the given labels.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.miner.rulemining.RuleSetMiner.html#ink.miner.rulemining.RuleSetMiner.predict" title="ink.miner.rulemining.RuleSetMiner.predict"><code class="xref py py-obj docutils literal notranslate"><span class="pre">predict</span></code></a>(data)</p></td>
+<td><p>Predict function used to predict new data against the learned task-specific rules.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.miner.rulemining.RuleSetMiner.html#ink.miner.rulemining.RuleSetMiner.print_rules" title="ink.miner.rulemining.RuleSetMiner.print_rules"><code class="xref py py-obj docutils literal notranslate"><span class="pre">print_rules</span></code></a>(rules)</p></td>
+<td><p>Function to represent the rules in a human-readable format.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.miner.rulemining.RuleSetMiner.html#ink.miner.rulemining.RuleSetMiner.screen_rules" title="ink.miner.rulemining.RuleSetMiner.screen_rules"><code class="xref py py-obj docutils literal notranslate"><span class="pre">screen_rules</span></code></a>(X_trans, y)</p></td>
+<td><p>Function to pre_screen the generated rules based on the enabled criteria :param X_trans: Binary data frame.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.miner.rulemining.RuleSetMiner.html#ink.miner.rulemining.RuleSetMiner.set_parameters" title="ink.miner.rulemining.RuleSetMiner.set_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_parameters</span></code></a>(X)</p></td>
+<td><p>Function to set some initial parameters based on the data.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="ink.miner.rulemining.RuleSetMiner.exec_chain">
+<code class="sig-name descname">exec_chain</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">t</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner.exec_chain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to execute chaining in parallel.
+:param t: Tuple with number of rules, split, the RMatrix, y, T0 and chain indicator
+:type t: tuple
+:return: Chaining results
+:rtype: list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.miner.rulemining.RuleSetMiner.fit">
+<code class="sig-name descname">fit</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">label</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fit function to train the classifier or generate agnostic rules
+:param data: Tuple value containing 1) a sparse binary representation, 2) list of indices, 3) column features.
+:type data: tuple
+:param label: List containing the labels for each index (task-specific) or None (task-agnostic)
+:return: Rules</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.miner.rulemining.RuleSetMiner.precompute">
+<code class="sig-name descname">precompute</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner.precompute" title="Permalink to this definition">¶</a></dt>
+<dd><p>Precompute values based on the given labels.
+:param y: List of labels.
+:return:</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.miner.rulemining.RuleSetMiner.predict">
+<code class="sig-name descname">predict</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner.predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Predict function used to predict new data against the learned task-specific rules.
+:param data: Tuple value containing 1) a sparse binary representation, 2) list of indices, 3) column features.
+:type data: tuple
+:return: Predicted labels
+:rtype: list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.miner.rulemining.RuleSetMiner.print_rules">
+<code class="sig-name descname">print_rules</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">rules</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner.print_rules" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to represent the rules in a human-readable format.
+:param rules: Output generated from the task-specific fit function
+:type rules: list
+:return:</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.miner.rulemining.RuleSetMiner.screen_rules">
+<code class="sig-name descname">screen_rules</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X_trans</span></em>, <em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner.screen_rules" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to pre_screen the generated rules based on the enabled criteria
+:param X_trans: Binary data frame.
+:param y: Label list
+:return: RMatrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.miner.rulemining.RuleSetMiner.set_parameters">
+<code class="sig-name descname">set_parameters</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.miner.rulemining.RuleSetMiner.set_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to set some initial parameters based on the data.
+:param X: Tuple value containing 1) a sparse binary representation, 2) list of indices, 3) column features.
+:type X: tuple
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">INK</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../_autosummary/ink.html">ink</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bram Steenwinckel.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/generated/ink.miner.rulemining.RuleSetMiner.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

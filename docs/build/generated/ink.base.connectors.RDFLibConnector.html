@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ink.base.connectors.RDFLibConnector &#8212; INK 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="ink-base-connectors-rdflibconnector">
+<h1>ink.base.connectors.RDFLibConnector<a class="headerlink" href="#ink-base-connectors-rdflibconnector" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="ink.base.connectors.RDFLibConnector">
+<em class="property">class </em><code class="sig-prename descclassname">ink.base.connectors.</code><code class="sig-name descname">RDFLibConnector</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em>, <em class="sig-param"><span class="n">dataformat</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.RDFLibConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="../ink/ink.base.connectors.AbstractConnector.html#ink.base.connectors.AbstractConnector" title="ink.base.connectors.AbstractConnector"><code class="xref py py-class docutils literal notranslate"><span class="pre">ink.base.connectors.AbstractConnector</span></code></a></p>
+<p>A RDFLib connector.</p>
+<p>This RDFLib connector class stores the knowledge graph directly within memory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>filename</strong> (<em>str</em>) – The filename of the knowledge graph.</p></li>
+<li><p><strong>dataformat</strong> (<em>str</em>) – Dataformat of the knowledge graph. Use XML for OWL files.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Example::</dt><dd><p>connector = RDFLibConnector(‘example.owl’, ‘xml’)</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="ink.base.connectors.RDFLibConnector.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em>, <em class="sig-param"><span class="n">dataformat</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.RDFLibConnector.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.base.connectors.RDFLibConnector.html#ink.base.connectors.RDFLibConnector.__init__" title="ink.base.connectors.RDFLibConnector.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(filename, dataformat)</p></td>
+<td><p>Initialize self.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.base.connectors.RDFLibConnector.html#ink.base.connectors.RDFLibConnector.query" title="ink.base.connectors.RDFLibConnector.query"><code class="xref py py-obj docutils literal notranslate"><span class="pre">query</span></code></a>(q_str)</p></td>
+<td><p>Execute a query through RDFLib :param q_str: Query string.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="ink.base.connectors.RDFLibConnector.query">
+<code class="sig-name descname">query</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">q_str</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.RDFLibConnector.query" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute a query through RDFLib
+:param q_str: Query string.
+:type q_str: str
+:return: Dictionary generated from the [‘results’][‘bindings’] json.
+:rtype: dict</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">INK</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../_autosummary/ink.html">ink</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bram Steenwinckel.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/generated/ink.base.connectors.RDFLibConnector.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

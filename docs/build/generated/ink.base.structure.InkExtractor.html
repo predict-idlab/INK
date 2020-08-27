@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ink.base.structure.InkExtractor &#8212; INK 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="ink-base-structure-inkextractor">
+<h1>ink.base.structure.InkExtractor<a class="headerlink" href="#ink-base-structure-inkextractor" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="ink.base.structure.InkExtractor">
+<em class="property">class </em><code class="sig-prename descclassname">ink.base.structure.</code><code class="sig-name descname">InkExtractor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">connector</span></em>, <em class="sig-param"><span class="n">prefixes</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.structure.InkExtractor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>The INK extractor.
+Constructs the binary representation from a given knowledge graph.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>connector</strong> (<a class="reference internal" href="../ink/ink.base.connectors.AbstractConnector.html#ink.base.connectors.AbstractConnector" title="ink.base.connectors.AbstractConnector"><code class="xref py py-class docutils literal notranslate"><span class="pre">ink.base.connectors.AbstractConnector</span></code></a>) – Connector instance.</p></li>
+<li><p><strong>prefixes</strong> (<em>list</em>) – Optional dictionary of prefixes which should be mapped.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – Parameter to show tqdm tracker (default False).</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="ink.base.structure.InkExtractor.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">connector</span></em>, <em class="sig-param"><span class="n">prefixes</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.structure.InkExtractor.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.base.structure.InkExtractor.html#ink.base.structure.InkExtractor.__init__" title="ink.base.structure.InkExtractor.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(connector[, prefixes, verbose])</p></td>
+<td><p>Initialize self.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.base.structure.InkExtractor.html#ink.base.structure.InkExtractor.create_dataset" title="ink.base.structure.InkExtractor.create_dataset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_dataset</span></code></a>([depth, pos, neg, skip_list])</p></td>
+<td><p>Function to create the neighborhood dataset.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.base.structure.InkExtractor.html#ink.base.structure.InkExtractor.fit_transform" title="ink.base.structure.InkExtractor.fit_transform"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fit_transform</span></code></a>(dct[, counts, levels])</p></td>
+<td><p>Fit_transform function which transforms the neighborhood of several nodes of interest into a binary representation.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.base.structure.InkExtractor.html#ink.base.structure.InkExtractor.transform" title="ink.base.structure.InkExtractor.transform"><code class="xref py py-obj docutils literal notranslate"><span class="pre">transform</span></code></a>(dct[, counts, levels])</p></td>
+<td><p>Transform function which transforms the neighborhood of several nodes of interest into a binary representation.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="ink.base.structure.InkExtractor.create_dataset">
+<code class="sig-name descname">create_dataset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">depth</span><span class="o">=</span><span class="default_value">4</span></em>, <em class="sig-param"><span class="n">pos</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">neg</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">skip_list</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.structure.InkExtractor.create_dataset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to create the neighborhood dataset.
+Based on the input parameters, this function creates the dictionary of neighborhoods.</p>
+<p>The pos parameter is required, the neg is only required when a task specific case is being solved.
+The pos and neg parameters can be either: sets or query strings.
+When a query string is given, the connector which is associated with the InkExtractor will be used to get all
+the nodes of interest.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>depth</strong> (<em>int</em>) – The maximal depth of the neighborhood</p></li>
+<li><p><strong>pos</strong> (<em>set</em><em>, </em><em>str</em>) – Set or query string describing the positive set of nodes of interest.</p></li>
+<li><p><strong>neg</strong> (<em>set</em><em>, </em><em>str</em>) – Set or query string describing the negative set of nodes of interest (only for task specific cases).</p></li>
+<li><p><strong>skip_list</strong> (<em>list</em>) – List with relations which are not taken into account when traversing the neighborhoods.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The extracted neighborhoods for each node of interest and the corresponding labels (only for task</p>
+</dd>
+</dl>
+<p>specific cases).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.base.structure.InkExtractor.fit_transform">
+<code class="sig-name descname">fit_transform</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dct</span></em>, <em class="sig-param"><span class="n">counts</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">levels</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.structure.InkExtractor.fit_transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fit_transform function which transforms the neighborhood of several nodes of interest into
+a binary representation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>dct</strong> – Dictionary containing the neighborhoods of multiple nodes of interest. Can be acquired by using the</p>
+</dd>
+</dl>
+<p>create_dataset function.
+:type dct: dict
+:param counts: Boolean indication if the <cite>ink.base.modules.counts.create_counts</cite> function must be used.
+:type counts: bool
+:param levels: Boolean indication if the <cite>ink.base.modules.levels.create_levels</cite> function must be used.
+:return: tuple with sparse feature matrix, list of indices (node of interests), feature names.
+:rtype: tuple</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.base.structure.InkExtractor.transform">
+<code class="sig-name descname">transform</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dct</span></em>, <em class="sig-param"><span class="n">counts</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">levels</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.structure.InkExtractor.transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transform function which transforms the neighborhood of several nodes of interest into
+a binary representation. The main difference with the fit_transform function is that this function uses
+the previously fitted dictionary to make the representation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>dct</strong> – Dictionary containing the neighborhoods of multiple nodes of interest. Can be acquired by using the</p>
+</dd>
+</dl>
+<p>create_dataset function.
+:type dct: dict
+:param counts: Boolean indication if the <cite>ink.base.modules.counts.create_counts</cite> function must be used.
+:type counts: bool
+:param levels: Boolean indication if the <cite>ink.base.modules.levels.create_levels</cite> function must be used.
+:return: tuple with sparse feature matrix, list of indices (node of interests), feature names.
+:rtype: tuple</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">INK</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../_autosummary/ink.html">ink</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bram Steenwinckel.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/generated/ink.base.structure.InkExtractor.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

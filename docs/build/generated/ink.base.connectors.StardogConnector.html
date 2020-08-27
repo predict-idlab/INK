@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ink.base.connectors.StardogConnector &#8212; INK 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="ink-base-connectors-stardogconnector">
+<h1>ink.base.connectors.StardogConnector<a class="headerlink" href="#ink-base-connectors-stardogconnector" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="ink.base.connectors.StardogConnector">
+<em class="property">class </em><code class="sig-prename descclassname">ink.base.connectors.</code><code class="sig-name descname">StardogConnector</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">conn_details</span></em>, <em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.StardogConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="../ink/ink.base.connectors.AbstractConnector.html#ink.base.connectors.AbstractConnector" title="ink.base.connectors.AbstractConnector"><code class="xref py py-class docutils literal notranslate"><span class="pre">ink.base.connectors.AbstractConnector</span></code></a></p>
+<p>A Stardog connector</p>
+<p>This Stardog connector class sets up the connection to a Stardog database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>conn_details</strong> (<em>dict</em>) – a dictionary containing all the connection details.</p></li>
+<li><p><strong>database</strong> (<em>str</em>) – database of interest.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Example</dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">details</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;endpoint&#39;</span><span class="p">:</span> <span class="s1">&#39;http://localhost:5820&#39;</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">connector</span> <span class="o">=</span> <span class="n">StardogConnector</span><span class="p">(</span><span class="n">details</span><span class="p">,</span> <span class="s2">&quot;example_database&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="ink.base.connectors.StardogConnector.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">conn_details</span></em>, <em class="sig-param"><span class="n">database</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.StardogConnector.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.base.connectors.StardogConnector.html#ink.base.connectors.StardogConnector.__init__" title="ink.base.connectors.StardogConnector.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(conn_details, database)</p></td>
+<td><p>Initialize self.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.base.connectors.StardogConnector.html#ink.base.connectors.StardogConnector.delete_db" title="ink.base.connectors.StardogConnector.delete_db"><code class="xref py py-obj docutils literal notranslate"><span class="pre">delete_db</span></code></a>()</p></td>
+<td><p>Function to delete the delete the database when it is available :return: None</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.base.connectors.StardogConnector.html#ink.base.connectors.StardogConnector.query" title="ink.base.connectors.StardogConnector.query"><code class="xref py py-obj docutils literal notranslate"><span class="pre">query</span></code></a>(q_str)</p></td>
+<td><p>Execute a query on the initialized Stardog database :param q_str: Query string.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.base.connectors.StardogConnector.html#ink.base.connectors.StardogConnector.upload_kg" title="ink.base.connectors.StardogConnector.upload_kg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">upload_kg</span></code></a>(filename)</p></td>
+<td><p>Uploads the knowledge graph to the previously initialized database.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="ink.base.connectors.StardogConnector.delete_db">
+<code class="sig-name descname">delete_db</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.StardogConnector.delete_db" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to delete the delete the database when it is available
+:return: None</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.base.connectors.StardogConnector.query">
+<code class="sig-name descname">query</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">q_str</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.StardogConnector.query" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute a query on the initialized Stardog database
+:param q_str: Query string.
+:type q_str: str
+:return: Dictionary generated from the [‘results’][‘bindings’] json.
+:rtype: dict</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.base.connectors.StardogConnector.upload_kg">
+<code class="sig-name descname">upload_kg</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.StardogConnector.upload_kg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Uploads the knowledge graph to the previously initialized database.
+:param filename: The filename of the knowledge graph.
+:type filename: str
+:return: None</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">INK</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../_autosummary/ink.html">ink</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bram Steenwinckel.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/generated/ink.base.connectors.StardogConnector.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

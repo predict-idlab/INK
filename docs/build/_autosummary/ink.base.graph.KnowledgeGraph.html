@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ink.base.graph.KnowledgeGraph &#8212; INK 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ink.base.structure" href="ink.base.structure.html" />
+    <link rel="prev" title="ink.base.graph" href="ink.base.graph.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="ink-base-graph-knowledgegraph">
+<h1>ink.base.graph.KnowledgeGraph<a class="headerlink" href="#ink-base-graph-knowledgegraph" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="ink.base.graph.KnowledgeGraph">
+<em class="property">class </em><code class="sig-prename descclassname">ink.base.graph.</code><code class="sig-name descname">KnowledgeGraph</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">connector</span></em>, <em class="sig-param"><span class="n">prefixes</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.graph.KnowledgeGraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Knowledge graph class representation</p>
+<p>This graph builds and stores the internal knowledge graph representations.
+It stores and builds the neighborhoods of the nodes of interest through the initialized connector.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>connector</strong> (<a class="reference internal" href="../ink/ink.base.connectors.AbstractConnector.html#ink.base.connectors.AbstractConnector" title="ink.base.connectors.AbstractConnector"><code class="xref py py-class docutils literal notranslate"><span class="pre">ink.base.connectors.AbstractConnector</span></code></a>) – Connector instance.</p></li>
+<li><p><strong>prefixes</strong> (<em>list</em>) – Optional dictionary of prefixes which should be mapped.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="ink.base.graph.KnowledgeGraph.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">connector</span></em>, <em class="sig-param"><span class="n">prefixes</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.graph.KnowledgeGraph.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.base.graph.KnowledgeGraph.html#ink.base.graph.KnowledgeGraph.__init__" title="ink.base.graph.KnowledgeGraph.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(connector[, prefixes])</p></td>
+<td><p>Initialize self.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.base.graph.KnowledgeGraph.html#ink.base.graph.KnowledgeGraph.extract_neighborhoods" title="ink.base.graph.KnowledgeGraph.extract_neighborhoods"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extract_neighborhoods</span></code></a>(data, depth[, …])</p></td>
+<td><p>Function which extracts all the neighborhoods of a given set of nodes of interest.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.base.graph.KnowledgeGraph.html#ink.base.graph.KnowledgeGraph.neighborhood_request" title="ink.base.graph.KnowledgeGraph.neighborhood_request"><code class="xref py py-obj docutils literal notranslate"><span class="pre">neighborhood_request</span></code></a>(noi)</p></td>
+<td><p>Function to make a neighborhood request of a certain instance.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="ink.base.graph.KnowledgeGraph.extract_neighborhoods">
+<code class="sig-name descname">extract_neighborhoods</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">depth</span></em>, <em class="sig-param"><span class="n">skip_list</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.graph.KnowledgeGraph.extract_neighborhoods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function which extracts all the neighborhoods of a given set of nodes of interest.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>list</em>) – List of node of interests.</p></li>
+<li><p><strong>depth</strong> (<em>int</em>) – The maximum depth of the neighborhood.</p></li>
+<li><p><strong>skip_list</strong> (<em>list</em>) – List with relations which are not taken into account when traversing the neighborhoods.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – Parameter to show tqdm tracker (default False).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List of dictionaries containing the neighborhood until the defined depth for each instance of the
+dataset.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="ink.base.graph.KnowledgeGraph.neighborhood_request">
+<code class="sig-name descname">neighborhood_request</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">noi</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.graph.KnowledgeGraph.neighborhood_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to make a neighborhood request of a certain instance.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>noi</strong> (<em>str</em>) – URI of Node Of Interest (noi).</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Dictionary with all values specified as in the connector string.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">INK</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="ink.html">ink</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="ink.base.html">ink.base</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ink.base.connectors.html">ink.base.connectors</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="ink.base.graph.html">ink.base.graph</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">ink.base.graph.KnowledgeGraph</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="ink.base.structure.html">ink.base.structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ink.base.transform.html">ink.base.transform</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ink.miner.html">ink.miner</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../ink.html">&lt;no title&gt;</a><ul>
+  <li><a href="ink.html">ink</a><ul>
+  <li><a href="ink.base.html">ink.base</a><ul>
+  <li><a href="ink.base.graph.html">ink.base.graph</a><ul>
+      <li>Previous: <a href="ink.base.graph.html" title="previous chapter">ink.base.graph</a></li>
+      <li>Next: <a href="ink.base.structure.html" title="next chapter">ink.base.structure</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bram Steenwinckel.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/_autosummary/ink.base.graph.KnowledgeGraph.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

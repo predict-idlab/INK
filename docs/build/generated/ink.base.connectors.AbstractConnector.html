@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ink.base.connectors.AbstractConnector &#8212; INK 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="ink-base-connectors-abstractconnector">
+<h1>ink.base.connectors.AbstractConnector<a class="headerlink" href="#ink-base-connectors-abstractconnector" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="ink.base.connectors.AbstractConnector">
+<em class="property">class </em><code class="sig-prename descclassname">ink.base.connectors.</code><code class="sig-name descname">AbstractConnector</code><a class="headerlink" href="#ink.base.connectors.AbstractConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<p>Abstract Connector class
+Can be used to implement new types of connectors.</p>
+<p>The only function which have to be implemented is the query(self, str) function.
+This function is used to query the neighborhood.
+Makes sure this function return a dictionary in the correct format.</p>
+<dl class="py method">
+<dt id="ink.base.connectors.AbstractConnector.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.AbstractConnector.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../ink/ink.base.connectors.AbstractConnector.html#ink.base.connectors.AbstractConnector.__init__" title="ink.base.connectors.AbstractConnector.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>()</p></td>
+<td><p>Initialize self.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../ink/ink.base.connectors.AbstractConnector.html#ink.base.connectors.AbstractConnector.query" title="ink.base.connectors.AbstractConnector.query"><code class="xref py py-obj docutils literal notranslate"><span class="pre">query</span></code></a>(q_str)</p></td>
+<td><p>Abstract query function.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt id="ink.base.connectors.AbstractConnector.query">
+<em class="property">abstract </em><code class="sig-name descname">query</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">q_str</span></em><span class="sig-paren">)</span><a class="headerlink" href="#ink.base.connectors.AbstractConnector.query" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract query function.
+:param q_str: Query string.
+:type q_str: str
+:rtype: dict</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">INK</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../_autosummary/ink.html">ink</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bram Steenwinckel.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/generated/ink.base.connectors.AbstractConnector.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
