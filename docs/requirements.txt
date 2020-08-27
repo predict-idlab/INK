@@ -1,0 +1,10 @@
+scipy==1.4.1
+requests==2.23.0
+pystardog==0.9.6
+numpy==1.18.4
+pandas==1.0.3
+mlxtend==0.17.2
+rdflib==5.0.0
+tqdm==4.46.0
+ink==0.0.1
+scikit_learn==0.23.2
