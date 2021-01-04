@@ -1,0 +1,43 @@
+city_name	DBpedia_URL	rating	id	label
+Sydney	http://dbpedia.org/resource/Sydney	105.5	5.0	high
+Frankfurt	http://dbpedia.org/resource/Frankfurt	104.0	11.0	high
+Perth	http://dbpedia.org/resource/Perth	103.5	18.0	high
+Stockholm	http://dbpedia.org/resource/Stockholm	103.0	23.0	high
+Brisbane	http://dbpedia.org/resource/Brisbane	102.5	26.0	high
+Winston Salem	http://dbpedia.org/resource/Winston_Salem	101.0	41.0	high
+Los Angeles	http://dbpedia.org/resource/Los_Angeles	101.0	42.0	high
+Singapore	http://dbpedia.org/resource/Singapore	100.5	44.0	high
+Chicago	http://dbpedia.org/resource/Chicago	100.0	47.0	high
+Madrid	http://dbpedia.org/resource/Madrid	100.0	49.0	high
+Portland	http://dbpedia.org/resource/Portland	99.0	52.0	high
+Nagoya	http://dbpedia.org/resource/Nagoya	99.0	54.0	high
+Detroit	http://dbpedia.org/resource/Detroit	96.0	65.0	high
+Hong Kong	http://dbpedia.org/resource/Hong_Kong	93.0	70.0	medium
+Rome	http://dbpedia.org/resource/Rome	93.0	71.0	medium
+Montevideo	http://dbpedia.org/resource/Montevideo	92.5	72.0	medium
+San Juan	http://dbpedia.org/resource/San_Juan	92.5	73.0	medium
+Limassol	http://dbpedia.org/resource/Limassol	83.5	84.0	medium
+Vilnius	http://dbpedia.org/resource/Vilnius	82.0	90.0	medium
+Seoul	http://dbpedia.org/resource/Seoul	81.5	93.0	medium
+Istanbul	http://dbpedia.org/resource/Istanbul	81.5	94.0	medium
+San Jose	http://dbpedia.org/resource/San_Jose	80.5	96.0	medium
+Casablanca	http://dbpedia.org/resource/Casablanca	73.0	124.0	medium
+Bogota	http://dbpedia.org/resource/Bogota	71.0	127.0	medium
+Rayong	http://dbpedia.org/resource/Rayong	67.5	135.0	medium
+Guatemala City	http://dbpedia.org/resource/Guatemala_City	66.5	137.0	medium
+Vientiane	http://dbpedia.org/resource/Vientiane	61.0	155.0	medium
+Kiev	http://dbpedia.org/resource/Kiev	58.5	157.0	medium
+Skopje	http://dbpedia.org/resource/Skopje	58.0	158.0	medium
+Shenyang	http://dbpedia.org/resource/Shenyang	57.0	161.0	medium
+Karachi	http://dbpedia.org/resource/Karachi	55.5	164.0	medium
+Bangalore	http://dbpedia.org/resource/Bangalore	54.0	168.0	medium
+Hanoi	http://dbpedia.org/resource/Hanoi	53.5	170.0	medium
+Jilin	http://dbpedia.org/resource/Jilin	52.0	172.0	medium
+New Delhi	http://dbpedia.org/resource/New_Delhi	48.0	181.0	
+Port Au Prince	http://dbpedia.org/resource/Port_Au_Prince	47.0	183.0	
+Dacca	http://dbpedia.org/resource/Dacca	47.0	184.0	
+Algiers	http://dbpedia.org/resource/Algiers	47.0	185.0	
+Lome	http://dbpedia.org/resource/Lome	42.5	193.0	
+Bamako	http://dbpedia.org/resource/Bamako	37.0	204.0	
+Kinshasa	http://dbpedia.org/resource/Kinshasa	37.0	205.0	
+Luanda	http://dbpedia.org/resource/Luanda	36.0	207.0	

@@ -1,0 +1,1601 @@
+Movie	Release date	DBpedia_URI	Label	id	rating
+Best Kept Secret	9/6/2013 0:00	http://dbpedia.org/resource/Best_Kept_Secret_(film)	good	1	100
+The Godfather	3/11/1972 0:00	http://dbpedia.org/resource/The_Godfather	good	2	100
+Army of Shadows	4/28/2006 0:00	http://dbpedia.org/resource/Army_of_Shadows	good	3	99
+Hoop Dreams	10/14/1994 0:00	http://dbpedia.org/resource/Hoop_Dreams	good	4	98
+Pan's Labyrinth	12/29/2006 0:00	http://dbpedia.org/resource/Pan's_Labyrinth	good	5	98
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb	1/29/1964 0:00	http://dbpedia.org/resource/Dr._Strangelove	good	6	96
+Gravity	10/4/2013 0:00	http://dbpedia.org/resource/Gravity_(film)	good	7	96
+A Separation	12/30/2011 0:00	http://dbpedia.org/resource/A_Separation	good	8	95
+The Social Network	10/1/2010 0:00	http://dbpedia.org/resource/The_Social_Network	good	9	95
+Zero Dark Thirty	12/19/2012 0:00	http://dbpedia.org/resource/Zero_Dark_Thirty	good	10	95
+Pulp Fiction	10/14/1994 0:00	http://dbpedia.org/resource/Pulp_Fiction	good	11	94
+Spirited Away	9/20/2002 0:00	http://dbpedia.org/resource/Spirited_Away	good	12	94
+The Lord of the Rings: The Return of the King	12/17/2003 0:00	http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Return_of_the_King	good	13	94
+WALL-E	6/27/2008 0:00	http://dbpedia.org/resource/WALL-E	good	14	94
+Days of Heaven	9/13/1978 0:00	http://dbpedia.org/resource/Days_of_Heaven	good	15	93
+Reversal of Fortune	10/17/1990 0:00	http://dbpedia.org/resource/Reversal_of_Fortune	good	16	93
+The Discreet Charm of the Bourgeoisie	5/12/2000 0:00	http://dbpedia.org/resource/The_Discreet_Charm_of_the_Bourgeoisie	good	17	93
+Inside Llewyn Davis	12/6/2013 0:00	http://dbpedia.org/resource/Inside_Llewyn_Davis	good	18	92
+Raging Bull	11/14/1980 0:00	http://dbpedia.org/resource/Raging_Bull	good	19	92
+The Lord of the Rings: The Fellowship of the Ring	12/19/2001 0:00	http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring	good	20	92
+There Will Be Blood	12/26/2007 0:00	http://dbpedia.org/resource/There_Will_Be_Blood	good	21	92
+Toy Story	11/22/1995 0:00	http://dbpedia.org/resource/Toy_Story	good	22	92
+Toy Story 3	6/18/2010 0:00	http://dbpedia.org/resource/Toy_Story_3	good	23	92
+Werckmeister Harmonies	10/10/2001 0:00	http://dbpedia.org/resource/Werckmeister_Harmonies	good	24	92
+The Fast Runner (Atanarjuat)	6/7/2002 0:00	http://dbpedia.org/resource/Atanarjuat:_The_Fast_Runner	good	25	91
+Beau Travail	3/31/2000 0:00	http://dbpedia.org/resource/Beau_Travail	good	26	91
+Do the Right Thing	6/30/1989 0:00	http://dbpedia.org/resource/Do_the_Right_Thing	good	27	91
+The Queen	9/30/2006 0:00	http://dbpedia.org/resource/The_Queen_(film)	good	28	91
+The Triplets of Belleville	11/26/2003 0:00	http://dbpedia.org/resource/The_Triplets_of_Belleville	good	29	91
+Waltz with Bashir	12/25/2008 0:00	http://dbpedia.org/resource/Waltz_with_Bashir	good	30	91
+Almost Famous	9/13/2000 0:00	http://dbpedia.org/resource/Almost_Famous	good	31	90
+American Hustle	12/13/2013 0:00	http://dbpedia.org/resource/American_Hustle	good	32	90
+Apocalypse Now	8/3/2001 0:00	http://dbpedia.org/resource/Apocalypse_Now	good	33	90
+Being John Malkovich	10/29/1999 0:00	http://dbpedia.org/resource/Being_John_Malkovich	good	34	90
+Gosford Park	12/26/2001 0:00	http://dbpedia.org/resource/Gosford_Park	good	35	90
+My Voyage to Italy	10/19/2001 0:00	http://dbpedia.org/resource/My_Voyage_to_Italy	good	36	90
+Saving Private Ryan	7/24/1998 0:00	http://dbpedia.org/resource/Saving_Private_Ryan	good	37	90
+The Crying Game	11/25/1992 0:00	http://dbpedia.org/resource/The_Crying_Game	good	38	90
+The Incredibles	11/5/2004 0:00	http://dbpedia.org/resource/The_Incredibles	good	39	90
+The Truman Show	6/5/1998 0:00	http://dbpedia.org/resource/The_Truman_Show	good	40	90
+Topsy-Turvy	12/17/1999 0:00	http://dbpedia.org/resource/Topsy-Turvy	good	41	90
+Eternal Sunshine of the Spotless Mind	3/19/2004 0:00	http://dbpedia.org/resource/Eternal_Sunshine_of_the_Spotless_Mind	good	42	89
+Goodfellas	9/1/1990 0:00	http://dbpedia.org/resource/Goodfellas	good	43	89
+Investigation of a Citizen Above Suspicion	4/4/2003 0:00	http://dbpedia.org/resource/Investigation_of_a_Citizen_Above_Suspicion	good	44	89
+Blade Runner	7/11/1992 0:00	http://dbpedia.org/resource/Blade_Runner	good	45	88
+Life Is Sweet	10/25/1991 0:00	http://dbpedia.org/resource/Life_Is_Sweet_(film)	good	46	88
+Nobody Knows	2/4/2005 0:00	http://dbpedia.org/resource/Nobody_Knows_(2004_film)	good	47	88
+Quiz Show	9/14/1994 0:00	http://dbpedia.org/resource/Quiz_Show_(film)	good	48	88
+The Lord of the Rings: The Two Towers	12/18/2002 0:00	http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Two_Towers	good	49	88
+Tulpan	4/1/2009 0:00	http://dbpedia.org/resource/Tulpan	good	50	88
+Brokeback Mountain	12/9/2005 0:00	http://dbpedia.org/resource/Brokeback_Mountain	good	51	87
+Gomorrah	2/13/2009 0:00	http://dbpedia.org/resource/Gomorrah_(film)	good	52	87
+Grizzly Man	8/12/2005 0:00	http://dbpedia.org/resource/Grizzly_Man	good	53	87
+Howards End	3/13/1992 0:00	http://dbpedia.org/resource/Howards_End_(film)	good	54	87
+Maria Full of Grace	7/16/2004 0:00	http://dbpedia.org/resource/Maria_Full_of_Grace	good	55	87
+Shakespeare in Love	12/11/1998 0:00	http://dbpedia.org/resource/Shakespeare_in_Love	good	56	87
+Superman II	6/19/1981 0:00	http://dbpedia.org/resource/Superman_II	good	57	87
+The Kid with a Bike	3/16/2012 0:00	http://dbpedia.org/resource/The_Kid_with_a_Bike	good	58	87
+The Spirit of the Beehive	1/27/2006 0:00	http://dbpedia.org/resource/The_Spirit_of_the_Beehive	good	59	87
+To Be and to Have	9/19/2003 0:00	http://dbpedia.org/resource/To_Be_and_to_Have	good	60	87
+Tootsie	12/17/1982 0:00	http://dbpedia.org/resource/Tootsie	good	61	87
+I Vitelloni	11/14/2003 0:00	http://dbpedia.org/resource/I_Vitelloni	good	62	87
+Das Boot	2/10/1982 0:00	http://dbpedia.org/resource/Das_Boot	good	63	86
+Easy Rider	7/14/1969 0:00	http://dbpedia.org/resource/Easy_Rider	good	64	86
+Flight of the Red Balloon	4/4/2008 0:00	http://dbpedia.org/resource/Flight_of_the_Red_Balloon	good	65	86
+In the Bedroom	11/23/2001 0:00	http://dbpedia.org/resource/In_the_Bedroom	good	66	86
+Marooned in Iraq	4/25/2003 0:00	http://dbpedia.org/resource/Marooned_in_Iraq	good	67	86
+Million Dollar Baby	12/15/2004 0:00	http://dbpedia.org/resource/Million_Dollar_Baby	good	68	86
+Ponyo	8/14/2009 0:00	http://dbpedia.org/resource/Ponyo	good	69	86
+Russian Ark	11/29/2002 0:00	http://dbpedia.org/resource/Russian_Ark	good	70	86
+Springtime in a Small Town	5/14/2004 0:00	http://dbpedia.org/resource/Springtime_in_a_Small_Town	good	71	86
+The Conversation	4/7/1974 0:00	http://dbpedia.org/resource/The_Conversation	good	72	86
+The Departed	10/6/2006 0:00	http://dbpedia.org/resource/The_Departed	good	73	86
+The Interrupters	7/29/2011 0:00	http://dbpedia.org/resource/The_Interrupters	good	74	86
+The Straight Story	10/15/1999 0:00	http://dbpedia.org/resource/The_Straight_Story	good	75	86
+The Tillman Story	8/20/2010 0:00	http://dbpedia.org/resource/The_Tillman_Story	good	76	86
+The Wind Will Carry Us	7/28/2000 0:00	http://dbpedia.org/resource/The_Wind_Will_Carry_Us	good	77	86
+About Schmidt	12/13/2002 0:00	http://dbpedia.org/resource/About_Schmidt	good	78	85
+Exit Through the Gift Shop	4/16/2010 0:00	http://dbpedia.org/resource/Exit_Through_the_Gift_Shop	good	79	85
+Festival Express	7/30/2004 0:00	http://dbpedia.org/resource/Festival_Express	good	80	85
+Knocked Up	6/1/2007 0:00	http://dbpedia.org/resource/Knocked_Up	good	81	85
+Nostalgia for the Light	3/18/2011 0:00	http://dbpedia.org/resource/Nostalgia_for_the_Light	good	82	85
+Out of Sight	6/26/1998 0:00	http://dbpedia.org/resource/Out_of_Sight	good	83	85
+Since Otar Left	4/30/2004 0:00	http://dbpedia.org/resource/Since_Otar_Left	good	84	85
+Take Shelter	9/30/2011 0:00	http://dbpedia.org/resource/Take_Shelter	good	85	85
+The Iron Giant	8/6/1999 0:00	http://dbpedia.org/resource/The_Iron_Giant	good	86	85
+The Last Seduction	10/26/1994 0:00	http://dbpedia.org/resource/The_Last_Seduction	good	87	85
+Vincere	3/19/2010 0:00	http://dbpedia.org/resource/Vincere	good	88	85
+Guy and Madeline on a Park Bench	11/5/2010 0:00	http://dbpedia.org/resource/Guy_and_Madeline_on_a_Park_Bench	good	89	84
+Happy-Go-Lucky	10/10/2008 0:00	http://dbpedia.org/resource/Happy-Go-Lucky	good	90	84
+Holy Motors	10/17/2012 0:00	http://dbpedia.org/resource/Holy_Motors	good	91	84
+In the Shadow of the Moon	9/7/2007 0:00	http://dbpedia.org/resource/In_the_Shadow_of_the_Moon_(film)	good	92	84
+Moonrise Kingdom	5/25/2012 0:00	http://dbpedia.org/resource/Moonrise_Kingdom	good	93	84
+Mutual Appreciation	9/1/2006 0:00	http://dbpedia.org/resource/Mutual_Appreciation	good	94	84
+My Winnipeg	6/13/2008 0:00	http://dbpedia.org/resource/My_Winnipeg	good	95	84
+Old Joy	9/20/2006 0:00	http://dbpedia.org/resource/Old_Joy	good	96	84
+Position Among the Stars	9/15/2011 0:00	http://dbpedia.org/resource/Position_Among_the_Stars	good	97	84
+Shrek	5/18/2001 0:00	http://dbpedia.org/resource/Shrek	good	98	84
+Sling Blade	11/27/1996 0:00	http://dbpedia.org/resource/Sling_Blade	good	99	84
+Summer Hours	5/15/2009 0:00	http://dbpedia.org/resource/Summer_Hours	good	100	84
+The Man Without a Past	4/4/2003 0:00	http://dbpedia.org/resource/The_Man_Without_a_Past	good	101	84
+The Terminator	10/26/1984 0:00	http://dbpedia.org/resource/The_Terminator	good	102	84
+Up the Yangtze	4/25/2008 0:00	http://dbpedia.org/resource/Up_the_Yangtze	good	103	84
+Volver	11/3/2006 0:00	http://dbpedia.org/resource/Volver	good	104	84
+Amores Perros	3/30/2001 0:00	http://dbpedia.org/resource/Amores_perros	good	105	83
+Crazy Heart	12/16/2009 0:00	http://dbpedia.org/resource/Crazy_Heart	good	106	83
+Drag Me to Hell	5/29/2009 0:00	http://dbpedia.org/resource/Drag_Me_to_Hell	good	107	83
+Taxidermia	8/14/2009 0:00	http://dbpedia.org/resource/Taxidermia	good	108	83
+The Apostle	12/17/1997 0:00	http://dbpedia.org/resource/The_Apostle	good	109	83
+The Day He Arrives	4/20/2012 0:00	http://dbpedia.org/resource/The_Day_He_Arrives	good	110	83
+The Lion King	6/15/1994 0:00	http://dbpedia.org/resource/The_Lion_King	good	111	83
+The Secret of the Grain	12/24/2008 0:00	http://dbpedia.org/resource/The_Secret_of_the_Grain	good	112	83
+The White Diamond	6/1/2005 0:00	http://dbpedia.org/resource/The_White_Diamond	good	113	83
+Trouble the Water	8/22/2008 0:00	http://dbpedia.org/resource/Trouble_the_Water	good	114	83
+U2 3D	1/23/2008 0:00	http://dbpedia.org/resource/U2_3D	good	115	83
+La Promesse (The Promise)	5/16/1997 0:00	http://dbpedia.org/resource/La_Promesse	good	116	82
+Late Marriage	5/17/2002 0:00	http://dbpedia.org/resource/Late_Marriage	good	117	82
+Leaving Las Vegas	10/27/1995 0:00	http://dbpedia.org/resource/Leaving_Las_Vegas	good	118	82
+Mademoiselle Chambon	5/28/2010 0:00	http://dbpedia.org/resource/Mademoiselle_Chambon	good	119	82
+Merci pour le Chocolat	7/31/2002 0:00	http://dbpedia.org/resource/Merci_pour_le_chocolat	good	120	82
+Mysteries of Lisbon	8/5/2011 0:00	http://dbpedia.org/resource/Mysteries_of_Lisbon	good	121	82
+Once Upon a Time in Anatolia	1/4/2012 0:00	http://dbpedia.org/resource/Once_Upon_a_Time_in_Anatolia	good	122	82
+One Day in September	11/17/2000 0:00	http://dbpedia.org/resource/One_Day_in_September	good	123	82
+Taxi to the Dark Side	1/18/2008 0:00	http://dbpedia.org/resource/Taxi_to_the_Dark_Side	good	124	82
+Ten Canoes	6/1/2007 0:00	http://dbpedia.org/resource/Ten_Canoes	good	125	82
+The Squid and the Whale	10/5/2005 0:00	http://dbpedia.org/resource/The_Squid_and_the_Whale	good	126	82
+The Twilight Samurai	4/23/2004 0:00	http://dbpedia.org/resource/The_Twilight_Samurai	good	127	82
+The White Ribbon	12/30/2009 0:00	http://dbpedia.org/resource/The_White_Ribbon	good	128	82
+Waking Life	10/19/2001 0:00	http://dbpedia.org/resource/Waking_Life	good	129	82
+Winged Migration	4/18/2003 0:00	http://dbpedia.org/resource/Winged_Migration	good	130	82
+Grin Without a Cat	5/1/2002 0:00	http://dbpedia.org/resource/A_Grin_Without_a_Cat	good	131	81
+A Mighty Wind	4/16/2003 0:00	http://dbpedia.org/resource/A_Mighty_Wind	good	132	81
+A Simple Life	4/13/2012 0:00	http://dbpedia.org/resource/A_Simple_Life	good	133	81
+Autumn Tale	8/6/1999 0:00	http://dbpedia.org/resource/Autumn_Tale	good	134	81
+Beginners	6/3/2011 0:00	http://dbpedia.org/resource/Beginners	good	135	81
+Black Orpheus	2/24/2006 0:00	http://dbpedia.org/resource/Black_Orpheus	good	136	81
+Crimson Gold	1/16/2003 0:00	http://dbpedia.org/resource/Crimson_Gold	good	137	81
+District 9	8/14/2009 0:00	http://dbpedia.org/resource/District_9	good	138	81
+Django Unchained	12/25/2012 0:00	http://dbpedia.org/resource/Django_Unchained	good	139	81
+Four Weddings and a Funeral	3/9/1994 0:00	http://dbpedia.org/resource/Four_Weddings_and_a_Funeral	good	140	81
+Hell and Back Again	10/1/2011 0:00	http://dbpedia.org/resource/Hell_and_Back_Again	good	141	81
+Hot Fuzz	4/20/2007 0:00	http://dbpedia.org/resource/Hot_Fuzz	good	142	81
+In the Company of Men	8/1/1997 0:00	http://dbpedia.org/resource/In_the_Company_of_Men	good	143	81
+Midnight in Paris	5/20/2011 0:00	http://dbpedia.org/resource/Midnight_in_Paris	good	144	81
+My Architect	11/12/2003 0:00	http://dbpedia.org/resource/My_Architect	good	145	81
+Of Time and the City	1/21/2009 0:00	http://dbpedia.org/resource/Of_Time_and_the_City	good	146	81
+Skyfall	11/9/2012 0:00	http://dbpedia.org/resource/Skyfall	good	147	81
+A Fish Called Wanda	7/29/1988 0:00	http://dbpedia.org/resource/A_Fish_Called_Wanda	good	148	80
+Big Night	9/20/1996 0:00	http://dbpedia.org/resource/Big_Night	good	149	80
+Cinema Paradiso	3/1/1990 0:00	http://dbpedia.org/resource/Cinema_Paradiso	good	150	80
+Encounters at the End of the World	6/11/2008 0:00	http://dbpedia.org/resource/Encounters_at_the_End_of_the_World	good	151	80
+Everlasting Moments	3/6/2009 0:00	http://dbpedia.org/resource/Everlasting_Moments	good	152	80
+Goodbye First Love	4/20/2012 0:00	http://dbpedia.org/resource/Goodbye_First_Love	good	153	80
+In the Mirror of Maya Deren	1/24/2003 0:00	http://dbpedia.org/resource/In_the_Mirror_of_Maya_Deren	good	154	80
+Little Miss Sunshine	7/26/2006 0:00	http://dbpedia.org/resource/Little_Miss_Sunshine	good	155	80
+On the Ropes	9/24/1999 0:00	http://dbpedia.org/resource/On_the_Ropes	good	156	80
+Riding Giants	7/9/2004 0:00	http://dbpedia.org/resource/Riding_Giants	good	157	80
+Saraband	7/8/2005 0:00	http://dbpedia.org/resource/Saraband	good	158	80
+The Century of the Self	8/12/2005 0:00	http://dbpedia.org/resource/The_Century_of_the_Self	good	159	80
+The Turin Horse	2/10/2012 0:00	http://dbpedia.org/resource/The_Turin_Horse	good	160	80
+The Wild Parrots of Telegraph Hill	2/11/2005 0:00	http://dbpedia.org/resource/The_Wild_Parrots_of_Telegraph_Hill	good	161	80
+Three Times	4/26/2006 0:00	http://dbpedia.org/resource/Three_Times	good	162	80
+Tokyo Sonata	3/13/2009 0:00	http://dbpedia.org/resource/Tokyo_Sonata	good	163	80
+Tony Takitani	7/29/2005 0:00	http://dbpedia.org/resource/Tony_Takitani	good	164	80
+Wendy and Lucy	12/10/2008 0:00	http://dbpedia.org/resource/Wendy_and_Lucy	good	165	80
+West of Memphis	12/25/2012 0:00	http://dbpedia.org/resource/West_of_Memphis	good	166	80
+Joan Rivers: A Piece of Work	6/11/2010 0:00	http://dbpedia.org/resource/Joan_Rivers:_A_Piece_of_Work	good	167	79
+Joe Strummer: The Future Is Unwritten	11/2/2007 0:00	http://dbpedia.org/resource/Joe_Strummer:_The_Future_Is_Unwritten	good	168	79
+Manufactured Landscapes	6/20/2007 0:00	http://dbpedia.org/resource/Manufactured_Landscapes	good	169	79
+March of the Penguins	6/24/2005 0:00	http://dbpedia.org/resource/March_of_the_Penguins	good	170	79
+Sexy Beast	6/13/2001 0:00	http://dbpedia.org/resource/Sexy_Beast	good	171	79
+Short Cuts	10/3/1993 0:00	http://dbpedia.org/resource/Short_Cuts	good	172	79
+Silent Light	1/7/2009 0:00	http://dbpedia.org/resource/Silent_Light	good	173	79
+Spring Forward	12/1/2000 0:00	http://dbpedia.org/resource/Spring_Forward	good	174	79
+The Order of Myths	7/25/2008 0:00	http://dbpedia.org/resource/The_Order_of_Myths	good	175	79
+The People vs. Larry Flynt	12/25/1996 0:00	http://dbpedia.org/resource/The_People_vs._Larry_Flynt	good	176	79
+Two Family House	10/6/2000 0:00	http://dbpedia.org/resource/Two_Family_House	good	177	79
+Va Savoir (Who Knows?)	9/29/2001 0:00	http://dbpedia.org/resource/Va_savoir	good	178	79
+War Photographer	6/19/2002 0:00	http://dbpedia.org/resource/War_Photographer	good	179	79
+Whale Rider	6/6/2003 0:00	http://dbpedia.org/resource/Whale_Rider	good	180	79
+A Nightmare on Elm Street	11/16/1984 0:00	http://dbpedia.org/resource/A_Nightmare_on_Elm_Street	good	181	78
+A Time for Drunken Horses	10/27/2000 0:00	http://dbpedia.org/resource/A_Time_for_Drunken_Horses	good	182	78
+Best in Show	9/27/2000 0:00	http://dbpedia.org/resource/Best_in_Show_(film)	good	183	78
+Blind Shaft	2/4/2004 0:00	http://dbpedia.org/resource/Blind_Shaft	good	184	78
+Body Heat	8/28/1981 0:00	http://dbpedia.org/resource/Body_Heat	good	185	78
+Live-In Maid	7/18/2007 0:00	http://dbpedia.org/resource/Cama_Adentro	good	186	78
+Daratt	4/6/2007 0:00	http://dbpedia.org/resource/Daratt	good	187	78
+Dazed and Confused	9/24/1993 0:00	http://dbpedia.org/resource/Dazed_and_Confused_(film)	good	188	78
+How to Draw a Bunny	10/9/2002 0:00	http://dbpedia.org/resource/How_to_Draw_a_Bunny	good	189	78
+Lost Boys of Sudan	2/18/2004 0:00	http://dbpedia.org/resource/Lost_Boys_of_Sudan_(film)	good	190	78
+Midnight Run	7/20/1988 0:00	http://dbpedia.org/resource/Midnight_Run	good	191	78
+Murderous Maids	4/19/2002 0:00	http://dbpedia.org/resource/Murderous_Maids	good	192	78
+My Joy	9/30/2011 0:00	http://dbpedia.org/resource/My_Joy	good	193	78
+Pray the Devil Back to Hell	11/7/2008 0:00	http://dbpedia.org/resource/Pray_the_Devil_Back_to_Hell	good	194	78
+Punch-Drunk Love	10/11/2002 0:00	http://dbpedia.org/resource/Punch-Drunk_Love	good	195	78
+Reservoir Dogs	10/1/1992 0:00	http://dbpedia.org/resource/Reservoir_Dogs	good	196	78
+Star Wars: Episode V - The Empire Strikes Back	5/21/1980 0:00	http://dbpedia.org/resource/The_Empire_Strikes_Back	good	197	78
+Starting Out in the Evening	11/23/2007 0:00	http://dbpedia.org/resource/Starting_Out_in_the_Evening	good	198	78
+The Dark Knight Rises	7/20/2012 0:00	http://dbpedia.org/resource/The_Dark_Knight_Rises	good	199	78
+The Devil Came on Horseback	7/25/2007 0:00	http://dbpedia.org/resource/The_Devil_Came_on_Horseback	good	200	78
+The Last Mistress	6/27/2008 0:00	http://dbpedia.org/resource/The_Last_Mistress	good	201	78
+The Princess of Montpensier	4/15/2011 0:00	http://dbpedia.org/resource/The_Princess_of_Montpensier	good	202	78
+The Saddest Music in the World	4/30/2004 0:00	http://dbpedia.org/resource/The_Saddest_Music_in_the_World	good	203	78
+The Taste of Others	2/9/2001 0:00	http://dbpedia.org/resource/The_Taste_of_Others	good	204	78
+The Yellow Sea	12/2/2011 0:00	http://dbpedia.org/resource/The_Yellow_Sea_(film)	good	205	78
+Tropical Malady	6/29/2005 0:00	http://dbpedia.org/resource/Tropical_Malady	good	206	78
+Eve's Bayou	11/7/1997 0:00	http://dbpedia.org/resource/Eve's_Bayou	good	207	78
+Lone Star	6/21/1996 0:00	http://dbpedia.org:8890/resource/Lone_Star_(1996_film)	good	208	78
+A Christmas Story	11/18/1983 0:00	http://dbpedia.org/resource/A_Christmas_Story	good	209	77
+A Single Man	12/11/2009 0:00	http://dbpedia.org/resource/A_Single_Man	good	210	77
+Before Sunrise	1/27/1995 0:00	http://dbpedia.org/resource/Before_Sunrise	good	211	77
+Courage Under Fire	4/12/1996 0:00	http://dbpedia.org/resource/Courage_Under_Fire	good	212	77
+Crimes and Misdemeanors	10/13/1989 0:00	http://dbpedia.org/resource/Crimes_and_Misdemeanors	good	213	77
+Fat Girl	10/10/2001 0:00	http://dbpedia.org/resource/Fat_Girl	good	214	77
+Hukkle	11/14/2003 0:00	http://dbpedia.org/resource/Hukkle	good	215	77
+Jerry Maguire	12/13/1996 0:00	http://dbpedia.org/resource/Jerry_Maguire	good	216	77
+Stephanie Daley	4/20/2007 0:00	http://dbpedia.org/resource/Stephanie_Daley	good	217	77
+The Devil and Daniel Johnston	3/31/2006 0:00	http://dbpedia.org/resource/The_Devil_and_Daniel_Johnston	good	218	77
+The Taste of Tea	2/23/2007 0:00	http://dbpedia.org/resource/The_Taste_of_Tea	good	219	77
+The Three Burials of Melquiades Estrada	12/16/2005 0:00	http://dbpedia.org/resource/The_Three_Burials_of_Melquiades_Estrada	good	220	77
+The Usual Suspects	8/16/1995 0:00	http://dbpedia.org/resource/The_Usual_Suspects	good	221	77
+The War Tapes	6/2/2006 0:00	http://dbpedia.org/resource/The_War_Tapes	good	222	77
+The Weather Underground	6/4/2003 0:00	http://dbpedia.org/resource/The_Weather_Underground_(film)	good	223	77
+A Dangerous Method	11/23/2011 0:00	http://dbpedia.org/resource/A_Dangerous_Method	good	224	76
+A Very Long Engagement	11/26/2004 0:00	http://dbpedia.org/resource/A_Very_Long_Engagement	good	225	76
+And Everything Is Going Fine	12/10/2010 0:00	http://dbpedia.org/resource/And_Everything_Is_Going_Fine	good	226	76
+Bill Cunningham New York	3/16/2011 0:00	http://dbpedia.org/resource/Bill_Cunningham_New_York	good	227	76
+Blue Car	5/2/2003 0:00	http://dbpedia.org/resource/Blue_Car	good	228	76
+Breaking the Waves	11/13/1996 0:00	http://dbpedia.org/resource/Breaking_the_Waves	good	229	76
+Broken Embraces	11/20/2009 0:00	http://dbpedia.org/resource/Broken_Embraces	good	230	76
+Career Girls	8/8/1997 0:00	http://dbpedia.org/resource/Career_Girls	good	231	76
+Catch Me If You Can	12/25/2002 0:00	http://dbpedia.org/resource/Catch_Me_If_You_Can	good	232	76
+Djomeh	9/5/2001 0:00	http://dbpedia.org/resource/Djomeh	good	233	76
+Grosse Pointe Blank	4/11/1997 0:00	http://dbpedia.org/resource/Grosse_Pointe_Blank	good	234	76
+Hara-Kiri: Death of a Samurai	7/20/2012 0:00	http://dbpedia.org/resource/Hara-Kiri:_Death_of_a_Samurai	good	235	76
+La grande strada azzurra	6/8/2001 0:00	http://dbpedia.org/resource/La_grande_strada_azzurra	good	236	76
+Machuca	1/19/2005 0:00	http://dbpedia.org/resource/Machuca	good	237	76
+Madadayo	9/1/2000 0:00	http://dbpedia.org/resource/Madadayo	good	238	76
+Margin Call	10/21/2011 0:00	http://dbpedia.org/resource/Margin_Call_(film)	good	239	76
+Martha Marcy May Marlene	10/21/2011 0:00	http://dbpedia.org/resource/Martha_Marcy_May_Marlene	good	240	76
+Me and You and Everyone We Know	6/17/2005 0:00	http://dbpedia.org/resource/Me_and_You_and_Everyone_We_Know	good	241	76
+Menace II Society	5/26/1993 0:00	http://dbpedia.org/resource/Menace_II_Society	good	242	76
+Princess Mononoke	10/29/1999 0:00	http://dbpedia.org/resource/Princess_Mononoke	good	243	76
+Roman Holiday	8/27/1953 0:00	http://dbpedia.org/resource/Roman_Holiday	good	244	76
+Shaun of the Dead	9/24/2004 0:00	http://dbpedia.org/resource/Shaun_of_the_Dead	good	245	76
+Shotgun Stories	3/26/2008 0:00	http://dbpedia.org/resource/Shotgun_Stories	good	246	76
+Silent Souls	9/16/2011 0:00	http://dbpedia.org/resource/Silent_Souls	good	247	76
+Standing in the Shadows of Motown	11/15/2002 0:00	http://dbpedia.org/resource/Standing_in_the_Shadows_of_Motown	good	248	76
+The Army of Crime	8/20/2010 0:00	http://dbpedia.org/resource/The_Army_of_Crime	good	249	76
+The Baader Meinhof Complex	8/21/2009 0:00	http://dbpedia.org/resource/The_Baader_Meinhof_Complex	good	250	76
+The Hidden Blade	6/23/2006 0:00	http://dbpedia.org/resource/The_Hidden_Blade	good	251	76
+The Last Days of Disco	5/29/1998 0:00	http://dbpedia.org/resource/The_Last_Days_of_Disco	good	252	76
+The Last Station	12/4/2009 0:00	http://dbpedia.org/resource/The_Last_Station	good	253	76
+The Loneliest Planet	10/26/2012 0:00	http://dbpedia.org/resource/The_Loneliest_Planet	good	254	76
+The Original Kings of Comedy	8/18/2000 0:00	http://dbpedia.org/resource/The_Original_Kings_of_Comedy	good	255	76
+The Secret Lives of Dentists	8/1/2003 0:00	http://dbpedia.org/resource/The_Secret_Lives_of_Dentists	good	256	76
+The Sleepy Time Gal	5/29/2002 0:00	http://dbpedia.org/resource/The_Sleepy_Time_Gal	good	257	76
+A Talking Picture	12/10/2004 0:00	http://dbpedia.org/resource/A_Talking_Picture	good	258	75
+An Inconvenient Truth	5/24/2006 0:00	http://dbpedia.org/resource/An_Inconvenient_Truth	good	259	75
+An Officer and a Gentleman	7/28/1982 0:00	http://dbpedia.org/resource/An_Officer_and_a_Gentleman	good	260	75
+Attack the Block	7/29/2011 0:00	http://dbpedia.org/resource/Attack_the_Block	good	261	75
+Beauty in Trouble	6/13/2008 0:00	http://dbpedia.org/resource/Beauty_in_Trouble	good	262	75
+I Shot Andy Warhol	5/1/1996 0:00	http://dbpedia.org/resource/I_Shot_Andy_Warhol	good	263	75
+Kippur	11/3/2000 0:00	http://dbpedia.org/resource/Kippur	good	264	75
+Lawless Heart	2/21/2003 0:00	http://dbpedia.org/resource/Lawless_Heart	good	265	75
+Liberty Heights	11/17/1999 0:00	http://dbpedia.org/resource/Liberty_Heights	good	266	75
+Love Exposure	9/2/2011 0:00	http://dbpedia.org/resource/Love_Exposure	good	267	75
+Mid-August Lunch	3/17/2010 0:00	http://dbpedia.org/resource/Mid-August_Lunch	good	268	75
+Pistol Opera	6/13/2003 0:00	http://dbpedia.org/resource/Pistol_Opera	good	269	75
+Risky Business	8/5/1983 0:00	http://dbpedia.org/resource/Risky_Business	good	270	75
+Shrek 2	5/19/2004 0:00	http://dbpedia.org/resource/Shrek_2	good	271	75
+Startup.com	5/11/2001 0:00	http://dbpedia.org/resource/Startup.com	good	272	75
+State and Main	12/22/2000 0:00	http://dbpedia.org/resource/State_and_Main	good	273	75
+Sweet Land	10/18/2006 0:00	http://dbpedia.org/resource/Sweet_Land	good	274	75
+The Beat That My Heart Skipped	7/1/2005 0:00	http://dbpedia.org/resource/The_Beat_That_My_Heart_Skipped	good	275	75
+The Flower of My Secret	3/8/1996 0:00	http://dbpedia.org/resource/The_Flower_of_My_Secret	good	276	75
+The Full Monty	8/13/1997 0:00	http://dbpedia.org/resource/The_Full_Monty	good	277	75
+The Holy Girl	4/29/2005 0:00	http://dbpedia.org/resource/The_Holy_Girl	good	278	75
+The Kid Stays in the Picture	7/26/2002 0:00	http://dbpedia.org/resource/The_Kid_Stays_in_the_Picture	good	279	75
+The Purple Rose of Cairo	5/2/1985 0:00	http://dbpedia.org/resource/The_Purple_Rose_of_Cairo	good	280	75
+The Royal Tenenbaums	12/14/2001 0:00	http://dbpedia.org/resource/The_Royal_Tenenbaums	good	281	75
+The Specialist	4/14/2000 0:00	http://dbpedia.org/resource/The_Specialist	good	282	75
+The Strange Case of Angelica	12/29/2010 0:00	http://dbpedia.org/resource/The_Strange_Case_of_Angelica	good	283	75
+The Texas Chain Saw Massacre	10/1/1974 0:00	http://dbpedia.org/resource/The_Texas_Chain_Saw_Massacre	good	284	75
+The Witnesses	2/1/2008 0:00	http://dbpedia.org/resource/The_Witnesses	good	285	75
+This Film Is Not Yet Rated	9/1/2006 0:00	http://dbpedia.org/resource/This_Film_Is_Not_Yet_Rated	good	286	75
+A Good Baby	12/1/2000 0:00	http://dbpedia.org/resource/A_Good_Baby	good	287	74
+After Innocence	10/21/2005 0:00	http://dbpedia.org/resource/After_Innocence	good	288	74
+Awakenings	12/20/1990 0:00	http://dbpedia.org/resource/Awakenings	good	289	74
+Billy Elliot	10/13/2000 0:00	http://dbpedia.org/resource/Billy_Elliot	good	290	74
+Edward Scissorhands	12/7/1990 0:00	http://dbpedia.org/resource/Edward_Scissorhands	good	291	74
+Flushed Away	11/3/2006 0:00	http://dbpedia.org/resource/Flushed_Away	good	292	74
+Forty Shades of Blue	9/28/2005 0:00	http://dbpedia.org/resource/Forty_Shades_of_Blue	good	293	74
+Found Memories	6/1/2012 0:00	http://dbpedia.org/resource/Found_Memories	good	294	74
+Gods and Monsters	11/4/1998 0:00	http://dbpedia.org/resource/Gods_and_Monsters_(film)	good	295	74
+How I Ended This Summer	2/4/2011 0:00	http://dbpedia.org/resource/How_I_Ended_This_Summer	good	296	74
+Humpday	7/10/2009 0:00	http://dbpedia.org/resource/Humpday	good	297	74
+In the Line of Fire	7/9/1993 0:00	http://dbpedia.org/resource/In_the_Line_of_Fire	good	298	74
+In the Realms of the Unreal	12/22/2004 0:00	http://dbpedia.org/resource/In_the_Realms_of_the_Unreal	good	299	74
+Inception	7/16/2010 0:00	http://dbpedia.org/resource/Inception	good	300	74
+Judy Berlin	2/25/2000 0:00	http://dbpedia.org/resource/Judy_Berlin	good	301	74
+Kundun	12/25/1997 0:00	http://dbpedia.org/resource/Kundun	good	302	74
+Little Otik	12/19/2001 0:00	http://dbpedia.org/resource/Little_Otik	good	303	74
+Mauvais Sang	4/27/2001 0:00	http://dbpedia.org/resource/Mauvais_Sang	good	304	74
+Mean Creek	8/20/2004 0:00	http://dbpedia.org/resource/Mean_Creek	good	305	74
+My Kid Could Paint That	10/5/2007 0:00	http://dbpedia.org/resource/My_Kid_Could_Paint_That	good	306	74
+Oldboy	3/25/2005 0:00	http://dbpedia.org/resource/Oldboy_(2003_film)	good	307	74
+Scottsboro: An American Tragedy	1/19/2001 0:00	http://dbpedia.org/resource/Scottsboro:_An_American_Tragedy	good	308	74
+Sicko	6/29/2007 0:00	http://dbpedia.org/resource/Sicko	good	309	74
+Stonewall Uprising	6/18/2010 0:00	http://dbpedia.org/resource/Stonewall_Uprising	good	310	74
+Terribly Happy	2/5/2010 0:00	http://dbpedia.org/resource/Terribly_Happy	good	311	74
+The Ground Truth	9/15/2006 0:00	http://dbpedia.org/resource/The_Ground_Truth	good	312	74
+The Heart of the Game	6/9/2006 0:00	http://dbpedia.org/resource/The_Heart_of_the_Game	good	313	74
+The Keys to the House	12/22/2004 0:00	http://dbpedia.org/resource/The_Keys_to_the_House	good	314	74
+ABC Africa	5/3/2002 0:00	http://dbpedia.org/resource/ABC_Africa	good	315	73
+All About Lily Chou-Chou	7/12/2002 0:00	http://dbpedia.org/resource/All_About_Lily_Chou-Chou	good	316	73
+An African Election	12/2/2011 0:00	http://dbpedia.org/resource/An_African_Election	good	317	73
+Approved for Adoption	11/8/2013 0:00	http://dbpedia.org/resource/Approved_for_Adoption	good	318	73
+Attenberg	3/9/2012 0:00	http://dbpedia.org/resource/Attenberg	good	319	73
+Beyond the Mat	3/17/2000 0:00	http://dbpedia.org/resource/Beyond_the_Mat	good	320	73
+Big Animal	2/20/2004 0:00	http://dbpedia.org/resource/Big_Animal	good	321	73
+Blood Tea and Red String	10/4/2006 0:00	http://dbpedia.org/resource/Blood_Tea_and_Red_String	good	322	73
+Boyz n the Hood	7/12/1991 0:00	http://dbpedia.org/resource/Boyz_n_the_Hood	good	323	73
+Bull Durham	6/15/1988 0:00	http://dbpedia.org/resource/Bull_Durham	good	324	73
+Cast Away	12/22/2000 0:00	http://dbpedia.org/resource/Cast_Away	good	325	73
+China Blue	1/26/2007 0:00	http://dbpedia.org/resource/China_Blue	good	326	73
+El mariachi	2/26/1993 0:00	http://dbpedia.org/resource/El_Mariachi	good	327	73
+For the Bible Tells Me So	10/5/2007 0:00	http://dbpedia.org/resource/For_the_Bible_Tells_Me_So	good	328	73
+Heathers	3/31/1989 0:00	http://dbpedia.org/resource/Heathers	good	329	73
+High Art	6/12/1998 0:00	http://dbpedia.org/resource/High_Art	good	330	73
+Indie Game: The Movie	5/18/2012 0:00	http://dbpedia.org/resource/Indie_Game:_The_Movie	good	331	73
+Japanese Story	12/31/2003 0:00	http://dbpedia.org/resource/Japanese_Story	good	332	73
+Me and Orson Welles	11/25/2009 0:00	http://dbpedia.org/resource/Me_and_Orson_Welles	good	333	73
+Millennium Mambo	12/31/2003 0:00	http://dbpedia.org/resource/Millennium_Mambo	good	334	73
+Mysterious Skin	5/6/2005 0:00	http://dbpedia.org/resource/Mysterious_Skin	good	335	73
+Riding Alone for Thousands of Miles	9/1/2006 0:00	http://dbpedia.org/resource/Riding_Alone_for_Thousands_of_Miles	good	336	73
+Super Size Me	5/7/2004 0:00	http://dbpedia.org/resource/Super_Size_Me	good	337	73
+The 40 Year Old Virgin	8/19/2005 0:00	http://dbpedia.org/resource/The_40-Year-Old_Virgin	good	338	73
+The Brothers McMullen	8/18/1995 0:00	http://dbpedia.org/resource/The_Brothers_McMullen	good	339	73
+The Cats of Mirikitani	3/2/2007 0:00	http://dbpedia.org/resource/The_Cats_of_Mirikitani	good	340	73
+The Cave of the Yellow Dog	11/10/2006 0:00	http://dbpedia.org/resource/The_Cave_of_the_Yellow_Dog	good	341	73
+The Deer Hunter	12/8/1978 0:00	http://dbpedia.org/resource/The_Deer_Hunter	good	342	73
+The Fall of Fujimori	1/18/2006 0:00	http://dbpedia.org/resource/The_Fall_of_Fujimori	good	343	73
+The House of the Devil	10/30/2009 0:00	http://dbpedia.org/resource/The_House_of_the_Devil	good	344	73
+The Limey	10/8/1999 0:00	http://dbpedia.org/resource/The_Limey	good	345	73
+The Lookout	3/30/2007 0:00	http://dbpedia.org/resource/The_Lookout	good	346	73
+The Princess and the Frog	11/25/2009 0:00	http://dbpedia.org/resource/The_Princess_and_the_Frog	good	347	73
+The Proposition	5/5/2006 0:00	http://dbpedia.org/resource/The_Proposition	good	348	73
+Three Monkeys	5/1/2009 0:00	http://dbpedia.org/resource/Three_Monkeys	good	349	73
+Tokyo Godfathers	1/16/2004 0:00	http://dbpedia.org/resource/Tokyo_Godfathers	good	350	73
+Wag the Dog	12/25/1997 0:00	http://dbpedia.org/resource/Wag_the_Dog	good	351	73
+Water Drops on Burning Rocks	7/14/2000 0:00	http://dbpedia.org/resource/Water_Drops_on_Burning_Rocks	good	352	73
+Working Girl	12/23/1988 0:00	http://dbpedia.org/resource/Working_Girl	good	353	73
+Zombieland	10/2/2009 0:00	http://dbpedia.org/resource/Zombieland	good	354	73
+A Screaming Man	4/13/2011 0:00	http://dbpedia.org/resource/A_Screaming_Man	good	355	72
+Abduction: The Megumi Yokota Story	1/12/2007 0:00	http://dbpedia.org/resource/Abduction:_The_Megumi_Yokota_Story	good	356	72
+Air Guitar Nation	3/23/2007 0:00	http://dbpedia.org/resource/Air_Guitar_Nation	good	357	72
+Akeelah and the Bee	4/28/2006 0:00	http://dbpedia.org/resource/Akeelah_and_the_Bee	good	358	72
+Antz	10/2/1998 0:00	http://dbpedia.org/resource/Antz	good	359	72
+Bowling for Columbine	10/11/2002 0:00	http://dbpedia.org/resource/Bowling_for_Columbine	good	360	72
+Czech Dream	6/15/2007 0:00	http://dbpedia.org/resource/Czech_Dream	good	361	72
+Gone Baby Gone	10/19/2007 0:00	http://dbpedia.org/resource/Gone_Baby_Gone	good	362	72
+Good Hair	10/9/2009 0:00	http://dbpedia.org/resource/Good_Hair_(film)	good	363	72
+Gran Torino	12/12/2008 0:00	http://dbpedia.org/resource/Gran_Torino	good	364	72
+Igby Goes Down	9/13/2002 0:00	http://dbpedia.org/resource/Igby_Goes_Down	good	365	72
+Jack Smith and the Destruction of Atlantis	4/11/2007 0:00	http://dbpedia.org/resource/Jack_Smith_and_the_Destruction_of_Atlantis	good	366	72
+Journey to the Sun	2/9/2001 0:00	http://dbpedia.org/resource/Journey_to_the_Sun	good	367	72
+Kiss Kiss Bang Bang	10/21/2005 0:00	http://dbpedia.org/resource/Kiss_Kiss_Bang_Bang	good	368	72
+Kissing Jessica Stein	3/13/2001 0:00	http://dbpedia.org/resource/Kissing_Jessica_Stein	good	369	72
+Match Point	12/28/2005 0:00	http://dbpedia.org/resource/Match_Point	good	370	72
+New Waterford Girl	7/26/2000 0:00	http://dbpedia.org/resource/New_Waterford_Girl	good	371	72
+New York Doll	10/28/2005 0:00	http://dbpedia.org/resource/New_York_Doll	good	372	72
+ParaNorman	8/17/2012 0:00	http://dbpedia.org/resource/ParaNorman	good	373	72
+Phil Ochs: There But for Fortune	1/5/2011 0:00	http://dbpedia.org/resource/Phil_Ochs:_There_but_for_Fortune	good	374	72
+Road to Perdition	7/12/2002 0:00	http://dbpedia.org/resource/Road_to_Perdition	good	375	72
+Safety Not Guaranteed	6/8/2012 0:00	http://dbpedia.org/resource/Safety_Not_Guaranteed	good	376	72
+Shut Up and Play the Hits	7/18/2012 0:00	http://dbpedia.org/resource/Shut_Up_and_Play_the_Hits	good	377	72
+Sleepless in Seattle	6/25/1993 0:00	http://dbpedia.org/resource/Sleepless_in_Seattle	good	378	72
+Sound of Noise	3/9/2012 0:00	http://dbpedia.org/resource/Sound_of_Noise	good	379	72
+Step Into Liquid	8/8/2003 0:00	http://dbpedia.org/resource/Step_into_Liquid	good	380	72
+Strictly Ballroom	2/12/1993 0:00	http://dbpedia.org/resource/Strictly_Ballroom	good	381	72
+Superman Returns	6/28/2006 0:00	http://dbpedia.org/resource/Superman_Returns	good	382	72
+The Cabin in the Woods	4/13/2012 0:00	http://dbpedia.org/resource/The_Cabin_in_the_Woods	good	383	72
+The Double Hour	4/15/2011 0:00	http://dbpedia.org/resource/The_Double_Hour	good	384	72
+The Island President	3/28/2012 0:00	http://dbpedia.org/resource/The_Island_President	good	385	72
+The Lady and the Duke	5/10/2002 0:00	http://dbpedia.org/resource/The_Lady_and_the_Duke	good	386	72
+The Life of Reilly	11/9/2007 0:00	http://dbpedia.org/resource/The_Life_of_Reilly	good	387	72
+The Woodsman	12/24/2004 0:00	http://dbpedia.org/resource/The_Woodsman	good	388	72
+Tiny Furniture	11/12/2010 0:00	http://dbpedia.org/resource/Tiny_Furniture	good	389	72
+Walk the Line	11/18/2005 0:00	http://dbpedia.org/resource/Walk_the_Line	good	390	72
+Wreck-It Ralph	11/2/2012 0:00	http://dbpedia.org/resource/Wreck-It_Ralph	good	391	72
+American Radical: The Trials of Norman Finkelstein	2/12/2010 0:00	http://dbpedia.org/resource/American_Radical:_The_Trials_of_Norman_Finkelstein	good	392	71
+Battle for Brooklyn	6/17/2011 0:00	http://dbpedia.org/resource/Battle_for_Brooklyn	good	393	71
+Bowfinger	8/13/1999 0:00	http://dbpedia.org/resource/Bowfinger	good	394	71
+Chasing Amy	4/4/1997 0:00	http://dbpedia.org/resource/Chasing_Amy	good	395	71
+Donnie Darko	10/26/2001 0:00	http://dbpedia.org/resource/Donnie_Darko	good	396	71
+Dragonslayer	11/4/2011 0:00	http://dbpedia.org/resource/Dragonslayer	good	397	71
+Elite Squad: The Enemy Within	11/11/2011 0:00	http://dbpedia.org/resource/Elite_Squad:_The_Enemy_Within	good	398	71
+Everyone Else	4/9/2010 0:00	http://dbpedia.org/resource/Everyone_Else	good	399	71
+From Up on Poppy Hill	3/15/2013 0:00	http://dbpedia.org/resource/From_Up_on_Poppy_Hill	good	400	71
+I Like Killing Flies	7/28/2006 0:00	http://dbpedia.org/resource/I_Like_Killing_Flies	good	401	71
+Intimate Strangers	7/30/2004 0:00	http://dbpedia.org/resource/Intimate_Strangers	good	402	71
+Intolerable Cruelty	10/10/2003 0:00	http://dbpedia.org/resource/Intolerable_Cruelty	good	403	71
+Marcello Mastroianni: I Remember	9/17/1999 0:00	http://dbpedia.org/resource/Marcello_Mastroianni:_I_Remember	good	404	71
+Mayor of the Sunset Strip	3/26/2004 0:00	http://dbpedia.org/resource/Mayor_of_the_Sunset_Strip	good	405	71
+Mulan	6/19/1998 0:00	http://dbpedia.org/resource/Mulan_(1998_film)	good	406	71
+My Brother Is an Only Child	3/28/2008 0:00	http://dbpedia.org/resource/My_Brother_Is_an_Only_Child	good	407	71
+Neo Ned	9/8/2006 0:00	http://dbpedia.org/resource/Neo_Ned	good	408	71
+Next Stop Wonderland	8/21/1998 0:00	http://dbpedia.org/resource/Next_Stop_Wonderland	good	409	71
+No One Knows About Persian Cats	4/16/2010 0:00	http://dbpedia.org/resource/No_One_Knows_About_Persian_Cats	good	410	71
+October Sky	2/19/1999 0:00	http://dbpedia.org/resource/October_Sky	good	411	71
+One Lucky Elephant	6/8/2011 0:00	http://dbpedia.org/resource/One_Lucky_Elephant	good	412	71
+Paradise Now	10/28/2005 0:00	http://dbpedia.org/resource/Paradise_Now	good	413	71
+Rare Exports: A Christmas Tale	12/3/2010 0:00	http://dbpedia.org/resource/Rare_Exports:_A_Christmas_Tale	good	414	71
+Real Women Have Curves	10/18/2002 0:00	http://dbpedia.org/resource/Real_Women_Have_Curves	good	415	71
+Robinson in Ruins	1/13/2012 0:00	http://dbpedia.org/resource/Robinson_in_Ruins	good	416	71
+Roman de gare	4/25/2008 0:00	http://dbpedia.org/resource/Roman_de_Gare	good	417	71
+Separate Lies	9/16/2005 0:00	http://dbpedia.org/resource/Separate_Lies	good	418	71
+Shadow of the Vampire	12/29/2000 0:00	http://dbpedia.org/resource/Shadow_of_the_Vampire	good	419	71
+Sisters in Law	4/12/2006 0:00	http://dbpedia.org/resource/Sisters_in_Law	good	420	71
+Sketches of Frank Gehry	5/12/2006 0:00	http://dbpedia.org/resource/Sketches_of_Frank_Gehry	good	421	71
+Sleepwalk with Me	8/24/2012 0:00	http://dbpedia.org/resource/Sleepwalk_with_Me	good	422	71
+Spy Kids	3/30/2001 0:00	http://dbpedia.org/resource/Spy_Kids	good	423	71
+Star Trek: First Contact	11/22/1996 0:00	http://dbpedia.org/resource/Star_Trek:_First_Contact	good	424	71
+Syndromes and a Century	4/18/2007 0:00	http://dbpedia.org/resource/Syndromes_and_a_Century	good	425	71
+The Boys of Baraka	11/30/2005 0:00	http://dbpedia.org/resource/The_Boys_of_Baraka	good	426	71
+The Descent	8/4/2006 0:00	http://dbpedia.org/resource/The_Descent	good	427	71
+The Good Girl	8/7/2002 0:00	http://dbpedia.org/resource/The_Good_Girl	good	428	71
+The Nomi Song	2/4/2005 0:00	http://dbpedia.org/resource/The_Nomi_Song	good	429	71
+The Opportunists	8/11/2000 0:00	http://dbpedia.org/resource/The_Opportunists	good	430	71
+The Yes Men Fix the World	10/7/2009 0:00	http://dbpedia.org/resource/The_Yes_Men_Fix_the_World	good	431	71
+Time of the Wolf	6/25/2004 0:00	http://dbpedia.org/resource/Time_of_the_Wolf	good	432	71
+Tropic Thunder	8/13/2008 0:00	http://dbpedia.org/resource/Tropic_Thunder	good	433	71
+Waiting for Guffman	1/31/1997 0:00	http://dbpedia.org/resource/Waiting_for_Guffman	good	434	71
+Wal-Mart: The High Cost of Low Price	11/4/2005 0:00	http://dbpedia.org/resource/Wal-Mart:_The_High_Cost_of_Low_Price	good	435	71
+Winnebago Man	7/9/2010 0:00	http://dbpedia.org/resource/Winnebago_Man	good	436	71
+A Walk on the Moon	3/26/1999 0:00	http://dbpedia.org/resource/A_Walk_on_the_Moon	good	437	70
+Bad Santa	11/26/2003 0:00	http://dbpedia.org/resource/Bad_Santa	good	438	70
+Countdown to Zero	7/23/2010 0:00	http://dbpedia.org/resource/Countdown_to_Zero	good	439	70
+Devils on the Doorstep	12/18/2002 0:00	http://dbpedia.org/resource/Devils_on_the_Doorstep	good	440	70
+Die Hard	7/15/1988 0:00	http://dbpedia.org/resource/Die_Hard	good	441	70
+Earth Days	8/14/2009 0:00	http://dbpedia.org/resource/Earth_Days	good	442	70
+Elling	5/29/2002 0:00	http://dbpedia.org/resource/Elling	good	443	70
+Good Will Hunting	12/5/1997 0:00	http://dbpedia.org/resource/Good_Will_Hunting	good	444	70
+Gunner Palace	3/4/2005 0:00	http://dbpedia.org/resource/Gunner_Palace	good	445	70
+It Might Get Loud	8/14/2009 0:00	http://dbpedia.org/resource/It_Might_Get_Loud	good	446	70
+Prisoner of Paradise	12/12/2003 0:00	http://dbpedia.org/resource/Prisoner_of_Paradise	good	447	70
+Queen to Play	4/1/2011 0:00	http://dbpedia.org/resource/Queen_to_Play	good	448	70
+Quills	11/22/2000 0:00	http://dbpedia.org/resource/Quills	good	449	70
+Strange Culture	10/5/2007 0:00	http://dbpedia.org/resource/Strange_Culture	good	450	70
+Sweet and Lowdown	12/3/1999 0:00	http://dbpedia.org/resource/Sweet_and_Lowdown	good	451	70
+The Barbarian Invasions	11/21/2003 0:00	http://dbpedia.org/resource/The_Barbarian_Invasions	good	452	70
+The Blossoming of Maximo Oliveros	9/22/2006 0:00	http://dbpedia.org/resource/The_Blossoming_of_Maximo_Oliveros	good	453	70
+The Hoax	4/6/2007 0:00	http://dbpedia.org/resource/The_Hoax	good	454	70
+The Last Circus	8/19/2011 0:00	http://dbpedia.org/resource/The_Last_Circus	good	455	70
+The Skin I Live In	10/14/2011 0:00	http://dbpedia.org/resource/The_Skin_I_Live_In	good	456	70
+The Spanish Prisoner	4/3/1998 0:00	http://dbpedia.org/resource/The_Spanish_Prisoner	good	457	70
+The Syrian Bride	11/16/2005 0:00	http://dbpedia.org/resource/The_Syrian_Bride	good	458	70
+Training Day	10/5/2001 0:00	http://dbpedia.org/resource/Training_Day	good	459	70
+Tsotsi	2/24/2006 0:00	http://dbpedia.org/resource/Tsotsi	good	460	70
+Twist of Faith	7/1/2005 0:00	http://dbpedia.org/resource/Twist_of_Faith	good	461	70
+Unstrung Heroes	9/15/1995 0:00	http://dbpedia.org/resource/Unstrung_Heroes	good	462	70
+Ushpizin	10/19/2005 0:00	http://dbpedia.org/resource/Ushpizin	good	463	70
+Vicky Cristina Barcelona	8/15/2008 0:00	http://dbpedia.org/resource/Vicky_Cristina_Barcelona	good	464	70
+Waging a Living	6/22/2005 0:00	http://dbpedia.org/resource/Waging_a_Living	good	465	70
+Arthur Christmas	11/23/2011 0:00	http://dbpedia.org/resource/Arthur_Christmas	good	466	69
+Barton Fink	8/21/1991 0:00	http://dbpedia.org/resource/Barton_Fink	good	467	69
+Beautiful Darling	4/22/2011 0:00	http://dbpedia.org/resource/Beautiful_Darling	good	468	69
+Changing Lanes	4/12/2002 0:00	http://dbpedia.org/resource/Changing_Lanes	good	469	69
+Cold Souls	8/7/2009 0:00	http://dbpedia.org/resource/Cold_Souls	good	470	69
+Eklavya: The Royal Guard	2/16/2007 0:00	http://dbpedia.org/resource/Eklavya:_The_Royal_Guard	good	471	69
+Enter the Void	9/24/2010 0:00	http://dbpedia.org/resource/Enter_the_Void	good	472	69
+Fear(s) of the Dark	10/22/2008 0:00	http://dbpedia.org/resource/Fear(s)_of_the_Dark	good	473	69
+Fire in Babylon	7/22/2011 0:00	http://dbpedia.org/resource/Fire_in_Babylon	good	474	69
+Horns and Halos	2/28/2003 0:00	http://dbpedia.org/resource/Horns_and_Halos_(film)	good	475	69
+Jodhaa Akbar	2/15/2008 0:00	http://dbpedia.org/resource/Jodhaa_Akbar	good	476	69
+Kings of Pastry	9/15/2010 0:00	http://dbpedia.org/resource/Kings_of_Pastry	good	477	69
+Live Free or Die Hard	6/27/2007 0:00	http://dbpedia.org/resource/Live_Free_or_Die_Hard	good	478	69
+Small Time Crooks	5/19/2000 0:00	http://dbpedia.org/resource/Small_Time_Crooks	good	479	69
+Space Station 3D	4/19/2002 0:00	http://dbpedia.org/resource/Space_Station_3D	good	480	69
+Tears of the Black Tiger	1/12/2007 0:00	http://dbpedia.org/resource/Tears_of_the_Black_Tiger	good	481	69
+The Adventures of Baron Munchausen	3/10/1989 0:00	http://dbpedia.org/resource/The_Adventures_of_Baron_Munchausen	good	482	69
+The Bank Job	3/7/2008 0:00	http://dbpedia.org/resource/The_Bank_Job	good	483	69
+The Big Lebowski	3/6/1998 0:00	http://dbpedia.org/resource/The_Big_Lebowski	good	484	69
+The Company Men	1/21/2011 0:00	http://dbpedia.org/resource/The_Company_Men	good	485	69
+The Cooler	11/26/2003 0:00	http://dbpedia.org/resource/The_Cooler	good	486	69
+The Dangerous Lives of Altar Boys	6/14/2002 0:00	http://dbpedia.org/resource/The_Dangerous_Lives_of_Altar_Boys	good	487	69
+The Elephant in the Living Room	4/8/2011 0:00	http://dbpedia.org/resource/The_Elephant_in_the_Living_Room	good	488	69
+The Exploding Girl	3/12/2010 0:00	http://dbpedia.org/resource/The_Exploding_Girl	good	489	69
+The Ignorant Fairies	9/20/2002 0:00	http://dbpedia.org/resource/The_Ignorant_Fairies	good	490	69
+The Last Lions	2/18/2011 0:00	http://dbpedia.org/resource/The_Last_Lions	good	491	69
+Warm Water Under a Red Bridge	5/3/2002 0:00	http://dbpedia.org/resource/Warm_Water_Under_a_Red_Bridge	good	492	69
+We Live in Public	8/28/2009 0:00	http://dbpedia.org/resource/We_Live_in_Public	good	493	69
+Wilbur Wants to Kill Himself	3/12/2004 0:00	http://dbpedia.org/resource/Wilbur_Wants_to_Kill_Himself	good	494	69
+William Eggleston in the Real World	8/31/2005 0:00	http://dbpedia.org/resource/William_Eggleston_in_the_Real_World	good	495	69
+A Somewhat Gentle Man	1/14/2011 0:00	http://dbpedia.org/resource/A_Somewhat_Gentle_Man	good	496	68
+Alice et Martin	7/21/2000 0:00	http://dbpedia.org/resource/Alice_and_Martin_(1998_film)	good	497	#N/A
+Apocalypto	12/8/2006 0:00	http://dbpedia.org/resource/Apocalypto	good	498	68
+August Evening	9/5/2008 0:00	http://dbpedia.org/resource/August_Evening	good	499	68
+Big River Man	12/4/2009 0:00	http://dbpedia.org/resource/Big_River_Man	good	500	68
+Born Romantic	9/28/2001 0:00	http://dbpedia.org/resource/Born_Romantic	good	501	68
+Braveheart	5/24/1995 0:00	http://dbpedia.org/resource/Braveheart	good	502	68
+Down Terrace	10/15/2010 0:00	http://dbpedia.org/resource/Down_Terrace	good	503	68
+End of Watch	9/21/2012 0:00	http://dbpedia.org/resource/End_of_Watch	good	504	68
+eXistenZ	4/23/1999 0:00	http://dbpedia.org/resource/Existenz	good	505	68
+Four Lions	11/5/2010 0:00	http://dbpedia.org/resource/Four_Lions	good	506	68
+Friends with Money	4/7/2006 0:00	http://dbpedia.org/resource/Friends_with_Money	good	507	68
+Henry Fool	6/19/1998 0:00	http://dbpedia.org/resource/Henry_Fool	good	508	68
+Iraq for Sale: The War Profiteers	9/8/2006 0:00	http://dbpedia.org/resource/Iraq_for_Sale:_The_War_Profiteers	good	509	68
+Potiche	3/25/2011 0:00	http://dbpedia.org/resource/Potiche	good	510	68
+Requiem for a Dream	10/6/2000 0:00	http://dbpedia.org/resource/Requiem_for_a_Dream	good	511	68
+Rise of the Planet of the Apes	8/5/2011 0:00	http://dbpedia.org/resource/Rise_of_the_Planet_of_the_Apes	good	512	68
+Smash His Camera	7/30/2010 0:00	http://dbpedia.org/resource/Smash_His_Camera	good	513	68
+Son of the Bride	3/22/2002 0:00	http://dbpedia.org/resource/Son_of_the_Bride	good	514	68
+The Edukators	7/22/2005 0:00	http://dbpedia.org/resource/The_Edukators	good	515	68
+The Girl on the Train	1/22/2010 0:00	http://dbpedia.org/resource/The_Girl_on_the_Train	good	516	68
+The Go Master	3/14/2007 0:00	http://dbpedia.org/resource/The_Go_Master	good	517	68
+The Italian Job	5/30/2003 0:00	http://dbpedia.org/resource/The_Italian_Job	good	518	68
+The Place Beyond the Pines	3/29/2013 0:00	http://dbpedia.org/resource/The_Place_Beyond_the_Pines	good	519	68
+The School of Flesh	2/26/1999 0:00	http://dbpedia.org/resource/The_School_of_Flesh	good	520	68
+The Secret Life of Words	12/15/2006 0:00	http://dbpedia.org/resource/The_Secret_Life_of_Words	good	521	68
+The Valet	4/20/2007 0:00	http://dbpedia.org/resource/The_Valet	good	522	68
+The War Zone	12/10/1999 0:00	http://dbpedia.org/resource/The_War_Zone	good	523	68
+This Filthy World	11/24/2006 0:00	http://dbpedia.org/resource/This_Filthy_World	good	524	68
+To Die Like a Man	4/8/2011 0:00	http://dbpedia.org/resource/To_Die_like_a_Man	good	525	68
+Valentino: The Last Emperor	3/18/2009 0:00	http://dbpedia.org/resource/Valentino:_The_Last_Emperor	good	526	68
+War Dance	11/9/2007 0:00	http://dbpedia.org/resource/War/Dance	good	527	68
+A Guide to Recognizing Your Saints	9/29/2006 0:00	http://dbpedia.org/resource/A_Guide_to_Recognizing_Your_Saints	good	528	67
+A League of Their Own	7/1/1992 0:00	http://dbpedia.org/resource/A_League_of_Their_Own	good	529	67
+As Good as It Gets	12/23/1997 0:00	http://dbpedia.org/resource/As_Good_as_It_Gets	good	530	67
+Bad Lieutenant	11/20/1992 0:00	http://dbpedia.org/resource/Bad_Lieutenant	good	531	67
+Berlin Babylon	10/17/2001 0:00	http://dbpedia.org/resource/Berlin_Babylon	good	532	67
+Brothers of the Head	7/28/2006 0:00	http://dbpedia.org/resource/Brothers_of_the_Head	good	533	67
+Cairo Time	8/6/2010 0:00	http://dbpedia.org/resource/Cairo_Time	good	534	67
+Children of Invention	3/12/2010 0:00	http://dbpedia.org/resource/Children_of_Invention	good	535	67
+Confessions of a Dangerous Mind	12/31/2002 0:00	http://dbpedia.org/resource/Confessions_of_a_Dangerous_Mind	good	536	67
+Decasia	3/19/2003 0:00	http://dbpedia.org/resource/Decasia	good	537	67
+Die Hard 2	7/2/1990 0:00	http://dbpedia.org/resource/Die_Hard_2	good	538	67
+Dislecksia: The Movie	10/4/2013 0:00	http://dbpedia.org/resource/Dislecksia:_The_Movie	good	539	67
+Fast Five	4/29/2011 0:00	http://dbpedia.org/resource/Fast_Five	good	540	67
+Fatal Attraction	9/18/1987 0:00	http://dbpedia.org/resource/Fatal_Attraction	good	541	67
+Finding Neverland	11/12/2004 0:00	http://dbpedia.org/resource/Finding_Neverland	good	542	67
+Flow: For Love of Water	9/12/2008 0:00	http://dbpedia.org/resource/Flow:_For_Love_of_Water	good	543	67
+Forgetting Sarah Marshall	4/18/2008 0:00	http://dbpedia.org/resource/Forgetting_Sarah_Marshall	good	544	67
+Garbage Dreams	1/6/2010 0:00	http://dbpedia.org/resource/Garbage_Dreams	good	545	67
+Kill List	2/3/2012 0:00	http://dbpedia.org/resource/Kill_List	good	546	67
+Lethal Weapon	3/6/1987 0:00	http://dbpedia.org/resource/Lethal_Weapon	good	547	67
+Life and Debt	6/16/2001 0:00	http://dbpedia.org/resource/Life_and_Debt	good	548	67
+London River	12/9/2011 0:00	http://dbpedia.org/resource/London_River	good	549	67
+Nowhere Boy	10/8/2010 0:00	http://dbpedia.org/resource/Nowhere_Boy	good	550	67
+Open Range	8/15/2003 0:00	http://dbpedia.org/resource/Open_Range	good	551	67
+Pianomania	11/4/2011 0:00	http://dbpedia.org/resource/Pianomania	good	552	67
+Price Check	11/16/2012 0:00	http://dbpedia.org/resource/Price_Check	good	553	67
+RoboCop	7/17/1987 0:00	http://dbpedia.org/resource/RoboCop	good	554	67
+Ruby Sparks	7/25/2012 0:00	http://dbpedia.org/resource/Ruby_Sparks	good	555	67
+Shallow Grave	2/10/1995 0:00	http://dbpedia.org/resource/Shallow_Grave	good	556	67
+Sound of My Voice	4/27/2012 0:00	http://dbpedia.org/resource/Sound_of_My_Voice	good	557	67
+Bandslam	8/14/2009 0:00	http://dbpedia.org/resource/Bandslam	good	558	66
+Beautiful Boxer	1/21/2005 0:00	http://dbpedia.org/resource/Beautiful_Boxer	good	559	66
+Before the Fall	10/7/2005 0:00	http://dbpedia.org/resource/Before_the_Fall	good	560	66
+Behind the Mask: The Rise of Leslie Vernon	3/16/2007 0:00	http://dbpedia.org/resource/Behind_the_Mask:_The_Rise_of_Leslie_Vernon	good	561	66
+Bend It Like Beckham	3/12/2003 0:00	http://dbpedia.org/resource/Bend_It_Like_Beckham	good	562	66
+Black Butterflies	3/2/2012 0:00	http://dbpedia.org/resource/Black_Butterflies	good	563	66
+Ever After	7/31/1998 0:00	http://dbpedia.org/resource/Ever_After	good	564	66
+Fight Club	10/15/1999 0:00	http://dbpedia.org/resource/Fight_Club	good	565	66
+Ghost in the Shell 2: Innocence	9/17/2004 0:00	http://dbpedia.org/resource/Ghost_in_the_Shell_2:_Innocence	good	566	66
+Hermanas	12/6/2006 0:00	http://dbpedia.org/resource/Hermanas	good	567	66
+Jackass Number Two	9/22/2006 0:00	http://dbpedia.org/resource/Jackass_Number_Two	good	568	66
+Let the Bullets Fly	3/2/2012 0:00	http://dbpedia.org/resource/Let_the_Bullets_Fly	good	569	66
+Me You Them	3/2/2001 0:00	http://dbpedia.org/resource/Me_You_Them	good	570	66
+Mean Girls	4/30/2004 0:00	http://dbpedia.org/resource/Mean_Girls	good	571	66
+Mission: Impossible III	5/5/2006 0:00	http://dbpedia.org/resource/Mission:_Impossible_III	good	572	66
+One Hundred Mornings	3/25/2011 0:00	http://dbpedia.org/resource/One_Hundred_Mornings	good	573	66
+Pitch Perfect	9/28/2012 0:00	http://dbpedia.org/resource/Pitch_Perfect	good	574	66
+Seven Psychopaths	10/12/2012 0:00	http://dbpedia.org/resource/Seven_Psychopaths	good	575	66
+Shadow Magic	4/6/2001 0:00	http://dbpedia.org/resource/Shadow_Magic	good	576	66
+SherryBaby	9/8/2006 0:00	http://dbpedia.org/resource/Sherrybaby	good	577	66
+Small Town Murder Songs	7/1/2011 0:00	http://dbpedia.org/resource/Small_Town_Murder_Songs	good	578	66
+So Close	9/12/2003 0:00	http://dbpedia.org/resource/So_Close	good	579	66
+Son of Rambow	5/2/2008 0:00	http://dbpedia.org/resource/Son_of_Rambow	good	580	66
+Spanking the Monkey	7/15/1994 0:00	http://dbpedia.org/resource/Spanking_the_Monkey	good	581	66
+The Girlfriend Experience	5/22/2009 0:00	http://dbpedia.org/resource/The_Girlfriend_Experience	good	582	66
+The SpongeBob SquarePants Movie	11/19/2004 0:00	http://dbpedia.org/resource/The_SpongeBob_SquarePants_Movie	good	583	66
+The Way Back	1/21/2011 0:00	http://dbpedia.org/resource/The_Way_Back	good	584	66
+Trading Places	6/8/1983 0:00	http://dbpedia.org/resource/Trading_Places	good	585	66
+Trembling Before G-d	10/24/2001 0:00	http://dbpedia.org/resource/Trembling_Before_G-d	good	586	66
+Tupac: Resurrection	11/14/2003 0:00	http://dbpedia.org/resource/Tupac:_Resurrection	good	587	66
+Two Girls and a Guy	4/24/1998 0:00	http://dbpedia.org/resource/Two_Girls_and_a_Guy	good	588	66
+Two Women	7/21/2000 0:00	http://dbpedia.org/resource/Two_Women	good	589	66
+Unmade Beds	9/2/2009 0:00	http://dbpedia.org/resource/Unmade_Beds	good	590	66
+Unsettled	5/9/2008 0:00	http://dbpedia.org/resource/Unsettled	good	591	66
+Voices of Iraq	10/29/2004 0:00	http://dbpedia.org/resource/Voices_of_Iraq	good	592	66
+Waiting for Armageddon	1/8/2010 0:00	http://dbpedia.org/resource/Waiting_for_Armageddon	good	593	66
+Wish Me Away	6/1/2012 0:00	http://dbpedia.org/resource/Wish_Me_Away	good	594	66
+A Room for Romeo Brass	10/27/2000 0:00	http://dbpedia.org/resource/A_Room_for_Romeo_Brass	good	595	65
+Alone with Her	1/17/2007 0:00	http://dbpedia.org/resource/Alone_with_Her	good	596	65
+Animal Factory	10/13/2000 0:00	http://dbpedia.org/resource/Animal_Factory	good	597	65
+Cadillac Records	12/5/2008 0:00	http://dbpedia.org/resource/Cadillac_Records	good	598	65
+Clerks II	7/21/2006 0:00	http://dbpedia.org/resource/Clerks_II	good	599	65
+Coco Before Chanel	9/25/2009 0:00	http://dbpedia.org/resource/Coco_Before_Chanel	good	600	65
+Crooklyn	5/13/1994 0:00	http://dbpedia.org/resource/Crooklyn	good	601	65
+Dan in Real Life	10/26/2007 0:00	http://dbpedia.org/resource/Dan_in_Real_Life	good	602	65
+Darkman	8/24/1990 0:00	http://dbpedia.org/resource/Darkman	good	603	65
+Dirty Dancing	8/25/1987 0:00	http://dbpedia.org/resource/Dirty_Dancing	good	604	65
+Dzi Croquettes	11/18/2011 0:00	http://dbpedia.org/resource/Dzi_Croquettes	good	605	65
+E-Dreams	1/11/2002 0:00	http://dbpedia.org/resource/E-Dreams	good	606	65
+Favela Rising	6/2/2006 0:00	http://dbpedia.org/resource/Favela_Rising	good	607	65
+Find Me Guilty	3/17/2006 0:00	http://dbpedia.org/resource/Find_Me_Guilty	good	608	65
+Get Him to the Greek	6/4/2010 0:00	http://dbpedia.org/resource/Get_Him_to_the_Greek	good	609	65
+GoldenEye	11/17/1995 0:00	http://dbpedia.org/resource/GoldenEye	good	610	65
+Grace Is Gone	12/7/2007 0:00	http://dbpedia.org/resource/Grace_Is_Gone	good	611	65
+I Love You Phillip Morris	12/3/2010 0:00	http://dbpedia.org/resource/I_Love_You_Phillip_Morris	good	612	65
+If a Tree Falls: A Story of the Earth Liberation Front	6/22/2011 0:00	http://dbpedia.org/resource/If_a_Tree_Falls:_A_Story_of_the_Earth_Liberation_Front	good	613	65
+In a Better World	4/1/2011 0:00	http://dbpedia.org/resource/In_a_Better_World	good	614	65
+Indiana Jones and the Kingdom of the Crystal Skull	5/22/2008 0:00	http://dbpedia.org/resource/Indiana_Jones_and_the_Kingdom_of_the_Crystal_Skull	good	615	65
+Indiana Jones and the Last Crusade	5/24/1989 0:00	http://dbpedia.org/resource/Indiana_Jones_and_the_Last_Crusade	good	616	65
+Made in Dagenham	11/19/2010 0:00	http://dbpedia.org/resource/Made_in_Dagenham	good	617	65
+Mississippi Burning	1/27/1989 0:00	http://dbpedia.org/resource/Mississippi_Burning	good	618	65
+Monsters University	6/21/2013 0:00	http://dbpedia.org/resource/Monsters_University	good	619	65
+Mystery Men	8/6/1999 0:00	http://dbpedia.org/resource/Mystery_Men	good	620	65
+Night Catches Us	12/3/2010 0:00	http://dbpedia.org/resource/Night_Catches_Us	good	621	65
+Panic Room	3/29/2002 0:00	http://dbpedia.org/resource/Panic_Room	good	622	65
+Paradise: Love	4/26/2013 0:00	http://dbpedia.org/resource/Paradise:_Love	good	623	65
+Pola X	9/8/2000 0:00	http://dbpedia.org/resource/Pola_X	good	624	65
+Rain Man	12/16/1988 0:00	http://dbpedia.org/resource/Rain_Man	good	625	65
+Sex and Lucia	7/12/2002 0:00	http://dbpedia.org/resource/Sex_and_Lucia	good	626	65
+Star Trek VI: The Undiscovered Country	12/6/1991 0:00	http://dbpedia.org/resource/Star_Trek_VI:_The_Undiscovered_Country	good	627	65
+Telling Lies in America	10/15/1997 0:00	http://dbpedia.org/resource/Telling_Lies_in_America	good	628	65
+Tetro	6/11/2009 0:00	http://dbpedia.org/resource/Tetro	good	629	65
+The Dead Girl	12/29/2006 0:00	http://dbpedia.org/resource/The_Dead_Girl	good	630	65
+The Disappearance of Alice Creed	8/6/2010 0:00	http://dbpedia.org/resource/The_Disappearance_of_Alice_Creed	good	631	65
+The Future of Food	9/14/2005 0:00	http://dbpedia.org/resource/The_Future_of_Food	good	632	65
+The Imaginarium of Doctor Parnassus	12/25/2009 0:00	http://dbpedia.org/resource/The_Imaginarium_of_Doctor_Parnassus	good	633	65
+The Matador	12/23/2005 0:00	http://dbpedia.org/resource/The_Matador	good	634	65
+The Providence Effect	9/25/2009 0:00	http://dbpedia.org/resource/The_Providence_Effect	good	635	65
+The Salt of Life	3/2/2012 0:00	http://dbpedia.org/resource/The_Salt_of_Life	good	636	65
+The Slaughter Rule	1/8/2003 0:00	http://dbpedia.org/resource/The_Slaughter_Rule	good	637	65
+The TV Set	4/6/2007 0:00	http://dbpedia.org/resource/The_TV_Set	good	638	65
+The Vicious Kind	12/11/2009 0:00	http://dbpedia.org/resource/The_Vicious_Kind	good	639	65
+When We Leave	1/28/2011 0:00	http://dbpedia.org/resource/When_We_Leave	good	640	65
+Wild Grass	6/25/2010 0:00	http://dbpedia.org/resource/Wild_Grass	good	641	65
+A Better Life	6/24/2011 0:00	http://dbpedia.org/resource/A_Better_Life	good	642	64
+About Adam	5/9/2001 0:00	http://dbpedia.org/resource/About_Adam	good	643	64
+Arctic Tale	7/25/2007 0:00	http://dbpedia.org/resource/Arctic_Tale	good	644	64
+Dolphin Tale	9/23/2011 0:00	http://dbpedia.org/resource/Dolphin_Tale	good	645	64
+Dreams with Sharp Teeth	6/4/2008 0:00	http://dbpedia.org/resource/Dreams_with_Sharp_Teeth	good	646	64
+Eight Below	2/17/2006 0:00	http://dbpedia.org/resource/Eight_Below	good	647	64
+Examined Life	2/25/2009 0:00	http://dbpedia.org/resource/Examined_Life	good	648	64
+Film Socialisme	6/1/2011 0:00	http://dbpedia.org/resource/Film_Socialisme	good	649	64
+Following Sean	1/13/2006 0:00	http://dbpedia.org/resource/Following_Sean	good	650	64
+Frailty	4/12/2002 0:00	http://dbpedia.org/resource/Frailty_(film)	good	651	64
+Freedom Writers	1/5/2007 0:00	http://dbpedia.org/resource/Freedom_Writers	good	652	64
+Fright Night	8/19/2011 0:00	http://dbpedia.org/resource/Fright_Night	good	653	64
+Gattaca	10/24/1997 0:00	http://dbpedia.org/resource/Gattaca	good	654	64
+In Search of a Midnight Kiss	8/1/2008 0:00	http://dbpedia.org/resource/In_Search_of_a_Midnight_Kiss	good	655	64
+Killing Them Softly	11/30/2012 0:00	http://dbpedia.org/resource/Killing_Them_Softly	good	656	64
+Living Out Loud	10/30/1998 0:00	http://dbpedia.org/resource/Living_Out_Loud	good	657	64
+Looney Tunes: Back in Action	11/14/2003 0:00	http://dbpedia.org/resource/Looney_Tunes:_Back_in_Action	good	658	64
+Love in the Buff	3/30/2012 0:00	http://dbpedia.org/resource/Love_in_the_Buff	good	659	64
+Lymelife	4/8/2009 0:00	http://dbpedia.org/resource/Lymelife	good	660	64
+Mongolian Ping Pong	4/21/2006 0:00	http://dbpedia.org/resource/Mongolian_Ping_Pong	good	661	64
+Napoleon Dynamite	6/11/2004 0:00	http://dbpedia.org/resource/Napoleon_Dynamite	good	662	64
+Northfork	7/11/2003 0:00	http://dbpedia.org/resource/Northfork	good	663	64
+Orgasm Inc.	2/11/2011 0:00	http://dbpedia.org/resource/Orgasm_Inc.	good	664	64
+Princesas	8/23/2006 0:00	http://dbpedia.org/resource/Princesas	good	665	64
+Sky Captain and the World of Tomorrow	9/17/2004 0:00	http://dbpedia.org/resource/Sky_Captain_and_the_World_of_Tomorrow	good	666	64
+Soundtrack for a Revolution	1/22/2010 0:00	http://dbpedia.org/resource/Soundtrack_for_a_Revolution	good	667	64
+Stage Beauty	10/8/2004 0:00	http://dbpedia.org/resource/Stage_Beauty	good	668	64
+Star Trek: Insurrection	12/11/1998 0:00	http://dbpedia.org/resource/Star_Trek:_Insurrection	good	669	64
+That Man: Peter Berlin	1/13/2006 0:00	http://dbpedia.org/resource/That_Man:_Peter_Berlin	good	670	64
+The Hedgehog	8/19/2011 0:00	http://dbpedia.org/resource/The_Hedgehog	good	671	64
+The Horse Boy	9/30/2009 0:00	http://dbpedia.org/resource/The_Horse_Boy	good	672	64
+The Mystic Masseur	5/3/2002 0:00	http://dbpedia.org/resource/The_Mystic_Masseur	good	673	64
+The Notorious Bettie Page	4/14/2006 0:00	http://dbpedia.org/resource/The_Notorious_Bettie_Page	good	674	64
+The Other Guys	8/6/2010 0:00	http://dbpedia.org/resource/The_Other_Guys	good	675	64
+The Tic Code	8/4/2000 0:00	http://dbpedia.org/resource/The_Tic_Code	good	676	64
+You Kill Me	6/22/2007 0:00	http://dbpedia.org/resource/You_Kill_Me	good	677	64
+A Common Thread	5/27/2005 0:00	http://dbpedia.org/resource/A_Common_Thread	good	678	63
+A Perfect Getaway	8/7/2009 0:00	http://dbpedia.org/resource/A_Perfect_Getaway	good	679	63
+Alien: Resurrection	11/26/1997 0:00	http://dbpedia.org/resource/Alien:_Resurrection	good	680	#N/A
+Burn After Reading	9/12/2008 0:00	http://dbpedia.org/resource/Burn_After_Reading	good	681	63
+Cachorro	11/5/2004 0:00	http://dbpedia.org/resource/Cachorro	good	682	63
+Don Juan DeMarco	4/7/1995 0:00	http://dbpedia.org/resource/Don_Juan_DeMarco	good	683	63
+Everything Put Together	11/2/2001 0:00	http://dbpedia.org/resource/Everything_Put_Together	good	684	63
+Hannah Takes the Stairs	8/22/2007 0:00	http://dbpedia.org/resource/Hannah_Takes_the_Stairs	good	685	63
+He Got Game	5/1/1998 0:00	http://dbpedia.org/resource/He_Got_Game	good	686	63
+Hot Tub Time Machine	3/26/2010 0:00	http://dbpedia.org/resource/Hot_Tub_Time_Machine	good	687	63
+How She Move	1/25/2008 0:00	http://dbpedia.org/resource/How_She_Move	good	688	63
+King of California	9/14/2007 0:00	http://dbpedia.org/resource/King_of_California	good	689	63
+Kit Kittredge: An American Girl	6/20/2008 0:00	http://dbpedia.org/resource/Kit_Kittredge:_An_American_Girl	good	690	63
+Miss Pettigrew Lives for a Day	3/7/2008 0:00	http://dbpedia.org/resource/Miss_Pettigrew_Lives_for_a_Day	good	691	63
+My Reincarnation	10/28/2011 0:00	http://dbpedia.org/resource/My_Reincarnation	good	692	63
+One True Thing	9/18/1998 0:00	http://dbpedia.org/resource/One_True_Thing	good	693	63
+Out of the Furnace	12/4/2013 0:00	http://dbpedia.org/resource/Out_of_the_Furnace	good	694	63
+Pirates of the Caribbean: The Curse of the Black Pearl	7/9/2003 0:00	http://dbpedia.org/resource/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl	good	695	63
+Planet B-Boy	3/21/2008 0:00	http://dbpedia.org/resource/Planet_B-Boy	good	696	63
+Reel Injun	6/11/2010 0:00	http://dbpedia.org/resource/Reel_Injun	good	697	63
+Revenge of the Electric Car	10/21/2011 0:00	http://dbpedia.org/resource/Revenge_of_the_Electric_Car	good	698	63
+Sarah Silverman: Jesus Is Magic	11/11/2005 0:00	http://dbpedia.org/resource/Sarah_Silverman:_Jesus_Is_Magic	good	699	63
+Sex Is Comedy	10/20/2004 0:00	http://dbpedia.org/resource/Sex_Is_Comedy	good	700	63
+Songcatcher	6/15/2001 0:00	http://dbpedia.org/resource/Songcatcher	good	701	63
+The Great Buck Howard	3/20/2009 0:00	http://dbpedia.org/resource/The_Great_Buck_Howard	good	702	63
+The Great Yokai War	6/30/2006 0:00	http://dbpedia.org/resource/The_Great_Yokai_War	good	703	63
+The Last Exorcism	8/27/2010 0:00	http://dbpedia.org/resource/The_Last_Exorcism	good	704	63
+The Lost Boys	7/31/1987 0:00	http://dbpedia.org/resource/The_Lost_Boys	good	705	63
+The Mask of Zorro	7/17/1998 0:00	http://dbpedia.org/resource/The_Mask_of_Zorro	good	706	63
+The Parking Lot Movie	8/6/2010 0:00	http://dbpedia.org/resource/The_Parking_Lot_Movie	good	707	63
+The Rage in Placid Lake	5/21/2004 0:00	http://dbpedia.org/resource/The_Rage_in_Placid_Lake	good	708	63
+The Upside of Anger	3/11/2005 0:00	http://dbpedia.org/resource/The_Upside_of_Anger	good	709	63
+Things We Lost in the Fire	10/19/2007 0:00	http://dbpedia.org/resource/Things_We_Lost_in_the_Fire	good	710	63
+Three of Hearts: A Postmodern Family	10/19/2005 0:00	http://dbpedia.org/resource/Three_of_Hearts:_A_Postmodern_Family	good	711	63
+True Lies	7/15/1994 0:00	http://dbpedia.org/resource/True_Lies	good	712	63
+Two Brothers	6/25/2004 0:00	http://dbpedia.org/resource/Two_Brothers	good	713	63
+Under Our Skin	6/19/2009 0:00	http://dbpedia.org/resource/Under_Our_Skin	good	714	63
+Walk Hard: The Dewey Cox Story	12/21/2007 0:00	http://dbpedia.org/resource/Walk_Hard:_The_Dewey_Cox_Story	good	715	63
+Waydowntown	1/25/2002 0:00	http://dbpedia.org/resource/Waydowntown	good	716	63
+William S. Burroughs: A Man Within	11/17/2010 0:00	http://dbpedia.org/resource/William_S._Burroughs:_A_Man_Within	good	717	63
+Zombie Honeymoon	10/4/2005 0:00	http://dbpedia.org/resource/Zombie_Honeymoon	good	718	63
+A Few Good Men	12/11/1992 0:00	http://dbpedia.org/resource/A_Few_Good_Men	good	719	62
+A Silent Love	10/29/2004 0:00	http://dbpedia.org/resource/A_Silent_Love	good	720	62
+A Year Without Love	2/10/2006 0:00	http://dbpedia.org/resource/A_Year_Without_Love	good	721	62
+All the Right Moves	10/21/1983 0:00	http://dbpedia.org/resource/All_the_Right_Moves_(film)_(film)	good	722	#N/A
+American History X	10/30/1998 0:00	http://dbpedia.org/resource/American_History_X	good	723	62
+Fierce Creatures	1/24/1997 0:00	http://dbpedia.org/resource/Fierce_Creatures	good	724	62
+Finding Forrester	12/20/2000 0:00	http://dbpedia.org/resource/Finding_Forrester	good	725	62
+First Blood	10/22/1982 0:00	http://dbpedia.org/resource/First_Blood	good	726	62
+Five Minutes of Heaven	8/21/2009 0:00	http://dbpedia.org/resource/Five_Minutes_of_Heaven	good	727	62
+G.I. Jane	8/22/1997 0:00	http://dbpedia.org/resource/G.I._Jane	good	728	62
+Grabbers	7/19/2013 0:00	http://dbpedia.org/resource/Grabbers	good	729	62
+Hollywoodland	9/8/2006 0:00	http://dbpedia.org/resource/Hollywoodland	good	730	62
+I Am a Sex Addict	4/5/2006 0:00	http://dbpedia.org/resource/I_Am_a_Sex_Addict	good	731	62
+I Sell the Dead	8/7/2009 0:00	http://dbpedia.org/resource/I_Sell_the_Dead	good	732	62
+Incident at Loch Ness	9/17/2004 0:00	http://dbpedia.org/resource/Incident_at_Loch_Ness	good	733	62
+Jesus Camp	9/22/2006 0:00	http://dbpedia.org/resource/Jesus_Camp	good	734	62
+Kabluey	7/4/2008 0:00	http://dbpedia.org/resource/Kabluey	good	735	62
+Lord of War	9/16/2005 0:00	http://dbpedia.org/resource/Lord_of_War	good	736	62
+My Big Fat Greek Wedding	4/19/2002 0:00	http://dbpedia.org/resource/My_Big_Fat_Greek_Wedding	good	737	62
+Nothing in Common	7/30/1986 0:00	http://dbpedia.org/resource/Nothing_in_Common	good	738	62
+Puzzlehead	3/23/2006 0:00	http://dbpedia.org/resource/Puzzlehead	good	739	62
+Rugrats in Paris: The Movie - Rugrats II	11/17/2000 0:00	http://dbpedia.org/resource/Rugrats_in_Paris:_The_Movie	good	740	62
+Seraphim Falls	1/26/2007 0:00	http://dbpedia.org/resource/Seraphim_Falls	good	741	62
+Supporting Characters	1/25/2013 0:00	http://dbpedia.org/resource/Supporting_Characters	good	742	62
+The Abyss	8/9/1989 0:00	http://dbpedia.org/resource/The_Abyss	good	743	62
+The Best Exotic Marigold Hotel	5/4/2012 0:00	http://dbpedia.org/resource/The_Best_Exotic_Marigold_Hotel	good	744	62
+The Breakfast Club	2/15/1985 0:00	http://dbpedia.org/resource/The_Breakfast_Club	good	745	62
+The Claim	12/29/2000 0:00	http://dbpedia.org/resource/The_Claim	good	746	62
+The First Beautiful Thing	4/15/2011 0:00	http://dbpedia.org/resource/The_First_Beautiful_Thing	good	747	62
+The Five-Year Engagement	4/27/2012 0:00	http://dbpedia.org/resource/The_Five-Year_Engagement	good	748	62
+The Great Water	6/17/2005 0:00	http://dbpedia.org/resource/The_Great_Water	good	749	62
+The Ice Harvest	11/23/2005 0:00	http://dbpedia.org/resource/The_Ice_Harvest	good	750	62
+The Interpreter	4/22/2005 0:00	http://dbpedia.org/resource/The_Interpreter	good	751	62
+The Last Mountain	6/3/2011 0:00	http://dbpedia.org/resource/The_Last_Mountain	good	752	62
+The Life Aquatic with Steve Zissou	12/10/2004 0:00	http://dbpedia.org/resource/The_Life_Aquatic_with_Steve_Zissou	good	753	62
+The Man Without a Face	8/25/1993 0:00	http://dbpedia.org/resource/The_Man_Without_a_Face	good	754	62
+The Matrix Reloaded	5/15/2003 0:00	http://dbpedia.org/resource/The_Matrix_Reloaded	good	755	62
+The Mudge Boy	5/7/2004 0:00	http://dbpedia.org/resource/The_Mudge_Boy	good	756	62
+The Names of Love	6/24/2011 0:00	http://dbpedia.org/resource/The_Names_of_Love	good	757	62
+The Negotiator	7/29/1998 0:00	http://dbpedia.org/resource/The_Negotiator	good	758	62
+The Nutty Professor	6/28/1996 0:00	http://dbpedia.org/resource/The_Nutty_Professor	good	759	62
+The Roost	10/21/2005 0:00	http://dbpedia.org/resource/The_Roost	good	760	62
+The Year of the Yao	4/15/2005 0:00	http://dbpedia.org/resource/The_Year_of_the_Yao	good	761	62
+Torremolinos 73	4/15/2005 0:00	http://dbpedia.org/resource/Torremolinos_73	good	762	62
+Train of Life	11/5/1999 0:00	http://dbpedia.org/resource/Train_of_Life	good	763	62
+Zebraman	8/15/2007 0:00	http://dbpedia.org/resource/Zebraman	good	764	62
+African Cats	4/22/2011 0:00	http://dbpedia.org/resource/African_Cats	good	765	61
+Arakimentari	1/21/2005 0:00	http://dbpedia.org/resource/Arakimentari	good	766	61
+Beijing Bicycle	1/25/2002 0:00	http://dbpedia.org/resource/Beijing_Bicycle	good	767	61
+Best Worst Movie	4/23/2010 0:00	http://dbpedia.org/resource/Best_Worst_Movie	good	768	61
+Big Miracle	2/3/2012 0:00	http://dbpedia.org/resource/Big_Miracle	good	769	61
+Blue Crush	8/16/2002 0:00	http://dbpedia.org/resource/Blue_Crush	good	770	61
+Dead Man	5/10/1996 0:00	http://dbpedia.org/resource/Dead_Man	good	771	61
+Dead Snow	6/19/2009 0:00	http://dbpedia.org/resource/Dead_Snow	good	772	61
+Deconstructing Harry	12/12/1997 0:00	http://dbpedia.org/resource/Deconstructing_Harry	good	773	61
+Drawing Restraint 9	3/29/2006 0:00	http://dbpedia.org/resource/Drawing_Restraint_9	good	774	61
+Dust to Glory	4/1/2005 0:00	http://dbpedia.org/resource/Dust_to_Glory	good	775	61
+Frida	10/25/2002 0:00	http://dbpedia.org/resource/Frida	good	776	61
+Giuliani Time	5/12/2006 0:00	http://dbpedia.org/resource/Giuliani_Time	good	777	61
+Go Go Tales	1/7/2011 0:00	http://dbpedia.org/resource/Go_Go_Tales	good	778	61
+Goya in Bordeaux	9/15/2000 0:00	http://dbpedia.org/resource/Goya_in_Bordeaux	good	779	61
+Hair High	10/18/2006 0:00	http://dbpedia.org/resource/Hair_High	good	780	61
+Kindergarten Cop	12/21/1990 0:00	http://dbpedia.org/resource/Kindergarten_Cop	good	781	61
+Ladies in Lavender.	4/29/2005 0:00	http://dbpedia.org/resource/Ladies_in_Lavender	good	782	61
+Le Pont du Nord	3/22/2013 0:00	http://dbpedia.org/resource/Le_Pont_du_Nord	good	783	61
+Lower City	6/16/2006 0:00	http://dbpedia.org/resource/Lower_City	good	784	61
+Matchstick Men	9/12/2003 0:00	http://dbpedia.org/resource/Matchstick_Men	good	785	61
+Meet the Robinsons	3/30/2007 0:00	http://dbpedia.org/resource/Meet_the_Robinsons	good	786	61
+Red Heat	6/17/1988 0:00	http://dbpedia.org/resource/Red_Heat	good	787	61
+Reign Over Me	3/23/2007 0:00	http://dbpedia.org/resource/Reign_Over_Me	good	788	61
+Role Models	11/7/2008 0:00	http://dbpedia.org/resource/Role_Models	good	789	61
+The Dream Catcher	9/15/2000 0:00	http://dbpedia.org/resource/The_Dream_Catcher	good	790	61
+The Faculty	12/25/1998 0:00	http://dbpedia.org/resource/The_Faculty	good	791	61
+The Fisher King	9/20/1991 0:00	http://dbpedia.org/resource/The_Fisher_King	good	792	61
+The Machinist	10/22/2004 0:00	http://dbpedia.org/resource/The_Machinist	good	793	61
+The Man with Two Brains	6/3/1983 0:00	http://dbpedia.org/resource/The_Man_with_Two_Brains	good	794	61
+The Wackness	7/3/2008 0:00	http://dbpedia.org/resource/The_Wackness	good	795	61
+The Weather Man	10/28/2005 0:00	http://dbpedia.org/resource/The_Weather_Man	good	796	61
+Trollhunter	6/10/2011 0:00	http://dbpedia.org/resource/Trollhunter	good	797	61
+Welcome to Collinwood	10/4/2002 0:00	http://dbpedia.org/resource/Welcome_to_Collinwood	good	798	61
+Where God Left His Shoes	12/12/2008 0:00	http://dbpedia.org/resource/Where_God_Left_His_Shoes	good	799	61
+Wondrous Oblivion	11/3/2006 0:00	http://dbpedia.org/resource/Wondrous_Oblivion	good	800	61
+Zoolander	9/28/2001 0:00	http://dbpedia.org/resource/Zoolander	good	801	61
+Adventures of Power	10/9/2009 0:00	http://dbpedia.org/resource/Adventures_of_Power	bad	802	39
+Aftershock	5/10/2013 0:00	http://dbpedia.org/resource/Aftershock_(2012_film)	bad	803	#N/A
+Alexander	11/24/2004 0:00	http://dbpedia.org/resource/Alexander_(film)	bad	804	39
+All the Rage	7/7/2000 0:00	http://dbpedia.org/resource/All_the_Rage_(film)	bad	805	39
+Alvin and the Chipmunks	12/14/2007 0:00	http://dbpedia.org/resource/Alvin_and_the_Chipmunks_(film)	bad	806	39
+Angel Eyes	5/18/2001 0:00	http://dbpedia.org/resource/Angel_Eyes_(film)	bad	807	39
+Arthur and the Invisibles	12/29/2006 0:00	http://dbpedia.org/resource/Arthur_and_the_Invisibles	bad	808	39
+Bait	9/15/2000 0:00	http://dbpedia.org/resource/Bait_(2000_film)	bad	809	39
+Bringing Down the House	3/7/2003 0:00	http://dbpedia.org/resource/Bringing_Down_the_House_(film)	bad	810	39
+Camera Obscura	9/26/2003 0:00	http://dbpedia.org/resource/Camera_Obscura_(film)	bad	811	39
+Clash of the Titans	4/1/2010 0:00	http://dbpedia.org/resource/Clash_of_the_Titans_(2010_film)	bad	812	39
+Cry_Wolf	9/16/2005 0:00	http://dbpedia.org/resource/Cry_Wolf_(2005_film)	bad	813	39
+Daddy Day Care	5/9/2003 0:00	http://dbpedia.org/resource/Daddy_Day_Care	bad	814	39
+Dirty Dancing: Havana Nights	2/27/2004 0:00	http://dbpedia.org/resource/Dirty_Dancing:_Havana_Nights	bad	815	39
+Dot the I	3/11/2005 0:00	http://dbpedia.org/resource/Dot_the_i	bad	816	39
+Dumb and Dumber	12/16/1994 0:00	http://dbpedia.org/resource/Dumb_and_Dumber	bad	817	39
+Exit Wounds	3/16/2001 0:00	http://dbpedia.org/resource/Exit_Wounds	bad	818	39
+Fame	9/25/2009 0:00	http://dbpedia.org/resource/Fame_(2009_film)	bad	819	39
+Fat Albert	12/25/2004 0:00	http://dbpedia.org/resource/Fat_Albert_(film)	bad	820	39
+Forgiveness	9/12/2008 0:00	http://dbpedia.org/resource/Forgiveness_(2008_film)	bad	821	39
+From Prada to Nada	1/28/2011 0:00	http://dbpedia.org/resource/From_Prada_to_Nada	bad	822	39
+High Heels and Low Lifes	10/26/2001 0:00	http://dbpedia.org/resource/High_Heels_and_Low_Lifes	bad	823	39
+Inhale	10/22/2010 0:00	http://dbpedia.org/resource/Inhale_(film)	bad	824	39
+Irene in Time	9/23/2009 0:00	http://dbpedia.org/resource/Irene_in_Time	bad	825	39
+Jumanji	12/15/1995 0:00	http://dbpedia.org/resource/Jumanji	bad	826	39
+Just a Kiss	9/27/2002 0:00	http://dbpedia.org/resource/Just_a_Kiss_(film)	bad	827	39
+Legendary	9/10/2010 0:00	http://dbpedia.org/resource/Legendary_(film)	bad	828	39
+Love at Times Square	2/14/2003 0:00	http://dbpedia.org/resource/Love_at_Times_Square	bad	829	39
+Man of the Year	10/13/2006 0:00	http://dbpedia.org/resource/Man_of_the_Year_(2006_film)	bad	830	39
+Message in a Bottle	2/12/1999 0:00	http://dbpedia.org/resource/Message_in_a_Bottle_(film)	bad	831	39
+Mutant Aliens	4/19/2002 0:00	http://dbpedia.org/resource/Mutant_Aliens	bad	832	39
+P.S. I Love You	12/21/2007 0:00	http://dbpedia.org/resource/P.S._I_Love_You_(film)	bad	833	39
+Paul Blart: Mall Cop	1/16/2009 0:00	http://dbpedia.org/resource/Paul_Blart:_Mall_Cop	bad	834	39
+Planet 51	11/20/2009 0:00	http://dbpedia.org/resource/Planet_51	bad	835	39
+Reign of Fire	7/12/2002 0:00	http://dbpedia.org/resource/Reign_of_Fire_(film)	bad	836	39
+Resident Evil: Retribution	9/14/2012 0:00	http://dbpedia.org/resource/Resident_Evil:_Retribution	bad	837	39
+Silk	9/14/2007 0:00	http://dbpedia.org/resource/Silk_(2007_film)	bad	838	39
+Simon Birch	9/11/1998 0:00	http://dbpedia.org/resource/Simon_Birch	bad	839	39
+Snowmen	10/21/2011 0:00	http://dbpedia.org/resource/Snowmen_(film)	bad	840	39
+Swing Kids	3/5/1993 0:00	http://dbpedia.org/resource/Swing_Kids_(film)	bad	841	39
+The Edge of Love	3/13/2009 0:00	http://dbpedia.org/resource/The_Edge_of_Love	bad	842	39
+The Goods: Live Hard, Sell Hard	8/14/2009 0:00	http://dbpedia.org/resource/The_Goods:_Live_Hard,_Sell_Hard	bad	843	39
+The Green Hornet	1/14/2011 0:00	http://dbpedia.org/resource/The_Green_Hornet_(serial)	bad	844	39
+The Jimmy Show	12/13/2002 0:00	http://dbpedia.org/resource/The_Jimmy_Show	bad	845	39
+The Lucky One	4/20/2012 0:00	http://dbpedia.org/resource/The_Lucky_One_(film)	bad	846	39
+Underworld: Awakening	1/20/2012 0:00	http://dbpedia.org/resource/Underworld:_Awakening	bad	847	39
+World Traveler	4/19/2002 0:00	http://dbpedia.org/resource/World_Traveler	bad	848	39
+Young People Fucking	8/29/2008 0:00	http://dbpedia.org/resource/Young_People_Fucking	bad	849	39
+12 Rounds	3/27/2009 0:00	http://dbpedia.org/resource/12_Rounds_(film)	bad	850	38
+2 Fast 2 Furious	6/6/2003 0:00	http://dbpedia.org/resource/2_Fast_2_Furious	bad	851	38
+A Dog of Flanders	8/27/1999 0:00	http://dbpedia.org/resource/A_Dog_of_Flanders_(1999_film)	bad	852	38
+After the Sunset	11/12/2004 0:00	http://dbpedia.org/resource/After_the_Sunset	bad	853	38
+August Rush	11/21/2007 0:00	http://dbpedia.org/resource/August_Rush	bad	854	38
+Backdraft	5/24/1991 0:00	http://dbpedia.org/resource/Backdraft_(film)	bad	855	38
+Balls of Fury	8/29/2007 0:00	http://dbpedia.org/resource/Balls_of_Fury	bad	856	38
+Blade: Trinity	12/8/2004 0:00	http://dbpedia.org/resource/Blade:_Trinity	bad	857	38
+Blow Dry	3/7/2001 0:00	http://dbpedia.org/resource/Blow_Dry	bad	858	38
+Brake	3/23/2012 0:00	http://dbpedia.org/resource/Brake_(film)	bad	859	38
+Burning Annie	2/7/2007 0:00	http://dbpedia.org/resource/Burning_Annie	bad	860	38
+Confessions of a Shopaholic	2/6/2009 0:00	http://dbpedia.org/resource/Confessions_of_a_Shopaholic_(film)	bad	861	38
+Crossing Over	2/27/2009 0:00	http://dbpedia.org/resource/Crossing_Over_(film)	bad	862	38
+Dark Streets	12/12/2008 0:00	http://dbpedia.org/resource/Dark_Streets	bad	863	38
+Death to Smoochy	3/29/2002 0:00	http://dbpedia.org/resource/Death_to_Smoochy	bad	864	38
+DOA: Dead or Alive	6/15/2007 0:00	http://dbpedia.org/resource/DOA:_Dead_or_Alive	bad	865	38
+Eragon	12/15/2006 0:00	http://dbpedia.org/resource/Eragon_(film)	bad	866	38
+Fakers	4/27/2007 0:00	http://dbpedia.org/resource/Fakers	bad	867	38
+Final Destination 2	1/31/2003 0:00	http://dbpedia.org/resource/Final_Destination_2	bad	868	38
+Gigantic	4/3/2009 0:00	http://dbpedia.org/resource/Gigantic_(film)	bad	869	38
+Gothika	11/21/2003 0:00	http://dbpedia.org/resource/Gothika	bad	870	38
+Joshua	9/20/2002 0:00	http://dbpedia.org/resource/Joshua_(2002_film)	bad	871	38
+Just Visiting	4/6/2001 0:00	http://dbpedia.org/resource/Just_Visiting_(film)	bad	872	38
+Kids in America	10/21/2005 0:00	http://dbpedia.org/resource/Kids_in_America_(film)	bad	873	38
+Lay the Favorite	12/7/2012 0:00	http://dbpedia.org/resource/Lay_the_Favorite	bad	874	38
+Little Nicky	11/10/2000 0:00	http://dbpedia.org/resource/Little_Nicky	bad	875	38
+Looking for an Echo	11/10/2000 0:00	http://dbpedia.org/resource/Looking_for_an_Echo	bad	876	38
+Never Die Alone	3/26/2004 0:00	http://dbpedia.org/resource/Never_Die_Alone	bad	877	38
+Nutty Professor II: The Klumps	7/28/2000 0:00	http://dbpedia.org/resource/Nutty_Professor_II:_The_Klumps	bad	878	38
+One Fall	9/16/2011 0:00	http://dbpedia.org/resource/One_Fall	bad	879	38
+One Night with the King	10/13/2006 0:00	http://dbpedia.org/resource/One_Night_with_the_King	bad	880	38
+Ong Bak 3	1/14/2011 0:00	http://dbpedia.org/resource/Ong_Bak_3	bad	881	38
+Our Family Wedding	3/12/2010 0:00	http://dbpedia.org/resource/Our_Family_Wedding	bad	882	38
+Paparazzi	9/3/2004 0:00	http://dbpedia.org/resource/Paparazzi_(2004_film)	bad	883	38
+Raising Helen	5/26/2004 0:00	http://dbpedia.org/resource/Raising_Helen	bad	884	38
+Random Hearts	10/8/1999 0:00	http://dbpedia.org/resource/Random_Hearts	bad	885	38
+Rugrats Go Wild	6/13/2003 0:00	http://dbpedia.org/resource/Rugrats_Go_Wild	bad	886	38
+Seeking Justice	3/16/2012 0:00	http://dbpedia.org/resource/Seeking_Justice	bad	887	38
+Taking Lives	3/19/2004 0:00	http://dbpedia.org/resource/Taking_Lives_(film)	bad	888	38
+The Chronicles of Riddick	6/11/2004 0:00	http://dbpedia.org/resource/The_Chronicles_of_Riddick	bad	889	38
+The Flintstones	5/27/1994 0:00	http://dbpedia.org/resource/The_Flintstones_(film)	bad	890	38
+The Jungle Book 2	2/14/2003 0:00	http://dbpedia.org/resource/The_Jungle_Book_2	bad	891	38
+The Last Time	5/18/2007 0:00	http://dbpedia.org/resource/The_Last_Time_(film)	bad	892	38
+The Life Before Her Eyes	4/18/2008 0:00	http://dbpedia.org/resource/The_Life_Before_Her_Eyes	bad	893	38
+The Mostly Unfabulous Social Life of Ethan Green	6/16/2006 0:00	http://dbpedia.org/resource/The_Mostly_Unfabulous_Social_Life_of_Ethan_Green	bad	894	38
+The Moth Diaries	4/20/2012 0:00	http://dbpedia.org/resource/The_Moth_Diaries_(film)	bad	895	38
+The Outsiders	3/25/1983 0:00	http://dbpedia.org/resource/The_Outsiders_(film)	bad	896	38
+The Specials	9/22/2000 0:00	http://dbpedia.org/resource/The_Specials_(film)	bad	897	38
+The Ward	7/8/2011 0:00	http://dbpedia.org/resource/The_Ward_(film)	bad	898	38
+Trailer Park Boys: The Movie	1/25/2008 0:00	http://dbpedia.org/resource/Trailer_Park_Boys:_The_Movie	bad	899	38
+Uncommon Valor	12/16/1983 0:00	http://dbpedia.org/resource/Uncommon_Valor	bad	900	38
+Wild Wild West	6/30/1999 0:00	http://dbpedia.org/resource/Wild_Wild_West	bad	901	38
+Yours, Mine and Ours	11/23/2005 0:00	http://dbpedia.org/resource/Yours,_Mine_and_Ours_(2005_film)	bad	902	38
+A Hole in One	5/6/2005 0:00	http://dbpedia.org/resource/A_Hole_in_One	bad	903	37
+Ace Ventura: Pet Detective	2/4/1994 0:00	http://dbpedia.org/resource/Ace_Ventura:_Pet_Detective	bad	904	37
+Anaconda	4/11/1997 0:00	http://dbpedia.org/resource/Anaconda_(film)	bad	905	37
+Analyze That	12/6/2002 0:00	http://dbpedia.org/resource/Analyze_That	bad	906	37
+Annapolis	1/27/2006 0:00	http://dbpedia.org/resource/Annapolis_(film)	bad	907	37
+Another Gay Movie	7/28/2006 0:00	http://dbpedia.org/resource/Another_Gay_Movie	bad	908	37
+Battle: Los Angeles	3/11/2011 0:00	http://dbpedia.org/resource/Battle:_Los_Angeles	bad	909	37
+Be Cool	3/4/2005 0:00	http://dbpedia.org/resource/Be_Cool	bad	910	37
+Charlie St. Cloud	7/30/2010 0:00	http://dbpedia.org/resource/Charlie_St._Cloud_(film)	bad	911	37
+Cold Creek Manor	9/19/2003 0:00	http://dbpedia.org/resource/Cold_Creek_Manor	bad	912	37
+Crocodile Dundee in Los Angeles	4/20/2001 0:00	http://dbpedia.org/resource/Crocodile_Dundee_in_Los_Angeles	bad	913	37
+Delhi Safari	12/7/2012 0:00	http://dbpedia.org/resource/Delhi_Safari	bad	914	37
+Dirty Girl	10/7/2011 0:00	http://dbpedia.org/resource/Dirty_Girl_(2010_film)	bad	915	37
+Evan Almighty	6/22/2007 0:00	http://dbpedia.org/resource/Evan_Almighty	bad	916	37
+Flubber	11/26/1997 0:00	http://dbpedia.org/resource/Flubber_(film)	bad	917	37
+Flypaper	8/19/2011 0:00	http://dbpedia.org/resource/Flypaper_(2011_film)	bad	918	37
+Freddy vs. Jason	8/15/2003 0:00	http://dbpedia.org/resource/Freddy_vs._Jason	bad	919	37
+Garfield: A Tail of Two Kitties	6/16/2006 0:00	http://dbpedia.org/resource/Garfield:_A_Tail_of_Two_Kitties	bad	920	37
+Girl Play	4/1/2005 0:00	http://dbpedia.org/resource/Girl_Play	bad	921	37
+Honey	12/5/2003 0:00	http://dbpedia.org/resource/Honey_(2003_film)	bad	922	37
+Judy Moody and the Not Bummer Summer	6/10/2011 0:00	http://dbpedia.org/resource/Judy_Moody_and_the_Not_Bummer_Summer	bad	923	37
+Knock Off	9/4/1998 0:00	http://dbpedia.org/resource/Knock_Off_(film)	bad	924	37
+Lethal Weapon 4	7/10/1998 0:00	http://dbpedia.org/resource/Lethal_Weapon_4	bad	925	37
+Love Ranch	6/30/2010 0:00	http://dbpedia.org/resource/Love_Ranch	bad	926	37
+Made of Honor	5/2/2008 0:00	http://dbpedia.org/resource/Made_of_Honor	bad	927	37
+Miracle at St. Anna	9/26/2008 0:00	http://dbpedia.org/resource/Miracle_at_St._Anna	bad	928	37
+Only God Forgives	7/19/2013 0:00	http://dbpedia.org/resource/Only_God_Forgives	bad	929	37
+P2	11/9/2007 0:00	http://dbpedia.org/resource/P2_(film)	bad	930	37
+Reindeer Games	2/25/2000 0:00	http://dbpedia.org/resource/Reindeer_Games	bad	931	37
+Seven Days in Utopia	9/2/2011 0:00	http://dbpedia.org/resource/Seven_Days_in_Utopia	bad	932	37
+Sex: The Annabel Chong Story	2/11/2000 0:00	http://dbpedia.org/resource/Sex:_The_Annabel_Chong_Story	bad	933	37
+Speed Racer	5/9/2008 0:00	http://dbpedia.org/resource/Speed_Racer_(film)	bad	934	37
+Spy Kids: All the Time in the World	8/19/2011 0:00	http://dbpedia.org/resource/Spy_Kids:_All_the_Time_in_the_World	bad	935	37
+Suspect Zero	8/27/2004 0:00	http://dbpedia.org/resource/Suspect_Zero	bad	936	37
+Ted Bundy	9/13/2002 0:00	http://dbpedia.org/resource/Ted_Bundy_(film)	bad	937	37
+The Air I Breathe	1/25/2008 0:00	http://dbpedia.org/resource/The_Air_I_Breathe	bad	938	37
+The Country Bears	7/26/2002 0:00	http://dbpedia.org/resource/The_Country_Bears	bad	939	37
+The Crew	8/25/2000 0:00	http://dbpedia.org/resource/The_Crew_(2000_film)	bad	940	37
+The Frozen Ground	8/23/2013 0:00	http://dbpedia.org/resource/The_Frozen_Ground	bad	941	37
+The Kid & I	12/2/2005 0:00	http://dbpedia.org/resource/The_Kid_&_I	bad	942	37
+The Last Legion	8/17/2007 0:00	http://dbpedia.org/resource/The_Last_Legion	bad	943	37
+The Last Sin Eater	2/9/2007 0:00	http://dbpedia.org/resource/The_Last_Sin_Eater_(film)	bad	944	37
+The Living Wake	5/14/2010 0:00	http://dbpedia.org/resource/The_Living_Wake	bad	945	37
+The Lone Ranger	7/3/2013 0:00	http://dbpedia.org/resource/The_Lone_Ranger_(serial)	bad	946	37
+The Samaritan	5/18/2012 0:00	http://dbpedia.org/resource/Fury_(2012_film)	bad	947	37
+The Story of Us	10/15/1999 0:00	http://dbpedia.org/resource/The_Story_of_Us_(film)	bad	948	37
+The Tourist	12/10/2010 0:00	http://dbpedia.org/resource/The_Tourist_(2010_film)	bad	949	37
+The United States of Leland	4/2/2004 0:00	http://dbpedia.org/resource/The_United_States_of_Leland	bad	950	37
+Underdog	8/3/2007 0:00	http://dbpedia.org/resource/Underdog_(film)	bad	951	37
+W.E.	12/9/2011 0:00	http://dbpedia.org/resource/W.E.	bad	952	37
+Waist Deep	6/23/2006 0:00	http://dbpedia.org/resource/Waist_Deep	bad	953	37
+War, Inc.	5/23/2008 0:00	http://dbpedia.org/resource/War,_Inc.	bad	954	37
+Wrath of the Titans	3/30/2012 0:00	http://dbpedia.org/resource/Wrath_of_the_Titans	bad	955	37
+xXx: State of the Union	4/29/2005 0:00	http://dbpedia.org/resource/XXX:_State_of_the_Union	bad	956	37
+You Got Served	1/30/2004 0:00	http://dbpedia.org/resource/You_Got_Served	bad	957	37
+10th & Wolf	8/18/2006 0:00	http://dbpedia.org/resource/10th_&_Wolf	bad	958	36
+20 Dates	2/26/1999 0:00	http://dbpedia.org/resource/20_Dates	bad	959	36
+A Man Apart	4/4/2003 0:00	http://dbpedia.org/resource/A_Man_Apart	bad	960	36
+After.Life	4/9/2010 0:00	http://dbpedia.org/resource/After.Life	bad	961	36
+Against the Ropes	2/20/2004 0:00	http://dbpedia.org/resource/Against_the_Ropes	bad	962	36
+Beloved/Friend	2/4/2000 0:00	http://dbpedia.org/resource/Beloved/Friend	bad	963	36
+Big Fat Liar	2/8/2002 0:00	http://dbpedia.org/resource/Big_Fat_Liar	bad	964	36
+Biker Boyz	1/31/2003 0:00	http://dbpedia.org/resource/Biker_Boyz	bad	965	36
+Body Shots	10/22/1999 0:00	http://dbpedia.org/resource/Body_Shots_(film)	bad	966	36
+Buddy Boy	3/24/2000 0:00	http://dbpedia.org/resource/Buddy_Boy	bad	967	36
+Circuit	4/26/2002 0:00	http://dbpedia.org/resource/Circuit_(film)	bad	968	36
+Clue	12/13/1985 0:00	http://dbpedia.org/resource/Clue_(film)	bad	969	36
+College Road Trip	3/7/2008 0:00	http://dbpedia.org/resource/College_Road_Trip	bad	970	36
+Conan the Barbarian	8/19/2011 0:00	http://dbpedia.org/resource/Conan_the_Barbarian_(2011_film)	bad	971	36
+Cradle 2 the Grave	2/28/2003 0:00	http://dbpedia.org/resource/Cradle_2_the_Grave	bad	972	36
+Deadgirl	7/24/2009 0:00	http://dbpedia.org/resource/Deadgirl	bad	973	36
+Death Sentence	8/31/2007 0:00	http://dbpedia.org/resource/Death_Sentence_(2007_film)	bad	974	36
+Diary of a Mad Black Woman	2/25/2005 0:00	http://dbpedia.org/resource/Diary_of_a_Mad_Black_Woman	bad	975	36
+Dickie Roberts: Former Child Star	9/5/2003 0:00	http://dbpedia.org/resource/Dickie_Roberts:_Former_Child_Star	bad	976	36
+Domino	10/14/2005 0:00	http://dbpedia.org/resource/Domino_(film)	bad	977	36
+Employee of the Month	10/6/2006 0:00	http://dbpedia.org/resource/Employee_of_the_Month_(2006_film)	bad	978	36
+Ex Drummer	3/4/2011 0:00	http://dbpedia.org/resource/Ex_Drummer	bad	979	36
+Fast Food Fast Women	5/18/2001 0:00	http://dbpedia.org/resource/Fast_Food_Fast_Women	bad	980	36
+Father of Invention	10/14/2011 0:00	http://dbpedia.org/resource/Father_of_Invention	bad	981	36
+Lethal Weapon 3	5/15/1992 0:00	http://dbpedia.org/resource/Lethal_Weapon_3	bad	982	36
+Life Is Hot in Cracktown	6/26/2009 0:00	http://dbpedia.org/resource/Life_Is_Hot_in_Cracktown	bad	983	36
+Little Black Book	8/6/2004 0:00	http://dbpedia.org/resource/Little_Black_Book	bad	984	36
+My Name Is Bruce	10/31/2008 0:00	http://dbpedia.org/resource/My_Name_Is_Bruce	bad	985	36
+Party Monster	9/5/2003 0:00	http://dbpedia.org/resource/Party_Monster_(2003_film)	bad	986	36
+Phat Girlz	4/7/2006 0:00	http://dbpedia.org/resource/Phat_Girlz	bad	987	36
+Poster Boy	8/11/2006 0:00	http://dbpedia.org/resource/Poster_Boy_(film)	bad	988	36
+Push	2/6/2009 0:00	http://dbpedia.org/resource/Push_(2009_film)	bad	989	36
+Returner	10/17/2003 0:00	http://dbpedia.org/resource/Returner	bad	990	36
+Righteous Kill	9/12/2008 0:00	http://dbpedia.org/resource/Righteous_Kill	bad	991	36
+Saw IV	10/26/2007 0:00	http://dbpedia.org/resource/Saw_IV	bad	992	36
+Senseless	2/20/1998 0:00	http://dbpedia.org/resource/Senseless	bad	993	36
+Serious Moonlight	12/4/2009 0:00	http://dbpedia.org/resource/Serious_Moonlight_(2009_film)	bad	994	36
+Seven Pounds	12/19/2008 0:00	http://dbpedia.org/resource/Seven_Pounds	bad	995	36
+Shottas	11/3/2006 0:00	http://dbpedia.org/resource/Shottas	bad	996	36
+Smother	9/26/2008 0:00	http://dbpedia.org/resource/Smother_(film)	bad	997	36
+Something Borrowed	5/6/2011 0:00	http://dbpedia.org/resource/Something_Borrowed_(film)	bad	998	36
+Space Chimps	7/18/2008 0:00	http://dbpedia.org/resource/Space_Chimps	bad	999	36
+Stardom	10/27/2000 0:00	http://dbpedia.org/resource/Stardom	bad	1000	36
+Steal This Movie	8/18/2000 0:00	http://dbpedia.org/resource/Steal_This_Movie!	bad	1001	36
+Stolen Summer	3/1/2002 0:00	http://dbpedia.org/resource/Stolen_Summer	bad	1002	36
+The Anarchist Cookbook	7/18/2003 0:00	http://dbpedia.org/resource/The_Anarchist_Cookbook_(film)	bad	1003	36
+The Invisible	4/27/2007 0:00	http://dbpedia.org/resource/The_Invisible_(film)	bad	1004	36
+The Jackal	11/14/1997 0:00	http://dbpedia.org/resource/The_Jackal_(1997_film)	bad	1005	36
+The Pink Panther 2	2/6/2009 0:00	http://dbpedia.org/resource/The_Pink_Panther_2	bad	1006	36
+The Reaping	4/5/2007 0:00	http://dbpedia.org/resource/The_Reaping	bad	1007	36
+The Son of No One	11/4/2011 0:00	http://dbpedia.org/resource/The_Son_of_No_One	bad	1008	36
+The Thirteenth Floor	5/28/1999 0:00	http://dbpedia.org/resource/The_Thirteenth_Floor	bad	1009	36
+The Tollbooth	2/3/2006 0:00	http://dbpedia.org/resource/The_Tollbooth	bad	1010	36
+Three to Tango	10/22/1999 0:00	http://dbpedia.org/resource/Three_to_Tango	bad	1011	36
+Tooth Fairy	1/22/2010 0:00	http://dbpedia.org/resource/Tooth_Fairy_(2010_film)	bad	1012	36
+Turistas	12/1/2006 0:00	http://dbpedia.org/resource/Turistas	bad	1013	36
+Underworld: Evolution	1/20/2006 0:00	http://dbpedia.org/resource/Underworld:_Evolution	bad	1014	36
+What Happens in Vegas	5/9/2008 0:00	http://dbpedia.org/resource/What_Happens_in_Vegas	bad	1015	36
+102 Dalmatians	11/22/2000 0:00	http://dbpedia.org/resource/102_Dalmatians	bad	1016	35
+A Walk to Remember	1/25/2002 0:00	http://dbpedia.org/resource/A_Walk_to_Remember	bad	1017	35
+Beyond a Reasonable Doubt	9/11/2009 0:00	http://dbpedia.org/resource/Beyond_a_Reasonable_Doubt_(2009_film)	bad	1018	35
+Bollywood/Hollywood	9/26/2003 0:00	http://dbpedia.org/resource/Bollywood/Hollywood	bad	1019	35
+Bride of the Wind	6/8/2001 0:00	http://dbpedia.org/resource/Bride_of_the_Wind	bad	1020	35
+Dream House	9/30/2011 0:00	http://dbpedia.org/resource/Dream_House_(film)	bad	1021	35
+Dreamcatcher	3/21/2003 0:00	http://dbpedia.org/resource/Dreamcatcher_(film)	bad	1022	35
+Escape from Planet Earth	2/15/2013 0:00	http://dbpedia.org/resource/Escape_from_Planet_Earth	bad	1023	35
+Event Horizon	8/15/1997 0:00	http://dbpedia.org/resource/Event_Horizon_(film)	bad	1024	35
+Film Geek	1/13/2006 0:00	http://dbpedia.org/resource/Film_Geek	bad	1025	35
+Flakes	12/19/2007 0:00	http://dbpedia.org/resource/Flakes_(film)	bad	1026	35
+Flashdance	4/15/1983 0:00	http://dbpedia.org/resource/Flashdance	bad	1027	35
+Friday After Next	11/22/2002 0:00	http://dbpedia.org/resource/Friday_After_Next	bad	1028	35
+Friday the 13th	5/9/1980 0:00	http://dbpedia.org/resource/Friday_the_13th_(1980_film)	bad	1029	35
+Ghost Rider	2/16/2007 0:00	http://dbpedia.org/resource/Ghost_Rider_(2007_film)	bad	1030	35
+Ghosts of Mars	8/24/2001 0:00	http://dbpedia.org/resource/Ghosts_of_Mars	bad	1031	35
+Hide and Seek	1/28/2005 0:00	http://dbpedia.org/resource/Hide_and_Seek_(2005_film)	bad	1032	35
+Hitman	11/21/2007 0:00	http://dbpedia.org/resource/Hitman_(2007_film)	bad	1033	35
+How to Lose Friends & Alienate People	10/3/2008 0:00	http://dbpedia.org/resource/How_to_Lose_Friends_&_Alienate_People_(film)	bad	1034	35
+I Spy	11/1/2002 0:00	http://dbpedia.org/resource/I_Spy_(film)	bad	1035	35
+Indecent Proposal	4/7/1993 0:00	http://dbpedia.org/resource/Indecent_Proposal	bad	1036	35
+Loser	7/21/2000 0:00	http://dbpedia.org/resource/Loser_(film)	bad	1037	35
+Man of the House	2/25/2005 0:00	http://dbpedia.org/resource/Man_of_the_House_(2005_crime_comedy_film)	bad	1038	35
+Mansome	5/18/2012 0:00	http://dbpedia.org/resource/Mansome	bad	1039	35
+Megiddo: The Omega Code 2	9/21/2001 0:00	http://dbpedia.org/resource/Megiddo:_The_Omega_Code_2	bad	1040	35
+Mrs. Winterbourne	4/19/1996 0:00	http://dbpedia.org/resource/Mrs._Winterbourne	bad	1041	35
+Multiple Sarcasms	5/7/2010 0:00	http://dbpedia.org/resource/Multiple_Sarcasms	bad	1042	35
+My Blue Heaven	8/17/1990 0:00	http://dbpedia.org/resource/My_Blue_Heaven_(1990_film)	bad	1043	35
+Play the Game	8/28/2009 0:00	http://dbpedia.org/resource/Play_the_Game_(film)	bad	1044	35
+Post Grad	8/21/2009 0:00	http://dbpedia.org/resource/Post_Grad	bad	1045	35
+Resident Evil: Apocalypse	9/10/2004 0:00	http://dbpedia.org/resource/Resident_Evil:_Apocalypse	bad	1046	35
+Returning Mickey Stern	4/25/2003 0:00	http://dbpedia.org/resource/Returning_Mickey_Stern	bad	1047	35
+Salvation Boulevard	7/15/2011 0:00	http://dbpedia.org/resource/Salvation_Boulevard	bad	1048	35
+Scooby-Doo	6/14/2002 0:00	http://dbpedia.org/resource/Scooby-Doo_(film)	bad	1049	35
+Sphere	2/13/1998 0:00	http://dbpedia.org/resource/Sphere_(film)	bad	1050	35
+Star Wars: The Clone Wars	8/15/2008 0:00	http://dbpedia.org/resource/Star_Wars:_The_Clone_Wars_(film)	bad	1051	35
+Stateside	5/21/2004 0:00	http://dbpedia.org/resource/Stateside_(film)	bad	1052	35
+Stealth	7/29/2005 0:00	http://dbpedia.org/resource/Stealth_(film)	bad	1053	35
+Teaching Mrs. Tingle	8/20/1999 0:00	http://dbpedia.org/resource/Teaching_Mrs._Tingle	bad	1054	35
+The Babysitters	5/9/2008 0:00	http://dbpedia.org/resource/The_Babysitters	bad	1055	35
+The Big Blue	7/14/2000 0:00	http://dbpedia.org/resource/The_Big_Blue	bad	1056	35
+The Forsaken	4/27/2001 0:00	http://dbpedia.org/resource/The_Forsaken_(film)	bad	1057	35
+The Guillotines	6/14/2013 0:00	http://dbpedia.org/resource/The_Guillotines	bad	1058	35
+The Perfect Score	1/30/2004 0:00	http://dbpedia.org/resource/The_Perfect_Score	bad	1059	35
+The Three Musketeers	10/21/2011 0:00	http://dbpedia.org/resource/The_Three_Musketeers_(2011_film)	bad	1060	35
+Transformers: Revenge of the Fallen	6/24/2009 0:00	http://dbpedia.org/resource/Transformers:_Revenge_of_the_Fallen	bad	1061	35
+Two Can Play That Game	9/7/2001 0:00	http://dbpedia.org/resource/Two_Can_Play_That_Game	bad	1062	35
+Universal Soldier	7/10/1992 0:00	http://dbpedia.org/resource/Universal_Soldier_(1992_film)	bad	1063	35
+Urban Legend	9/25/1998 0:00	http://dbpedia.org/resource/Urban_Legend_(film)	bad	1064	35
+Van Helsing	5/7/2004 0:00	http://dbpedia.org/resource/Van_Helsing_(film)	bad	1065	35
+When Harry Tries to Marry	4/22/2011 0:00	http://dbpedia.org/resource/When_Harry_Tries_to_Marry	bad	1066	35
+Xanadu	8/8/1980 0:00	http://dbpedia.org/resource/Xanadu_(film)	bad	1067	35
+Yogi Bear	12/17/2010 0:00	http://dbpedia.org/resource/Yogi_Bear_(film)	bad	1068	35
+$pent	7/21/2000 0:00	http://dbpedia.org/resource/$pent	bad	1069	34
+10,000 BC	3/7/2008 0:00	http://dbpedia.org/resource/10,000_BC_(film)	bad	1070	34
+15 Minutes	3/9/2001 0:00	http://dbpedia.org/resource/15_Minutes	bad	1071	34
+21 and Over	3/1/2013 0:00	http://dbpedia.org/resource/21_&_Over_(film)	bad	1072	#N/A
+All About the Benjamins	3/8/2002 0:00	http://dbpedia.org/resource/All_About_the_Benjamins	bad	1073	34
+Basic	3/28/2003 0:00	http://dbpedia.org/resource/Basic_(film)	bad	1074	34
+Bringing Up Bobby	9/28/2012 0:00	http://dbpedia.org/resource/Bringing_Up_Bobby	bad	1075	34
+Cheaper by the Dozen 2	12/21/2005 0:00	http://dbpedia.org/resource/Cheaper_by_the_Dozen_2	bad	1076	34
+Copperhead	6/28/2013 0:00	http://dbpedia.org/resource/Copperhead_(2013_film)	bad	1077	34
+Crimewave	4/25/1986 0:00	http://dbpedia.org/resource/Crimewave	bad	1078	34
+Dead & Breakfast	4/20/2005 0:00	http://dbpedia.org/resource/Dead_&_Breakfast	bad	1079	34
+Dead or Alive: Final	11/29/2002 0:00	http://dbpedia.org/resource/Dead_or_Alive:_Final	bad	1080	34
+Dead Silence	3/16/2007 0:00	http://dbpedia.org/resource/Dead_Silence	bad	1081	34
+Demolition Man	10/8/1993 0:00	http://dbpedia.org/resource/Demolition_Man_(film)	bad	1082	34
+Doom	10/21/2005 0:00	http://dbpedia.org/resource/Doom_(film)	bad	1083	34
+Eulogy	10/15/2004 0:00	http://dbpedia.org/resource/Eulogy_(film)	bad	1084	34
+Even Money	5/18/2007 0:00	http://dbpedia.org/resource/Even_Money_(film)	bad	1085	34
+Excess Baggage	8/29/1997 0:00	http://dbpedia.org/resource/Excess_Baggage	bad	1086	34
+Fireflies in the Garden	10/14/2011 0:00	http://dbpedia.org/resource/Fireflies_in_the_Garden	bad	1087	34
+Ghosts of Girlfriends Past	5/1/2009 0:00	http://dbpedia.org/resource/Ghosts_of_Girlfriends_Past	bad	1088	34
+Grizzly Falls	1/28/2000 0:00	http://dbpedia.org/resource/Grizzly_Falls	bad	1089	34
+Hair Show	10/15/2004 0:00	http://dbpedia.org/resource/Hair_Show	bad	1090	34
+In Shifting Sands: The Truth About Unscom and the Disarming of Iraq	12/27/2002 0:00	http://dbpedia.org/resource/In_Shifting_Sands:_The_Truth_About_Unscom_and_the_Disarming_of_Iraq	bad	1091	34
+Kill Me Later	9/14/2001 0:00	http://dbpedia.org/resource/Kill_Me_Later	bad	1092	34
+Lake Placid	7/16/1999 0:00	http://dbpedia.org/resource/Lake_Placid_(film)	bad	1093	34
+Law Abiding Citizen	10/16/2009 0:00	http://dbpedia.org/resource/Law_Abiding_Citizen	bad	1094	34
+Mission to Mars	3/10/2000 0:00	http://dbpedia.org/resource/Mission_to_Mars	bad	1095	34
+Motherhood	10/23/2009 0:00	http://dbpedia.org/resource/Motherhood_(film)	bad	1096	34
+Ninja Assassin	11/25/2009 0:00	http://dbpedia.org/resource/Ninja_Assassin	bad	1097	34
+Otto; or, Up with Dead People	11/7/2008 0:00	http://dbpedia.org/resource/Otto;_or_Up_with_Dead_People	bad	1098	34
+Snow Day	2/11/2000 0:00	http://dbpedia.org/resource/Snow_Day_(film)	bad	1099	34
+Tamara	2/3/2006 0:00	http://dbpedia.org/resource/Tamara_(2005_film)	bad	1100	34
+Testosterone	9/10/2004 0:00	http://dbpedia.org/resource/Testosterone_(film)	bad	1101	34
+The Back-up Plan	4/23/2010 0:00	http://dbpedia.org/resource/The_Back-up_Plan	bad	1102	34
+The Black Stallion Returns	3/25/1983 0:00	http://dbpedia.org/resource/The_Black_Stallion_Returns	bad	1103	34
+The Ledge	7/8/2011 0:00	http://dbpedia.org/resource/The_Ledge_(film)	bad	1104	34
+The Messengers	2/2/2007 0:00	http://dbpedia.org/resource/The_Messengers_(film)	bad	1105	34
+The Real Cancun	4/25/2003 0:00	http://dbpedia.org/resource/The_Real_Cancun	bad	1106	34
+The Smurfs 2	7/31/2013 0:00	http://dbpedia.org/resource/The_Smurfs_2	bad	1107	34
+The Waiting Game	2/25/2000 0:00	http://dbpedia.org/resource/The_Waiting_Game_(film)	bad	1108	34
+Thr3e	1/5/2007 0:00	http://dbpedia.org/resource/Three_(2006_film)	bad	1109	34
+Town & Country	4/27/2001 0:00	http://dbpedia.org/resource/Town_&_Country_(film)	bad	1110	34
+Undead	7/1/2005 0:00	http://dbpedia.org/resource/Undead_(film)	bad	1111	34
+Year One	6/19/2009 0:00	http://dbpedia.org/resource/Year_One_(film)	bad	1112	34
+200 Cigarettes	2/26/1999 0:00	http://dbpedia.org/resource/200_Cigarettes	bad	1113	33
+33 Postcards	5/17/2013 0:00	http://dbpedia.org/resource/33_Postcards	bad	1114	33
+After Earth	5/31/2013 0:00	http://dbpedia.org/resource/After_Earth	bad	1115	33
+Air America	8/10/1990 0:00	http://dbpedia.org/resource/Air_America_(film)	bad	1116	33
+Anatomy	9/8/2000 0:00	http://dbpedia.org/resource/Anatomy_(film)	bad	1117	33
+Awake	11/30/2007 0:00	http://dbpedia.org/resource/Awake_(film)	bad	1118	33
+Bedtime Stories	12/25/2008 0:00	http://dbpedia.org/resource/Bedtime_Stories_(film)	bad	1119	33
+Burning Palms	1/14/2011 0:00	http://dbpedia.org/resource/Burning_Palms_(film)	bad	1120	33
+Cat Run	4/1/2011 0:00	http://dbpedia.org/resource/Cat_Run	bad	1121	33
+Catch That Kid	2/6/2004 0:00	http://dbpedia.org/resource/Catch_That_Kid	bad	1122	33
+Chill Factor	9/1/1999 0:00	http://dbpedia.org/resource/Chill_Factor_(film)	bad	1123	33
+Code Name: The Cleaner	1/5/2007 0:00	http://dbpedia.org/resource/Code_Name:_The_Cleaner	bad	1124	33
+Collateral Damage	2/8/2002 0:00	http://dbpedia.org/resource/Collateral_Damage_(film)	bad	1125	33
+Dear Wendy	9/23/2005 0:00	http://dbpedia.org/resource/Dear_Wendy	bad	1126	33
+Equilibrium	12/6/2002 0:00	http://dbpedia.org/resource/Equilibrium_(film)	bad	1127	33
+Grave Encounters	9/9/2011 0:00	http://dbpedia.org/resource/Grave_Encounters	bad	1128	33
+High School High	10/25/1996 0:00	http://dbpedia.org/resource/High_School_High	bad	1129	33
+House of D	4/15/2005 0:00	http://dbpedia.org/resource/House_of_D	bad	1130	33
+I Dreamed of Africa	5/5/2000 0:00	http://dbpedia.org/resource/I_Dreamed_of_Africa	bad	1131	33
+Impostor	1/4/2002 0:00	http://dbpedia.org/resource/Impostor_(film)	bad	1132	33
+In My Sleep	4/23/2010 0:00	http://dbpedia.org/resource/In_My_Sleep	bad	1133	33
+Jonah Hex	6/18/2010 0:00	http://dbpedia.org/resource/Jonah_Hex_(film)	bad	1134	33
+Just Go with It	2/11/2011 0:00	http://dbpedia.org/resource/Just_Go_with_It	bad	1135	33
+Lara Croft: Tomb Raider	6/15/2001 0:00	http://dbpedia.org/resource/Lara_Croft:_Tomb_Raider	bad	1136	33
+Leap Year	1/8/2010 0:00	http://dbpedia.org/resource/Leap_Year_(2010_film)	bad	1137	33
+Let It Ride	8/18/1989 0:00	http://dbpedia.org/resource/Let_It_Ride_(film)	bad	1138	33
+Losing Control	3/23/2012 0:00	http://dbpedia.org/resource/Losing_Control	bad	1139	33
+Love Happens	9/18/2009 0:00	http://dbpedia.org/resource/Love_Happens	bad	1140	33
+Mindhunters	5/13/2005 0:00	http://dbpedia.org/resource/Mindhunters	bad	1141	33
+Miss Conception	6/6/2008 0:00	http://dbpedia.org/resource/Miss_Conception	bad	1142	33
+New York Minute	5/7/2004 0:00	http://dbpedia.org/resource/New_York_Minute_(film)	bad	1143	33
+Raise Your Voice	10/8/2004 0:00	http://dbpedia.org/resource/Raise_Your_Voice	bad	1144	33
+Red Roses and Petrol	6/27/2008 0:00	http://dbpedia.org/resource/Red_Roses_and_Petrol	bad	1145	33
+Repo Chick	1/14/2011 0:00	http://dbpedia.org/resource/Repo_Chick	bad	1146	33
+Resident Evil	3/15/2002 0:00	http://dbpedia.org/resource/Resident_Evil_(film)	bad	1147	33
+RV	4/28/2006 0:00	http://dbpedia.org/resource/RV_(film)	bad	1148	33
+Shadowboxer	7/21/2006 0:00	http://dbpedia.org/resource/Shadowboxer	bad	1149	33
+Skinwalkers	8/10/2007 0:00	http://dbpedia.org/resource/Skinwalkers_(2006_film)	bad	1150	33
+Soul Plane	5/28/2004 0:00	http://dbpedia.org/resource/Soul_Plane	bad	1151	33
+State Property 2	4/13/2005 0:00	http://dbpedia.org/resource/State_Property_2	bad	1152	33
+Sucker Punch	3/25/2011 0:00	http://dbpedia.org/resource/Sucker_Punch_(2011_film)	bad	1153	33
+Sunset Strip	8/11/2000 0:00	http://dbpedia.org/resource/Sunset_Strip_(film)	bad	1154	33
+Superhero Movie	3/28/2008 0:00	http://dbpedia.org/resource/Superhero_Movie	bad	1155	33
+The Amityville Horror	4/15/2005 0:00	http://dbpedia.org/resource/The_Amityville_Horror_(2005_film)	bad	1156	33
+The Battle of Shaker Heights	8/22/2003 0:00	http://dbpedia.org/resource/The_Battle_of_Shaker_Heights	bad	1157	33
+The Chaperone	2/18/2011 0:00	http://dbpedia.org/resource/The_Chaperone_(film)	bad	1158	33
+The Dukes of Hazzard	8/5/2005 0:00	http://dbpedia.org/resource/The_Dukes_of_Hazzard_(film)	bad	1159	33
+The Grudge 2	10/13/2006 0:00	http://dbpedia.org/resource/The_Grudge_2	bad	1160	33
+The Haunting in Connecticut	3/27/2009 0:00	http://dbpedia.org/resource/The_Haunting_in_Connecticut	bad	1161	33
+The Human Centipede (First Sequence)	4/28/2010 0:00	http://dbpedia.org/resource/The_Human_Centipede_(First_Sequence)	bad	1162	33
+The Last Song	3/31/2010 0:00	http://dbpedia.org/resource/The_Last_Song_(film)	bad	1163	33
+The Out-of-Towners	4/2/1999 0:00	http://dbpedia.org/resource/The_Out-of-Towners_(1999_film)	bad	1164	33
+The Punisher	4/16/2004 0:00	http://dbpedia.org/resource/The_Punisher_(2004_film)	bad	1165	33
+The Wedding Planner	1/26/2001 0:00	http://dbpedia.org/resource/The_Wedding_Planner	bad	1166	33
+There Be Dragons	5/6/2011 0:00	http://dbpedia.org/resource/There_Be_Dragons	bad	1167	33
+Trash Humpers	5/7/2010 0:00	http://dbpedia.org/resource/Trash_Humpers	bad	1168	33
+Uptown Girls	8/15/2003 0:00	http://dbpedia.org/resource/Uptown_Girls	bad	1169	33
+Very Annie Mary	3/22/2002 0:00	http://dbpedia.org/resource/Very_Annie_Mary	bad	1170	33
+Virginia	5/18/2012 0:00	http://dbpedia.org/resource/Virginia_(2010_film)	bad	1171	33
+Welcome to Mooseport	2/20/2004 0:00	http://dbpedia.org/resource/Welcome_to_Mooseport	bad	1172	33
+A Hole in My Heart	4/8/2005 0:00	http://dbpedia.org/resource/A_Hole_in_My_Heart	bad	1173	32
+Agent Cody Banks 2: Destination London	3/12/2004 0:00	http://dbpedia.org/resource/Agent_Cody_Banks_2:_Destination_London	bad	1174	32
+Alex & Emma	6/20/2003 0:00	http://dbpedia.org/resource/Alex_&_Emma	bad	1175	32
+As Luck Would Have It	2/1/2013 0:00	http://dbpedia.org/resource/As_Luck_Would_Have_It_(2012_film)_(2012_film)	bad	1176	#N/A
+Beyond Borders	10/24/2003 0:00	http://dbpedia.org/resource/Beyond_Borders	bad	1177	32
+Black Knight	11/21/2001 0:00	http://dbpedia.org/resource/Black_Knight_(film)	bad	1178	32
+Broken Bridges	9/8/2006 0:00	http://dbpedia.org/resource/Broken_Bridges	bad	1179	32
+Cassadaga	10/11/2013 0:00	http://dbpedia.org/resource/Cassadaga_(film)	bad	1180	32
+Chapter 27	3/28/2008 0:00	http://dbpedia.org/resource/Chapter_27	bad	1181	32
+Chernobyl Diaries	5/25/2012 0:00	http://dbpedia.org/resource/Chernobyl_Diaries	bad	1182	32
+Crime and Punishment in Suburbia	9/15/2000 0:00	http://dbpedia.org/resource/Crime_and_Punishment_in_Suburbia	bad	1183	32
+Das wilde Leben	7/11/2008 0:00	http://dbpedia.org/resource/Das_Wilde_Leben	bad	1184	32
+Down to Earth	2/16/2001 0:00	http://dbpedia.org/resource/Down_to_Earth_(2001_film)	bad	1185	32
+G.I. Joe: The Rise of Cobra	8/7/2009 0:00	http://dbpedia.org/resource/G.I._Joe:_The_Rise_of_Cobra	bad	1186	32
+Ghost Rider: Spirit of Vengeance	2/17/2012 0:00	http://dbpedia.org/resource/Ghost_Rider:_Spirit_of_Vengeance	bad	1187	32
+Godzilla	5/19/1998 0:00	http://dbpedia.org/resource/Godzilla_(1998_film)	bad	1188	32
+I Love You, Beth Cooper	7/10/2009 0:00	http://dbpedia.org/resource/I_Love_You,_Beth_Cooper_(film)	bad	1189	32
+Kill by Inches	10/26/2001 0:00	http://dbpedia.org/resource/Kill_by_Inches	bad	1190	32
+Land of the Blind	6/16/2006 0:00	http://dbpedia.org/resource/Land_of_the_Blind	bad	1191	32
+Land of the Lost	6/5/2009 0:00	http://dbpedia.org/resource/Land_of_the_Lost_(film)	bad	1192	32
+Legion	1/22/2010 0:00	http://dbpedia.org/resource/Legion_(2010_film)	bad	1193	32
+Masked and Anonymous	7/24/2003 0:00	http://dbpedia.org/resource/Masked_and_Anonymous	bad	1194	32
+My Big Fat Independent Movie	9/30/2005 0:00	http://dbpedia.org/resource/My_Big_Fat_Independent_Movie	bad	1195	32
+New World Order	5/22/2009 0:00	http://dbpedia.org/resource/New_World_Order_(film)	bad	1196	32
+Night at the Golden Eagle	4/26/2002 0:00	http://dbpedia.org/resource/Night_at_the_Golden_Eagle	bad	1197	32
+Not Another Teen Movie	12/14/2001 0:00	http://dbpedia.org/resource/Not_Another_Teen_Movie	bad	1198	32
+October Baby	3/23/2012 0:00	http://dbpedia.org/resource/October_Baby	bad	1199	32
+Play It to the Bone	12/25/1999 0:00	http://dbpedia.org/resource/Play_It_to_the_Bone	bad	1200	32
+Repo! The Genetic Opera	11/7/2008 0:00	http://dbpedia.org/resource/Repo!_The_Genetic_Opera	bad	1201	32
+Saint John of Las Vegas	1/29/2010 0:00	http://dbpedia.org/resource/Saint_John_of_Las_Vegas	bad	1202	32
+September Tapes	9/24/2004 0:00	http://dbpedia.org/resource/September_Tapes	bad	1203	32
+Showtime	3/15/2002 0:00	http://dbpedia.org/resource/Showtime_(film)	bad	1204	32
+Someone Like You...	3/30/2001 0:00	http://dbpedia.org/resource/Someone_Like_You_(film)	bad	1205	32
+Spice World	1/23/1998 0:00	http://dbpedia.org/resource/Spice_World_(film)	bad	1206	32
+Swordfish	6/8/2001 0:00	http://dbpedia.org/resource/Swordfish_(film)	bad	1207	32
+The Brothers Solomon	9/7/2007 0:00	http://dbpedia.org/resource/The_Brothers_Solomon	bad	1208	32
+The Ex	5/11/2007 0:00	http://dbpedia.org/resource/The_Ex_(2006_film)	bad	1209	32
+The Last Man	2/15/2002 0:00	http://dbpedia.org/resource/The_Last_Man_(2002_film)	bad	1210	32
+The Middle of the World	4/9/2004 0:00	http://dbpedia.org/resource/The_Middle_of_the_World	bad	1211	32
+The Perfect Holiday	12/12/2007 0:00	http://dbpedia.org/resource/The_Perfect_Holiday	bad	1212	32
+The Santa Clause 3: The Escape Clause	11/3/2006 0:00	http://dbpedia.org/resource/The_Santa_Clause_3:_The_Escape_Clause	bad	1213	32
+The Sweetest Thing	4/12/2002 0:00	http://dbpedia.org/resource/The_Sweetest_Thing	bad	1214	32
+The Undefeated	7/15/2011 0:00	http://dbpedia.org/resource/The_Undefeated_(2011_film)	bad	1215	32
+UHF	7/21/1989 0:00	http://dbpedia.org/resource/UHF_(film)	bad	1216	32
+Untraceable	1/25/2008 0:00	http://dbpedia.org/resource/Untraceable	bad	1217	32
+Wrong Turn	5/30/2003 0:00	http://dbpedia.org/resource/Wrong_Turn	bad	1218	32
+Abominable	4/14/2006 0:00	http://dbpedia.org/resource/Abominable	bad	1219	31
+An American Affair	2/27/2009 0:00	http://dbpedia.org/resource/An_American_Affair	bad	1220	31
+An American Werewolf in Paris	10/31/1997 0:00	http://dbpedia.org/resource/An_American_Werewolf_in_Paris	bad	1221	31
+Antitrust	1/12/2001 0:00	http://dbpedia.org/resource/Antitrust_(film)	bad	1222	31
+Battlefield America	6/1/2012 0:00	http://dbpedia.org/resource/Battlefield_America	bad	1223	31
+Cop Out	2/26/2010 0:00	http://dbpedia.org/resource/Cop_Out_(2010_film)	bad	1224	31
+Dylan Dog: Dead of Night	4/29/2011 0:00	http://dbpedia.org/resource/Dylan_Dog:_Dead_of_Night	bad	1225	31
+Envy	4/30/2004 0:00	http://dbpedia.org/resource/Envy_(2004_film)	bad	1226	31
+Fired Up!	2/20/2009 0:00	http://dbpedia.org/resource/Fired_Up!	bad	1227	31
+First Daughter	9/24/2004 0:00	http://dbpedia.org/resource/First_Daughter_(2004_film)	bad	1228	31
+Garden Party	7/11/2008 0:00	http://dbpedia.org/resource/Garden_Party_(film)	bad	1229	31
+Gray Matters	2/23/2007 0:00	http://dbpedia.org/resource/Gray_Matters	bad	1230	31
+Hounddog	9/19/2008 0:00	http://dbpedia.org/resource/Hounddog_(film)	bad	1231	31
+House at the End of the Street	9/21/2012 0:00	http://dbpedia.org/resource/House_at_the_End_of_the_Street	bad	1232	31
+House of 1000 Corpses	4/11/2003 0:00	http://dbpedia.org/resource/House_of_1000_Corpses	bad	1233	31
+Idle Hands	4/30/1999 0:00	http://dbpedia.org/resource/Idle_Hands	bad	1234	31
+In the Mix	11/23/2005 0:00	http://dbpedia.org/resource/In_the_Mix_(film)	bad	1235	31
+Let Them Chirp Awhile	12/5/2008 0:00	http://dbpedia.org/resource/Let_Them_Chirp_Awhile	bad	1236	31
+Letters to God	4/9/2010 0:00	http://dbpedia.org/resource/Letters_to_God	bad	1237	31
+Lucky Numbers	10/27/2000 0:00	http://dbpedia.org/resource/Lucky_Numbers	bad	1238	31
+Max Payne	10/17/2008 0:00	http://dbpedia.org/resource/Max_Payne_(film)	bad	1239	31
+Monster-in-Law	5/13/2005 0:00	http://dbpedia.org/resource/Monster-in-Law	bad	1240	31
+National Security	1/17/2003 0:00	http://dbpedia.org/resource/National_Security_(2003_film)	bad	1241	31
+New Rose Hotel	10/8/1999 0:00	http://dbpedia.org/resource/New_Rose_Hotel_(film)	bad	1242	31
+Pootie Tang	6/29/2001 0:00	http://dbpedia.org/resource/Pootie_Tang	bad	1243	31
+Red Dawn	11/21/2012 0:00	http://dbpedia.org/resource/Red_Dawn	bad	1244	31
+Reuniting the Rubins	3/16/2012 0:00	http://dbpedia.org/resource/Reuniting_the_Rubins	bad	1245	31
+Say Uncle	6/23/2006 0:00	http://dbpedia.org/resource/Say_Uncle_(film)	bad	1246	31
+Sonny	12/27/2002 0:00	http://dbpedia.org/resource/Sonny_(film)	bad	1247	31
+Surveillance	6/26/2009 0:00	http://dbpedia.org/resource/Surveillance_(2008_film)	bad	1248	31
+The Big Hit	4/24/1998 0:00	http://dbpedia.org/resource/The_Big_Hit	bad	1249	31
+The Honeymooners	6/10/2005 0:00	http://dbpedia.org/resource/The_Honeymooners_(film)	bad	1250	31
+The Life of David Gale	2/21/2003 0:00	http://dbpedia.org/resource/The_Life_of_David_Gale	bad	1251	31
+The Mummy: Tomb of the Dragon Emperor	8/1/2008 0:00	http://dbpedia.org/resource/The_Mummy:_Tomb_of_the_Dragon_Emperor	bad	1252	31
+The Skeptic	5/1/2009 0:00	http://dbpedia.org/resource/The_Skeptic_(film)	bad	1253	31
+This Means War	2/17/2012 0:00	http://dbpedia.org/resource/This_Means_War_(film)	bad	1254	31
+Your Highness	4/8/2011 0:00	http://dbpedia.org/resource/Your_Highness	bad	1255	31
+A Day Without a Mexican	5/14/2004 0:00	http://dbpedia.org/resource/A_Day_Without_a_Mexican	bad	1256	30
+Alex Cross	10/19/2012 0:00	http://dbpedia.org/resource/Alex_Cross_(film)	bad	1257	30
+American Adobo	1/23/2002 0:00	http://dbpedia.org/resource/American_Adobo	bad	1258	30
+American Virgin	6/2/2000 0:00	http://dbpedia.org/resource/American_Virgin_(2000_film)	bad	1259	30
+Blackwoods	5/10/2002 0:00	http://dbpedia.org/resource/Blackwoods_(film)	bad	1260	30
+Cats & Dogs: The Revenge of Kitty Galore	7/30/2010 0:00	http://dbpedia.org/resource/Cats_&_Dogs:_The_Revenge_of_Kitty_Galore	bad	1261	30
+Daltry Calhoun	9/23/2005 0:00	http://dbpedia.org/resource/Daltry_Calhoun	bad	1262	30
+Deuce Bigalow: Male Gigolo	12/10/1999 0:00	http://dbpedia.org/resource/Deuce_Bigalow:_Male_Gigolo	bad	1263	30
+Empire Records	9/22/1995 0:00	http://dbpedia.org/resource/Empire_Records	bad	1264	30
+Exorcist: The Beginning	8/20/2004 0:00	http://dbpedia.org/resource/Exorcist:_The_Beginning	bad	1265	30
+Feeling Minnesota	9/13/1996 0:00	http://dbpedia.org/resource/Feeling_Minnesota	bad	1266	30
+Finding Bliss	6/4/2010 0:00	http://dbpedia.org/resource/Finding_Bliss	bad	1267	30
+Grown Ups	6/25/2010 0:00	http://dbpedia.org/resource/Grown_Ups_(film)	bad	1268	30
+John Q	2/15/2002 0:00	http://dbpedia.org/resource/John_Q	bad	1269	30
+Knockaround Guys	10/11/2002 0:00	http://dbpedia.org/resource/Knockaround_Guys	bad	1270	30
+Marmaduke	6/4/2010 0:00	http://dbpedia.org/resource/Marmaduke_(film)	bad	1271	30
+Over Her Dead Body	2/1/2008 0:00	http://dbpedia.org/resource/Over_Her_Dead_Body	bad	1272	30
+Paa	12/4/2009 0:00	http://dbpedia.org/resource/Paa_(film)	bad	1273	30
+Punisher: War Zone	12/5/2008 0:00	http://dbpedia.org/resource/Punisher:_War_Zone	bad	1274	30
+Queen of the Damned	2/22/2002 0:00	http://dbpedia.org/resource/Queen_of_the_Damned	bad	1275	30
+Saw VI	10/23/2009 0:00	http://dbpedia.org/resource/Saw_VI	bad	1276	30
+Speed-Dating	10/1/2010 0:00	http://dbpedia.org/resource/Speed-Dating	bad	1277	30
+The Art of War	8/25/2000 0:00	http://dbpedia.org/resource/The_Art_of_War_(film)	bad	1278	30
+The Butterfly Effect	1/23/2004 0:00	http://dbpedia.org/resource/The_Butterfly_Effect	bad	1279	30
+The Cave	8/26/2005 0:00	http://dbpedia.org/resource/The_Cave_(film)	bad	1280	30
+The Final Destination	8/28/2009 0:00	http://dbpedia.org/resource/The_Final_Destination	bad	1281	30
+The League of Extraordinary Gentlemen	7/11/2003 0:00	http://dbpedia.org/resource/The_League_of_Extraordinary_Gentlemen_(film)	bad	1282	30
+The Marc Pease Experience	8/21/2009 0:00	http://dbpedia.org/resource/The_Marc_Pease_Experience	bad	1283	30
+The Pacifier	3/4/2005 0:00	http://dbpedia.org/resource/The_Pacifier	bad	1284	30
+The Replacements	8/11/2000 0:00	http://dbpedia.org/resource/The_Replacements_(film)	bad	1285	30
+The Spirit	12/25/2008 0:00	http://dbpedia.org/resource/The_Spirit_(film)	bad	1286	30
+Vacationland	8/2/2006 0:00	http://dbpedia.org/resource/Vacationland_(film)	bad	1287	30
+Where the Heart Is	4/28/2000 0:00	http://dbpedia.org/resource/Where_the_Heart_Is_(2000_film)	bad	1288	30
+White Noise	1/7/2005 0:00	http://dbpedia.org/resource/White_Noise_(film)	bad	1289	30
+Zookeeper	7/8/2011 0:00	http://dbpedia.org/resource/Zookeeper_(film)	bad	1290	30
+Anatomy of Hell	9/24/2004 0:00	http://dbpedia.org/resource/Anatomy_of_Hell	bad	1291	29
+Answers to Nothing	12/2/2011 0:00	http://dbpedia.org/resource/Answers_to_Nothing_(film)	bad	1292	29
+Civil Brand	8/29/2003 0:00	http://dbpedia.org/resource/Civil_Brand	bad	1293	29
+Domestic Disturbance	11/2/2001 0:00	http://dbpedia.org/resource/Domestic_Disturbance	bad	1294	29
+Driven	4/27/2001 0:00	http://dbpedia.org/resource/Driven	bad	1295	29
+Ethan Mao	6/17/2005 0:00	http://dbpedia.org/resource/Ethan_Mao	bad	1296	29
+Eye of the Beholder	1/28/2000 0:00	http://dbpedia.org/resource/Eye_of_the_Beholder_(film)	bad	1297	29
+Fool's Gold	2/8/2008 0:00	http://dbpedia.org/resource/Fool's_Gold_(2008_film)	bad	1298	29
+God, Sex & Apple Pie	9/21/2001 0:00	http://dbpedia.org/resource/God,_Sex_&_Apple_Pie	bad	1299	29
+Just My Luck	5/12/2006 0:00	http://dbpedia.org/resource/Just_My_Luck_(2006_film)	bad	1300	29
+Lake City	11/21/2008 0:00	http://dbpedia.org/resource/Lake_City_(film)	bad	1301	29
+New in Town	1/30/2009 0:00	http://dbpedia.org/resource/New_in_Town	bad	1302	29
+Noel	11/12/2004 0:00	http://dbpedia.org/resource/Noel_(film)	bad	1303	29
+Scary Movie 2	7/4/2001 0:00	http://dbpedia.org/resource/Scary_Movie_2	bad	1304	29
+Snow Dogs	1/18/2002 0:00	http://dbpedia.org/resource/Snow_Dogs	bad	1305	29
+Somewhere in Time	10/3/1980 0:00	http://dbpedia.org/resource/Somewhere_in_Time_(film)	bad	1306	29
+Swimfan	9/6/2002 0:00	http://dbpedia.org/resource/Swimfan	bad	1307	29
+Texas Rangers	11/30/2001 0:00	http://dbpedia.org/resource/Texas_Rangers_(film)	bad	1308	29
+The 24th Day	5/14/2004 0:00	http://dbpedia.org/resource/The_24th_Day	bad	1309	29
+The Amati Girls	1/19/2001 0:00	http://dbpedia.org/resource/The_Amati_Girls	bad	1310	29
+The Aryan Couple	12/3/2004 0:00	http://dbpedia.org/resource/The_Aryan_Couple	bad	1311	29
+The Condemned	3/1/2013 0:00	http://dbpedia.org/resource/The_Condemned	bad	1312	29
+The Hot Chick	12/13/2002 0:00	http://dbpedia.org/resource/The_Hot_Chick	bad	1313	29
+The King and I	3/19/1999 0:00	http://dbpedia.org/resource/The_King_and_I_(1999_film)	bad	1314	29
+The Postman	12/25/1997 0:00	http://dbpedia.org/resource/The_Postman_(film)	bad	1315	29
+The Quiet	8/25/2006 0:00	http://dbpedia.org/resource/The_Quiet	bad	1316	29
+The Texas Chainsaw Massacre: The Beginning	10/6/2006 0:00	http://dbpedia.org/resource/The_Texas_Chainsaw_Massacre:_The_Beginning	bad	1317	29
+Undiscovered	8/26/2005 0:00	http://dbpedia.org/resource/Undiscovered	bad	1318	29
+Without a Paddle	8/20/2004 0:00	http://dbpedia.org/resource/Without_a_Paddle	bad	1319	29
+A Good Day to Die Hard	2/14/2013 0:00	http://dbpedia.org/resource/A_Good_Day_to_Die_Hard	bad	1320	28
+As Cool as I Am	6/7/2013 0:00	http://dbpedia.org/resource/As_Cool_as_I_Am_(film)	bad	1321	28
+Atlas Shrugged: Part I	4/15/2011 0:00	http://dbpedia.org/resource/Atlas_Shrugged:_Part_I	bad	1322	28
+Barry Munday	10/1/2010 0:00	http://dbpedia.org/resource/Barry_Munday	bad	1323	28
+Batman & Robin	6/20/1997 0:00	http://dbpedia.org/resource/Batman_&_Robin_(film)	bad	1324	28
+Blood: The Last Vampire	7/10/2009 0:00	http://dbpedia.org/resource/Blood:_The_Last_Vampire_(2009_film)	bad	1325	28
+Bunraku	9/30/2011 0:00	http://dbpedia.org/resource/Bunraku_(film)	bad	1326	28
+Cool World	7/10/1992 0:00	http://dbpedia.org/resource/Cool_World	bad	1327	28
+Deck the Halls	11/22/2006 0:00	http://dbpedia.org/resource/Deck_the_Halls_(2006_film)	bad	1328	28
+Dirty Deeds	8/26/2005 0:00	http://dbpedia.org/resource/Dirty_Deeds_(2005_film)	bad	1329	28
+Drop Dead Gorgeous	7/23/1999 0:00	http://dbpedia.org/resource/Drop_Dead_Gorgeous_(film)	bad	1330	28
+Even Cowgirls Get the Blues	5/24/1994 0:00	http://dbpedia.org/resource/Even_Cowgirls_Get_the_Blues_(film)	bad	1331	28
+Gentlemen Broncos	10/30/2009 0:00	http://dbpedia.org/resource/Gentlemen_Broncos	bad	1332	28
+Happily N'Ever After	1/5/2007 0:00	http://dbpedia.org/resource/Happily_N'Ever_After	bad	1333	28
+Hick	5/11/2012 0:00	http://dbpedia.org/resource/Hick_(film)	bad	1334	28
+House on Haunted Hill	10/29/1999 0:00	http://dbpedia.org/resource/House_on_Haunted_Hill	bad	1335	28
+I Am Sam	12/28/2001 0:00	http://dbpedia.org/resource/I_Am_Sam	bad	1336	28
+Inside Out	9/9/2011 0:00	http://dbpedia.org/resource/Inside/Out_(film)	bad	1337	28
+Just Married	1/10/2003 0:00	http://dbpedia.org/resource/Just_Married	bad	1338	28
+Love and Honor	3/22/2013 0:00	http://dbpedia.org/resource/Love_and_Honor	bad	1339	28
+Passion of Mind	5/26/2000 0:00	http://dbpedia.org/resource/Passion_of_Mind	bad	1340	28
+Stigmata	9/10/1999 0:00	http://dbpedia.org/resource/Stigmata_(film)	bad	1341	28
+The Big Shot-Caller	5/15/2009 0:00	http://dbpedia.org/resource/The_Big_Shot-Caller	bad	1342	28
+The Divide	1/13/2012 0:00	http://dbpedia.org/resource/The_Divide_(film)	bad	1343	28
+The Hitcher	1/19/2007 0:00	http://dbpedia.org/resource/The_Hitcher_(2007_film)	bad	1344	28
+The Ugly Truth	7/24/2009 0:00	http://dbpedia.org/resource/The_Ugly_Truth	bad	1345	28
+Timeline	11/26/2003 0:00	http://dbpedia.org/resource/Timeline_(film)	bad	1346	28
+Twin Peaks: Fire Walk with Me	8/28/1992 0:00	http://dbpedia.org/resource/Twin_Peaks:_Fire_Walk_with_Me	bad	1347	28
+Waking Up in Reno	10/25/2002 0:00	http://dbpedia.org/resource/Waking_Up_in_Reno	bad	1348	28
+Wildflowers	9/1/2000 0:00	http://dbpedia.org/resource/Wildflowers_(film)	bad	1349	28
+Catwoman	7/23/2004 0:00	http://dbpedia.org/resource/Catwoman_(film)	bad	1350	27
+Coyote Ugly	8/4/2000 0:00	http://dbpedia.org/resource/Coyote_Ugly_(film)	bad	1351	27
+Dead Man on Campus	8/21/1998 0:00	http://dbpedia.org/resource/Dead_Man_on_Campus	bad	1352	27
+Delgo	12/12/2008 0:00	http://dbpedia.org/resource/Delgo_(film)	bad	1353	27
+Gamer	9/4/2009 0:00	http://dbpedia.org/resource/Gamer_(film)	bad	1354	27
+How to Rob a Bank	2/6/2008 0:00	http://dbpedia.org/resource/How_to_Rob_a_Bank	bad	1355	27
+I Spit on Your Grave	10/8/2010 0:00	http://dbpedia.org/resource/I_Spit_on_Your_Grave	bad	1356	27
+Little Fockers	12/22/2010 0:00	http://dbpedia.org/resource/Little_Fockers	bad	1357	27
+Norbit	2/9/2007 0:00	http://dbpedia.org/resource/Norbit	bad	1358	27
+Peep World	3/25/2011 0:00	http://dbpedia.org/resource/Peep_World	bad	1359	27
+Playing for Keeps	12/7/2012 0:00	http://dbpedia.org/resource/Playing_for_Keeps_(2012_film)	bad	1360	27
+Sex and the City 2	5/27/2010 0:00	http://dbpedia.org/resource/Sex_and_the_City_2	bad	1361	27
+Simply Irresistible	2/5/1999 0:00	http://dbpedia.org/resource/Simply_Irresistible_(film)	bad	1362	27
+Stranded	7/26/2013 0:00	http://dbpedia.org/resource/Stranded_(2013_film)	bad	1363	27
+Summer School	7/22/1987 0:00	http://dbpedia.org/resource/Summer_School_(1987_film)	bad	1364	27
+The Flintstones in Viva Rock Vegas	4/28/2000 0:00	http://dbpedia.org/resource/The_Flintstones_in_Viva_Rock_Vegas	bad	1365	27
+The Fog	10/14/2005 0:00	http://dbpedia.org/resource/The_Fog	bad	1366	27
+The Majestic	12/21/2001 0:00	http://dbpedia.org/resource/The_Majestic_(film)	bad	1367	27
+The Musketeer	9/7/2001 0:00	http://dbpedia.org/resource/The_Musketeer	bad	1368	27
+The Spy Next Door	1/15/2010 0:00	http://dbpedia.org/resource/The_Spy_Next_Door	bad	1369	27
+The Suburbans	10/29/1999 0:00	http://dbpedia.org/resource/The_Suburbans	bad	1370	27
+The Trumpet of the Swan	5/11/2001 0:00	http://dbpedia.org/resource/The_Trumpet_of_the_Swan_(film)	bad	1371	27
+View from the Top	3/21/2003 0:00	http://dbpedia.org/resource/View_from_the_Top	bad	1372	27
+Wild Hogs	3/2/2007 0:00	http://dbpedia.org/resource/Wild_Hogs	bad	1373	27
+A Thousand Words	3/9/2012 0:00	http://dbpedia.org/resource/A_Thousand_Words_(film)	bad	1374	26
+Babylon A.D.	8/29/2008 0:00	http://dbpedia.org/resource/Babylon_A.D.	bad	1375	26
+Basic Instinct 2	3/31/2006 0:00	http://dbpedia.org/resource/Basic_Instinct_2	bad	1376	26
+Because I Said So	2/2/2007 0:00	http://dbpedia.org/resource/Because_I_Said_So_(film)	bad	1377	26
+Boxing Helena	9/3/1993 0:00	http://dbpedia.org/resource/Boxing_Helena	bad	1378	26
+Dracula 2000	12/22/2000 0:00	http://dbpedia.org/resource/Dracula_2000	bad	1379	26
+Echelon Conspiracy	2/27/2009 0:00	http://dbpedia.org/resource/Echelon_Conspiracy	bad	1380	26
+Everybody Wants to Be Italian	9/5/2008 0:00	http://dbpedia.org/resource/Everybody_Wants_to_Be_Italian	bad	1381	26
+I Hope They Serve Beer in Hell	9/25/2009 0:00	http://dbpedia.org/resource/I_Hope_They_Serve_Beer_in_Hell_(film)	bad	1382	26
+I Melt with You	12/9/2011 0:00	http://dbpedia.org/resource/I_Melt_with_You_(film)	bad	1383	26
+Little Man	7/14/2006 0:00	http://dbpedia.org/resource/Little_Man_(2006_film)	bad	1384	26
+Nola	7/23/2004 0:00	http://dbpedia.org/resource/Nola_(film)	bad	1385	26
+Phantoms	1/23/1998 0:00	http://dbpedia.org/resource/Phantoms_(film)	bad	1386	26
+Skyline	11/12/2010 0:00	http://dbpedia.org/resource/Skyline_(film)	bad	1387	26
+Supercross	8/17/2005 0:00	http://dbpedia.org/resource/Supercross_(film)	bad	1388	26
+The Best and the Brightest	6/24/2011 0:00	http://dbpedia.org/resource/The_Best_and_the_Brightest_(film)	bad	1389	26
+The Mating Habits of the Earthbound Human	10/8/1999 0:00	http://dbpedia.org/resource/The_Mating_Habits_of_the_Earthbound_Human	bad	1390	26
+The Objective	2/6/2009 0:00	http://dbpedia.org/resource/The_Objective	bad	1391	26
+The Salon	5/11/2007 0:00	http://dbpedia.org/resource/The_Salon_(film)	bad	1392	26
+Trixie	6/28/2000 0:00	http://dbpedia.org/resource/Trixie_(film)	bad	1393	26
+A Cinderella Story	7/16/2004 0:00	http://dbpedia.org/resource/A_Cinderella_Story	bad	1394	25
+Abduction	9/23/2011 0:00	http://dbpedia.org/resource/Abduction_(2011_film)	bad	1395	25
+Case 39	10/1/2010 0:00	http://dbpedia.org/resource/Case_39	bad	1396	25
+Enough	5/24/2002 0:00	http://dbpedia.org/resource/Enough_(film)	bad	1397	25
+Georgia Rule	5/11/2007 0:00	http://dbpedia.org/resource/Georgia_Rule	bad	1398	25
+Hell Ride	8/8/2008 0:00	http://dbpedia.org/resource/Hell_Ride	bad	1399	25
+Here on Earth	3/24/2000 0:00	http://dbpedia.org/resource/Here_on_Earth_(film)	bad	1400	25
+Killing Season	7/12/2013 0:00	http://dbpedia.org/resource/Killing_Season_(film)	bad	1401	25
+Modigliani	5/13/2005 0:00	http://dbpedia.org/resource/Modigliani_(film)	bad	1402	25
+R.I.P.D.	7/19/2013 0:00	http://dbpedia.org/resource/R.I.P.D.	bad	1403	25
+September Dawn	8/24/2007 0:00	http://dbpedia.org/resource/September_Dawn	bad	1404	25
+Smiley	10/12/2012 0:00	http://dbpedia.org/resource/Smiley_(2012_film)	bad	1405	25
+Sorority Boys	3/22/2002 0:00	http://dbpedia.org/resource/Sorority_Boys	bad	1406	25
+Spy Hard	5/24/1996 0:00	http://dbpedia.org/resource/Spy_Hard	bad	1407	25
+Stealing Harvard	9/13/2002 0:00	http://dbpedia.org/resource/Stealing_Harvard	bad	1408	25
+Teen Wolf	8/23/1985 0:00	http://dbpedia.org/resource/Teen_Wolf	bad	1409	25
+The Benchwarmers	4/7/2006 0:00	http://dbpedia.org/resource/The_Benchwarmers	bad	1410	25
+The Big Bang	5/13/2011 0:00	http://dbpedia.org/resource/The_Big_Bang_(2011_film)	bad	1411	25
+The Butcher, the Chef, and the Swordsman	3/18/2011 0:00	http://dbpedia.org/resource/The_Butcher,_the_Chef_and_the_Swordsman	bad	1412	25
+The Million Dollar Hotel	2/2/2001 0:00	http://dbpedia.org/resource/The_Million_Dollar_Hotel	bad	1413	25
+The Next Best Thing	3/3/2000 0:00	http://dbpedia.org/resource/The_Next_Best_Thing	bad	1414	25
+The Ten Commandments	10/19/2007 0:00	http://dbpedia.org/resource/The_Ten_Commandments_(2007_film)	bad	1415	25
+Venom	9/16/2005 0:00	http://dbpedia.org/resource/Venom_(2005_film)	bad	1416	25
+A Sound of Thunder	9/2/2005 0:00	http://dbpedia.org/resource/A_Sound_of_Thunder_(film)	bad	1417	24
+Alvin and the Chipmunks: Chipwrecked	12/16/2011 0:00	http://dbpedia.org/resource/Alvin_and_the_Chipmunks:_Chipwrecked	bad	1418	24
+Apollo 18	9/2/2011 0:00	http://dbpedia.org/resource/Apollo_18_(film)	bad	1419	24
+Bride Wars	1/9/2009 0:00	http://dbpedia.org/resource/Bride_Wars	bad	1420	24
+Get Carter	10/6/2000 0:00	http://dbpedia.org/resource/Get_Carter	bad	1421	24
+Godsend	4/30/2004 0:00	http://dbpedia.org/resource/Godsend_(film)	bad	1422	24
+Hollow Man	8/4/2000 0:00	http://dbpedia.org/resource/Hollow_Man	bad	1423	24
+Juwanna Mann	6/21/2002 0:00	http://dbpedia.org/resource/Juwanna_Mann	bad	1424	24
+Knucklehead	10/8/2010 0:00	http://dbpedia.org/resource/Knucklehead_(film)	bad	1425	24
+Mr. Deeds	6/28/2002 0:00	http://dbpedia.org/resource/Mr._Deeds	bad	1426	24
+One Man's Hero	9/24/1999 0:00	http://dbpedia.org/resource/One_Man's_Hero	bad	1427	24
+Piranha 3DD	6/1/2012 0:00	http://dbpedia.org/resource/Piranha_3DD	bad	1428	24
+Saw 3D	10/29/2010 0:00	http://dbpedia.org/resource/Saw_3D	bad	1429	24
+See Spot Run	3/2/2001 0:00	http://dbpedia.org/resource/See_Spot_Run	bad	1430	24
+Stay Alive	3/24/2006 0:00	http://dbpedia.org/resource/Stay_Alive	bad	1431	24
+Terror Firmer	10/29/1999 0:00	http://dbpedia.org/resource/Terror_Firmer	bad	1432	24
+The Adventures of Ford Fairlane	7/11/1990 0:00	http://dbpedia.org/resource/The_Adventures_of_Ford_Fairlane	bad	1433	24
+The Love Guru	6/20/2008 0:00	http://dbpedia.org/resource/The_Love_Guru	bad	1434	24
+The New Guy	5/10/2002 0:00	http://dbpedia.org/resource/The_New_Guy	bad	1435	24
+The Skulls	3/31/2000 0:00	http://dbpedia.org/resource/The_Skulls_(film)	bad	1436	24
+The Whole Ten Yards	4/9/2004 0:00	http://dbpedia.org/resource/The_Whole_Ten_Yards	bad	1437	24
+Universal Soldier: The Return	8/20/1999 0:00	http://dbpedia.org/resource/Universal_Soldier:_The_Return	bad	1438	24
+An Invisible Sign	5/6/2011 0:00	http://dbpedia.org/resource/An_Invisible_Sign	bad	1439	23
+Another 48 Hrs.	6/8/1990 0:00	http://dbpedia.org/resource/Another_48_Hrs.	bad	1440	23
+Bats	10/22/1999 0:00	http://dbpedia.org/resource/Bats_(film)	bad	1441	23
+Couples Retreat	10/9/2009 0:00	http://dbpedia.org/resource/Couples_Retreat	bad	1442	23
+Dark Tide	3/30/2012 0:00	http://dbpedia.org/resource/Dark_Tide	bad	1443	23
+Darkness Falls	1/24/2003 0:00	http://dbpedia.org/resource/Darkness_Falls_(2003_film)	bad	1444	23
+Deuce Bigalow: European Gigolo	8/12/2005 0:00	http://dbpedia.org/resource/Deuce_Bigalow:_European_Gigolo	bad	1445	23
+Furry Vengeance	4/30/2010 0:00	http://dbpedia.org/resource/Furry_Vengeance	bad	1446	23
+Half Past Dead	11/15/2002 0:00	http://dbpedia.org/resource/Half_Past_Dead	bad	1447	23
+Jack and Jill	11/11/2011 0:00	http://dbpedia.org/resource/Jack_and_Jill_(film)	bad	1448	23
+Love Stinks	9/10/1999 0:00	http://dbpedia.org/resource/Love_Stinks_(film)	bad	1449	23
+My Baby's Daddy	1/9/2004 0:00	http://dbpedia.org/resource/My_Baby's_Daddy	bad	1450	23
+Poor White Trash	12/1/2000 0:00	http://dbpedia.org/resource/Poor_White_Trash	bad	1451	23
+Ready to Rumble	4/7/2000 0:00	http://dbpedia.org/resource/Ready_to_Rumble	bad	1452	23
+Speed 2: Cruise Control	6/13/1997 0:00	http://dbpedia.org/resource/Speed_2:_Cruise_Control	bad	1453	23
+The Celestine Prophecy	4/21/2006 0:00	http://dbpedia.org/resource/The_Celestine_Prophecy_(film)	bad	1454	23
+The Roommate	2/4/2011 0:00	http://dbpedia.org/resource/The_Roommate	bad	1455	23
+Big Mommas: Like Father, Like Son	2/18/2011 0:00	http://dbpedia.org/resource/Big_Mommas:_Like_Father,_Like_Son	bad	1456	22
+Brother's Justice	9/9/2011 0:00	http://dbpedia.org/resource/Brother's_Justice	bad	1457	22
+Christmas with the Kranks	11/24/2004 0:00	http://dbpedia.org/resource/Christmas_with_the_Kranks	bad	1458	22
+Congo	6/9/1995 0:00	http://dbpedia.org/resource/Congo_(film)	bad	1459	22
+Merci Docteur Rey	9/17/2004 0:00	http://dbpedia.org/resource/Merci_Docteur_Rey	bad	1460	22
+New Year's Eve	12/9/2011 0:00	http://dbpedia.org/resource/New_Year's_Eve_(film)	bad	1461	22
+One for the Money	1/27/2012 0:00	http://dbpedia.org/resource/One_for_the_Money_(film)	bad	1462	22
+Passion Play	5/6/2011 0:00	http://dbpedia.org/resource/Passion_Play_(film)	bad	1463	22
+Prince of Central Park	9/22/2000 0:00	http://dbpedia.org/resource/Prince_of_Central_Park	bad	1464	22
+Running Free	6/2/2000 0:00	http://dbpedia.org/resource/Running_Free_(film)	bad	1465	22
+Saving Silverman	2/9/2001 0:00	http://dbpedia.org/resource/Saving_Silverman	bad	1466	22
+Shark Night 3D	9/2/2011 0:00	http://dbpedia.org/resource/Shark_Night	bad	1467	22
+The Bounty Hunter	3/19/2010 0:00	http://dbpedia.org/resource/The_Bounty_Hunter_(2010_film)	bad	1468	22
+The Cold Light of Day	9/7/2012 0:00	http://dbpedia.org/resource/The_Cold_Light_of_Day_(2012_film)	bad	1469	22
+The Ladies Man	10/13/2000 0:00	http://dbpedia.org/resource/The_Ladies_Man	bad	1470	22
+The Watcher	9/8/2000 0:00	http://dbpedia.org/resource/The_Watcher_(film)	bad	1471	22
+Tortilla Heaven	3/16/2007 0:00	http://dbpedia.org/resource/Tortilla_Heaven	bad	1472	22
+What Goes Up	5/29/2009 0:00	http://dbpedia.org/resource/What_Goes_Up	bad	1473	22
+3000 Miles to Graceland	2/23/2001 0:00	http://dbpedia.org/resource/3000_Miles_to_Graceland	bad	1474	21
+9 Dead Gay Guys	10/17/2003 0:00	http://dbpedia.org/resource/9_Dead_Gay_Guys	bad	1475	21
+Better Living	8/4/2000 0:00	http://dbpedia.org/resource/Better_Living	bad	1476	21
+Cabin Boy	1/7/1994 0:00	http://dbpedia.org/resource/Cabin_Boy	bad	1477	21
+Crazy on the Outside	1/8/2010 0:00	http://dbpedia.org/resource/Crazy_on_the_Outside	bad	1478	21
+Hansel and Gretel: Witch Hunters	1/25/2013 0:00	http://dbpedia.org/resource/Hansel_&_Gretel:_Witch_Hunters	bad	1479	21
+Held Up	5/12/2000 0:00	http://dbpedia.org/resource/Held_Up	bad	1480	21
+Highlander: Endgame	9/1/2000 0:00	http://dbpedia.org/resource/Highlander:_Endgame	bad	1481	21
+I Still Know What You Did Last Summer	11/13/1998 0:00	http://dbpedia.org/resource/I_Still_Know_What_You_Did_Last_Summer	bad	1482	21
+Larry the Cable Guy: Health Inspector	3/24/2006 0:00	http://dbpedia.org/resource/Larry_the_Cable_Guy:_Health_Inspector	bad	1483	21
+Molly	10/8/1999 0:00	http://dbpedia.org/resource/Molly_(film)	bad	1484	21
+Say It Isn't So	3/23/2001 0:00	http://dbpedia.org/resource/Say_It_Isn't_So_(film)	bad	1485	21
+Summer Catch	8/24/2001 0:00	http://dbpedia.org/resource/Summer_Catch	bad	1486	21
+An American Carol	10/3/2008 0:00	http://dbpedia.org/resource/An_American_Carol	bad	1487	20
+Branded	9/7/2012 0:00	http://dbpedia.org/resource/Branded_(2012_film)	bad	1488	20
+Corky Romano	10/12/2001 0:00	http://dbpedia.org/resource/Corky_Romano	bad	1489	20
+Expelled: No Intelligence Allowed	4/18/2008 0:00	http://dbpedia.org/resource/Expelled:_No_Intelligence_Allowed	bad	1490	20
+Hoodwinked Too! Hood VS. Evil	4/29/2011 0:00	http://dbpedia.org/resource/Hoodwinked_Too!_Hood_vs._Evil	bad	1491	20
+Joe Dirt	4/11/2001 0:00	http://dbpedia.org/resource/Joe_Dirt	bad	1492	20
+Marci X	8/22/2003 0:00	http://dbpedia.org/resource/Marci_X	bad	1493	20
+Someday This Pain Will Be Useful to You	10/5/2012 0:00	http://dbpedia.org/resource/Someday_This_Pain_Will_Be_Useful_to_You_(film)	bad	1494	20
+Soul Survivors	9/7/2001 0:00	http://dbpedia.org/resource/Soul_Survivors	bad	1495	20
+Spinning Into Butter	3/27/2009 0:00	http://dbpedia.org/resource/Spinning_into_Butter_(film)	bad	1496	20
+Vegas Vacation	2/14/1997 0:00	http://dbpedia.org/resource/Vegas_Vacation	bad	1497	20
+Whatever It Takes	3/24/2000 0:00	http://dbpedia.org/resource/Whatever_It_Takes_(2000_film)	bad	1498	20
+Would You Rather	2/8/2013 0:00	http://dbpedia.org/resource/Would_You_Rather_(film)	bad	1499	20
+All the Queen's Men	10/25/2002 0:00	http://dbpedia.org/resource/All_the_Queen's_Men	bad	1500	19
+Ballistic: Ecks vs. Sever	9/20/2002 0:00	http://dbpedia.org/resource/Ballistic:_Ecks_vs._Sever	bad	1501	19
+Bitch Slap	1/8/2010 0:00	http://dbpedia.org/resource/Bitch_Slap	bad	1502	19
+Dumb and Dumberer: When Harry Met Lloyd	6/13/2003 0:00	http://dbpedia.org/resource/Dumb_and_Dumberer:_When_Harry_Met_Lloyd	bad	1503	19
+Good Luck Chuck	9/21/2007 0:00	http://dbpedia.org/resource/Good_Luck_Chuck	bad	1504	19
+Gummo	10/17/1997 0:00	http://dbpedia.org/resource/Gummo	bad	1505	19
+Halloween: Resurrection	7/12/2002 0:00	http://dbpedia.org/resource/Halloween:_Resurrection	bad	1506	19
+Old Dogs	11/25/2009 0:00	http://dbpedia.org/resource/Old_Dogs_(film)	bad	1507	19
+Soldiers of Fortune	8/3/2012 0:00	http://dbpedia.org/resource/Soldiers_of_Fortune_(film)	bad	1508	19
+Species II	4/10/1998 0:00	http://dbpedia.org/resource/Species_II	bad	1509	19
+Surviving Christmas	10/22/2004 0:00	http://dbpedia.org/resource/Surviving_Christmas	bad	1510	19
+The Cat in the Hat	11/21/2003 0:00	http://dbpedia.org/resource/The_Cat_in_the_Hat_(film)	bad	1511	19
+Thomas and the Magic Railroad	7/26/2000 0:00	http://dbpedia.org/resource/Thomas_and_the_Magic_Railroad	bad	1512	19
+Underclassman	9/2/2005 0:00	http://dbpedia.org/resource/Underclassman	bad	1513	19
+BloodRayne	1/6/2006 0:00	http://dbpedia.org/resource/BloodRayne_(film)	bad	1514	18
+Boat Trip	3/21/2003 0:00	http://dbpedia.org/resource/Boat_Trip_(film)	bad	1515	18
+Company Man	2/16/2001 0:00	http://dbpedia.org/resource/Company_Man_(film)	bad	1516	18
+Cupid's Mistake	8/24/2001 0:00	http://dbpedia.org/resource/Cupid's_Mistake	bad	1517	18
+Gigli	8/1/2003 0:00	http://dbpedia.org/resource/Gigli	bad	1518	18
+Kickin It Old Skool	4/27/2007 0:00	http://dbpedia.org/resource/Kickin'_It_Old_Skool	bad	1519	18
+Miriam	6/8/2007 0:00	http://dbpedia.org/resource/Miriam_(film)	bad	1520	18
+Serving Sara	8/23/2002 0:00	http://dbpedia.org/resource/Serving_Sara	bad	1521	18
+Swept Away	10/11/2002 0:00	http://dbpedia.org/resource/Swept_Away_(2002_film)	bad	1522	18
+The Apparition	8/24/2012 0:00	http://dbpedia.org/resource/The_Apparition	bad	1523	18
+The Beastmaster	8/20/1982 0:00	http://dbpedia.org/resource/The_Beastmaster	bad	1524	18
+The Wash	11/14/2001 0:00	http://dbpedia.org/resource/The_Wash_(film)	bad	1525	18
+Turn It Up	9/6/2000 0:00	http://dbpedia.org/resource/Turn_It_Up_(film)	bad	1526	18
+Ultraviolet	3/3/2006 0:00	http://dbpedia.org/resource/Ultraviolet_(film)	bad	1527	18
+Valentine	2/2/2001 0:00	http://dbpedia.org/resource/Valentine_(film)	bad	1528	18
+Vampires Suck	8/18/2010 0:00	http://dbpedia.org/resource/Vampires_Suck	bad	1529	18
+All About Steve	9/4/2009 0:00	http://dbpedia.org/resource/All_About_Steve	bad	1530	17
+All's Faire in Love	10/28/2011 0:00	http://dbpedia.org/resource/All's_Faire_in_Love	bad	1531	17
+Bless the Child	8/11/2000 0:00	http://dbpedia.org/resource/Bless_the_Child	bad	1532	17
+Delta Farce	5/11/2007 0:00	http://dbpedia.org/resource/Delta_Farce	bad	1533	17
+Extreme Ops	11/27/2002 0:00	http://dbpedia.org/resource/Extreme_Ops	bad	1534	17
+Hudson Hawk	5/24/1991 0:00	http://dbpedia.org/resource/Hudson_Hawk	bad	1535	17
+I Hate Valentine's Day	7/3/2009 0:00	http://dbpedia.org/resource/I_Hate_Valentine's_Day	bad	1536	17
+Material Girls	8/18/2006 0:00	http://dbpedia.org/resource/Material_Girls	bad	1537	17
+Prom Night	4/11/2008 0:00	http://dbpedia.org/resource/Prom_Night_(2008_film)	bad	1538	17
+See No Evil	5/19/2006 0:00	http://dbpedia.org/resource/See_No_Evil_(2006_film)	bad	1539	17
+Street Fighter: The Legend of Chun-Li	2/27/2009 0:00	http://dbpedia.org/resource/Street_Fighter:_The_Legend_of_Chun-Li	bad	1540	17
+The Lodger	1/23/2009 0:00	http://dbpedia.org/resource/The_Lodger_(2009_film)	bad	1541	17
+Beverly Hills Cop III	5/25/1994 0:00	http://dbpedia.org/resource/Beverly_Hills_Cop_III	bad	1542	16
+Billy Madison	2/10/1995 0:00	http://dbpedia.org/resource/Billy_Madison	bad	1543	16
+Deuces Wild	5/3/2001 0:00	http://dbpedia.org/resource/Deuces_Wild	bad	1544	16
+Followers	10/13/2000 0:00	http://dbpedia.org/resource/Followers	bad	1545	16
+Harlem Nights	11/17/1989 0:00	http://dbpedia.org/resource/Harlem_Nights	bad	1546	16
+I Know Who Killed Me	7/27/2007 0:00	http://dbpedia.org/resource/I_Know_Who_Killed_Me	bad	1547	16
+Kangaroo Jack	1/17/2003 0:00	http://dbpedia.org/resource/Kangaroo_Jack	bad	1548	16
+Lost Souls	10/13/2000 0:00	http://dbpedia.org/resource/Lost_Souls_(film)	bad	1549	16
+Showgirls	9/22/1995 0:00	http://dbpedia.org/resource/Showgirls	bad	1550	16
+Surfer, Dude	9/5/2008 0:00	http://dbpedia.org/resource/Surfer,_Dude	bad	1551	16
+The Darkest Hour	12/25/2011 0:00	http://dbpedia.org/resource/The_Darkest_Hour_(film)	bad	1552	16
+The Learning Curve	10/5/2001 0:00	http://dbpedia.org/resource/The_Learning_Curve	bad	1553	16
+The Mod Squad	3/26/1999 0:00	http://dbpedia.org/resource/The_Mod_Squad_(film)	bad	1554	16
+Urban Legends: Final Cut	9/22/2000 0:00	http://dbpedia.org/resource/Urban_Legends:_Final_Cut	bad	1555	16
+8 Heads in a Duffel Bag	4/18/1997 0:00	http://dbpedia.org/resource/8_Heads_in_a_Duffel_Bag	bad	1556	15
+Book of Shadows: Blair Witch 2	10/27/2000 0:00	http://dbpedia.org/resource/Book_of_Shadows:_Blair_Witch_2	bad	1557	15
+Carpool	8/23/1996 0:00	http://dbpedia.org/resource/Carpool_(film)	bad	1558	15
+House of the Dead	10/10/2003 0:00	http://dbpedia.org/resource/House_of_the_Dead_(film)	bad	1559	15
+Silent Hill: Revelation 3D	10/26/2012 0:00	http://dbpedia.org/resource/Silent_Hill:_Revelation	bad	1560	15
+The Cookout	9/3/2004 0:00	http://dbpedia.org/resource/The_Cookout	bad	1561	15
+Tomcats	3/30/2001 0:00	http://dbpedia.org/resource/Tomcats_(film)	bad	1562	15
+Dungeons & Dragons	12/8/2000 0:00	http://dbpedia.org/resource/Dungeons_&_Dragons_(film)	bad	1563	14
+From Justin to Kelly	6/20/2003 0:00	http://dbpedia.org/resource/From_Justin_to_Kelly	bad	1564	14
+Glitter	9/21/2001 0:00	http://dbpedia.org/resource/Glitter_(film)	bad	1565	14
+I Woke Up Early the Day I Died	9/3/1999 0:00	http://dbpedia.org/resource/I_Woke_Up_Early_The_Day_I_Died	bad	1566	14
+Mixed Nuts	12/21/1994 0:00	http://dbpedia.org/resource/Mixed_Nuts	bad	1567	14
+The Keep	12/16/1983 0:00	http://dbpedia.org/resource/The_Keep_(film)	bad	1568	14
+The Killing Jar	3/19/2010 0:00	http://dbpedia.org/resource/The_Killing_Jar_(film)	bad	1569	14
+The Omega Code	10/15/1999 0:00	http://dbpedia.org/resource/The_Omega_Code	bad	1570	14
+What Love Is	3/23/2007 0:00	http://dbpedia.org/resource/What_Love_Is	bad	1571	14
+Daddy Day Camp	8/8/2007 0:00	http://dbpedia.org/resource/Daddy_Day_Camp	bad	1572	13
+Down to You	1/21/2000 0:00	http://dbpedia.org/resource/Down_to_You	bad	1573	13
+Love, Wedding, Marriage	6/3/2011 0:00	http://dbpedia.org/resource/Love,_Wedding,_Marriage	bad	1574	13
+Murder-Set-Pieces	1/7/2005 0:00	http://dbpedia.org/resource/Murder-Set-Pieces	bad	1575	13
+New Best Friend	4/12/2002 0:00	http://dbpedia.org/resource/New_Best_Friend	bad	1576	13
+I Will Follow You Into the Dark	10/11/2013 0:00	http://dbpedia.org/resource/Into_the_Dark_(film)	bad	1577	12
+Slackers	2/1/2002 0:00	http://dbpedia.org/resource/Slackers_(film)	bad	1578	12
+The Adventures of Pluto Nash	8/16/2002 0:00	http://dbpedia.org/resource/The_Adventures_of_Pluto_Nash	bad	1579	12
+The Master of Disguise	8/2/2002 0:00	http://dbpedia.org/resource/The_Master_of_Disguise	bad	1580	12
+Zombie! vs. Mardi Gras	4/6/2001 0:00	http://dbpedia.org/resource/Zombie!_vs._Mardi_Gras	bad	1581	12
+3 Strikes	3/1/2000 0:00	http://dbpedia.org/resource/3_Strikes_(film)	bad	1582	11
+Date Movie	2/17/2006 0:00	http://dbpedia.org/resource/Date_Movie	bad	1583	11
+Fading of the Cries	7/8/2011 0:00	http://dbpedia.org/resource/Fading_of_the_Cries	bad	1584	11
+King's Ransom	4/22/2005 0:00	http://dbpedia.org/resource/King's_Ransom_(film)	bad	1585	11
+Mortal Kombat: Annihilation	11/21/1997 0:00	http://dbpedia.org/resource/Mortal_Kombat:_Annihilation	bad	1586	11
+Pinocchio	12/25/2002 0:00	http://dbpedia.org/resource/Pinocchio_(2002_film)	bad	1587	11
+The Trouble with Romance	2/27/2009 0:00	http://dbpedia.org/resource/The_Trouble_with_Romance	bad	1588	11
+Whipped	9/1/2000 0:00	http://dbpedia.org/resource/Whipped_(film)	bad	1589	10
+Bucky Larson: Born to Be a Star	9/9/2011 0:00	http://dbpedia.org/resource/Bucky_Larson:_Born_to_Be_a_Star	bad	1590	9
+Meet the Spartans	1/25/2008 0:00	http://dbpedia.org/resource/Meet_the_Spartans	bad	1591	9
+Superbabies: Baby Geniuses 2	8/27/2004 0:00	http://dbpedia.org/resource/Superbabies:_Baby_Geniuses_2	bad	1592	9
+Jewtopia	9/20/2013 0:00	http://dbpedia.org/resource/Jewtopia_(film)	bad	1593	8
+Teen Wolf Too	11/20/1987 0:00	http://dbpedia.org/resource/Teen_Wolf_Too	bad	1594	8
+Transylmania	12/4/2009 0:00	http://dbpedia.org/resource/Transylmania	bad	1595	8
+Miss March	3/13/2009 0:00	http://dbpedia.org/resource/Miss_March	bad	1596	7
+Screwed	5/12/2000 0:00	http://dbpedia.org/resource/Screwed_(2000_film)	bad	1597	7
+Two of a Kind	12/16/1983 0:00	http://dbpedia.org/resource/Two_of_a_Kind_(1983_film)	bad	1598	5
+Vulgar	4/26/2002 0:00	http://dbpedia.org/resource/Vulgar_(film)	bad	1599	5
+Bio-Dome	1/12/1996 0:00	http://dbpedia.org/resource/Bio-Dome	bad	1600	1

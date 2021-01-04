@@ -1,0 +1,171 @@
+city_name	DBpedia_URL	rating	id	label
+Vancouver	http://dbpedia.org/resource/Vancouver	106.0	1.0	high
+Zurich	http://dbpedia.org/resource/Zurich	106.0	2.0	high
+Vienna	http://dbpedia.org/resource/Vienna	106.0	3.0	high
+Bern	http://dbpedia.org/resource/Bern	106.0	4.0	high
+Geneva	http://dbpedia.org/resource/Geneva	105.5	6.0	high
+Auckland	http://dbpedia.org/resource/Auckland	105.5	7.0	high
+Copenhagen	http://dbpedia.org/resource/Copenhagen	105.5	8.0	high
+Helsinki	http://dbpedia.org/resource/Helsinki	104.5	9.0	high
+Amsterdam	http://dbpedia.org/resource/Amsterdam	104.5	10.0	high
+Munich	http://dbpedia.org/resource/Munich	104.0	12.0	high
+Melbourne	http://dbpedia.org/resource/Melbourne	104.0	13.0	high
+Honolulu	http://dbpedia.org/resource/Honolulu	104.0	14.0	high
+Dusseldorf	http://dbpedia.org/resource/Dusseldorf	103.5	15.0	high
+San Francisco	http://dbpedia.org/resource/San_Francisco	103.5	16.0	high
+Oslo	http://dbpedia.org/resource/Oslo	103.5	17.0	high
+Brussels	http://dbpedia.org/resource/Brussels	103.5	19.0	high
+Toronto	http://dbpedia.org/resource/Toronto	103.5	20.0	high
+Adelaide	http://dbpedia.org/resource/Adelaide	103.0	21.0	high
+Luxembourg	http://dbpedia.org/resource/Luxembourg	103.0	22.0	high
+Paris	http://dbpedia.org/resource/Paris	102.5	24.0	high
+Nurnberg	http://dbpedia.org/resource/Nurnberg	102.5	25.0	high
+Montreal	http://dbpedia.org/resource/Montreal	102.5	27.0	high
+Tokyo	http://dbpedia.org/resource/Tokyo	102.5	28.0	high
+Berlin	http://dbpedia.org/resource/Berlin	102.0	29.0	high
+Hamburg	http://dbpedia.org/resource/Hamburg	102.0	30.0	high
+Wellington	http://dbpedia.org/resource/Wellington	102.0	31.0	high
+Ludwigshafen	http://dbpedia.org/resource/Ludwigshafen	102.0	32.0	high
+Lyon	http://dbpedia.org/resource/Lyon	102.0	33.0	high
+Atlanta	http://dbpedia.org/resource/Atlanta	101.5	34.0	high
+London	http://dbpedia.org/resource/London	101.5	35.0	high
+Calgary	http://dbpedia.org/resource/Calgary	101.5	36.0	high
+Kobe	http://dbpedia.org/resource/Kobe	101.5	37.0	high
+Lexington	http://dbpedia.org/resource/Lexington	101.0	38.0	high
+Seattle	http://dbpedia.org/resource/Seattle	101.0	39.0	high
+Dublin	http://dbpedia.org/resource/Dublin	101.0	40.0	high
+Yokohama	http://dbpedia.org/resource/Yokohama	101.0	43.0	high
+Washington Dc	http://dbpedia.org/resource/Washington_Dc	100.5	45.0	high
+Pittsburgh	http://dbpedia.org/resource/Pittsburgh	100.0	46.0	high
+Boston	http://dbpedia.org/resource/Boston	100.0	48.0	high
+New York	http://dbpedia.org/resource/New_York	100.0	50.0	high
+Minneapolis	http://dbpedia.org/resource/Minneapolis	99.0	51.0	high
+Osaka	http://dbpedia.org/resource/Osaka	99.0	53.0	high
+Glasgow	http://dbpedia.org/resource/Glasgow	99.0	55.0	high
+St. Louis	http://dbpedia.org/resource/St._Louis	98.5	56.0	high
+Houston	http://dbpedia.org/resource/Houston	98.5	57.0	high
+Tsukuba	http://dbpedia.org/resource/Tsukuba	98.5	58.0	high
+Cleveland	http://dbpedia.org/resource/Cleveland	98.0	59.0	high
+Birmingham	http://dbpedia.org/resource/Birmingham	98.0	60.0	high
+Barcelona	http://dbpedia.org/resource/Barcelona	97.0	61.0	high
+Lisbon	http://dbpedia.org/resource/Lisbon	96.5	62.0	high
+St. Peter Port	http://dbpedia.org/resource/St._Peter_Port	96.5	63.0	high
+Miami	http://dbpedia.org/resource/Miami	96.5	64.0	high
+Yokkaichi	http://dbpedia.org/resource/Yokkaichi	96.0	66.0	high
+Milan	http://dbpedia.org/resource/Milan	96.0	67.0	high
+Omuta	http://dbpedia.org/resource/Omuta	94.5	68.0	medium
+Katsuyama	http://dbpedia.org/resource/Katsuyama	93.0	69.0	medium
+Buenos Aires	http://dbpedia.org/resource/Buenos_Aires	91.5	74.0	medium
+Budapest	http://dbpedia.org/resource/Budapest	91.0	75.0	medium
+Leipzig	http://dbpedia.org/resource/Leipzig	89.5	76.0	medium
+Prague	http://dbpedia.org/resource/Prague	88.5	77.0	medium
+Tel Aviv	http://dbpedia.org/resource/Tel_Aviv	86.0	78.0	medium
+Jerusalem	http://dbpedia.org/resource/Jerusalem	85.5	79.0	medium
+Port Louis	http://dbpedia.org/resource/Port_Louis	85.0	80.0	medium
+Taipei	http://dbpedia.org/resource/Taipei	85.0	81.0	medium
+Cape Town	http://dbpedia.org/resource/Cape_Town	84.5	82.0	medium
+Kuala Lumpur	http://dbpedia.org/resource/Kuala_Lumpur	84.0	83.0	medium
+Athens	http://dbpedia.org/resource/Athens	83.5	85.0	medium
+Ljubljana	http://dbpedia.org/resource/Ljubljana	83.0	86.0	medium
+Santiago	http://dbpedia.org/resource/Santiago	83.0	87.0	medium
+Warsaw	http://dbpedia.org/resource/Warsaw	83.0	88.0	medium
+Johannesburg	http://dbpedia.org/resource/Johannesburg	83.0	89.0	medium
+Riga	http://dbpedia.org/resource/Riga	82.0	91.0	medium
+Panama City	http://dbpedia.org/resource/Panama_City	81.5	92.0	medium
+Port Elizabeth	http://dbpedia.org/resource/Port_Elizabeth	81.0	95.0	medium
+Dubai	http://dbpedia.org/resource/Dubai	80.0	97.0	medium
+Papeete	http://dbpedia.org/resource/Papeete	79.5	98.0	medium
+Tunis	http://dbpedia.org/resource/Tunis	79.5	99.0	medium
+Monterrey	http://dbpedia.org/resource/Monterrey	79.0	100.0	medium
+Manila	http://dbpedia.org/resource/Manila	79.0	101.0	medium
+Abu Dhabi	http://dbpedia.org/resource/Abu_Dhabi	79.0	102.0	medium
+Brasilia	http://dbpedia.org/resource/Brasilia	79.0	103.0	medium
+Victoria	http://dbpedia.org/resource/Victoria	78.5	104.0	medium
+Tallinn	http://dbpedia.org/resource/Tallinn	78.0	105.0	medium
+Noumea	http://dbpedia.org/resource/Noumea	78.0	106.0	medium
+Johor Baharu	http://dbpedia.org/resource/Johor_Baharu	76.5	107.0	medium
+Sao Paulo	http://dbpedia.org/resource/Sao_Paulo	76.5	108.0	medium
+Bucharest	http://dbpedia.org/resource/Bucharest	76.5	109.0	medium
+Asuncion	http://dbpedia.org/resource/Asuncion	76.0	110.0	medium
+Rio De Janeiro	http://dbpedia.org/resource/Rio_De_Janeiro	76.0	111.0	medium
+Bangkok	http://dbpedia.org/resource/Bangkok	75.5	112.0	medium
+Lima	http://dbpedia.org/resource/Lima	75.5	113.0	medium
+Santo Domingo	http://dbpedia.org/resource/Santo_Domingo	75.5	114.0	medium
+Quito	http://dbpedia.org/resource/Quito	75.0	115.0	medium
+Harare	http://dbpedia.org/resource/Harare	75.0	116.0	medium
+Bratislava	http://dbpedia.org/resource/Bratislava	74.5	117.0	medium
+Colombo	http://dbpedia.org/resource/Colombo	74.0	118.0	medium
+Ulsan	http://dbpedia.org/resource/Ulsan	74.0	119.0	medium
+Sofia	http://dbpedia.org/resource/Sofia	74.0	120.0	medium
+Cairo	http://dbpedia.org/resource/Cairo	74.0	121.0	medium
+Caracas	http://dbpedia.org/resource/Caracas	73.5	122.0	medium
+Guayaquil	http://dbpedia.org/resource/Guayaquil	73.0	123.0	medium
+Manama	http://dbpedia.org/resource/Manama	71.5	125.0	medium
+Zagreb	http://dbpedia.org/resource/Zagreb	71.0	126.0	medium
+Nassau	http://dbpedia.org/resource/Nassau	71.0	128.0	medium
+Amman	http://dbpedia.org/resource/Amman	70.5	129.0	medium
+Kuwait City	http://dbpedia.org/resource/Kuwait_City	69.5	130.0	medium
+Mexico City	http://dbpedia.org/resource/Mexico_City	69.5	131.0	medium
+Kingston	http://dbpedia.org/resource/Kingston	69.0	132.0	medium
+Accra	http://dbpedia.org/resource/Accra	69.0	133.0	medium
+Manaus	http://dbpedia.org/resource/Manaus	68.5	134.0	medium
+Shanghai	http://dbpedia.org/resource/Shanghai	67.0	136.0	medium
+Blantyre	http://dbpedia.org/resource/Blantyre	66.5	138.0	medium
+La Paz	http://dbpedia.org/resource/La_Paz	66.0	139.0	medium
+Beijing	http://dbpedia.org/resource/Beijing	65.5	140.0	medium
+Medellin	http://dbpedia.org/resource/Medellin	65.5	141.0	medium
+Nairobi	http://dbpedia.org/resource/Nairobi	64.5	142.0	medium
+Jakarta	http://dbpedia.org/resource/Jakarta	64.0	143.0	medium
+Guangzhou	http://dbpedia.org/resource/Guangzhou	63.5	144.0	medium
+Lusaka	http://dbpedia.org/resource/Lusaka	63.5	145.0	medium
+Libreville	http://dbpedia.org/resource/Libreville	63.0	146.0	medium
+Abidjan	http://dbpedia.org/resource/Abidjan	63.0	147.0	medium
+Santa Cruz	http://dbpedia.org/resource/Santa_Cruz	62.5	148.0	medium
+Islamabad	http://dbpedia.org/resource/Islamabad	62.5	149.0	medium
+Riyadh	http://dbpedia.org/resource/Riyadh	62.0	150.0	medium
+Jeddah	http://dbpedia.org/resource/Jeddah	62.0	151.0	medium
+Dakar	http://dbpedia.org/resource/Dakar	62.0	152.0	medium
+Nanjing	http://dbpedia.org/resource/Nanjing	62.0	153.0	medium
+Ho Chi Minh City	http://dbpedia.org/resource/Ho_Chi_Minh_City	61.5	154.0	medium
+Beirut	http://dbpedia.org/resource/Beirut	61.0	156.0	medium
+St. Petersburg	http://dbpedia.org/resource/St._Petersburg	58.0	159.0	medium
+Moscow	http://dbpedia.org/resource/Moscow	57.5	160.0	medium
+Mumbai	http://dbpedia.org/resource/Mumbai	56.0	162.0	medium
+Lahore	http://dbpedia.org/resource/Lahore	55.5	163.0	medium
+Damascus	http://dbpedia.org/resource/Damascus	55.5	165.0	medium
+Tehran	http://dbpedia.org/resource/Tehran	55.0	166.0	medium
+Managua	http://dbpedia.org/resource/Managua	54.5	167.0	medium
+Djibouti	http://dbpedia.org/resource/Djibouti	54.0	169.0	medium
+San Salvador	http://dbpedia.org/resource/San_Salvador	53.0	171.0	medium
+Madras	http://dbpedia.org/resource/Madras	50.5	173.0	medium
+Tirana	http://dbpedia.org/resource/Tirana	49.5	174.0	
+Minsk	http://dbpedia.org/resource/Minsk	49.5	175.0	
+Yangon	http://dbpedia.org/resource/Yangon	49.5	176.0	
+Yaounde	http://dbpedia.org/resource/Yaounde	49.5	177.0	
+Cotonou	http://dbpedia.org/resource/Cotonou	49.0	178.0	
+Novosibirsk	http://dbpedia.org/resource/Novosibirsk	48.5	179.0	
+Tripoli	http://dbpedia.org/resource/Tripoli	48.5	180.0	
+Kazan	http://dbpedia.org/resource/Kazan	47.5	182.0	
+Douala	http://dbpedia.org/resource/Douala	46.5	186.0	
+Almaty	http://dbpedia.org/resource/Almaty	46.5	187.0	
+Havana	http://dbpedia.org/resource/Havana	46.0	188.0	
+Sarajevo	http://dbpedia.org/resource/Sarajevo	46.0	189.0	
+Baku	http://dbpedia.org/resource/Baku	44.5	190.0	
+Tashkent	http://dbpedia.org/resource/Tashkent	44.5	191.0	
+Dar Es Salaam	http://dbpedia.org/resource/Dar_Es_Salaam	44.0	192.0	
+Maputo	http://dbpedia.org/resource/Maputo	42.0	194.0	
+Antananarivo	http://dbpedia.org/resource/Antananarivo	42.0	195.0	
+Conakry	http://dbpedia.org/resource/Conakry	41.0	196.0	
+Lagos	http://dbpedia.org/resource/Lagos	40.5	197.0	
+Ndjamena	http://dbpedia.org/resource/Ndjamena	40.0	198.0	
+Sanaa	http://dbpedia.org/resource/Sanaa	40.0	199.0	
+Nouakchott	http://dbpedia.org/resource/Nouakchott	40.0	200.0	
+Port Harcourt	http://dbpedia.org/resource/Port_Harcourt	39.5	201.0	
+Belgrade	http://dbpedia.org/resource/Belgrade	39.0	202.0	
+Niamey	http://dbpedia.org/resource/Niamey	38.0	203.0	
+Ouagadougou	http://dbpedia.org/resource/Ouagadougou	36.5	206.0	
+Bangui	http://dbpedia.org/resource/Bangui	33.5	208.0	
+Baghdad	http://dbpedia.org/resource/Baghdad	33.0	209.0	
+Khartoum	http://dbpedia.org/resource/Khartoum	33.0	210.0	
+Pointe Noire	http://dbpedia.org/resource/Pointe_Noire	30.5	211.0	
+Brazzaville	http://dbpedia.org/resource/Brazzaville	23.0	212.0	
