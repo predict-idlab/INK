@@ -56,12 +56,13 @@ class KnowledgeGraph:
                 noi = noi[:-1]
 
             q = 'SELECT ?p ?o ?dt WHERE { BIND( IRI("' + noi + '") AS ?s ) ?s ?p ?o. BIND (datatype(?o) AS ?dt) }'
+            #q = 'SELECT ?p ?o WHERE { <'+noi+'> ?p ?o. }'
             return self.connector.query(q)
         except Exception as e:
-            print(noi, "error", e)
+            print(e)
             return []
 
-    def extract_neighborhoods(self, data, depth, skip_list=None, verbose=False):
+    def extract_neighborhoods(self, data, depth, skip_list=None, verbose=False, jobs=1):
         """
         Function which extracts all the neighborhoods of a given set of nodes of interest.
 
@@ -81,16 +82,14 @@ class KnowledgeGraph:
         if skip_list is None:
             skip_list = []
 
-        seq = [(r, depth, skip_list) for r in data]
-        if len(data) > 1000:
-            with Pool(mp.cpu_count()) as pool:
+        seq =[(r, depth, skip_list) for r in data]
+        if jobs > 1:
+            with Pool(jobs, maxtasksperchild=10) as pool:
                 res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=10),
-                                total=len(seq), disable=not verbose))
-                pool.close()
-                pool.join()
+                                total=len(data), disable=not verbose))
         else:
             res = []
-            for s in tqdm(seq, disable=not verbose):
+            for s in tqdm(seq, disable=not verbose, total=len(data)):
                 res.append(self._create_neighbour_paths(s))
         return res
 
@@ -107,7 +106,7 @@ class KnowledgeGraph:
         value = noi, ""
         total_parts = {}
         all_done = []
-        return self._replace_pref(noi), self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
+        return noi, self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
 
     def _replace_pref(self, r):
         """

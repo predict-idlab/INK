@@ -59,7 +59,7 @@ def create_levels(dct, dct_t, verbose=True):
                 black_list.add(key)
 
     n_dct = []
-    for tup in dct_t:
+    for tup in tqdm(dct_t, disable=not verbose):
         n_levels = {}
         for key in tup[1]:
             if key in level_counts and key not in black_list:

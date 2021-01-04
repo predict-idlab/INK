@@ -39,7 +39,7 @@ class InkExtractor:
         self.verbose = verbose
         self.train_data = None
 
-    def create_dataset(self, depth=4, pos=None, neg=None, skip_list=None):
+    def create_dataset(self, depth=4, pos=None, neg=None, skip_list=None, jobs=1):
         """
         Function to create the neighborhood dataset.
         Based on the input parameters, this function creates the dictionary of neighborhoods.
@@ -86,7 +86,9 @@ class InkExtractor:
             print("#Process: get neighbourhood")
 
         all_noi = list(pos_set.union(neg_set))
-        noi_neighbours = self.kg.extract_neighborhoods(all_noi, depth, skip_list, verbose=self.verbose)
+        noi_neighbours = self.kg.extract_neighborhoods(all_noi, depth, skip_list, verbose=self.verbose, jobs=jobs)
+        # update order
+        all_noi = [n[0] for n in noi_neighbours]
 
         a = []
         if len(pos_set) > 0 or len(neg_set) > 0:

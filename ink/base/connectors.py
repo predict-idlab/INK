@@ -8,9 +8,12 @@ import stardog
 from urllib import parse
 from rdflib import Graph
 from abc import ABC, abstractmethod
+import xmltodict
+import time
 
 try:
     import faster_than_requests as ftr
+    ftr.set_headers(headers=[("Accept", "application/sparql-results+json")])
     fast = True
 except ImportError as e:
     import requests
@@ -58,22 +61,22 @@ class StardogConnector(AbstractConnector):
     :param database: database of interest.
     :type database: str
 
-    :example:
-    >>> details = {'endpoint': 'http://localhost:5820'}
-    >>> connector = StardogConnector(details, "example_database")
-
+    Example::
+        details = {'endpoint': 'http://localhost:5820'}
+        connector = StardogConnector(details, "example_database")
     """
-    def __init__(self, conn_details, database):
+    def __init__(self, conn_details, database, reason=False):
         self.details = conn_details
         self.host = conn_details['endpoint']
         self.db = database
+        self.reason = reason
 
         if not fast:
             self.session = Session()
             adapter = HTTPAdapter(pool_connections=10000, pool_maxsize=10000)
             self.session.mount('http://', adapter)
-        else:
-            ftr.set_headers(headers=[("Accept", "application/sparql-results+json")])
+        #else:
+        #    ftr.set_headers(headers=[("Accept", "application/sparql-results+json")])
 
     def delete_db(self):
         """
@@ -112,12 +115,17 @@ class StardogConnector(AbstractConnector):
         :return: Dictionary generated from the ['results']['bindings'] json.
         :rtype: dict
         """
+
         query = parse.quote(q_str)
         if fast:
-            r = ftr.get2str(self.host + '/' + self.db + '/query?query=' + query)
+            #a = time.time()
+            r = ftr.get2str(self.host + '/' + self.db + '/query?query=' + query+'&reasoning='+str(self.reason))
+            #print(time.time()-a)
         else:
-            r = self.session.get(self.host + '/' + self.db + '/query?query=' + query,
+            r = self.session.get(self.host + '/' + self.db + '/query?query=' + query+'&reasoning='+str(self.reason),
                                  headers={"Accept": "application/sparql-results+json"}).text
+        #conn = stardog.Connection(self.db, **self.details)
+        #r = conn.select(q_str)
         return json.loads(r)['results']['bindings']
 
 
