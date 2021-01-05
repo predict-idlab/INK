@@ -91,7 +91,7 @@ if __name__ == '__main__':
     skip = ["http://dbpedia.org/ontology/abstract", "http://dbpedia.org/ontology/wikiPageExternalLink"]
 
     depths = [1]
-    benches = ['cities','AAUP','forbes','albumns','movies']
+    benches = ['cities','AAUP','forbes','albums','movies']
     for i in depths:
         for b in benches:
             df = pd.read_csv(b+'/CompleteDataset.tsv', delimiter='\t')
