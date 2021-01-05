@@ -1,0 +1,1121 @@
+id	album	artist	date	rating	DBpedia_URI	label
+1.0	good	Van Lear Rose	Loretta Lynn	27-Apr-04	97.0	http://dbpedia.org/resource/Van_Lear_Rose
+3.0	good	Stankonia	Outkast	31-Oct-00	95.0	http://dbpedia.org/resource/Stankonia
+5.0	good	Savane	Ali Farka Toure	25-Jul-06	94.0	http://dbpedia.org/resource/Savane_(album)
+6.0	good	Dolly	Dolly Parton	26-Oct-09	93.0	http://dbpedia.org/resource/Little_Sparrow
+8.0	good	Madvillainy	Madvillain	23-Mar-04	93.0	http://dbpedia.org/resource/Madvillainy
+9.0	good	On the Impossible Past	The Menzingers	21-Feb-12	93.0	http://dbpedia.org/resource/On_the_Impossible_Past
+10.0	good	Boy In Da Corner	Dizzee Rascal	20-Jan-04	92.0	http://dbpedia.org/resource/Boy_in_da_Corner
+11.0	good	Elephant	The White Stripes	1-Apr-03	92.0	http://dbpedia.org/resource/Elephant_(album)
+13.0	good	Lost In The Sound Of Separation	Underoath	2-Sep-08	92.0	http://dbpedia.org/resource/Lost_in_the_Sound_of_Separation
+14.0	good	Orphans: Brawlers, Bawlers & Bastards	Tom Waits	21-Nov-06	92.0	http://dbpedia.org/resource/Orphans:_Brawlers,_Bawlers_&_Bastards
+15.0	good	Pull Up Some Dust and Sit Down	Ry Cooder	29-Aug-11	92.0	http://dbpedia.org/resource/Pull_Up_Some_Dust_and_Sit_Down
+20.0	good	Unto the Locust	Machine Head	20-Sep-11	91.0	http://dbpedia.org/resource/Unto_the_Locust
+21.0	good	From Here We Go Sublime	The Field	3-Apr-07	90.0	http://dbpedia.org/resource/From_Here_We_Go_Sublime
+22.0	good	Funeral	Arcade Fire	14-Sep-04	90.0	http://dbpedia.org/resource/Funeral_(album)
+23.0	good	Illinois	Sufjan Stevens	5-Jul-05	90.0	http://dbpedia.org/resource/Illinois_(album)
+25.0	good	Sir Lucious Left Foot: The Son of Chico Dusty	Big Boi	6-Jul-10	90.0	http://dbpedia.org/resource/Sir_Lucious_Left_Foot:_The_Son_of_Chico_Dusty
+26.0	good	Untrue	Burial	6-Nov-07	90.0	http://dbpedia.org/resource/Untrue
+27.0	good	What Were You Hoping For?	Van Hunt	27-Sep-11	90.0	http://dbpedia.org/resource/What_Were_You_Hoping_For%3F
+31.0	good	HoboSapiens	John Cale	7-Sep-04	89.0	http://dbpedia.org/resource/HoboSapiens
+32.0	good	I Was Trying To Describe You To Someone	Crime In Stereo	23-Feb-10	89.0	http://dbpedia.org/resource/I_Was_Trying_to_Describe_You_to_Someone
+33.0	good	Merriweather Post Pavilion	Animal Collective	20-Jan-09	89.0	http://dbpedia.org/resource/Merriweather_Post_Pavilion_(album)
+34.0	good	Miss E... So Addictive	Missy Elliott	15-May-01	89.0	http://dbpedia.org/resource/Miss_E..._So_Addictive
+35.0	good	Neon Golden	The Notwist	25-Feb-03	89.0	http://dbpedia.org/resource/Neon_Golden
+36.0	good	Rounds	Four Tet	6-May-03	89.0	http://dbpedia.org/resource/Rounds_(album)
+37.0	good	Sale el Sol	Shakira	19-Oct-10	89.0	http://dbpedia.org/resource/Sale_el_Sol
+38.0	good	Since I Left You	The Avalanches	6-Nov-01	89.0	http://dbpedia.org/resource/Since_I_Left_You
+39.0	good	Songs For The Deaf	Queens of the Stone Age	27-Aug-02	89.0	http://dbpedia.org/resource/Songs_for_the_Deaf
+40.0	good	St. Vincent	St. Vincent	25-Feb-14	89.0	http://dbpedia.org/resource/Strange_Mercy
+44.0	good	Abattoir Blues / The Lyre Of Orpheus	Nick Cave And The Bad Seeds	26-Oct-04	88.0	http://dbpedia.org/resource/Abattoir_Blues/The_Lyre_of_Orpheus
+45.0	good	Arular	M.I.A.	22-Mar-05	88.0	http://dbpedia.org/resource/Arular
+46.0	good	Bad as Me	Tom Waits	25-Oct-11	88.0	http://dbpedia.org/resource/Bad_as_Me
+47.0	good	Bay Of Pigs [EP]	Destroyer	18-Aug-09	88.0	http://dbpedia.org/resource/Bay_of_Pigs_(EP)
+48.0	good	Black Tambourine	Black Tambourine	30-Mar-10	88.0	http://dbpedia.org/resource/Black_Tambourine_(album)
+50.0	good	Chutes Too Narrow	The Shins	21-Oct-03	88.0	http://dbpedia.org/resource/Chutes_Too_Narrow
+51.0	good	Crown and Treaty	Sweet Billy Pilgrim	16-Apr-12	88.0	http://dbpedia.org/resource/Crown_and_Treaty_(album)
+55.0	good	From A Basement On The Hill	Elliott Smith	19-Oct-04	88.0	http://dbpedia.org/resource/From_a_Basement_on_the_Hill
+56.0	good	Hypermagic Mountain	Lightning Bolt	18-Oct-05	88.0	http://dbpedia.org/resource/Hypermagic_Mountain
+57.0	good	I Am A Bird Now	Antony and the Johnsons	1-Feb-05	88.0	http://dbpedia.org/resource/I_Am_a_Bird_Now
+59.0	good	Invisible Cinema	Aaron Parks	19-Aug-08	88.0	http://dbpedia.org/resource/Invisible_Cinema
+60.0	good	Kill The Moonlight	Spoon	20-Aug-02	88.0	http://dbpedia.org/resource/Kill_the_Moonlight
+61.0	good	Monoliths & Dimensions	Sunn O)))	26-May-09	88.0	http://dbpedia.org/resource/Monoliths_&_Dimensions
+62.0	good	Only Built 4 Cuban Linx... Pt. II	Raekwon	8-Sep-09	88.0	http://dbpedia.org/resource/Only_Built_4_Cuban_Linx..._Pt._II
+63.0	good	Rejoicing In The Hands	Devendra Banhart	4-May-04	88.0	http://dbpedia.org/resource/Rejoicing_in_the_Hands
+65.0	good	Stories from the City, Stories from the Sea	PJ Harvey	24-Oct-00	88.0	http://dbpedia.org/resource/Stories_from_the_City,_Stories_from_the_Sea
+66.0	good	Ta Det Lugnt	Dungen	21-Jun-04	88.0	http://dbpedia.org/resource/Ta_det_lugnt
+67.0	good	The Blueprint	Jay-Z	11-Sep-01	88.0	http://dbpedia.org/resource/The_Blueprint
+68.0	good	Undun	The Roots	6-Dec-11	88.0	http://dbpedia.org/resource/Undun
+69.0	good	Vespertine	BjÃƒÂ¶rk	28-Aug-01	88.0	http://dbpedia.org/resource/Vespertine
+70.0	good	Where Shall You Take Me	Damien Jurado	18-Mar-03	88.0	http://dbpedia.org/resource/Where_Shall_You_Take_Me%3F
+71.0	good	Airtight's Revenge	Bilal	14-Sep-10	87.0	http://dbpedia.org/resource/Airtight's_Revenge
+72.0	good	Blue Record	Baroness	13-Oct-09	87.0	http://dbpedia.org/resource/Blue_Record
+73.0	good	Celestial Lineage	Wolves in the Throne Room	13-Sep-11	87.0	http://dbpedia.org/resource/Celestial_Lineage
+74.0	good	Children Running Through	Patty Griffin	6-Feb-07	87.0	http://dbpedia.org/resource/Children_Running_Through
+75.0	good	Cold House	Hood	13-Nov-01	87.0	http://dbpedia.org/resource/Cold_House
+76.0	good	Congotronics	Konono No. 1	27-Sep-05	87.0	http://dbpedia.org/resource/Congotronics
+77.0	good	Decoration Day	Drive-By Truckers	17-Jun-03	87.0	http://dbpedia.org/resource/Decoration_Day_(album)
+80.0	good	Fleet Foxes	Fleet Foxes	3-Jun-08	87.0	http://dbpedia.org/resource/Fleet_Foxes_(EP)
+81.0	good	Franz Ferdinand	Franz Ferdinand	9-Mar-04	87.0	http://dbpedia.org/resource/Franz_Ferdinand_(DVD)
+83.0	good	House of Balloons	The Weeknd	21-Mar-11	87.0	http://dbpedia.org/resource/House_of_Balloons
+84.0	good	Leaves Turn Inside You	Unwound	17-Apr-01	87.0	http://dbpedia.org/resource/Leaves_Turn_Inside_You
+85.0	good	Let's Stay Friends	Les Savy Fav	18-Sep-07	87.0	http://dbpedia.org/resource/Let's_Stay_Friends
+87.0	good	Neon Bible	Arcade Fire	6-Mar-07	87.0	http://dbpedia.org/resource/Neon_Bible
+89.0	good	Person Pitch	Panda Bear	20-Mar-07	87.0	http://dbpedia.org/resource/Person_Pitch
+90.0	good	Phrenology	The Roots	26-Nov-02	87.0	http://dbpedia.org/resource/Phrenology_(album)
+91.0	good	Seven Swans	Sufjan Stevens	16-Mar-04	87.0	http://dbpedia.org/resource/Seven_Swans
+92.0	good	Silent Movies	Marc Ribot	28-Sep-10	87.0	http://dbpedia.org/resource/Silent_Movies
+93.0	good	Spirit Moves	Dave Douglas	16-Jun-09	87.0	http://dbpedia.org/resource/Spirit_Moves
+94.0	good	Stumble Into Grace	Emmylou Harris	23-Sep-03	87.0	http://dbpedia.org/resource/Stumble_into_Grace
+95.0	good	The Argument	Fugazi	16-Oct-01	87.0	http://dbpedia.org/resource/The_Argument
+96.0	good	College Dropout	Kanye West	10-Feb-04	87.0	http://dbpedia.org/resource/The_College_Dropout
+98.0	good	The Dirty South	Drive-By Truckers	24-Aug-04	87.0	http://dbpedia.org/resource/The_Dirty_South_(album)
+99.0	good	The Suburbs	Arcade Fire	3-Aug-10	87.0	http://dbpedia.org/resource/The_Suburbs_(album)
+101.0	good	The Wonder Years	9th Wonder	27-Sep-11	87.0	http://dbpedia.org/resource/The_Wonder_Years_(9th_Wonder_album)
+102.0	good	Things We Lost In The Fire	Low	6-Feb-01	87.0	http://dbpedia.org/resource/Things_We_Lost_in_the_Fire_(album)
+103.0	good	World Without Tears	Lucinda Williams	8-Apr-03	87.0	http://dbpedia.org/resource/World_Without_Tears
+106.0	good	All Hands On The Bad One	Sleater-Kinney	2-May-00	86.0	http://dbpedia.org/resource/All_Hands_on_the_Bad_One
+107.0	good	Authenticity	The Foreign Exchange	12-Oct-10	86.0	http://dbpedia.org/resource/Authenticity_(Foreign_Exchange_album)
+109.0	good	Black Sheep Boy	Okkervil River	5-Apr-05	86.0	http://dbpedia.org/resource/Black_Sheep_Boy
+110.0	good	Blues Dream	Bill Frisell	30-Jan-01	86.0	http://dbpedia.org/resource/Blues_Dream
+111.0	good	Body Talk	Robyn	22-Nov-10	86.0	http://dbpedia.org/resource/Body_Talk_Pt._1
+112.0	good	Bon Iver	Bon Iver	21-Jun-11	86.0	http://dbpedia.org/resource/Bon_Iver,_Bon_Iver
+116.0	good	Cosmogramma	Flying Lotus	4-May-10	86.0	http://dbpedia.org/resource/Cosmogramma
+119.0	good	Diotima	Krallice	26-Apr-11	86.0	http://dbpedia.org/resource/Diotima_(album)
+120.0	good	Empros	Russian Circles	25-Oct-11	86.0	http://dbpedia.org/resource/Empros
+121.0	good	Estudando o Pagode	Tom ZÃƒÂ©	11-Apr-06	86.0	http://dbpedia.org/resource/Estudando_o_Pagode
+122.0	good	Feast of Wire	Calexico	18-Feb-03	86.0	http://dbpedia.org/resource/Feast_of_Wire
+123.0	good	Halcyon Digest	Deerhunter	28-Sep-10	86.0	http://dbpedia.org/resource/Halcyon_Digest
+124.0	good	Harps And Angels	Randy Newman	5-Aug-08	86.0	http://dbpedia.org/resource/Harps_and_Angels
+125.0	good	How I Got Over	The Roots	22-Jun-10	86.0	http://dbpedia.org/resource/How_I_Got_Over_(album)
+126.0	good	jj n 2	jj	1-Jul-09	86.0	http://dbpedia.org/resource/Jj_n%C2%B0_2
+128.0	good	LCD Soundsystem	LCD Soundsystem	15-Feb-05	86.0	http://dbpedia.org/resource/LCD_Soundsystem_(album)
+129.0	good	Let England Shake	PJ Harvey	15-Feb-11	86.0	http://dbpedia.org/resource/Let_England_Shake
+131.0	good	Locked Down	Dr. John	3-Apr-12	86.0	http://dbpedia.org/resource/Locked_Down_(album)
+134.0	good	Mirrored	Battles	22-May-07	86.0	http://dbpedia.org/resource/Mirrored
+135.0	good	No Said Date	Masta Killa	1-Jun-04	86.0	http://dbpedia.org/resource/No_Said_Date
+136.0	good	Ravedeath, 1972	Tim Hecker	15-Feb-11	86.0	http://dbpedia.org/resource/Ravedeath,_1972
+139.0	good	Seek Magic	Memory Tapes	9-Nov-09	86.0	http://dbpedia.org/resource/Seek_Magic
+140.0	good	Separation Sunday	The Hold Steady	3-May-05	86.0	http://dbpedia.org/resource/Separation_Sunday
+144.0	good	Stone Rollin'	Raphael Saadiq	10-May-11	86.0	http://dbpedia.org/resource/Stone_Rollin'
+145.0	good	The Convincer	Nick Lowe	11-Sep-01	86.0	http://dbpedia.org/resource/The_Convincer
+147.0	good	The Earth Is Not A Cold Dead Place	Explosions in the Sky	4-Nov-03	86.0	http://dbpedia.org/resource/The_Earth_Is_Not_a_Cold_Dead_Place
+148.0	good	The Futureheads	The Futureheads	26-Oct-04	86.0	http://dbpedia.org/resource/The_Futureheads_(album)
+150.0	good	The Lemon Of Pink	The Books	14-Oct-03	86.0	http://dbpedia.org/resource/The_Lemon_of_Pink
+151.0	good	Thunder, Lightning, Strike	The Go! Team	4-Oct-05	86.0	http://dbpedia.org/resource/Thunder,_Lightning,_Strike
+152.0	good	Time (The Revelator)	Gillian Welch	31-Jul-01	86.0	http://dbpedia.org/resource/Time_(The_Revelator)
+153.0	good	Transcendental Blues	Steve Earle	6-Jun-00	86.0	http://dbpedia.org/resource/Transcendental_Blues
+154.0	good	Welcome Interstate Managers	Fountains of Wayne	10-Jun-03	86.0	http://dbpedia.org/resource/Welcome_Interstate_Managers
+155.0	good	Welcome To Mali	Amadou & Mariam	24-Mar-09	86.0	http://dbpedia.org/resource/Welcome_to_Mali
+156.0	good	White Blood Cells	The White Stripes	3-Jul-01	86.0	http://dbpedia.org/resource/White_Blood_Cells_(album)
+157.0	good	Who Kill	tUnE-yArDs	19-Apr-11	86.0	http://dbpedia.org/resource/Whokill
+158.0	good	You Forgot It In People	Broken Social Scene	3-Jun-03	86.0	http://dbpedia.org/resource/You_Forgot_It_in_People
+159.0	good	Young Man In America	AnaÃƒÂ¯s Mitchell	28-Feb-12	86.0	http://dbpedia.org/resource/Young_Man_in_America
+160.0	good	50 Words for Snow	Kate Bush	21-Nov-11	85.0	http://dbpedia.org/resource/50_Words_for_Snow
+161.0	good	The Mysterious Production Of Eggs	Andrew Bird	8-Feb-05	85.0	http://dbpedia.org/resource/Andrew_Bird_&_the_Mysterious_Production_of_Eggs
+163.0	good	BLACKsummers'night	Maxwell	7-Jul-09	85.0	http://dbpedia.org/resource/BLACKsummers'night
+166.0	good	Boys And Girls In America	The Hold Steady	3-Oct-06	85.0	http://dbpedia.org/resource/Boys_and_Girls_in_America
+167.0	good	Crazy Ex-Girlfriend	Miranda Lambert	1-May-07	85.0	http://dbpedia.org/resource/Crazy_Ex-Girlfriend
+168.0	good	De Vermis Mysteriis	High on Fire	3-Apr-12	85.0	http://dbpedia.org/resource/De_Vermis_Mysteriis_(album)
+169.0	good	Don't Give Up On Me	Solomon Burke	23-Jul-02	85.0	http://dbpedia.org/resource/Don't_Give_Up_on_Me
+170.0	good	Emeritus	Scarface	2-Dec-08	85.0	http://dbpedia.org/resource/Emeritus_(album)
+171.0	good	Enter The Vaselines	The Vaselines	5-May-09	85.0	http://dbpedia.org/resource/Enter_the_Vaselines
+172.0	good	Fever To Tell	Yeah Yeah Yeahs	29-Apr-03	85.0	http://dbpedia.org/resource/Fever_to_Tell
+174.0	good	Fox Confessor Brings The Flood	Neko Case	7-Mar-06	85.0	http://dbpedia.org/resource/Fox_Confessor_Brings_the_Flood
+175.0	good	Girls Can Tell	Spoon	20-Feb-01	85.0	http://dbpedia.org/resource/Girls_Can_Tell
+176.0	good	Greatest Hits: The Evidence	Ice-T	8-Aug-00	85.0	http://dbpedia.org/resource/Greatest_Hits:_The_Evidence
+177.0	good	Hail To The Thief	Radiohead	10-Jun-03	85.0	http://dbpedia.org/resource/Hail_to_the_Thief
+178.0	good	Happy Songs For Happy People	Mogwai	17-Jun-03	85.0	http://dbpedia.org/resource/Happy_Songs_for_Happy_People
+179.0	good	Have One On Me	Joanna Newsom	23-Feb-10	85.0	http://dbpedia.org/resource/Have_One_on_Me
+180.0	good	Helplessness Blues	Fleet Foxes	3-May-11	85.0	http://dbpedia.org/resource/Helplessness_Blues
+183.0	good	I Am Not Afraid Of You And I Will Beat Your Ass	Yo La Tengo	12-Sep-06	85.0	http://dbpedia.org/resource/I_Am_Not_Afraid_of_You_and_I_Will_Beat_Your_Ass
+184.0	good	Jasper County	Trisha Yearwood	13-Sep-05	85.0	http://dbpedia.org/resource/Jasper_County_(album)
+185.0	good	Journal For Plague Lovers	Manic Street Preachers	15-Sep-09	85.0	http://dbpedia.org/resource/Journal_for_Plague_Lovers
+186.0	good	Kish Kash	Basement Jaxx	21-Oct-03	85.0	http://dbpedia.org/resource/Kish_Kash
+187.0	good	Late Registration	Kanye West	30-Aug-05	85.0	http://dbpedia.org/resource/Late_Registration
+189.0	good	Life...The Best Game In Town	Harvey Milk	3-Jun-08	85.0	http://dbpedia.org/resource/Life..._The_Best_Game_in_Town
+191.0	good	Mezmerize	System Of A Down	17-May-05	85.0	http://dbpedia.org/resource/Mezmerize_(album)
+192.0	good	Murs 3:16 The 9th Edition	Murs	23-Mar-04	85.0	http://dbpedia.org/resource/Murs_3:16:_The_9th_Edition
+194.0	good	Oceans Apart	The Go-Betweens	3-May-05	85.0	http://dbpedia.org/resource/Oceans_Apart
+195.0	good	Old Ideas	Leonard Cohen	31-Jan-12	85.0	http://dbpedia.org/resource/Old_Ideas
+196.0	good	One Beat	Sleater-Kinney	20-Aug-02	85.0	http://dbpedia.org/resource/One_Beat
+197.0	good	Party Music	The Coup	6-Nov-01	85.0	http://dbpedia.org/resource/Party_Music
+199.0	good	Quarantine The Past	Pavement	9-Mar-10	85.0	http://dbpedia.org/resource/Quarantine_the_Past:_The_Best_of_Pavement
+200.0	good	R.A.P. Music	Killer Mike	15-May-12	85.0	http://dbpedia.org/resource/R.A.P._Music
+202.0	good	Run To Ruin	Nina Nastasia	3-Jun-03	85.0	http://dbpedia.org/resource/Run_to_Ruin
+203.0	good	Seasons of My Soul	Rumer	24-Jan-12	85.0	http://dbpedia.org/resource/Seasons_of_My_Soul
+206.0	good	So Beautiful or So What	Paul Simon	12-Apr-11	85.0	http://dbpedia.org/resource/So_Beautiful_or_So_What
+207.0	good	Source Tags & Codes	...And You Will Know Us by the Trail of Dead	26-Feb-02	85.0	http://dbpedia.org/resource/Source_Tags_&_Codes
+211.0	good	Street Halo	Burial	28-Mar-11	85.0	http://dbpedia.org/resource/Street_Halo
+212.0	good	Supermodified	Amon Tobin	16-May-00	85.0	http://dbpedia.org/resource/Supermodified_(album)
+213.0	good	Tenacious D	Tenacious D	25-Sep-01	85.0	http://dbpedia.org/resource/Tenacious_D_(album)
+214.0	good	The Airing Of Grievances	Titus Andronicus	13-May-08	85.0	http://dbpedia.org/resource/The_Airing_of_Grievances
+215.0	good	The Budos Band III	The Budos Band	10-Aug-10	85.0	http://dbpedia.org/resource/The_Budos_Band_III
+216.0	good	Chemistry Of Common Life	Fucked Up	7-Oct-08	85.0	http://dbpedia.org/resource/The_Chemistry_of_Common_Life
+219.0	good	The Meadowlands	The Wrens	9-Sep-03	85.0	http://dbpedia.org/resource/The_Meadowlands_(album)
+221.0	good	The Ugly Organ	Cursive	4-Mar-03	85.0	http://dbpedia.org/resource/The_Ugly_Organ
+222.0	good	This Is Our Science	Astronautalis	13-Sep-11	85.0	http://dbpedia.org/resource/This_Is_Our_Science
+226.0	good	Veckatimest	Grizzly Bear	26-May-09	85.0	http://dbpedia.org/resource/Veckatimest
+228.0	good	15 Again	Cassius	23-Oct-07	84.0	http://dbpedia.org/resource/15_Again
+229.0	good	1991 [EP]	Azealia Banks	12-Jun-12	84.0	http://dbpedia.org/resource/1991_(EP)
+230.0	good	A Piece Of What You Need	Teddy Thompson	17-Jun-08	84.0	http://dbpedia.org/resource/A_Piece_of_What_You_Need
+232.0	good	Apollo Kids	Ghostface Killah	21-Dec-10	84.0	http://dbpedia.org/resource/Apollo_Kids_(album)
+235.0	good	Black Cadillac	Rosanne Cash	24-Jan-06	84.0	http://dbpedia.org/resource/Black_Cadillac
+236.0	good	Blood Money	Tom Waits	7-May-02	84.0	http://dbpedia.org/resource/Blood_Money_(Tom_Waits_album)
+237.0	good	Blue Cathedral	Comets On Fire	27-Jul-04	84.0	http://dbpedia.org/resource/Blue_Cathedral
+238.0	good	Bow Down To The Exit Sign	David Holmes	21-Jul-00	84.0	http://dbpedia.org/resource/Bow_Down_to_the_Exit_Sign
+240.0	good	Central Reservation	Beth Orton	9-Mar-99	84.0	http://dbpedia.org/resource/Central_Reservation_(album)
+241.0	good	Clap Your Hands Say Yeah	Clap Your Hands Say Yeah	28-Jun-05	84.0	http://dbpedia.org/resource/Clap_Your_Hands_Say_Yeah_(album)
+242.0	good	Cobblestone Runway	Ron Sexsmith	8-Oct-02	84.0	http://dbpedia.org/resource/Cobblestone_Runway
+243.0	good	Copia	Eluvium	20-Feb-07	84.0	http://dbpedia.org/resource/Copia_(album)
+244.0	good	Coquelicot Asleep In The Poppies	Of Montreal	24-Apr-01	84.0	http://dbpedia.org/resource/Coquelicot_Asleep_in_the_Poppies:_A_Variety_of_Whimsical_Verse
+245.0	good	Dark Days/Light Years	Super Furry Animals	21-Apr-09	84.0	http://dbpedia.org/resource/Dark_Days/Light_Years
+246.0	good	Don't Do Anything	Sam Phillips	3-Jun-08	84.0	http://dbpedia.org/resource/Don't_Do_Anything
+247.0	good	Dr. No's Ethiopium	Oh No	24-Nov-09	84.0	http://dbpedia.org/resource/Dr._No's_Ethiopium
+248.0	good	Electric Dirt	Levon Helm	30-Jun-09	84.0	http://dbpedia.org/resource/Electric_Dirt
+249.0	good	Extraordinary Machine	Fiona Apple	4-Oct-05	84.0	http://dbpedia.org/resource/Extraordinary_Machine
+250.0	good	Fall Be Kind [EP]	Animal Collective	15-Dec-09	84.0	http://dbpedia.org/resource/Fall_Be_Kind
+251.0	good	Feels	Animal Collective	18-Oct-05	84.0	http://dbpedia.org/resource/Feels
+252.0	good	From The Forest To The Sea	Southeast Engine	17-Feb-09	84.0	http://dbpedia.org/resource/From_the_Forest_to_the_Sea
+254.0	good	Geogaddi	Boards of Canada	19-Feb-02	84.0	http://dbpedia.org/resource/Geogaddi
+256.0	good	Ghosts Of The Great Highway	Sun Kil Moon	4-Nov-03	84.0	http://dbpedia.org/resource/Ghosts_of_the_Great_Highway
+257.0	good	Gimme Fiction	Spoon	10-May-05	84.0	http://dbpedia.org/resource/Gimme_Fiction
+259.0	good	Imidiwan: Companions	Tinariwen	29-Jun-09	84.0	http://dbpedia.org/resource/Imidiwan
+260.0	good	Ire Works	The Dillinger Escape Plan	13-Nov-07	84.0	http://dbpedia.org/resource/Ire_Works
+262.0	good	Lesser Matters	The Radio Dept.	30-Aug-04	84.0	http://dbpedia.org/resource/Lesser_Matters
+264.0	good	Lost And Safe	The Books	5-Apr-05	84.0	http://dbpedia.org/resource/Lost_and_Safe
+265.0	good	Mar Dulce	Bajofondo	15-Jul-08	84.0	http://dbpedia.org/resource/Mar_Dulce_(album)
+266.0	good	Modern Apprentice	Ikara Colt	7-Jun-04	84.0	http://dbpedia.org/resource/Modern_Apprentice
+267.0	good	Multiply	Jamie Lidell	28-Jun-05	84.0	http://dbpedia.org/resource/Multiply_Additions
+268.0	good	Mwng	Super Furry Animals	20-Jun-00	84.0	http://dbpedia.org/resource/Mwng
+270.0	good	ONoffON	Mission of Burma	4-May-04	84.0	http://dbpedia.org/resource/ONoffON
+271.0	good	Old Ramon	Red House Painters	10-Apr-01	84.0	http://dbpedia.org/resource/Old_Ramon
+272.0	good	Our Endless Numbered Days	Iron & Wine	23-Mar-04	84.0	http://dbpedia.org/resource/Our_Endless_Numbered_Days
+273.0	good	Pop Tune	Shonen Knife	12-Jun-12	84.0	http://dbpedia.org/resource/Pop_Tune
+274.0	good	S.T.R.E.E.T. D.A.D.	Out Hud	19-Nov-02	84.0	http://dbpedia.org/resource/S.T.R.E.E.T._D.A.D.
+277.0	good	Sometimes the Blues is Just a Passing Bird	The Tallest Man on Earth	9-Nov-10	84.0	http://dbpedia.org/resource/Sometimes_the_Blues_Is_Just_a_Passing_Bird
+278.0	good	Suburbia I've Given You All and Now I'm Nothing	The Wonder Years	14-Jun-11	84.0	http://dbpedia.org/resource/Suburbia_I've_Given_You_All_and_Now_I'm_Nothing
+280.0	good	Takk...	Sigur RÃƒÂ³s	13-Sep-05	84.0	http://dbpedia.org/resource/Takk...
+281.0	good	Tarot Sport	Fuck Buttons	20-Oct-09	84.0	http://dbpedia.org/resource/Tarot_Sport
+282.0	good	Ten Stories	mewithoutYou	15-May-12	84.0	http://dbpedia.org/resource/Ten_Stories
+284.0	good	The Beginning Stages Of...	The Polyphonic Spree	4-Jun-02	84.0	http://dbpedia.org/resource/The_Beginning_Stages_of...
+286.0	good	The Crane Wife	The Decemberists	3-Oct-06	84.0	http://dbpedia.org/resource/The_Crane_Wife
+287.0	good	The Evening Of My Best Day	Rickie Lee Jones	7-Oct-03	84.0	http://dbpedia.org/resource/The_Evening_of_My_Best_Day
+288.0	good	The Fine Art of Self-Destruction	Jesse Malin	28-Jan-03	84.0	http://dbpedia.org/resource/The_Fine_Art_of_Self_Destruction
+289.0	good	The Pretty Toney Album	Ghostface Killah	20-Apr-04	84.0	http://dbpedia.org/resource/The_Pretty_Toney_Album
+292.0	good	The Smell Of Our Own	The Hidden Cameras	6-May-03	84.0	http://dbpedia.org/resource/The_Smell_of_Our_Own
+293.0	good	The Violet Hour	The Clientele	8-Jul-03	84.0	http://dbpedia.org/resource/The_Violet_Hour_(album)
+294.0	good	These Were The Earlies	The Earlies	25-Oct-05	84.0	http://dbpedia.org/resource/These_Were_the_Earlies
+296.0	good	Treats	Sleigh Bells	1-Jun-10	84.0	http://dbpedia.org/resource/Treats_(album)
+300.0	good	Wake Up The Nation	Paul Weller	1-Jun-10	84.0	http://dbpedia.org/resource/Wake_Up_the_Nation
+301.0	good	We Love Life	Pulp	20-Aug-02	84.0	http://dbpedia.org/resource/We_Love_Life
+302.0	good	Winter Hymn Country Hymn Secret Hymn	Do Make Say Think	7-Oct-03	84.0	http://dbpedia.org/resource/Winter_Hymn_Country_Hymn_Secret_Hymn
+304.0	good	Yoshimi Battles The Pink Robots	The Flaming Lips	16-Jul-02	84.0	http://dbpedia.org/resource/Yoshimi_Battles_the_Pink_Robots
+305.0	good	A Boot And A Shoe	Sam Phillips	27-Apr-04	83.0	http://dbpedia.org/resource/A_Boot_and_a_Shoe
+306.0	good	American Gangster	Jay-Z	6-Nov-07	83.0	http://dbpedia.org/resource/American_Gangster_(album)
+307.0	good	Andorra	Caribou	21-Aug-07	83.0	http://dbpedia.org/resource/Andorra_(album)
+308.0	good	Apologies To The Queen Mary	Wolf Parade	27-Sep-05	83.0	http://dbpedia.org/resource/Apologies_to_the_Queen_Mary
+309.0	good	Bang Bang Rock & Roll	Art Brut	9-May-06	83.0	http://dbpedia.org/resource/Bang_Bang_Rock_&_Roll
+311.0	good	Blackjazz	Shining	2-Feb-10	83.0	http://dbpedia.org/resource/Blackjazz
+312.0	good	Blue Sky Noise	Circa Survive	20-Apr-10	83.0	http://dbpedia.org/resource/Blue_Sky_Noise
+313.0	good	Bright Ideas	Portastatic	23-Aug-05	83.0	http://dbpedia.org/resource/Bright_Ideas
+314.0	good	Brighter Than Creation's Dark	Drive-By Truckers	22-Jan-08	83.0	http://dbpedia.org/resource/Brighter_Than_Creation's_Dark
+315.0	good	Carboniferous	Zu	17-Feb-09	83.0	http://dbpedia.org/resource/Carboniferous_(album)
+316.0	good	Celebration Rock	Japandroids	5-Jun-12	83.0	http://dbpedia.org/resource/Celebration_Rock
+319.0	good	Control System	Ab-Soul	11-May-12	83.0	http://dbpedia.org/resource/Control_System
+320.0	good	Escondida	Jolie Holland	27-Apr-04	83.0	http://dbpedia.org/resource/Escondida_(album)
+321.0	good	Eyes & Nines	Trash Talk	8-Jun-10	83.0	http://dbpedia.org/resource/Eyes_&_Nines
+322.0	good	Faking The Books	Lali Puna	20-Apr-04	83.0	http://dbpedia.org/resource/Faking_the_Books
+326.0	good	Good News For People Who Love Bad News	Modest Mouse	6-Apr-04	83.0	http://dbpedia.org/resource/Good_News_for_People_Who_Love_Bad_News
+328.0	good	Grinderman	Grinderman	10-Apr-07	83.0	http://dbpedia.org/resource/Grinderman_2
+329.0	good	Harmonicraft	Torche	24-Apr-12	83.0	http://dbpedia.org/resource/Harmonicraft
+331.0	good	Hot Sauce Committee, Pt. 2	Beastie Boys	3-May-11	83.0	http://dbpedia.org/resource/Hot_Sauce_Committee_Part_Two
+332.0	good	I Am Shelby Lynne	Shelby Lynne	25-Jan-00	83.0	http://dbpedia.org/resource/I_Am_Shelby_Lynne
+333.0	good	Idiology	Mouse on Mars	24-Apr-01	83.0	http://dbpedia.org/resource/Idiology
+334.0	good	Ill Manors	Plan B	21-Aug-12	83.0	http://dbpedia.org/resource/Ill_Manors_(album)
+335.0	good	Isolation Drills	Guided by Voices	3-Apr-01	83.0	http://dbpedia.org/resource/Isolation_Drills
+336.0	good	It Still Moves	My Morning Jacket	9-Sep-03	83.0	http://dbpedia.org/resource/It_Still_Moves
+337.0	good	Leucocyte	Esbjorn Svensson Trio	30-Sep-08	83.0	http://dbpedia.org/resource/Leucocyte_(album)
+338.0	good	Like Red On A Rose	Alan Jackson	26-Sep-06	83.0	http://dbpedia.org/resource/Like_Red_on_a_Rose
+339.0	good	Lisbon	The Walkmen	14-Sep-10	83.0	http://dbpedia.org/resource/Lisbon_(album)
+340.0	good	Looping State of Mind	The Field	11-Oct-11	83.0	http://dbpedia.org/resource/Looping_State_of_Mind
+342.0	good	Love Is The Answer	Barbra Streisand	29-Sep-09	83.0	http://dbpedia.org/resource/Love_Is_the_Answer_(album)
+343.0	good	Love On The Inside	Sugarland	22-Jul-08	83.0	http://dbpedia.org/resource/Love_on_the_Inside
+344.0	good	Love vs Money	The-Dream	10-Mar-09	83.0	http://dbpedia.org/resource/Love_vs._Money
+345.0	good	Food & Liquor	Lupe Fiasco	19-Sep-06	83.0	http://dbpedia.org/resource/Lupe_Fiasco's_Food_&_Liquor
+346.0	good	Majesty Shredding	Superchunk	14-Sep-10	83.0	http://dbpedia.org/resource/Majesty_Shredding
+347.0	good	Midnite Vultures	Beck	16-Nov-99	83.0	http://dbpedia.org/resource/Midnite_Vultures
+348.0	good	Morph The Cat	Donald Fagen	14-Mar-06	83.0	http://dbpedia.org/resource/Morph_the_Cat
+349.0	good	Mountain Soul II	Patty Loveless	29-Sep-09	83.0	http://dbpedia.org/resource/Mountain_Soul_II
+350.0	good	My Father Will Guide Me Up a Rope to the Sky	Swans	21-Sep-10	83.0	http://dbpedia.org/resource/My_Father_Will_Guide_Me_up_a_Rope_to_the_Sky
+351.0	good	New Amerykah: Part One (4th World War)	Erykah Badu	26-Feb-08	83.0	http://dbpedia.org/resource/New_Amerykah_Part_One_(4th_World_War)
+353.0	good	Nostalgia, Ultra.	Frank Ocean	18-Feb-11	83.0	http://dbpedia.org/resource/Nostalgia,_Ultra
+356.0	good	Look Around the Corner	Alice Russell	2-Apr-12	83.0	http://dbpedia.org/resource/Quantic_&_Alice_Russell:_Look_Around_The_Corner
+357.0	good	Real Animal	Alejandro Escovedo	24-Jun-08	83.0	http://dbpedia.org/resource/Real_Animal
+358.0	good	Red Dirt Road	Brooks & Dunn	15-Jul-03	83.0	http://dbpedia.org/resource/Red_Dirt_Road
+359.0	good	School Of The Flower	Six Organs of Admittance	25-Jan-05	83.0	http://dbpedia.org/resource/School_of_the_Flower
+360.0	good	Skying	The Horrors	9-Aug-11	83.0	http://dbpedia.org/resource/Skying
+361.0	good	Skyscraper National Park	Hayden	12-Mar-02	83.0	http://dbpedia.org/resource/Skyscraper_National_Park
+365.0	good	The Bright Mississippi	Allen Toussaint	21-Apr-09	83.0	http://dbpedia.org/resource/The_Bright_Mississippi
+366.0	good	The Remote Part	Idlewild	25-Mar-03	83.0	http://dbpedia.org/resource/The_Remote_Part
+367.0	good	The Sunset Tree	The Mountain Goats	26-Apr-05	83.0	http://dbpedia.org/resource/The_Sunset_Tree
+369.0	good	Think Tank	Blur	6-May-03	83.0	http://dbpedia.org/resource/Think_Tank_(Blur_album)
+371.0	good	Two Dancers	Wild Beasts	8-Sep-09	83.0	http://dbpedia.org/resource/Two_Dancers
+372.0	good	The Visiter	The Dodos	18-Mar-08	83.0	http://dbpedia.org/resource/Visiter
+373.0	good	Wild Flag	Wild Flag	13-Sep-11	83.0	http://dbpedia.org/resource/Wild_Flag_(album)
+374.0	good	Wounded Rhymes	Lykke Li	1-Mar-11	83.0	http://dbpedia.org/resource/Wounded_Rhymes
+376.0	good	(a)spera	Mirah	10-Mar-09	82.0	http://dbpedia.org/resource/(a)spera
+377.0	good	Burn Piano Island, Burn	The Blood Brothers	18-Mar-03	82.0	http://dbpedia.org/resource/...Burn,_Piano_Island,_Burn
+381.0	good	American V: A Hundred Highways	Johnny Cash	4-Jul-06	82.0	http://dbpedia.org/resource/American_V:_A_Hundred_Highways
+384.0	good	At My Age	Nick Lowe	26-Jun-07	82.0	http://dbpedia.org/resource/At_My_Age
+385.0	good	At Night We Live	Far	25-May-10	82.0	http://dbpedia.org/resource/At_Night_We_Live
+386.0	good	Bears, Mayors, Scraps & Bones	Cancer Bats	13-Apr-10	82.0	http://dbpedia.org/resource/Bears,_Mayors,_Scraps_&_Bones
+387.0	good	Blacklisted	Neko Case	20-Aug-02	82.0	http://dbpedia.org/resource/Blacklisted_(album)
+388.0	good	Blood Mountain	Mastodon	12-Sep-06	82.0	http://dbpedia.org/resource/Blood_Mountain_(album)
+389.0	good	Bright Yellow Bright Orange	The Go-Betweens	18-Feb-03	82.0	http://dbpedia.org/resource/Bright_Yellow_Bright_Orange
+390.0	good	Broken Social Scene	Broken Social Scene	4-Oct-05	82.0	http://dbpedia.org/resource/Broken_Social_Scene_(album)
+392.0	good	Clash Battle Guilt Pride	Polar Bear Club	13-Sep-11	82.0	http://dbpedia.org/resource/Clash_Battle_Guilt_Pride
+393.0	good	Come Away With Me	Norah Jones	26-Feb-02	82.0	http://dbpedia.org/resource/Come_Away_with_Me
+394.0	good	Confield	Autechre	15-May-01	82.0	http://dbpedia.org/resource/Confield
+395.0	good	Crack The Skye	Mastodon	24-Mar-09	82.0	http://dbpedia.org/resource/Crack_the_Skye
+396.0	good	Curse Your Branches	David Bazan	1-Sep-09	82.0	http://dbpedia.org/resource/Curse_Your_Branches
+398.0	good	Saves the Day	Saves the Day	17-Sep-13	82.0	http://dbpedia.org/resource/Daybreak_(Saves_the_Day_album)
+399.0	good	De-Loused In The Comatorium	The Mars Volta	24-Jun-03	82.0	http://dbpedia.org/resource/De-Loused_in_the_Comatorium
+400.0	good	Demon Days	Gorillaz	24-May-05	82.0	http://dbpedia.org/resource/Demon_Days
+401.0	good	Dilate	Bardo Pond	24-Apr-01	82.0	http://dbpedia.org/resource/Dilate_(Bardo_Pond_album)
+402.0	good	Dizzy Spells	The Ex	24-Apr-01	82.0	http://dbpedia.org/resource/Dizzy_Spells_(album)
+404.0	good	Doomsdayer's Holiday	Grails	7-Oct-08	82.0	http://dbpedia.org/resource/Doomsdayer's_Holiday
+406.0	good	East Of Eden	Taken by Trees	8-Sep-09	82.0	http://dbpedia.org/resource/East_of_Eden_(album)
+407.0	good	Echoes of Silence	The Weeknd	21-Dec-11	82.0	http://dbpedia.org/resource/Echoes_of_Silence
+409.0	good	Favourite Worst Nightmare	Arctic Monkeys	24-Apr-07	82.0	http://dbpedia.org/resource/Favourite_Worst_Nightmare
+411.0	good	Ghost to a Ghost/Gutter Town	Hank Williams III	6-Sep-11	82.0	http://dbpedia.org/resource/Ghost_to_a_Ghost/Gutter_Town
+412.0	good	Haha Sound	Broadcast	12-Aug-03	82.0	http://dbpedia.org/resource/Haha_Sound
+414.0	good	Here With Me	Holly Williams	16-Jun-09	82.0	http://dbpedia.org/resource/Here_with_Me_(album)
+415.0	good	Home Sweet Home	Kano	27-Jun-05	82.0	http://dbpedia.org/resource/Home_Sweet_Home_(Kano_album)
+416.0	good	II Trill	Bun B	20-May-08	82.0	http://dbpedia.org/resource/II_Trill
+417.0	good	I Am The Fun Blame Monster	Menomena	20-Jun-03	82.0	http://dbpedia.org/resource/I_Am_the_Fun_Blame_Monster!
+418.0	good	Ice Cream Spiritual	Ponytail	17-Jun-08	82.0	http://dbpedia.org/resource/Ice_Cream_Spiritual
+420.0	good	Internal Wrangler	Clinic	18-Sep-01	82.0	http://dbpedia.org/resource/Internal_Wrangler
+421.0	good	Intimacy: Album III	Kem	17-Aug-10	82.0	http://dbpedia.org/resource/Intimacy:_Album_III
+422.0	good	It's Blitz	Yeah Yeah Yeahs	31-Mar-09	82.0	http://dbpedia.org/resource/It's_Blitz!
+423.0	good	Jarvis	Jarvis Cocker	3-Apr-07	82.0	http://dbpedia.org/resource/Jarvis_(album)
+425.0	good	Leave It All Behind	The Foreign Exchange	14-Oct-08	82.0	http://dbpedia.org/resource/Leave_It_All_Behind_(album)
+426.0	good	Lost Wisdom	Mount Eerie	7-Oct-08	82.0	http://dbpedia.org/resource/Lost_Wisdom
+428.0	good	Love Songs For Patriots	American Music Club	12-Oct-04	82.0	http://dbpedia.org/resource/Love_Songs_for_Patriots
+429.0	good	Lowedges	Richard Hawley	20-May-03	82.0	http://dbpedia.org/resource/Lowedges
+431.0	good	Major/Minor	Thrice	20-Sep-11	82.0	http://dbpedia.org/resource/Major/Minor_(album)
+433.0	good	Mouthfuls	Fruit Bats	8-Apr-03	82.0	http://dbpedia.org/resource/Mouthfuls
+434.0	good	Murray Street	Sonic Youth	25-Jun-02	82.0	http://dbpedia.org/resource/Murray_Street_(album)
+435.0	good	New History Warfare, Vol. 2: Judges	Colin Stetson	22-Feb-11	82.0	http://dbpedia.org/resource/New_History_Warfare_Vol._2:_Judges
+437.0	good	OK Cowboy	Vitalic	21-Feb-06	82.0	http://dbpedia.org/resource/OK_Cowboy
+438.0	good	Option Paralysis	The Dillinger Escape Plan	23-Mar-10	82.0	http://dbpedia.org/resource/Option_Paralysis
+439.0	good	Our Shadows Will Remain	Joseph Arthur	12-Oct-04	82.0	http://dbpedia.org/resource/Our_Shadows_Will_Remain
+440.0	good	Overpowered	Roisin Murphy	15-Oct-07	82.0	http://dbpedia.org/resource/Overpowered
+441.0	good	Pattern + Grid World	Flying Lotus	21-Sep-10	82.0	http://dbpedia.org/resource/Pattern+Grid_World
+442.0	good	Poses	Rufus Wainwright	5-Jun-01	82.0	http://dbpedia.org/resource/Poses_(album)
+443.0	good	Post-Nothing	Japandroids	4-Aug-09	82.0	http://dbpedia.org/resource/Post-Nothing
+444.0	good	Primary Colours	The Horrors	5-May-09	82.0	http://dbpedia.org/resource/Primary_Colours_(album)
+448.0	good	Red Devil Dawn	Crooked Fingers	21-Jan-03	82.0	http://dbpedia.org/resource/Red_Devil_Dawn
+450.0	good	Secret South	16 Horsepower	12-Sep-00	82.0	http://dbpedia.org/resource/Secret_South
+451.0	good	Sepalcure	Sepalcure	21-Nov-11	82.0	http://dbpedia.org/resource/Sepalcure_(album)
+453.0	good	Sky at Night	I Am Kloot	13-Jul-10	82.0	http://dbpedia.org/resource/Sky_at_Night_(album)
+455.0	good	Smoke Ring for My Halo	Kurt Vile	8-Mar-11	82.0	http://dbpedia.org/resource/Smoke_Ring_for_My_Halo
+456.0	good	Sometimes I Wish We Were An Eagle	Bill Callahan	14-Apr-09	82.0	http://dbpedia.org/resource/Sometimes_I_Wish_We_Were_an_Eagle
+457.0	good	Steingarten	Pole	3-Apr-07	82.0	http://dbpedia.org/resource/Steingarten
+459.0	good	Surtur Rising	Amon Amarth	29-Mar-11	82.0	http://dbpedia.org/resource/Surtur_Rising
+460.0	good	Teen Dream	Beach House	26-Jan-10	82.0	http://dbpedia.org/resource/Teen_Dream
+461.0	good	The Coast Is Never Clear	Beulah	11-Sep-01	82.0	http://dbpedia.org/resource/The_Coast_Is_Never_Clear
+463.0	good	The Facts Of Life	Black Box Recorder	20-Mar-01	82.0	http://dbpedia.org/resource/The_Facts_of_Life_(album)
+465.0	good	The Great Destroyer	Low	25-Jan-05	82.0	http://dbpedia.org/resource/The_Great_Destroyer
+466.0	good	The Magic Place	Julianna Barwick	22-Feb-11	82.0	http://dbpedia.org/resource/The_Magic_Place
+468.0	good	The Mess We Made	Matt Elliott	13-May-03	82.0	http://dbpedia.org/resource/The_Mess_We_Made
+469.0	good	The Monitor	Titus Andronicus	9-Mar-10	82.0	http://dbpedia.org/resource/The_Monitor_(album)
+472.0	good	The Renaissance	Q-Tip	4-Nov-08	82.0	http://dbpedia.org/resource/The_Renaissance_(Q-Tip_album)
+474.0	good	The Stage Names	Okkervil River	7-Aug-07	82.0	http://dbpedia.org/resource/The_Stage_Names
+475.0	good	This Is Country Music	Brad Paisley	23-May-11	82.0	http://dbpedia.org/resource/This_Is_Country_Music
+476.0	good	Townes	Steve Earle	12-May-09	82.0	http://dbpedia.org/resource/Townes_(album)
+478.0	good	Universal Audio	The Delgados	28-Sep-04	82.0	http://dbpedia.org/resource/Universal_Audio_(album)
+479.0	good	Untitled #23	The Church	12-May-09	82.0	http://dbpedia.org/resource/Untitled_23
+481.0	good	Watershed	Opeth	3-Jun-08	82.0	http://dbpedia.org/resource/Watershed_(Opeth_album)
+482.0	good	We are Beautiful, We Are Doomed	Los Campesinos!	25-Nov-08	82.0	http://dbpedia.org/resource/We_Are_Beautiful,_We_Are_Doomed
+483.0	good	We Shall Overcome: The Seeger Sessions	Bruce Springsteen	25-Apr-06	82.0	http://dbpedia.org/resource/We_Shall_Overcome:_The_Seeger_Sessions
+484.0	good	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	21-Feb-06	82.0	http://dbpedia.org/resource/Whatever_People_Say_I_Am,_That's_What_I'm_Not
+486.0	good	Wild Mountain Nation	Blitzen Trapper	12-Jun-07	82.0	http://dbpedia.org/resource/Wild_Mountain_Nation_(album)
+488.0	good	Woman King [EP]	Iron & Wine	22-Feb-05	82.0	http://dbpedia.org/resource/Woman_King
+489.0	good	Yellow & Green	Baroness	17-Jul-12	82.0	http://dbpedia.org/resource/Yellow_&_Green_(Baroness_album)
+490.0	good	You're A Woman, I'm A Machine	Death from Above 1979	26-Oct-04	82.0	http://dbpedia.org/resource/You're_a_Woman,_I'm_a_Machine
+491.0	good	You Are Free	Cat Power	18-Feb-03	82.0	http://dbpedia.org/resource/You_Are_Free
+492.0	good	03/07-09/07	High Places	22-Jul-08	81.0	http://dbpedia.org/resource/03/07%E2%80%9309/07
+494.0	good	a ghost is born	Wilco	22-Jun-04	81.0	http://dbpedia.org/resource/A_Ghost_Is_Born
+496.0	good	Actor	St. Vincent	5-May-09	81.0	http://dbpedia.org/resource/Actor_(album)
+497.0	good	Aerial	Kate Bush	8-Nov-05	81.0	http://dbpedia.org/resource/Aerial_(album)
+498.0	good	All 6's and 7's	Tech N9ne	7-Jun-11	81.0	http://dbpedia.org/resource/All_6's_and_7's
+499.0	good	Anniemal	Annie	7-Jun-05	81.0	http://dbpedia.org/resource/Anniemal
+502.0	good	Back To Black	Amy Winehouse	13-Mar-07	81.0	http://dbpedia.org/resource/Back_to_Black
+504.0	good	Be Still Please	Portastatic	10-Oct-06	81.0	http://dbpedia.org/resource/Be_Still_Please
+506.0	good	Bonfires On The Heath	The Clientele	6-Oct-09	81.0	http://dbpedia.org/resource/Bonfires_on_the_Heath
+507.0	good	Bright Like Neon Love	Cut Copy	18-May-04	81.0	http://dbpedia.org/resource/Bright_Like_Neon_Love
+508.0	good	Burst Apart	The Antlers	10-May-11	81.0	http://dbpedia.org/resource/Burst_Apart
+512.0	good	Civilian	Wye Oak	8-Mar-11	81.0	http://dbpedia.org/resource/Civilian_(Wye_Oak_album)
+513.0	good	Devils & Dust	Bruce Springsteen	26-Apr-05	81.0	http://dbpedia.org/resource/Devils_&_Dust
+515.0	good	Drums And Guns	Low	20-Mar-07	81.0	http://dbpedia.org/resource/Drums_and_Guns
+516.0	good	Easy Wonderful	Guster	5-Oct-10	81.0	http://dbpedia.org/resource/Easy_Wonderful
+518.0	good	Engineers	Engineers	21-Jun-05	81.0	http://dbpedia.org/resource/Engineers_(Engineers_album)
+519.0	good	Fantasy Black Channel	Late Of The Pier	13-Jan-09	81.0	http://dbpedia.org/resource/Fantasy_Black_Channel
+523.0	good	Get Behind Me Satan	The White Stripes	7-Jun-05	81.0	http://dbpedia.org/resource/Get_Behind_Me_Satan
+525.0	good	God's Son	Nas	17-Dec-02	81.0	http://dbpedia.org/resource/God's_Son
+526.0	good	Going Out In Style	Dropkick Murphys	1-Mar-11	81.0	http://dbpedia.org/resource/Going_Out_in_Style
+527.0	good	Here's The Tender Coming	The Unthanks	23-Mar-10	81.0	http://dbpedia.org/resource/Here's_the_Tender_Coming
+528.0	good	High Dive	Maria McKee	22-Apr-03	81.0	http://dbpedia.org/resource/High_Dive
+529.0	good	Hold On Now, Youngster	Los Campesinos!	1-Apr-08	81.0	http://dbpedia.org/resource/Hold_on_Now,_Youngster
+530.0	good	I Learned The Hard Way	Sharon Jones & the Dap-Kings	6-Apr-10	81.0	http://dbpedia.org/resource/I_Learned_the_Hard_Way
+531.0	good	I Phantom	Mr. Lif	17-Sep-02	81.0	http://dbpedia.org/resource/I_Phantom
+532.0	good	I Speak Because I Can	Laura Marling	6-Apr-10	81.0	http://dbpedia.org/resource/I_Speak_Because_I_Can
+533.0	good	Imperial Wax Solvent	The Fall	28-Apr-08	81.0	http://dbpedia.org/resource/Imperial_Wax_Solvent
+535.0	good	July Flame	Laura Veirs	12-Jan-10	81.0	http://dbpedia.org/resource/July_Flame
+536.0	good	Less Than Human	The Juan MacLean	9-Aug-05	81.0	http://dbpedia.org/resource/Less_Than_Human_(album)
+537.0	good	Life is Good	Nas	17-Jul-12	81.0	http://dbpedia.org/resource/Life_Is_Good_(Nas_album)
+540.0	good	Love Travels At Illegal Speeds	Graham Coxon	13-Mar-06	81.0	http://dbpedia.org/resource/Love_Travels_at_Illegal_Speeds
+541.0	good	Magnificent City	Aceyalone	7-Feb-06	81.0	http://dbpedia.org/resource/Magnificent_City
+542.0	good	Maraqopa	Damien Jurado	20-Feb-12	81.0	http://dbpedia.org/resource/Maraqopa
+543.0	good	Marnie Stern	Marnie Stern	5-Oct-10	81.0	http://dbpedia.org/resource/Marnie_Stern_(album)
+545.0	good	Microcastle	Deerhunter	28-Oct-08	81.0	http://dbpedia.org/resource/Microcastle
+546.0	good	Mikal Cronin	Mikal Cronin	20-Sep-11	81.0	http://dbpedia.org/resource/Mikal_Cronin_(album)
+547.0	good	MM..Food	MF Doom	16-Nov-04	81.0	http://dbpedia.org/resource/Mm.._Food
+548.0	good	Music Sounds Better With You	Acid House Kings	22-Mar-11	81.0	http://dbpedia.org/resource/Music_Sounds_Better_with_You_(album)
+550.0	good	Now You Are One Of Us	The Paper Chase	6-Jun-06	81.0	http://dbpedia.org/resource/Now_You_Are_One_of_Us
+551.0	good	Nuclear Daydream	Joseph Arthur	19-Sep-06	81.0	http://dbpedia.org/resource/Nuclear_Daydream
+554.0	good	Picaresque	The Decemberists	22-Mar-05	81.0	http://dbpedia.org/resource/Picaresque_(album)
+555.0	good	Post-War	M. Ward	22-Aug-06	81.0	http://dbpedia.org/resource/Post-War
+557.0	good	Public Strain	Women	28-Sep-10	81.0	http://dbpedia.org/resource/Public_Strain
+559.0	good	Paramore	Paramore	9-Apr-13	81.0	http://dbpedia.org/resource/Riot!
+560.0	good	Rubber Factory	The Black Keys	7-Sep-04	81.0	http://dbpedia.org/resource/Rubber_Factory
+561.0	good	Scissor Sisters	Scissor Sisters	27-Jul-04	81.0	http://dbpedia.org/resource/Scissor_Sisters_(album)
+562.0	good	Set Yourself On Fire	Stars	8-Mar-05	81.0	http://dbpedia.org/resource/Set_Yourself_on_Fire
+563.0	good	Blue Smoke	Dolly Parton	13-May-14	81.0	http://dbpedia.org/resource/Sha-Kon-O-Hey!_Land_of_Blue_Smoke
+564.0	good	Shut Up I Am Dreaming	Sunset Rubdown	2-May-06	81.0	http://dbpedia.org/resource/Shut_Up_I_Am_Dreaming
+565.0	good	Signal Morning	Circulatory System	8-Sep-09	81.0	http://dbpedia.org/resource/Signal_Morning
+566.0	good	Sing The Sorrow	AFI	11-Mar-03	81.0	http://dbpedia.org/resource/Sing_the_Sorrow
+567.0	good	So Runs The World Away	Josh Ritter	4-May-10	81.0	http://dbpedia.org/resource/So_Runs_the_World_Away
+568.0	good	Someone To Drive You Home	The Long Blondes	5-Jun-07	81.0	http://dbpedia.org/resource/Someone_to_Drive_You_Home
+569.0	good	Songs In Red And Gray	Suzanne Vega	25-Sep-01	81.0	http://dbpedia.org/resource/Songs_in_Red_and_Gray
+571.0	good	Storm Corrosion	Storm Corrosion	8-May-12	81.0	http://dbpedia.org/resource/Storm_Corrosion_(album)
+572.0	good	Summer Of The Shark	Portastatic	8-Apr-03	81.0	http://dbpedia.org/resource/Summer_of_the_Shark_(album)
+573.0	good	Sunny Border Blue	Kristin Hersh	6-Mar-01	81.0	http://dbpedia.org/resource/Sunny_Border_Blue
+575.0	good	Sycamore Meadows	Butch Walker	11-Nov-08	81.0	http://dbpedia.org/resource/Sycamore_Meadows
+576.0	good	Systems/Layers	Rachel's	7-Oct-03	81.0	http://dbpedia.org/resource/Systems/Layers
+577.0	good	TSOL	Shad	5-Oct-10	81.0	http://dbpedia.org/resource/TSOL_(album)
+580.0	good	That Lonesome Song	Jamey Johnson	5-Aug-08	81.0	http://dbpedia.org/resource/That_Lonesome_Song
+581.0	good	The Boxing Mirror	Alejandro Escovedo	2-May-06	81.0	http://dbpedia.org/resource/The_Boxing_Mirror
+582.0	good	The Color Spectrum	The Dear Hunter	14-Jun-11	81.0	http://dbpedia.org/resource/The_Color_Spectrum
+584.0	good	The Covers Record	Cat Power	21-Mar-00	81.0	http://dbpedia.org/resource/The_Covers_Record
+585.0	good	The Ecstatic	Mos Def	9-Jun-09	81.0	http://dbpedia.org/resource/The_Ecstatic
+587.0	good	The Lion's Roar	First Aid Kit	24-Jan-12	81.0	http://dbpedia.org/resource/The_Lion's_Roar_(album)
+590.0	good	The Money Store	Death Grips	24-Apr-12	81.0	http://dbpedia.org/resource/The_Money_Store_(album)
+591.0	good	The Noise Made By People	Broadcast	18-Apr-00	81.0	http://dbpedia.org/resource/The_Noise_Made_by_People
+592.0	good	The Obliterati	Mission of Burma	23-May-06	81.0	http://dbpedia.org/resource/The_Obliterati
+593.0	good	The Old Kit Bag	Richard Thompson	6-May-03	81.0	http://dbpedia.org/resource/The_Old_Kit_Bag
+595.0	good	The Private Press	DJ Shadow	4-Jun-02	81.0	http://dbpedia.org/resource/The_Private_Press
+596.0	good	The Rose Has Teeth In The Mouth Of A Beast	Matmos	9-May-06	81.0	http://dbpedia.org/resource/The_Rose_Has_Teeth_in_the_Mouth_of_a_Beast
+598.0	good	The Sophtware Slump	Grandaddy	7-Nov-00	81.0	http://dbpedia.org/resource/The_Sophtware_Slump
+600.0	good	This Is My Demo	Sway	6-Feb-06	81.0	http://dbpedia.org/resource/This_Is_My_Demo
+601.0	good	Through The Windowpane	Guillemots	10-Jul-06	81.0	http://dbpedia.org/resource/Through_the_Windowpane
+602.0	good	Time* Sex* Love*	Mary Chapin Carpenter	29-May-01	81.0	http://dbpedia.org/resource/Time*_Sex*_Love*
+603.0	good	Torture	Cannibal Corpse	13-Mar-12	81.0	http://dbpedia.org/resource/Torture_(album)
+606.0	good	WIXIW	Liars	5-Jun-12	81.0	http://dbpedia.org/resource/WIXIW
+608.0	good	You In Reverse	Built To Spill	11-Apr-06	81.0	http://dbpedia.org/resource/You_in_Reverse
+610.0	good	Yuck	Yuck	15-Feb-11	81.0	http://dbpedia.org/resource/Yuck_(album)
+611.0	good	100 Proof	Kellie Pickler	24-Jan-12	80.0	http://dbpedia.org/resource/100_Proof_(album)
+612.0	good	13 & God	13 & God	3-May-05	80.0	http://dbpedia.org/resource/13_&_God_(album)
+614.0	good	A Lifetime Of Temporary Relief	Low	20-Jul-04	80.0	http://dbpedia.org/resource/A_Lifetime_of_Temporary_Relief:_10_Years_of_B-Sides_and_Rarities
+615.0	good	A Little Deeper	Ms. Dynamite	11-Mar-03	80.0	http://dbpedia.org/resource/A_Little_Deeper
+616.0	good	A Place To Bury Strangers	A Place to Bury Strangers	7-Aug-07	80.0	http://dbpedia.org/resource/A_Place_to_Bury_Strangers_(album)
+619.0	good	All Is Dream	Mercury Rev	11-Sep-01	80.0	http://dbpedia.org/resource/All_Is_Dream
+620.0	good	All Of A Sudden I Miss Everyone	Explosions in the Sky	20-Feb-07	80.0	http://dbpedia.org/resource/All_of_a_Sudden_I_Miss_Everyone
+624.0	good	Anna Calvi	Anna Calvi	1-Mar-11	80.0	http://dbpedia.org/resource/Anna_Calvi_(album)
+625.0	good	Antics	Interpol	28-Sep-04	80.0	http://dbpedia.org/resource/Antics_(album)
+626.0	good	Antifogmatic	Punch Brothers	15-Jun-10	80.0	http://dbpedia.org/resource/Antifogmatic
+627.0	good	Arabia Mountain	Black Lips	7-Jun-11	80.0	http://dbpedia.org/resource/Arabia_Mountain_(album)
+629.0	good	Begin To Hope	Regina Spektor	13-Jun-06	80.0	http://dbpedia.org/resource/Begin_to_Hope
+630.0	good	Blue Boy	Ron Sexsmith	5-Jun-01	80.0	http://dbpedia.org/resource/Blue_Boy_(album)
+631.0	good	Bootleg: Detroit	Morphine	26-Sep-00	80.0	http://dbpedia.org/resource/Bootleg_Detroit
+632.0	good	Break It Yourself	Andrew Bird	6-Mar-12	80.0	http://dbpedia.org/resource/Break_It_Yourself
+633.0	good	Breaking Kayfabe	Cadence Weapon	28-Nov-06	80.0	http://dbpedia.org/resource/Breaking_Kayfabe
+634.0	good	Candylion	Gruff Rhys	6-Mar-07	80.0	http://dbpedia.org/resource/Candylion
+635.0	good	Cedars	Clearlake	21-Oct-03	80.0	http://dbpedia.org/resource/Cedars_(album)
+636.0	good	Citrus	Asobi Seksu	30-May-06	80.0	http://dbpedia.org/resource/Citrus_(album)
+637.0	good	Confessions On A Dance Floor	Madonna	15-Nov-05	80.0	http://dbpedia.org/resource/Confessions_on_a_Dance_Floor
+638.0	good	Dangerous Magical Noise	The Dirtbombs	4-Nov-03	80.0	http://dbpedia.org/resource/Dangerous_Magical_Noise
+639.0	good	Death Is This Communion	High on Fire	18-Sep-07	80.0	http://dbpedia.org/resource/Death_Is_This_Communion
+640.0	good	Denies The Day's Demise	Daedelus	9-May-06	80.0	http://dbpedia.org/resource/Denies_the_Day's_Demise
+641.0	good	Destroy Rock & Roll	Mylo	7-Feb-06	80.0	http://dbpedia.org/resource/Destroy_Rock_&_Roll
+642.0	good	Dirt Farmer	Levon Helm	30-Oct-07	80.0	http://dbpedia.org/resource/Dirt_Farmer
+643.0	good	Django Django	Django Django	30-Jan-12	80.0	http://dbpedia.org/resource/Django_Django_(album)
+645.0	good	Dye It Blonde	Smith Westerns	18-Jan-11	80.0	http://dbpedia.org/resource/Dye_It_Blonde
+647.0	good	Electric Circus	Common	10-Dec-02	80.0	http://dbpedia.org/resource/Electric_Circus_(album)
+649.0	good	Everything in Between	No Age	28-Sep-10	80.0	http://dbpedia.org/resource/Everything_in_Between_(No_Age_album)
+651.0	good	Fall Heads Roll	The Fall	4-Oct-05	80.0	http://dbpedia.org/resource/Fall_Heads_Roll
+652.0	good	Fin	John Talabot	14-Feb-12	80.0	http://dbpedia.org/resource/Fin_(album)
+653.0	good	Five Serpent's Teeth	Evile	18-Oct-11	80.0	http://dbpedia.org/resource/Five_Serpent's_Teeth
+654.0	good	Furr	Blitzen Trapper	23-Sep-08	80.0	http://dbpedia.org/resource/Furr
+655.0	good	God Hates Us All	Slayer	11-Sep-01	80.0	http://dbpedia.org/resource/God_Hates_Us_All
+656.0	good	Goodbye Bread	Ty Segall	21-Jun-11	80.0	http://dbpedia.org/resource/Goodbye_Bread
+658.0	good	Gulag Orkestar	Beirut	9-May-06	80.0	http://dbpedia.org/resource/Gulag_Orkestar
+660.0	good	Happy New Year	Oneida	11-Jul-06	80.0	http://dbpedia.org/resource/Happy_New_Year_(album)
+661.0	good	Hey Hey My My Yo Yo	Junior Senior	14-Aug-07	80.0	http://dbpedia.org/resource/Hey_Hey_My_My_Yo_Yo
+662.0	good	Hissing Fauna, Are You The Destroyer?	Of Montreal	23-Jan-07	80.0	http://dbpedia.org/resource/Hissing_Fauna,_Are_You_the_Destroyer%3F
+663.0	good	Humming By The Flowered Vine	Laura Cantrell	21-Jun-05	80.0	http://dbpedia.org/resource/Humming_by_the_Flowered_Vine
+664.0	good	I'll Be Lightning	Liam Finn	22-Jan-08	80.0	http://dbpedia.org/resource/I'll_Be_Lightning
+665.0	good	I'll Sleep When You're Dead	El-P	20-Mar-07	80.0	http://dbpedia.org/resource/I'll_Sleep_When_You're_Dead
+666.0	good	IRM	Charlotte Gainsbourg	26-Jan-10	80.0	http://dbpedia.org/resource/IRM_(album)
+667.0	good	Icky Thump	The White Stripes	19-Jun-07	80.0	http://dbpedia.org/resource/Icky_Thump
+668.0	good	In and Out of Youth and Lightness	Young Widows	12-Apr-11	80.0	http://dbpedia.org/resource/In_and_Out_of_Youth_and_Lightness
+669.0	good	Infiniheart	Chad VanGaalen	23-Aug-05	80.0	http://dbpedia.org/resource/Infiniheart
+670.0	good	Jim Noir	Jim Noir	8-Apr-08	80.0	http://dbpedia.org/resource/Jim_Noir_(album)
+671.0	good	Keep It Hid	Dan Auerbach	10-Feb-09	80.0	http://dbpedia.org/resource/Keep_It_Hid
+672.0	good	Kid A	Radiohead	3-Oct-00	80.0	http://dbpedia.org/resource/Kid_A
+674.0	good	Last Days Of Wonder	The Handsome Family	13-Jun-06	80.0	http://dbpedia.org/resource/Last_Days_of_Wonder
+675.0	good	Le Noise	Neil Young	28-Sep-10	80.0	http://dbpedia.org/resource/Le_Noise
+676.0	good	Life Cycles	The Word Alive	3-Jul-12	80.0	http://dbpedia.org/resource/Life_Cycles_(album)
+678.0	good	Lucky Shiner	Gold Panda	12-Oct-10	80.0	http://dbpedia.org/resource/Lucky_Shiner
+679.0	good	Mama's Gun	Erykah Badu	21-Nov-00	80.0	http://dbpedia.org/resource/Mama's_Gun
+680.0	good	Manafon	David Sylvian	15-Sep-09	80.0	http://dbpedia.org/resource/Manafon_(album)
+682.0	good	Martha Wainwright	Martha Wainwright	12-Apr-05	80.0	http://dbpedia.org/resource/Martha_Wainwright_(album)
+683.0	good	Me First	The Elected	3-Feb-04	80.0	http://dbpedia.org/resource/Me_First_(album)
+684.0	good	Mic Tyson	Sean Price	30-Oct-12	80.0	http://dbpedia.org/resource/Mic_Tyson
+685.0	good	Midnight Souvenirs	Peter Wolf	6-Apr-10	80.0	http://dbpedia.org/resource/Midnight_Souvenirs
+688.0	good	Monsters Of Folk	Monsters Of Folk	22-Sep-09	80.0	http://dbpedia.org/resource/Monsters_of_Folk_(album)
+689.0	good	My Maudlin Career	Camera Obscura	21-Apr-09	80.0	http://dbpedia.org/resource/My_Maudlin_Career
+690.0	good	Next Big Thing	Vince Gill	11-Feb-03	80.0	http://dbpedia.org/resource/Next_Big_Thing
+694.0	good	Odd Soul	MUTEMATH	4-Oct-11	80.0	http://dbpedia.org/resource/Odd_Soul
+695.0	good	Offend Maggie	Deerhoof	7-Oct-08	80.0	http://dbpedia.org/resource/Offend_Maggie
+696.0	good	Oh My God, Charlie Darwin	The Low Anthem	9-Jun-09	80.0	http://dbpedia.org/resource/Oh_My_God,_Charlie_Darwin
+698.0	good	Outside Closer	Hood	8-Feb-05	80.0	http://dbpedia.org/resource/Outside_Closer
+700.0	good	Pawn Shoppe Heart	The Von Bondies	9-Mar-04	80.0	http://dbpedia.org/resource/Pawn_Shoppe_Heart
+702.0	good	Prog	The Bad Plus	8-May-07	80.0	http://dbpedia.org/resource/Prog_(album)
+703.0	good	Rainwater Cassette Exchange	Deerhunter	9-Jun-09	80.0	http://dbpedia.org/resource/Rainwater_Cassette_Exchange
+704.0	good	Regard The End	Willard Grant Conspiracy	17-Feb-04	80.0	http://dbpedia.org/resource/Regard_the_End
+705.0	good	Regifted Light	Baby Dee	14-Mar-11	80.0	http://dbpedia.org/resource/Regifted_Light
+706.0	good	Return To The Sea	Islands	4-Apr-06	80.0	http://dbpedia.org/resource/Return_to_the_Sea
+707.0	good	Rising Down	The Roots	29-Apr-08	80.0	http://dbpedia.org/resource/Rising_Down
+708.0	good	Section.80	Kendrick Lamar	2-Jul-11	80.0	http://dbpedia.org/resource/Section.80
+709.0	good	Sharpen Your Teeth	Ugly Casanova	21-May-02	80.0	http://dbpedia.org/resource/Sharpen_Your_Teeth
+710.0	good	Silence Is Sexy	EinstÃƒÆ’Ã‚Â¼rzende Neubauten	23-May-00	80.0	http://dbpedia.org/resource/Silence_Is_Sexy
+714.0	good	Sound of Water	Saint Etienne	6-Jun-00	80.0	http://dbpedia.org/resource/Sound_of_Water
+716.0	good	Street Horrrsing	Fuck Buttons	18-Mar-08	80.0	http://dbpedia.org/resource/Street_Horrrsing
+718.0	good	Swing Lo Magellan	Dirty Projectors	10-Jul-12	80.0	http://dbpedia.org/resource/Swing_Lo_Magellan
+719.0	good	Tassili	Tinariwen	30-Aug-11	80.0	http://dbpedia.org/resource/Tassili_(album)
+720.0	good	The Age of Adz	Sufjan Stevens	12-Oct-10	80.0	http://dbpedia.org/resource/The_Age_of_Adz
+721.0	good	The Angels Of Light Sing 'Other People'	Angels Of Light	22-Mar-05	80.0	http://dbpedia.org/resource/The_Angels_of_Light_Sing_'Other_People'
+722.0	good	The Animal Years	Josh Ritter	11-Apr-06	80.0	http://dbpedia.org/resource/The_Animal_Years
+724.0	good	The Con	Tegan and Sara	24-Jul-07	80.0	http://dbpedia.org/resource/The_Con_(album)
+725.0	good	The Contino Sessions	Death in Vegas	14-Sep-99	80.0	http://dbpedia.org/resource/The_Contino_Sessions
+726.0	good	The Craft	Blackalicious	27-Sep-05	80.0	http://dbpedia.org/resource/The_Craft_(album)
+727.0	good	The Crying Light	Antony and the Johnsons	20-Jan-09	80.0	http://dbpedia.org/resource/The_Crying_Light
+728.0	good	The Execution of All Things	Rilo Kiley	1-Oct-02	80.0	http://dbpedia.org/resource/The_Execution_of_All_Things
+729.0	good	The Flying Club Cup	Beirut	9-Oct-07	80.0	http://dbpedia.org/resource/The_Flying_Club_Cup
+730.0	good	The Great Western	James Dean Bradfield	24-Jul-06	80.0	http://dbpedia.org/resource/The_Great_Western
+731.0	good	The Grind Date	De La Soul	5-Oct-04	80.0	http://dbpedia.org/resource/The_Grind_Date
+732.0	good	The King of Limbs	Radiohead	29-Mar-11	80.0	http://dbpedia.org/resource/The_King_of_Limbs
+733.0	good	The Last Romance	Arab Strap	21-Feb-06	80.0	http://dbpedia.org/resource/The_Last_Romance
+734.0	good	The Libertines	The Libertines	31-Aug-04	80.0	http://dbpedia.org/resource/The_Libertines_(album)
+735.0	good	The Magic Numbers	The Magic Numbers	4-Oct-05	80.0	http://dbpedia.org/resource/The_Magic_Numbers_(album)
+736.0	good	The Midnight Organ Fight	Frightened Rabbit	29-Apr-08	80.0	http://dbpedia.org/resource/The_Midnight_Organ_Fight
+737.0	good	The Power Of Negative Thinking: B-Sides & Rarities	The Jesus And Mary Chain	30-Sep-08	80.0	http://dbpedia.org/resource/The_Power_of_Negative_Thinking:_B-Sides_&_Rarities
+739.0	good	The Tigers Have Spoken	Neko Case	9-Nov-04	80.0	http://dbpedia.org/resource/The_Tigers_Have_Spoken
+740.0	good	The Way The Wind Blows	A Hawk and a Hacksaw	17-Oct-06	80.0	http://dbpedia.org/resource/The_Way_the_Wind_Blows
+741.0	good	Three Fact Fader	Engineers	13-Oct-09	80.0	http://dbpedia.org/resource/Three_Fact_Fader
+743.0	good	Transference	Spoon	19-Jan-10	80.0	http://dbpedia.org/resource/Transference_(album)
+744.0	good	Twilight Of The Thunder God	Amon Amarth	30-Sep-08	80.0	http://dbpedia.org/resource/Twilight_of_the_Thunder_God
+745.0	good	Under Cold Blue Stars	Josh Rouse	19-Feb-02	80.0	http://dbpedia.org/resource/Under_Cold_Blue_Stars
+746.0	good	Unglamorous	Lori McKenna	14-Aug-07	80.0	http://dbpedia.org/resource/Unglamorous
+749.0	good	Vivian Girls	Vivian Girls	30-Sep-08	80.0	http://dbpedia.org/resource/Vivian_Girls_(album)
+750.0	good	Warmer Corners	The Lucksmiths	4-Apr-05	80.0	http://dbpedia.org/resource/Warmer_Corners
+751.0	good	We The Vehicles	Maritime	18-Apr-06	80.0	http://dbpedia.org/resource/We,_the_Vehicles
+752.0	good	What I Do	Alan Jackson	7-Sep-04	80.0	http://dbpedia.org/resource/What_I_Do
+753.0	good	When I Pretend To Fall	The Long Winters	6-May-03	80.0	http://dbpedia.org/resource/When_I_Pretend_to_Fall
+754.0	good	White Chalk	PJ Harvey	25-Sep-07	80.0	http://dbpedia.org/resource/White_Chalk
+755.0	good	White Silence	Cave In	24-May-11	80.0	http://dbpedia.org/resource/White_Silence
+756.0	good	Wind In The Wires	Patrick Wolf	15-Mar-05	80.0	http://dbpedia.org/resource/Wind_in_the_Wires
+759.0	good	You Get What You Give	Zac Brown Band	21-Sep-10	80.0	http://dbpedia.org/resource/You_Get_What_You_Give_(album)
+760.0	good	100 Days, 100 Nights	Sharon Jones & the Dap-Kings	2-Oct-07	79.0	http://dbpedia.org/resource/100_Days,_100_Nights
+761.0	good	1372 Overton Park	Lucero	6-Oct-09	79.0	http://dbpedia.org/resource/1372_Overton_Park
+762.0	good	About A Boy [Soundtrack]	Badly Drawn Boy	23-Apr-02	79.0	http://dbpedia.org/resource/About_a_Boy_(soundtrack)
+764.0	good	Alegranza	El Guincho	7-Oct-08	79.0	http://dbpedia.org/resource/Alegranza_(album)
+765.0	good	All That You Can't Leave Behind	U2	31-Oct-00	79.0	http://dbpedia.org/resource/All_That_You_Can't_Leave_Behind
+769.0	good	An Imaginary Country	Tim Hecker	10-Mar-09	79.0	http://dbpedia.org/resource/An_Imaginary_Country
+771.0	good	Autumn of the Seraphs	Pinback	11-Sep-07	79.0	http://dbpedia.org/resource/Autumn_of_the_Seraphs
+775.0	good	Biophilia	BjÃƒÂ¶rk	11-Oct-11	79.0	http://dbpedia.org/resource/Biophilia_(album)
+777.0	good	Blackout! 2	Method Man & Redman	19-May-09	79.0	http://dbpedia.org/resource/Blackout!_2
+778.0	good	Brooklynati	Tanya Morgan	19-May-09	79.0	http://dbpedia.org/resource/Brooklynati
+779.0	good	Built On Squares	Starlight Mints	20-May-03	79.0	http://dbpedia.org/resource/Built_on_Squares
+780.0	good	Castle Talk	Screaming Females	14-Sep-10	79.0	http://dbpedia.org/resource/Castle_Talk_(album)
+781.0	good	Cat's Eyes	Cat's Eyes	17-May-11	79.0	http://dbpedia.org/resource/Cat's_Eyes_(album)
+783.0	good	Cinder	Dirty Three	11-Oct-05	79.0	http://dbpedia.org/resource/Cinder_(album)
+785.0	good	Coexist	The xx	11-Sep-12	79.0	http://dbpedia.org/resource/Coexist_(album)
+788.0	good	Cripple Crow	Devendra Banhart	13-Sep-05	79.0	http://dbpedia.org/resource/Cripple_Crow
+791.0	good	Darker Handcraft	Trap Them	15-Mar-11	79.0	http://dbpedia.org/resource/Darker_Handcraft
+793.0	good	Diaper Island	Chad VanGaalen	17-May-11	79.0	http://dbpedia.org/resource/Diaper_Island
+795.0	good	Drum's Not Dead	Liars	21-Mar-06	79.0	http://dbpedia.org/resource/Drum's_Not_Dead
+796.0	good	Elk-Lake Serenade	Hayden	18-May-04	79.0	http://dbpedia.org/resource/Elk-Lake_Serenade
+798.0	good	Fan Dance	Sam Phillips	31-Jul-01	79.0	http://dbpedia.org/resource/Fan_Dance_(album)
+801.0	bad	Everything Is Borrowed	The Streets	7-Oct-08	63.0	http://dbpedia.org/resource/Everything_Is_Borrowed
+802.0	bad	Falcon	The Courteeners	22-Feb-10	63.0	http://dbpedia.org/resource/Falcon_(album)
+803.0	bad	Farmer's Daughter	Crystal Bowersox	14-Dec-10	63.0	http://dbpedia.org/resource/Farmer's_Daughter_(album)
+805.0	bad	Flaws	Bombay Bicycle Club	13-Jul-10	63.0	http://dbpedia.org/resource/Flaws
+806.0	bad	Fly Yellow Moon	Fyfe Dangerfield	25-May-10	63.0	http://dbpedia.org/resource/Fly_Yellow_Moon
+807.0	bad	Furious Angels	Rob Dougan	3-Jun-03	63.0	http://dbpedia.org/resource/Furious_Angels
+809.0	bad	Ghostbird	Zee Avi	23-Aug-11	63.0	http://dbpedia.org/resource/Ghostbird
+812.0	bad	He Was King	Felix Da Housecat	25-Aug-09	63.0	http://dbpedia.org/resource/He_Was_King
+813.0	bad	Higher Than The Eiffel	Audio Bullys	18-May-10	63.0	http://dbpedia.org/resource/Higher_Than_the_Eiffel
+814.0	bad	Hitting The Ground	Gordon Gano	20-Aug-02	63.0	http://dbpedia.org/resource/Hitting_the_Ground
+818.0	bad	In Rape Fantasy And Terror Sex We Trust	Joan of Arc	27-May-03	63.0	http://dbpedia.org/resource/In_Rape_Fantasy_and_Terror_Sex_We_Trust
+819.0	bad	Invicta	Hit the Lights	31-Jan-12	63.0	http://dbpedia.org/resource/Invicta_(album)
+820.0	bad	Laws of Illusion	Sarah McLachlan	15-Jun-10	63.0	http://dbpedia.org/resource/Laws_of_Illusion
+821.0	bad	Laws Of Illusion	Sarah McLachlan	15-Jun-10	63.0	http://dbpedia.org/resource/Laws_of_Illusion
+822.0	bad	Learning From Falling	Lamya	30-Jul-02	63.0	http://dbpedia.org/resource/Learning_from_Falling
+824.0	bad	Made In China	Juliana Hatfield	9-Aug-05	63.0	http://dbpedia.org/resource/Made_in_China_(album)
+825.0	bad	Money and Celebrity	The Subways	19-Sep-11	63.0	http://dbpedia.org/resource/Money_and_Celebrity
+826.0	bad	Moodring	Mya	22-Jul-03	63.0	http://dbpedia.org/resource/Moodring
+827.0	bad	Music Of The Spheres	Ian Brown	1-Oct-01	63.0	http://dbpedia.org/resource/Music_of_the_Spheres_(Ian_Brown_album)
+828.0	bad	My World, My Way	Silkk The Shocker	27-Feb-01	63.0	http://dbpedia.org/resource/My_World,_My_Way_(album)
+829.0	bad	Night Shades	Cobra Starship	29-Aug-11	63.0	http://dbpedia.org/resource/Night_Shades
+830.0	bad	Not Your Kind of People	Garbage	22-May-12	63.0	http://dbpedia.org/resource/Not_Your_Kind_of_People
+831.0	bad	One Soul Now	Cowboy Junkies	8-Jun-04	63.0	http://dbpedia.org/resource/One_Soul_Now
+832.0	bad	Only By The Night	Kings of Leon	23-Sep-08	63.0	http://dbpedia.org/resource/Only_by_the_Night
+833.0	bad	Paper Tigers	Caesars	26-Apr-05	63.0	http://dbpedia.org/resource/Paper_Tigers
+834.0	bad	Party Rock	LMFAO	7-Jul-09	63.0	http://dbpedia.org/resource/Party_Rock
+835.0	bad	Pocket Symphony	Air	6-Mar-07	63.0	http://dbpedia.org/resource/Pocket_Symphony
+836.0	bad	R&G (Rhythm & Gangsta): The Masterpiece	Snoop Dogg	16-Nov-04	63.0	http://dbpedia.org/resource/R&G_(Rhythm_&_Gangsta):_The_Masterpiece
+837.0	bad	Red Letter Days	The Wallflowers	5-Nov-02	63.0	http://dbpedia.org/resource/Red_Letter_Days_(album)
+840.0	bad	Satan's Circus	Death in Vegas	24-May-05	63.0	http://dbpedia.org/resource/Satan's_Circus
+841.0	bad	Saturday Nights & Sunday Mornings	Counting Crows	25-Mar-08	63.0	http://dbpedia.org/resource/Saturday_Nights_&_Sunday_Mornings
+842.0	bad	Some Loud Thunder	Clap Your Hands Say Yeah	30-Jan-07	63.0	http://dbpedia.org/resource/Some_Loud_Thunder
+843.0	bad	Sun, Sun, Sun	The Elected	24-Jan-06	63.0	http://dbpedia.org/resource/Sun,_Sun,_Sun
+844.0	bad	Tear The World Down	We Are The Fallen	11-May-10	63.0	http://dbpedia.org/resource/Tear_the_World_Down
+845.0	bad	The Age Of Miracles	Mary Chapin Carpenter	27-Apr-10	63.0	http://dbpedia.org/resource/The_Age_of_Miracles
+846.0	bad	The Bright Lights Of America	Anti-Flag	1-Apr-08	63.0	http://dbpedia.org/resource/The_Bright_Lights_of_America
+848.0	bad	The Dangermen Sessions, Vol. 1	Madness	16-Aug-05	63.0	http://dbpedia.org/resource/The_Dangermen_Sessions_Vol._1
+849.0	bad	The Fire Theft	The Fire Theft	23-Sep-03	63.0	http://dbpedia.org/resource/The_Fire_Theft_(album)
+852.0	bad	Evanescence	Evanescence	11-Oct-11	63.0	http://dbpedia.org/resource/The_Open_Door
+853.0	bad	Strangest Things	Longwave	18-Mar-03	63.0	http://dbpedia.org/resource/The_Strangest_Things
+855.0	bad	The Unforgiving	Within Temptation	29-Mar-11	63.0	http://dbpedia.org/resource/The_Unforgiving
+858.0	bad	Tropical Storm	Beenie Man	20-Aug-02	63.0	http://dbpedia.org/resource/Tropical_Storm_(album)
+859.0	bad	Under The Iron Sea	Keane	20-Jun-06	63.0	http://dbpedia.org/resource/Under_the_Iron_Sea
+860.0	bad	Vehicles & Animals	Athlete	18-May-04	63.0	http://dbpedia.org/resource/Vehicles_&_Animals
+861.0	bad	Waiting For The Sirens' Call	New Order	26-Apr-05	63.0	http://dbpedia.org/resource/Waiting_for_the_Sirens'_Call
+862.0	bad	3 Words	Cheryl Cole	26-Oct-09	62.0	http://dbpedia.org/resource/3_Words
+863.0	bad	Abnormally Attracted To Sin	Tori Amos	19-May-09	62.0	http://dbpedia.org/resource/Abnormally_Attracted_to_Sin
+864.0	bad	All The Plans	Starsailor	9-Mar-09	62.0	http://dbpedia.org/resource/All_the_Plans
+865.0	bad	Alphabutt	Kimya Dawson	9-Sep-08	62.0	http://dbpedia.org/resource/Alphabutt
+866.0	bad	Apocalyptic Love	Slash	22-May-12	62.0	http://dbpedia.org/resource/Apocalyptic_Love
+867.0	bad	Audioslave	Audioslave	19-Nov-02	62.0	http://dbpedia.org/resource/Audioslave_(DVD)
+868.0	bad	Battle For The Sun	Placebo	9-Jun-09	62.0	http://dbpedia.org/resource/Battle_for_the_Sun
+869.0	bad	Beaus$eros	Busdriver	21-Feb-12	62.0	http://dbpedia.org/resource/Beaus$Eros
+870.0	bad	Before I Self Destruct	50 Cent	16-Nov-09	62.0	http://dbpedia.org/resource/Before_I_Self_Destruct
+871.0	bad	Beg For Mercy	G-Unit	14-Nov-03	62.0	http://dbpedia.org/resource/Beg_for_Mercy
+872.0	bad	Bittersweet World	Ashlee Simpson	22-Apr-08	62.0	http://dbpedia.org/resource/Bittersweet_World
+873.0	bad	Body Language	Kylie Minogue	10-Feb-04	62.0	http://dbpedia.org/resource/Body_Language_Live
+874.0	bad	Built From Scratch	The X-Ecutioners	29-Jan-02	62.0	http://dbpedia.org/resource/Built_from_Scratch
+875.0	bad	Christmas In The Heart	Bob Dylan	13-Oct-09	62.0	http://dbpedia.org/resource/Christmas_in_the_Heart
+877.0	bad	Crazy Clown Time	David Lynch	8-Nov-11	62.0	http://dbpedia.org/resource/Crazy_Clown_Time
+878.0	bad	Cryptomnesia	El Grupo Nuevo de Omar Rodriguez Lopez	5-May-09	62.0	http://dbpedia.org/resource/Cryptomnesia_(album)
+879.0	bad	Dark End Of The Street [EP]	Cat Power	9-Dec-08	62.0	http://dbpedia.org/resource/Dark_End_of_the_Street_(album)
+880.0	bad	Devil's Music	Teddybears	5-Jul-11	62.0	http://dbpedia.org/resource/Devil's_Music
+881.0	bad	Do Rabbits Wonder	Whirlwind Heat	15-Apr-03	62.0	http://dbpedia.org/resource/Do_Rabbits_Wonder%3F
+882.0	bad	Do You Know Squarepusher	Squarepusher	1-Oct-02	62.0	http://dbpedia.org/resource/Do_You_Know_Squarepusher
+883.0	bad	Emotional Traffic	Tim McGraw	24-Jan-12	62.0	http://dbpedia.org/resource/Emotional_Traffic
+885.0	bad	Fear Yourself	Daniel Johnston	25-Mar-03	62.0	http://dbpedia.org/resource/Fear_Yourself
+889.0	bad	Free Somehow	Widespread Panic	12-Feb-08	62.0	http://dbpedia.org/resource/Free_Somehow
+890.0	bad	Freedom of Speech	Speech Debelle	21-Feb-12	62.0	http://dbpedia.org/resource/Freedom_of_Speech_(Speech_Debelle_album)
+891.0	bad	Game Tested Streets Approved	Black Rob	26-Jul-11	62.0	http://dbpedia.org/resource/Game_Tested,_Streets_Approved
+892.0	bad	GhostDeini The Great	Ghostface Killah	16-Dec-08	62.0	http://dbpedia.org/resource/GhostDeini_the_Great
+893.0	bad	Goddess In The Doorway	Mick Jagger	20-Nov-01	62.0	http://dbpedia.org/resource/Goddess_in_the_Doorway
+895.0	bad	I Am...Sasha Fierce	Beyonce	18-Nov-08	62.0	http://dbpedia.org/resource/I_Am..._Sasha_Fierce
+896.0	bad	I Am the West	Ice Cube	28-Sep-10	62.0	http://dbpedia.org/resource/I_Am_the_West
+897.0	bad	If Songs Could Be Held	Rosie Thomas	13-Sep-05	62.0	http://dbpedia.org/resource/If_Songs_Could_Be_Held
+898.0	bad	In Your Dreams	Stevie Nicks	3-May-11	62.0	http://dbpedia.org/resource/In_Your_Dreams_(album)
+899.0	bad	JackInABox	Turin Brakes	7-Jun-05	62.0	http://dbpedia.org/resource/Jackinabox
+900.0	bad	Karmacode	Lacuna Coil	4-Apr-06	62.0	http://dbpedia.org/resource/Karmacode
+901.0	bad	Kids in the Street	The All-American Rejects	26-Mar-12	62.0	http://dbpedia.org/resource/Kids_in_the_Street
+903.0	bad	Killing Puritans	Armand Van Helden	6-Jun-00	62.0	http://dbpedia.org/resource/Killing_Puritans
+905.0	bad	Let's Bottle Bohemia	The Thrills	14-Sep-04	62.0	http://dbpedia.org/resource/Let's_Bottle_Bohemia
+909.0	bad	Meteora	Linkin Park	25-Mar-03	62.0	http://dbpedia.org/resource/Meteora_(album)
+910.0	bad	Morning View	Incubus	23-Oct-01	62.0	http://dbpedia.org/resource/Morning_View_Sessions
+912.0	bad	Neighborhood Watch	Dilated Peoples	6-Apr-04	62.0	http://dbpedia.org/resource/Neighborhood_Watch_(album)
+915.0	bad	Panic Movement	The Hiss	23-Mar-04	62.0	http://dbpedia.org/resource/Panic_Movement_(album)
+916.0	bad	Paper Walls	Yellowcard	17-Jul-07	62.0	http://dbpedia.org/resource/Paper_Walls
+917.0	bad	Paralytic Stalks	Of Montreal	7-Feb-12	62.0	http://dbpedia.org/resource/Paralytic_Stalks
+919.0	bad	Pray IV Reign	Jim Jones	24-Mar-09	62.0	http://dbpedia.org/resource/Pray_IV_Reign
+922.0	bad	Red River Blue	Blake Shelton	12-Jul-11	62.0	http://dbpedia.org/resource/Red_River_Blue
+923.0	bad	Ripe	Ben Lee	18-Sep-07	62.0	http://dbpedia.org/resource/Ripe_(album)
+926.0	bad	Sing Along To Songs You Don't Know	Mum	22-Sep-09	62.0	http://dbpedia.org/resource/Sing_Along_to_Songs_You_Don't_Know
+927.0	bad	Slicker Than Your Average	Craig David	19-Nov-02	62.0	http://dbpedia.org/resource/Slicker_Than_Your_Average
+928.0	bad	Strength In Numbers	Calla	20-Feb-07	62.0	http://dbpedia.org/resource/Strength_in_Numbers_(Calla_album)
+929.0	bad	Stupid Love	Mindy Smith	11-Aug-09	62.0	http://dbpedia.org/resource/Stupid_Love
+932.0	bad	Symphonicities	Sting	13-Jul-10	62.0	http://dbpedia.org/resource/Symphonicities
+933.0	bad	The Best Little Secrets Are Kept	Louis XIV	22-Mar-05	62.0	http://dbpedia.org/resource/The_Best_Little_Secrets_Are_Kept
+935.0	bad	The Head and the Heart	The Head and the Heart	16-Apr-11	62.0	http://dbpedia.org/resource/The_Head_and_the_Heart_(album)
+937.0	bad	The Less You Know, The Better	DJ Shadow	4-Oct-11	62.0	http://dbpedia.org/resource/The_Less_You_Know,_the_Better
+938.0	bad	The Long Road	Nickelback	23-Sep-03	62.0	http://dbpedia.org/resource/The_Long_Road
+939.0	bad	The Outsider	DJ Shadow	19-Sep-06	62.0	http://dbpedia.org/resource/The_Outsider_(DJ_Shadow_album)
+940.0	bad	The Ragpicker's Dream	Mark Knopfler	1-Oct-02	62.0	http://dbpedia.org/resource/The_Ragpicker's_Dream
+941.0	bad	The Sun And The Moon	The Bravery	22-May-07	62.0	http://dbpedia.org/resource/The_Sun_and_the_Moon
+942.0	bad	The Wanted [EP]	The Wanted	24-Apr-12	62.0	http://dbpedia.org/resource/The_Wanted_(EP)
+943.0	bad	Three's Co.	The Tyde	29-Aug-06	62.0	http://dbpedia.org/resource/Three's_Co.
+944.0	bad	Tomorrow's World	Erasure	11-Oct-11	62.0	http://dbpedia.org/resource/Tomorrow's_World_(album)
+945.0	bad	Tweekend	The Crystal Method	31-Jul-01	62.0	http://dbpedia.org/resource/Tweekend
+948.0	bad	Vices & Virtues	Panic! At the Disco	22-Mar-11	62.0	http://dbpedia.org/resource/Vices_&_Virtues
+949.0	bad	Wake Up And Smell The Coffee	The Cranberries	23-Oct-01	62.0	http://dbpedia.org/resource/Wake_Up_and_Smell_the_Coffee
+953.0	bad	22-20s	22-20s	19-Apr-05	61.0	http://dbpedia.org/resource/22-20s_(album)
+954.0	bad	7th Symphony	Apocalyptica	24-Aug-10	61.0	http://dbpedia.org/resource/7th_Symphony_(album)
+955.0	bad	Audio Day Dream	Blake Lewis	4-Dec-07	61.0	http://dbpedia.org/resource/A.D.D._(Audio_Day_Dream)
+957.0	bad	A New Tide	Gomez	31-Mar-09	61.0	http://dbpedia.org/resource/A_New_Tide
+959.0	bad	Bicycles & Tricycles	The Orb	13-Jul-04	61.0	http://dbpedia.org/resource/Bicycles_&_Tricycles
+960.0	bad	Blood for the Master	Goatwhore	14-Feb-12	61.0	http://dbpedia.org/resource/Blood_for_the_Master
+961.0	bad	Brass Knuckles	Nelly	16-Sep-08	61.0	http://dbpedia.org/resource/Brass_Knuckles_(album)
+964.0	bad	Charango	Morcheeba	16-Jul-02	61.0	http://dbpedia.org/resource/Charango_(album)
+965.0	bad	Clothes Drop	Shaggy	20-Sep-05	61.0	http://dbpedia.org/resource/Clothes_Drop
+966.0	bad	David Cook	David Cook	18-Nov-08	61.0	http://dbpedia.org/resource/David_Cook_(album)
+967.0	bad	Dignity	Hilary Duff	3-Apr-07	61.0	http://dbpedia.org/resource/Dignity_(album)
+970.0	bad	Foot Of The Mountain	a-ha	27-Jul-09	61.0	http://dbpedia.org/resource/Foot_of_the_Mountain
+971.0	bad	Fork In The Road	Neil Young	7-Apr-09	61.0	http://dbpedia.org/resource/Fork_in_the_Road
+974.0	bad	Godspeed On The Devil's Thunder	Cradle of Filth	28-Oct-08	61.0	http://dbpedia.org/resource/Godspeed_on_the_Devil's_Thunder
+975.0	bad	Help Wanted Nights	The Good Life	11-Sep-07	61.0	http://dbpedia.org/resource/Help_Wanted_Nights
+976.0	bad	Here We Stand	The Fratellis	10-Jun-08	61.0	http://dbpedia.org/resource/Here_We_Stand_(The_Fratellis_album)
+977.0	bad	Hopes And Fears	Keane	25-May-04	61.0	http://dbpedia.org/resource/Hopes_and_Fears
+979.0	bad	I Had the Blues But I Shook Them Loose	Bombay Bicycle Club	6-Jul-09	61.0	http://dbpedia.org/resource/I_Had_the_Blues_But_I_Shook_Them_Loose
+980.0	bad	In the Key of Disney	Brian Wilson	24-Oct-11	61.0	http://dbpedia.org/resource/In_the_Key_of_Disney
+983.0	bad	Legendary Weapons	Wu-Tang Clan	26-Jul-11	61.0	http://dbpedia.org/resource/Legendary_Weapons
+984.0	bad	Let Them Talk	Hugh Laurie	6-Sep-11	61.0	http://dbpedia.org/resource/Let_Them_Talk
+985.0	bad	Live Like You Were Dying	Tim McGraw	24-Aug-04	61.0	http://dbpedia.org/resource/Live_Like_You_Were_Dying
+986.0	bad	Love Notes/Letter Bombs	The Submarines	5-Apr-11	61.0	http://dbpedia.org/resource/Love_Notes/Letter_Bombs
+987.0	bad	Malice N Wonderland	Snoop Dogg	8-Dec-09	61.0	http://dbpedia.org/resource/Malice_n_Wonderland
+989.0	bad	Modulate	Bob Mould	12-Mar-02	61.0	http://dbpedia.org/resource/Modulate_(album)
+990.0	bad	Moment Bends	Architecture in Helsinki	3-May-11	61.0	http://dbpedia.org/resource/Moment_Bends
+992.0	bad	Music for Courage and Confidence	Mark Eitzel	23-Apr-02	61.0	http://dbpedia.org/resource/Music_for_Courage_and_Confidence
+993.0	bad	My Guilty Pleasure	Sally Shapiro	25-Aug-09	61.0	http://dbpedia.org/resource/My_Guilty_Pleasure
+994.0	bad	My Private Nation	Train	3-Jun-03	61.0	http://dbpedia.org/resource/My_Private_Nation
+997.0	bad	Out Of Nothing	Embrace	14-Jun-05	61.0	http://dbpedia.org/resource/Out_of_Nothing
+998.0	bad	People Are Expensive	Echobelly	21-May-01	61.0	http://dbpedia.org/resource/People_Are_Expensive
+999.0	bad	Polly Scattergood	Polly Scattergood	19-May-09	61.0	http://dbpedia.org/resource/Polly_Scattergood_(album)
+1000.0	bad	Quicken The Heart	MaxÃƒÂ¯mo Park	12-May-09	61.0	http://dbpedia.org/resource/Quicken_the_Heart
+1001.0	bad	Red Carpet Massacre	Duran Duran	13-Nov-07	61.0	http://dbpedia.org/resource/Red_Carpet_Massacre
+1003.0	bad	Robotique Majestique	Ghostland Observatory	4-Mar-08	61.0	http://dbpedia.org/resource/Robotique_Majestique
+1007.0	bad	Sleep Through The Static	Jack Johnson	5-Feb-08	61.0	http://dbpedia.org/resource/Sleep_Through_the_Static
+1009.0	bad	Some Devil	Dave Matthews	23-Sep-03	61.0	http://dbpedia.org/resource/Some_Devil
+1010.0	bad	T.I. Vs T.I.P.	T.I.	3-Jul-07	61.0	http://dbpedia.org/resource/T.I._vs._T.I.P.
+1012.0	bad	The Friends [EP]	Ween	19-Jun-07	61.0	http://dbpedia.org/resource/The_Friends_EP
+1014.0	bad	The Last Kiss	Jadakiss	7-Apr-09	61.0	http://dbpedia.org/resource/The_Last_Kiss_(album)
+1015.0	bad	The Mix-Up	Beastie Boys	26-Jun-07	61.0	http://dbpedia.org/resource/The_Mix-Up
+1016.0	bad	The Open Door	Evanescence	3-Oct-06	61.0	http://dbpedia.org/resource/The_Open_Door
+1017.0	bad	The Preacher's Son	Wyclef Jean	4-Nov-03	61.0	http://dbpedia.org/resource/The_Preacher's_Son
+1018.0	bad	The World I Want to Leave Behind	Moneen	15-Sep-09	61.0	http://dbpedia.org/resource/The_World_I_Want_to_Leave_Behind
+1019.0	bad	This Delicate Thing We've Made	Darren Hayes	21-Aug-07	61.0	http://dbpedia.org/resource/This_Delicate_Thing_We've_Made
+1020.0	bad	Time The Conqueror	Jackson Browne	23-Sep-08	61.0	http://dbpedia.org/resource/Time_the_Conqueror
+1024.0	bad	Walk It Off	Tapes 'n Tapes	8-Apr-08	61.0	http://dbpedia.org/resource/Walk_It_Off
+1027.0	bad	We'll Live and Die in These Towns	The Enemy	9-Jul-07	61.0	http://dbpedia.org/resource/We'll_Live_and_Die_in_These_Towns
+1030.0	bad	Who Killed Sgt. Pepper?	The Brian Jonestown Massacre	23-Feb-10	61.0	http://dbpedia.org/resource/Who_Killed_Sgt._Pepper%3F
+1031.0	bad	World Wide Rebel Songs	The Nightwatchman	29-Aug-11	61.0	http://dbpedia.org/resource/World_Wide_Rebel_Songs
+1033.0	bad	You Can Feel Me	Har Mar Superstar	5-Nov-02	61.0	http://dbpedia.org/resource/You_Can_Feel_Me
+1034.0	bad	Yours Truly, Angry Mob	Kaiser Chiefs	27-Mar-07	61.0	http://dbpedia.org/resource/Yours_Truly,_Angry_Mob
+1035.0	bad	V Is For Vagina	Puscifer	30-Oct-07	60.0	http://dbpedia.org/resource/%22V%22_Is_for_Vagina
+1036.0	bad	American Life	Madonna	22-Apr-03	60.0	http://dbpedia.org/resource/American_Life
+1038.0	bad	Back On My B.S.	Busta Rhymes	19-May-09	60.0	http://dbpedia.org/resource/Back_on_My_B.S.
+1040.0	bad	Calamity	The Curtains	24-Oct-06	60.0	http://dbpedia.org/resource/Calamity_(album)
+1041.0	bad	Calling the World	Rooney	17-Jul-07	60.0	http://dbpedia.org/resource/Calling_the_World
+1042.0	bad	Casino Twilight Dogs	Youth Group	30-Jan-07	60.0	http://dbpedia.org/resource/Casino_Twilight_Dogs
+1043.0	bad	Congregation Of The Damned	Atreyu	26-Oct-09	60.0	http://dbpedia.org/resource/Congregation_of_the_Damned
+1044.0	bad	Conspiracy of One	The Offspring	14-Nov-00	60.0	http://dbpedia.org/resource/Conspiracy_of_One
+1046.0	bad	Dead Drunk	Terrestrial Tones	7-Mar-06	60.0	http://dbpedia.org/resource/Dead_Drunk
+1047.0	bad	Decent Work For Decent Pay	Diplo	3-Feb-09	60.0	http://dbpedia.org/resource/Decent_Work_for_Decent_Pay
+1049.0	bad	Dumb Luck	Dntel	24-Apr-07	60.0	http://dbpedia.org/resource/Dumb_Luck_(album)
+1050.0	bad	Dusk And Summer	Dashboard Confessional	27-Jun-06	60.0	http://dbpedia.org/resource/Dusk_and_Summer
+1051.0	bad	Familiar To Millions	Oasis	21-Nov-00	60.0	http://dbpedia.org/resource/Familiar_to_Millions
+1052.0	bad	Fantasy Ride	Ciara	5-May-09	60.0	http://dbpedia.org/resource/Fantasy_Ride
+1054.0	bad	Folker	Paul Westerberg	7-Sep-04	60.0	http://dbpedia.org/resource/Folker
+1056.0	bad	Generation Freakshow	Feeder	23-Apr-12	60.0	http://dbpedia.org/resource/Generation_Freakshow_(album)
+1057.0	bad	Glass Floor	Maritime	1-Jun-04	60.0	http://dbpedia.org/resource/Glass_Floor
+1058.0	bad	Glassheart	Leona Lewis	15-Oct-12	60.0	http://dbpedia.org/resource/Glassheart
+1059.0	bad	Golden Lies	Meat Puppets	26-Sep-00	60.0	http://dbpedia.org/resource/Golden_Lies
+1060.0	bad	Grey Oceans	CocoRosie	11-May-10	60.0	http://dbpedia.org/resource/Grey_Oceans
+1062.0	bad	In Case You Didn't Know	Olly Murs	25-Nov-11	60.0	http://dbpedia.org/resource/In_Case_You_Didn't_Know
+1063.0	bad	In Some Way, Shape, or Form	Four Year Strong	8-Nov-11	60.0	http://dbpedia.org/resource/In_Some_Way,_Shape_or_Form
+1064.0	bad	Invaders Must Die	The Prodigy	3-Mar-09	60.0	http://dbpedia.org/resource/Invaders_Must_Die
+1066.0	bad	Lessons In Love	Lloyd	5-Aug-08	60.0	http://dbpedia.org/resource/Lessons_in_Love_(Lloyd_album)
+1069.0	bad	Lucky Old Sun	Kenny Chesney	14-Oct-08	60.0	http://dbpedia.org/resource/Lucky_Old_Sun
+1071.0	bad	Mink Car	They Might Be Giants	11-Sep-01	60.0	http://dbpedia.org/resource/Mink_Car
+1072.0	bad	Morning Tide	The Little Ones	7-Oct-08	60.0	http://dbpedia.org/resource/Morning_Tide
+1073.0	bad	Night On Fire	VHS or Beta	21-Sep-04	60.0	http://dbpedia.org/resource/Night_on_Fire
+1074.0	bad	No Hope, No Future	Good Shoes	25-Jan-10	60.0	http://dbpedia.org/resource/No_Hope,_No_Future
+1075.0	bad	No Mundane Options	The Paddingtons	3-Nov-08	60.0	http://dbpedia.org/resource/No_Mundane_Options
+1076.0	bad	One Plus One Is One	Badly Drawn Boy	27-Jul-04	60.0	http://dbpedia.org/resource/One_Plus_One_Is_One
+1077.0	bad	Out of Frequency	The Asteroids Galaxy Tour	31-Jan-12	60.0	http://dbpedia.org/resource/Out_of_Frequency
+1078.0	bad	Own the Night	Lady Antebellum	13-Sep-11	60.0	http://dbpedia.org/resource/Own_the_Night
+1079.0	bad	Peaceful, The World Lays Me Down	Noah and the Whale	16-Sep-08	60.0	http://dbpedia.org/resource/Peaceful,_the_World_Lays_Me_Down
+1081.0	bad	Razorlight	Razorlight	22-Aug-06	60.0	http://dbpedia.org/resource/Razorlight_(album)
+1082.0	bad	Reanimation	Linkin Park	30-Jul-02	60.0	http://dbpedia.org/resource/Reanimation
+1086.0	bad	Shobaleader One: d'Demonstrator	Squarepusher	19-Oct-10	60.0	http://dbpedia.org/resource/Shobaleader_One:_d'Demonstrator
+1087.0	bad	Sixes & Sevens	Adam Green	18-Mar-08	60.0	http://dbpedia.org/resource/Sixes_&_Sevens
+1088.0	bad	Song Yet To Be Sung	Perry Farrell	17-Jul-01	60.0	http://dbpedia.org/resource/Song_Yet_to_Be_Sung
+1089.0	bad	Songs About Girls	will.i.am	25-Sep-07	60.0	http://dbpedia.org/resource/Songs_About_Girls
+1090.0	bad	Splinter	The Offspring	9-Dec-03	60.0	http://dbpedia.org/resource/Splinter_(The_Offspring_album)
+1091.0	bad	St. Jude	The Courteeners	7-Apr-08	60.0	http://dbpedia.org/resource/St._Jude_(album)
+1092.0	bad	Strangeland	Keane	8-May-12	60.0	http://dbpedia.org/resource/Strangeland_(album)
+1093.0	bad	Strip Me	Natasha Bedingfield	7-Dec-10	60.0	http://dbpedia.org/resource/Strip_Me
+1096.0	bad	The Adventures Of Ghosthorse And Stillborn	CocoRosie	10-Apr-07	60.0	http://dbpedia.org/resource/The_Adventures_of_Ghosthorse_and_Stillborn
+1098.0	bad	The Golden Age Of Grotesque	Marilyn Manson	13-May-03	60.0	http://dbpedia.org/resource/The_Golden_Age_of_Grotesque
+1099.0	bad	The Oracle	Godsmack	4-May-10	60.0	http://dbpedia.org/resource/The_Oracle_(album)
+1100.0	bad	The Past Presents The Future	Her Space Holiday	27-Sep-05	60.0	http://dbpedia.org/resource/The_Past_Presents_the_Future
+1102.0	bad	The Third Hand	Rjd2	6-Mar-07	60.0	http://dbpedia.org/resource/The_Third_Hand
+1103.0	bad	Thecontrollersphere	Of Montreal	26-Apr-11	60.0	http://dbpedia.org/resource/Thecontrollersphere
+1104.0	bad	This Kind Of Love	Carly Simon	29-Apr-08	60.0	http://dbpedia.org/resource/This_Kind_of_Love
+1105.0	bad	Threes	Sparta	24-Oct-06	60.0	http://dbpedia.org/resource/Threes_(album)
+1106.0	bad	Trilla	Rick Ross	11-Mar-08	60.0	http://dbpedia.org/resource/Trilla
+1109.0	bad	We Sing, We Dance, We Steal Things	Jason Mraz	13-May-08	60.0	http://dbpedia.org/resource/We_Sing._We_Dance._We_Steal_Things.
+1112.0	bad	Year Of The Dog... Again	DMX	1-Aug-06	60.0	http://dbpedia.org/resource/Year_of_the_Dog..._Again
+1113.0	bad	You Gotta Go There To Come Back	Stereophonics	9-Sep-03	60.0	http://dbpedia.org/resource/You_Gotta_Go_There_to_Come_Back
+1114.0	bad	Happy In Galoshes	Scott Weiland	25-Nov-08	59.0	http://dbpedia.org/resource/%22Happy%22_in_Galoshes
+1115.0	bad	55 Cadillac	Andrew W.K.	8-Sep-09	59.0	http://dbpedia.org/resource/55_Cadillac
+1117.0	bad	America's Sweetheart	Courtney Love	10-Feb-04	59.0	http://dbpedia.org/resource/America's_Sweetheart_(album)
+1118.0	bad	American Capitalist	Five Finger Death Punch	11-Oct-11	59.0	http://dbpedia.org/resource/American_Capitalist
+1119.0	bad	American Tragedy	Hollywood Undead	5-Apr-11	59.0	http://dbpedia.org/resource/American_Tragedy_Redux
+1121.0	bad	Born Villain	Marilyn Manson	1-May-12	59.0	http://dbpedia.org/resource/Born_Villain
+1123.0	bad	Chickenfoot III	Chickenfoot	27-Sep-11	59.0	http://dbpedia.org/resource/Chickenfoot_III
+1124.0	bad	Crunk Rock	Lil Jon	8-Jun-10	59.0	http://dbpedia.org/resource/Crunk_Rock
+1126.0	bad	Dead Son Rising	Gary Numan	6-Dec-11	59.0	http://dbpedia.org/resource/Dead_Son_Rising
+1127.0	bad	Definition Of Real	Plies	10-Jun-08	59.0	http://dbpedia.org/resource/Definition_of_Real
+1128.0	bad	Early 21st Century Blues	Cowboy Junkies	16-Aug-05	59.0	http://dbpedia.org/resource/Early_21st_Century_Blues
+1130.0	bad	Everyday I Said A Prayer For Kathy And Made A One Inch Square	Wheat	22-May-07	59.0	http://dbpedia.org/resource/Everyday_I_Said_a_Prayer_for_Kathy_and_Made_a_One_Inch_Square
+1131.0	bad	Fearless Love	Melissa Etheridge	27-Apr-10	59.0	http://dbpedia.org/resource/Fearless_Love
+1132.0	bad	Getting Away With Murder	Papa Roach	31-Aug-04	59.0	http://dbpedia.org/resource/Getting_Away_with_Murder_(album)
+1133.0	bad	Gloriana	Gloriana	4-Aug-09	59.0	http://dbpedia.org/resource/Gloriana_(album)
+1134.0	bad	Go Now and Live	We Are the Ocean	25-Apr-11	59.0	http://dbpedia.org/resource/Go_Now_and_Live
+1135.0	bad	Grrr...	Bishop Allen	10-Mar-09	59.0	http://dbpedia.org/resource/Grrr...
+1136.0	bad	Hello Waveforms	William Orbit	21-Feb-06	59.0	http://dbpedia.org/resource/Hello_Waveforms
+1137.0	bad	I Created Disco	Calvin Harris	4-Sep-07	59.0	http://dbpedia.org/resource/I_Created_Disco
+1138.0	bad	In Our Space Hero Suits	Those Dancing Days	6-Oct-08	59.0	http://dbpedia.org/resource/In_Our_Space_Hero_Suits
+1139.0	bad	Judgement Days	Ms. Dynamite	3-Oct-05	59.0	http://dbpedia.org/resource/Judgement_Days
+1140.0	bad	Keep Calm And Carry On	Stereophonics	11-May-10	59.0	http://dbpedia.org/resource/Keep_Calm_and_Carry_On_(album)
+1142.0	bad	Land Air Sea	The Special Goodness	20-Jan-04	59.0	http://dbpedia.org/resource/Land_Air_Sea
+1143.0	bad	Laugh Now, Cry Later	Ice Cube	6-Jun-06	59.0	http://dbpedia.org/resource/Laugh_Now,_Cry_Later
+1145.0	bad	Let's Just Be	Joseph Arthur	17-Apr-07	59.0	http://dbpedia.org/resource/Let's_Just_Be
+1146.0	bad	Lights And Sounds	Yellowcard	24-Jan-06	59.0	http://dbpedia.org/resource/Lights_and_Sounds
+1149.0	bad	Love The Future	Chester French	21-Apr-09	59.0	http://dbpedia.org/resource/Love_the_Future
+1150.0	bad	Malpractice	Redman	22-May-01	59.0	http://dbpedia.org/resource/Malpractice_(Redman_album)
+1151.0	bad	Man Vs Machine	Xzibit	1-Oct-02	59.0	http://dbpedia.org/resource/Man_vs._Machine
+1152.0	bad	Milk Cow Blues	Willie Nelson	19-Sep-00	59.0	http://dbpedia.org/resource/Milk_Cow_Blues
+1153.0	bad	Motown: A Journey Through Hitsville USA	Boyz II Men	13-Nov-07	59.0	http://dbpedia.org/resource/Motown:_A_Journey_Through_Hitsville_USA
+1154.0	bad	Mr. Brown	Sleepy Brown	3-Oct-06	59.0	http://dbpedia.org/resource/Mr._Brown_(album)
+1156.0	bad	Night Train [EP]	Keane	11-May-10	59.0	http://dbpedia.org/resource/Night_Train_(EP)
+1159.0	bad	Out Of The Vein	Third Eye Blind	13-May-03	59.0	http://dbpedia.org/resource/Out_of_the_Vein
+1160.0	bad	Pain Is Love	Ja Rule	2-Oct-01	59.0	http://dbpedia.org/resource/Pain_Is_Love
+1162.0	bad	Remind Me Where The Light Is	Great Northern	28-Apr-09	59.0	http://dbpedia.org/resource/Remind_Me_Where_the_Light_Is
+1163.0	bad	Righteous Love	Joan Osborne	12-Sep-00	59.0	http://dbpedia.org/resource/Righteous_Love
+1166.0	bad	Season Of Poison	Shiny Toy Guns	4-Nov-08	59.0	http://dbpedia.org/resource/Season_of_Poison
+1167.0	bad	Shaman	Santana	22-Oct-02	59.0	http://dbpedia.org/resource/Shaman_(album)
+1168.0	bad	Slave to the Game	Emmure	10-Apr-12	59.0	http://dbpedia.org/resource/Slave_to_the_Game
+1169.0	bad	So Amazin'	Christina Milian	16-May-06	59.0	http://dbpedia.org/resource/So_Amazin'
+1170.0	bad	Someday This Could All Be Yours, Vol. 1	The Paper Chase	26-May-09	59.0	http://dbpedia.org/resource/Someday_This_Could_All_Be_Yours,_Vol._1
+1173.0	bad	Ten Thousand Fists	Disturbed	20-Sep-05	59.0	http://dbpedia.org/resource/Ten_Thousand_Fists
+1174.0	bad	First of the Microbe Hunters	Stereolab	16-May-00	59.0	http://dbpedia.org/resource/The_First_of_the_Microbe_Hunters
+1175.0	bad	The Lonely Position of Neutral	Trust Company	23-Jul-02	59.0	http://dbpedia.org/resource/The_Lonely_Position_of_Neutral
+1176.0	bad	The Loudest Engine	Howling Bells	12-Sep-11	59.0	http://dbpedia.org/resource/The_Loudest_Engine
+1178.0	bad	New Danger	Mos Def	12-Oct-04	59.0	http://dbpedia.org/resource/The_New_Danger
+1179.0	bad	The Seventh Seal	Rakim	17-Nov-09	59.0	http://dbpedia.org/resource/The_Seventh_Seal_(Rakim_album)
+1180.0	bad	The Spine	They Might Be Giants	13-Jul-04	59.0	http://dbpedia.org/resource/The_Spine
+1181.0	bad	The Verge	There for Tomorrow	28-Jun-11	59.0	http://dbpedia.org/resource/The_Verge_(album)
+1182.0	bad	The View from the Bottom	Lit	19-Jun-12	59.0	http://dbpedia.org/resource/The_View_from_the_Bottom
+1183.0	bad	This Modern Glitch	The Wombats	26-Apr-11	59.0	http://dbpedia.org/resource/The_Wombats_Proudly_Present:_This_Modern_Glitch
+1184.0	bad	Trapped Animal	The Slits	20-Oct-09	59.0	http://dbpedia.org/resource/Trapped_Animal
+1185.0	bad	Trinity (Past, Present and Future)	Slum Village	13-Aug-02	59.0	http://dbpedia.org/resource/Trinity_(Past,_Present_and_Future)
+1187.0	bad	Unfamiliar Faces	Matt Costa	22-Jan-08	59.0	http://dbpedia.org/resource/Unfamiliar_Faces
+1189.0	bad	Welcome To The Dollhouse	Danity Kane	18-Mar-08	59.0	http://dbpedia.org/resource/Welcome_to_the_Dollhouse_(album)
+1191.0	bad	X Marks Destination	The Whip	3-Mar-09	59.0	http://dbpedia.org/resource/X_Marks_Destination
+1192.0	bad	Yeah Ghost	Zero 7	29-Sep-09	59.0	http://dbpedia.org/resource/Yeah_Ghost
+1193.0	bad	You Have No Idea What You're Getting Yourself Into	Does It Offend You, Yeah?	15-Apr-08	59.0	http://dbpedia.org/resource/You_Have_No_Idea_What_You're_Getting_Yourself_Into
+1194.0	bad	2000 Years of Human Error	Godhead	23-Jan-01	58.0	http://dbpedia.org/resource/2000_Years_of_Human_Error
+1195.0	bad	31 Minutes To Takeoff	Mike Posner	10-Aug-10	58.0	http://dbpedia.org/resource/31_Minutes_to_Takeoff
+1196.0	bad	A French Kiss In The Chaos	Reverend and the Makers	27-Jul-09	58.0	http://dbpedia.org/resource/A_French_Kiss_in_the_Chaos
+1197.0	bad	A Funk Odyssey	Jamiroquai	11-Sep-01	58.0	http://dbpedia.org/resource/A_Funk_Odyssey
+1199.0	bad	Alter The Ending	Dashboard Confessional	10-Nov-09	58.0	http://dbpedia.org/resource/Alter_the_Ending
+1200.0	bad	Anywhere I Lay My Head	Scarlett Johansson	20-May-08	58.0	http://dbpedia.org/resource/Anywhere_I_Lay_My_Head
+1201.0	bad	Ariels	Bent	16-Aug-04	58.0	http://dbpedia.org/resource/Ariels
+1203.0	bad	Beat 'Em Up	Iggy Pop	17-Jul-01	58.0	http://dbpedia.org/resource/Beat_'Em_Up
+1204.0	bad	Best Night of My Life	Jamie Foxx	21-Dec-10	58.0	http://dbpedia.org/resource/Best_Night_of_My_Life
+1205.0	bad	Big Talk	Big Talk	19-Jul-11	58.0	http://dbpedia.org/resource/Big_Talk_(album)
+1206.0	bad	Bloodless Coup	Bell X1	12-Apr-11	58.0	http://dbpedia.org/resource/Bloodless_Coup
+1208.0	bad	Borrowed Heaven	The Corrs	8-Jun-04	58.0	http://dbpedia.org/resource/Borrowed_Heaven
+1209.0	bad	Britney	Britney Spears	6-Nov-01	58.0	http://dbpedia.org/resource/Britney_(album)
+1212.0	bad	D12 World	D12	27-Apr-04	58.0	http://dbpedia.org/resource/D12_World
+1216.0	bad	Doggumentary	Snoop Dogg	29-Mar-11	58.0	http://dbpedia.org/resource/Doggumentary
+1217.0	bad	Emotion & Commotion	Jeff Beck	13-Apr-10	58.0	http://dbpedia.org/resource/Emotion_&_Commotion
+1218.0	bad	Euphoric Heartbreak	Glasvegas	4-Apr-11	58.0	http://dbpedia.org/resource/Euphoric_Heartbreak
+1219.0	bad	Fallen Empires	Snow Patrol	10-Jan-12	58.0	http://dbpedia.org/resource/Fallen_Empires_(album)
+1221.0	bad	Forever the Sickest Kids	Forever the Sickest Kids	1-Mar-11	58.0	http://dbpedia.org/resource/Forever_the_Sickest_Kids_(album)
+1222.0	bad	Goodbye Lullaby	Avril Lavigne	8-Mar-11	58.0	http://dbpedia.org/resource/Goodbye_Lullaby
+1227.0	bad	I Love You, Dude	Digitalism	5-Jul-11	58.0	http://dbpedia.org/resource/I_Love_You_Dude
+1228.0	bad	In Between Dreams	Jack Johnson	1-Mar-05	58.0	http://dbpedia.org/resource/In_Between_Dreams
+1229.0	bad	Jennifer Hudson	Jennifer Hudson	30-Sep-08	58.0	http://dbpedia.org/resource/Jennifer_Hudson_(album)
+1231.0	bad	Lies For The Liars	The Used	22-May-07	58.0	http://dbpedia.org/resource/Lies_for_the_Liars
+1232.0	bad	Live From Dakota	Stereophonics	18-Apr-06	58.0	http://dbpedia.org/resource/Live_from_Dakota
+1235.0	bad	My Favorite Headache	Geddy Lee	14-Nov-00	58.0	http://dbpedia.org/resource/My_Favourite_Headache
+1236.0	bad	Romance At Short Notice	Dirty Pretty Things	30-Jun-08	58.0	http://dbpedia.org/resource/Romance_at_Short_Notice
+1237.0	bad	Scab Dates	The Mars Volta	8-Nov-05	58.0	http://dbpedia.org/resource/Scabdates
+1239.0	bad	The High End Of Low	Marilyn Manson	26-May-09	58.0	http://dbpedia.org/resource/The_High_End_of_Low
+1240.0	bad	Lateness of the Hour	Alex Clare	8-May-12	58.0	http://dbpedia.org/resource/The_Lateness_of_the_Hour_(album)
+1241.0	bad	The Path of Totality	Korn	6-Dec-11	58.0	http://dbpedia.org/resource/The_Path_of_Totality
+1242.0	bad	The Sellout	Macy Gray	22-Jun-10	58.0	http://dbpedia.org/resource/The_Sellout
+1243.0	bad	The Sweet Escape	Gwen Stefani	5-Dec-06	58.0	http://dbpedia.org/resource/The_Sweet_Escape
+1244.0	bad	The Tight Connection	I Am The World Trade Center	9-Jul-02	58.0	http://dbpedia.org/resource/The_Tight_Connection
+1245.0	bad	Time for Annihilation: On the Record and on the Road	Papa Roach	31-Aug-10	58.0	http://dbpedia.org/resource/Time_for_Annihilation
+1246.0	bad	To Lose My Life	White Lies	17-Mar-09	58.0	http://dbpedia.org/resource/To_Lose_My_Life...
+1248.0	bad	We Global	DJ Khaled	16-Sep-08	58.0	http://dbpedia.org/resource/We_Global
+1249.0	bad	Winner Stays On	Roll Deep	8-Nov-10	58.0	http://dbpedia.org/resource/Winner_Stays_On
+1250.0	bad	Young the Giant	Young the Giant	25-Jan-11	58.0	http://dbpedia.org/resource/Young_the_Giant_(album)
+1252.0	bad	Booming Back At You	Junkie XL	11-Mar-08	57.0	http://dbpedia.org/resource/Booming_Back_at_You
+1254.0	bad	Chickenfoot	Chickenfoot	5-Jun-09	57.0	http://dbpedia.org/resource/Chickenfoot_III
+1255.0	bad	Cocky	Kid Rock	20-Nov-01	57.0	http://dbpedia.org/resource/Cocky_(album)
+1256.0	bad	Come Through for You	Javier Colon	15-Nov-11	57.0	http://dbpedia.org/resource/Come_Through_for_You
+1257.0	bad	Crossing The Rubicon	The Sounds	2-Jun-09	57.0	http://dbpedia.org/resource/Crossing_the_Rubicon_(The_Sounds_album)
+1258.0	bad	Details	Frou Frou	13-Aug-02	57.0	http://dbpedia.org/resource/Details_(album)
+1259.0	bad	Eats Darkness	Apostle Of Hustle	19-May-09	57.0	http://dbpedia.org/resource/Eats_Darkness
+1260.0	bad	Electra Heart	Marina and the Diamonds	10-Jul-12	57.0	http://dbpedia.org/resource/Electra_Heart
+1261.0	bad	Exit 13	LL Cool J	9-Sep-08	57.0	http://dbpedia.org/resource/Exit_13
+1262.0	bad	Ferrari Boyz	Waka Flocka Flame	9-Aug-11	57.0	http://dbpedia.org/resource/Ferrari_Boyz
+1263.0	bad	Ghetto Postage	Master P	28-Nov-00	57.0	http://dbpedia.org/resource/Ghetto_Postage
+1264.0	bad	Golden Delicious	Mike Doughty	19-Feb-08	57.0	http://dbpedia.org/resource/Golden_Delicious_(album)
+1266.0	bad	Hotel Paper	Michelle Branch	24-Jun-03	57.0	http://dbpedia.org/resource/Hotel_Paper
+1268.0	bad	Human After All	Daft Punk	15-Mar-05	57.0	http://dbpedia.org/resource/Human_After_All
+1269.0	bad	Humanoid	Tokio Hotel	6-Oct-09	57.0	http://dbpedia.org/resource/Humanoid_(album)
+1270.0	bad	If Only You Were Lonely	Hawthorne Heights	28-Feb-06	57.0	http://dbpedia.org/resource/If_Only_You_Were_Lonely
+1271.0	bad	Is the World Strange or Am I Strange?	Cosmo Jarvis	11-Oct-11	57.0	http://dbpedia.org/resource/Is_the_World_Strange_or_Am_I_Strange%3F
+1272.0	bad	It Is Time For A Love Revolution	Lenny Kravitz	5-Feb-08	57.0	http://dbpedia.org/resource/It_Is_Time_for_a_Love_Revolution
+1273.0	bad	Korn III: Remember Who You Are	Korn	13-Jul-10	57.0	http://dbpedia.org/resource/Korn_III:_Remember_Who_You_Are
+1274.0	bad	Language. Sex. Violence. Other?	Stereophonics	29-Mar-05	57.0	http://dbpedia.org/resource/Language._Sex._Violence._Other%3F
+1275.0	bad	Live on I-5	Soundgarden	22-Mar-11	57.0	http://dbpedia.org/resource/Live_on_I-5
+1276.0	bad	Love Is Dead	Kerli	8-Jul-08	57.0	http://dbpedia.org/resource/Love_Is_Dead_(Kerli_album)
+1277.0	bad	Mad Season	Matchbox Twenty	23-May-00	57.0	http://dbpedia.org/resource/Mad_Season_(album)
+1279.0	bad	Panic of Girls	Blondie	13-Sep-11	57.0	http://dbpedia.org/resource/Panic_of_Girls
+1280.0	bad	Raditude	Weezer	3-Nov-09	57.0	http://dbpedia.org/resource/Raditude
+1281.0	bad	Raymond v. Raymond	Usher	30-Mar-10	57.0	http://dbpedia.org/resource/Raymond_v._Raymond
+1284.0	bad	Slow Motion Daydream	Everclear	11-Mar-03	57.0	http://dbpedia.org/resource/Slow_Motion_Daydream
+1285.0	bad	So Long, Astoria	The Ataris	4-Mar-03	57.0	http://dbpedia.org/resource/So_Long,_Astoria
+1286.0	bad	Spot the Difference	Squeeze	3-Aug-10	57.0	http://dbpedia.org/resource/Spot_the_Difference
+1287.0	bad	Stir The Blood	The Bravery	1-Dec-09	57.0	http://dbpedia.org/resource/Stir_the_Blood
+1288.0	bad	Streetlights	Kurupt	20-Apr-10	57.0	http://dbpedia.org/resource/Streetlights_(Kurupt_album)
+1289.0	bad	Suite #420	Devin The Dude	20-Apr-10	57.0	http://dbpedia.org/resource/Suite_420
+1290.0	bad	Ten$ion	Die Antwoord	7-Feb-12	57.0	http://dbpedia.org/resource/Ten$Ion
+1291.0	bad	The Alphabet Of Hurricanes	Tom McRae	16-Mar-10	57.0	http://dbpedia.org/resource/The_Alphabet_of_Hurricanes
+1293.0	bad	The Handler	Har Mar Superstar	14-Sep-04	57.0	http://dbpedia.org/resource/The_Handler
+1294.0	bad	The Magnificent Tree	Hooverphonic	26-Sep-00	57.0	http://dbpedia.org/resource/The_Magnificent_Tree
+1295.0	bad	The Road And The Radio	Kenny Chesney	8-Nov-05	57.0	http://dbpedia.org/resource/The_Road_and_the_Radio
+1298.0	bad	Tinted Windows	Tinted Windows	21-Apr-09	57.0	http://dbpedia.org/resource/Tinted_Windows_(album)
+1300.0	bad	Uncle Dysfunktional	Happy Mondays	2-Jul-07	57.0	http://dbpedia.org/resource/Uncle_Dysfunktional
+1301.0	bad	Universal Pulse	311	19-Jul-11	57.0	http://dbpedia.org/resource/Universal_Pulse
+1302.0	bad	Weapons Of Mass Destruction	Xzibit	14-Dec-04	57.0	http://dbpedia.org/resource/Weapons_of_Mass_Destruction_(album)
+1303.0	bad	Welcome Back	Mase	24-Aug-04	57.0	http://dbpedia.org/resource/Welcome_Back_(Mase_album)
+1304.0	bad	Welcome To The North	The Music	19-Oct-04	57.0	http://dbpedia.org/resource/Welcome_to_the_North
+1305.0	bad	Wikked Lil' Grrrls	Esthero	28-Jun-05	57.0	http://dbpedia.org/resource/Wikked_Lil'_Grrrls
+1307.0	bad	Around The Sun	R.E.M.	5-Oct-04	56.0	http://dbpedia.org/resource/Around_the_Sun
+1309.0	bad	Asleep In The Bread Aisle	Asher Roth	21-Apr-09	56.0	http://dbpedia.org/resource/Asleep_in_the_Bread_Aisle
+1310.0	bad	At The End Of Paths Taken	Cowboy Junkies	17-Apr-07	56.0	http://dbpedia.org/resource/At_the_End_of_Paths_Taken
+1311.0	bad	Attak	KMFDM	19-Mar-02	56.0	http://dbpedia.org/resource/Attak
+1316.0	bad	Dirty Vegas	Dirty Vegas	4-Jun-02	56.0	http://dbpedia.org/resource/Dirty_Vegas_(album)
+1317.0	bad	Divided By Night	The Crystal Method	12-May-09	56.0	http://dbpedia.org/resource/Divided_by_Night
+1318.0	bad	Doin' It Again	Skepta	31-Jan-11	56.0	http://dbpedia.org/resource/Doin'_It_Again
+1319.0	bad	Down In Albion	Babyshambles	14-Feb-06	56.0	http://dbpedia.org/resource/Down_in_Albion
+1320.0	bad	End Titles: Stories For Film	UNKLE	2-Sep-08	56.0	http://dbpedia.org/resource/End_Titles..._Stories_for_Film
+1321.0	bad	Everything To Everyone	Barenaked Ladies	21-Oct-03	56.0	http://dbpedia.org/resource/Everything_to_Everyone
+1327.0	bad	Minutes To Midnight	Linkin Park	15-May-07	56.0	http://dbpedia.org/resource/Minutes_to_Midnight_(album)
+1328.0	bad	Never Been Gone	Carly Simon	26-Oct-09	56.0	http://dbpedia.org/resource/Never_Been_Gone
+1329.0	bad	Nothing But the Beat	David Guetta	29-Aug-11	56.0	http://dbpedia.org/resource/Nothing_but_the_Beat
+1333.0	bad	Rule 3:36	Ja Rule	3-Oct-00	56.0	http://dbpedia.org/resource/Rule_3:36
+1334.0	bad	Scars & Stories	The Fray	7-Feb-12	56.0	http://dbpedia.org/resource/Scars_&_Stories
+1335.0	bad	Seal IV	Seal	9-Sep-03	56.0	http://dbpedia.org/resource/Seal_(2003_album)
+1336.0	bad	Silent Cry	Feeder	16-Jun-08	56.0	http://dbpedia.org/resource/Silent_Cry
+1338.0	bad	So-Called Chaos	Alanis Morissette	18-May-04	56.0	http://dbpedia.org/resource/So-Called_Chaos
+1339.0	bad	Someone To Watch over Me	Susan Boyle	1-Nov-11	56.0	http://dbpedia.org/resource/Someone_to_Watch_Over_Me_(album)
+1340.0	bad	Strawberry Weed	Caesars	19-Aug-08	56.0	http://dbpedia.org/resource/Strawberry_Weed
+1341.0	bad	Street Sweeper Social Club	Street Sweeper Social Club	16-Jun-09	56.0	http://dbpedia.org/resource/Street_Sweeper_Social_Club_(album)
+1344.0	bad	The Fray	The Fray	3-Feb-09	56.0	http://dbpedia.org/resource/The_Fray_(album)
+1347.0	bad	The Temper Trap	The Temper Trap	5-Jun-12	56.0	http://dbpedia.org/resource/The_Temper_Trap_EP
+1348.0	bad	The Time Of The Assassins	Nickel Eye	27-Jan-09	56.0	http://dbpedia.org/resource/The_Time_of_the_Assassins
+1349.0	bad	These Are The Good Times People	The Presidents Of The United States Of America	11-Mar-08	56.0	http://dbpedia.org/resource/These_Are_the_Good_Times_People
+1351.0	bad	Twisted Tenderness	Electronic	12-Sep-00	56.0	http://dbpedia.org/resource/Twisted_Tenderness
+1353.0	bad	Weapons	Lostprophets	19-Jun-12	56.0	http://dbpedia.org/resource/Weapons_(album)
+1358.0	bad	Amber Headlights	Greg Dulli	6-Sep-05	55.0	http://dbpedia.org/resource/Amber_Headlights
+1360.0	bad	Break The Cycle	Staind	8-May-01	55.0	http://dbpedia.org/resource/Break_the_Cycle
+1361.0	bad	Electronic Earth	Labrinth	2-Apr-12	55.0	http://dbpedia.org/resource/Electronic_Earth
+1362.0	bad	Enemies Like This	Radio 4	16-May-06	55.0	http://dbpedia.org/resource/Enemies_Like_This
+1363.0	bad	Feel The Steel	Steel Panther	6-Oct-09	55.0	http://dbpedia.org/resource/Feel_the_Steel
+1364.0	bad	Forgiven	Los Lonely Boys	1-Jul-08	55.0	http://dbpedia.org/resource/Forgiven_(album)
+1365.0	bad	Gettin' In Over My Head	Brian Wilson	22-Jun-04	55.0	http://dbpedia.org/resource/Gettin'_In_Over_My_Head
+1368.0	bad	Havoc and Bright Lights	Alanis Morissette	28-Aug-12	55.0	http://dbpedia.org/resource/Havoc_and_Bright_Lights
+1369.0	bad	Heathen Chemistry	Oasis	2-Jul-02	55.0	http://dbpedia.org/resource/Heathen_Chemistry
+1371.0	bad	Life In Cartoon Motion	Mika	27-Mar-07	55.0	http://dbpedia.org/resource/Life_in_Cartoon_Motion
+1372.0	bad	Look What You Made Me	Yung Berg	12-Aug-08	55.0	http://dbpedia.org/resource/Look_What_You_Made_Me
+1373.0	bad	Mine Is Yours	Cold War Kids	25-Jan-11	55.0	http://dbpedia.org/resource/Mine_Is_Yours
+1375.0	bad	New Earth Mud	Chris Robinson	22-Oct-02	55.0	http://dbpedia.org/resource/New_Earth_Mud
+1377.0	bad	Purple Naked Ladies	The Internet	31-Jan-12	55.0	http://dbpedia.org/resource/Purple_Naked_Ladies
+1378.0	bad	Sad Sappy Sucker	Modest Mouse	24-Apr-01	55.0	http://dbpedia.org/resource/Sad_Sappy_Sucker
+1379.0	bad	Soul Caddy	Cherry Poppin' Daddies	10-Oct-00	55.0	http://dbpedia.org/resource/Soul_Caddy
+1380.0	bad	Staind	Staind	13-Sep-11	55.0	http://dbpedia.org/resource/Staind_(album)
+1381.0	bad	The Black Magic Show	Elefant	18-Apr-06	55.0	http://dbpedia.org/resource/The_Black_Magic_Show
+1382.0	bad	The Great Escape Artist	Jane's Addiction	18-Oct-11	55.0	http://dbpedia.org/resource/The_Great_Escape_Artist
+1383.0	bad	What Is Love	Never Shout Never	26-Jan-10	55.0	http://dbpedia.org/resource/What_Is_Love%3F_(album)
+1384.0	bad	Are You Passionate?	Neil Young	9-Apr-02	54.0	http://dbpedia.org/resource/Are_You_Passionate%3F
+1388.0	bad	Come To Life	Natalie Imbruglia	26-Apr-10	54.0	http://dbpedia.org/resource/Come_to_Life
+1389.0	bad	Daniel Powter	Daniel Powter	11-Apr-06	54.0	http://dbpedia.org/resource/Daniel_Powter_(album)
+1390.0	bad	Down To Earth	Jem	16-Sep-08	54.0	http://dbpedia.org/resource/Down_to_Earth_(Jem_album)
+1391.0	bad	Earth vs. the Pipettes	The Pipettes	16-Nov-10	54.0	http://dbpedia.org/resource/Earth_vs._The_Pipettes
+1392.0	bad	Everyday Demons	The Answer	31-Mar-09	54.0	http://dbpedia.org/resource/Everyday_Demons
+1395.0	bad	Godfather Buried Alive	Shyne	10-Aug-04	54.0	http://dbpedia.org/resource/Godfather_Buried_Alive
+1396.0	bad	I Dreamed A Dream	Susan Boyle	23-Nov-09	54.0	http://dbpedia.org/resource/I_Dreamed_a_Dream_(album)
+1397.0	bad	It's Alive!	The New Cars	6-Jun-06	54.0	http://dbpedia.org/resource/It's_Alive!_(album)
+1398.0	bad	Junk of the Heart	The Kooks	13-Sep-11	54.0	http://dbpedia.org/resource/Junk_of_the_Heart
+1399.0	bad	Letters From The Underground	Levellers	11-Aug-08	54.0	http://dbpedia.org/resource/Letters_from_the_Underground
+1400.0	bad	Look to the Sky	James Iha	17-Sep-12	54.0	http://dbpedia.org/resource/Look_to_the_Sky
+1401.0	bad	Machine [EP]	Yeah Yeah Yeahs	5-Nov-02	54.0	http://dbpedia.org/resource/Machine_(EP)
+1402.0	bad	Mail On Sunday	Flo Rida	18-Mar-08	54.0	http://dbpedia.org/resource/Mail_on_Sunday_(album)
+1405.0	bad	Overexposed	Maroon 5	26-Jun-12	54.0	http://dbpedia.org/resource/Overexposed_(album)
+1406.0	bad	Payable On Death	P.O.D.	4-Nov-03	54.0	http://dbpedia.org/resource/Payable_on_Death
+1407.0	bad	Saints Of Los Angeles	Motley Crue	24-Jun-08	54.0	http://dbpedia.org/resource/Saints_of_Los_Angeles
+1408.0	bad	Timbaland Presents Shock Value	Timbaland	3-Apr-07	54.0	http://dbpedia.org/resource/Shock_Value_II
+1409.0	bad	Somebody's Miracle	Liz Phair	4-Oct-05	54.0	http://dbpedia.org/resource/Somebody's_Miracle
+1411.0	bad	The Best In Town	The Blackout	9-Jun-09	54.0	http://dbpedia.org/resource/The_Best_in_Town
+1412.0	bad	The Rainbow Children	Prince	20-Nov-01	54.0	http://dbpedia.org/resource/The_Rainbow_Children
+1413.0	bad	Under the Mistletoe	Justin Bieber	1-Nov-11	54.0	http://dbpedia.org/resource/Under_the_Mistletoe
+1414.0	bad	Welcome To The Drama Club	Everclear	12-Sep-06	54.0	http://dbpedia.org/resource/Welcome_to_the_Drama_Club
+1416.0	bad	Wild Ones	Flo Rida	3-Jul-12	54.0	http://dbpedia.org/resource/Wild_Ones_(album)
+1418.0	bad	All The Lost Souls	James Blunt	18-Sep-07	53.0	http://dbpedia.org/resource/All_the_Lost_Souls
+1419.0	bad	Always Outnumbered, Never Outgunned	The Prodigy	14-Sep-04	53.0	http://dbpedia.org/resource/Always_Outnumbered,_Never_Outgunned
+1420.0	bad	Bring on the Comets	VHS or Beta	28-Aug-07	53.0	http://dbpedia.org/resource/Bring_on_the_Comets
+1421.0	bad	Damita Jo	Janet Jackson	30-Mar-04	53.0	http://dbpedia.org/resource/Damita_Jo_(album)
+1422.0	bad	Dangerous Dreams	Moving Units	12-Oct-04	53.0	http://dbpedia.org/resource/Dangerous_Dreams
+1423.0	bad	Escapology	Robbie Williams	1-Apr-03	53.0	http://dbpedia.org/resource/Escapology_(album)
+1425.0	bad	Fishin' for Woos	Bowling for Soup	26-Apr-11	53.0	http://dbpedia.org/resource/Fishin'_for_Woos
+1427.0	bad	Gold Cobra	Limp Bizkit	28-Jun-11	53.0	http://dbpedia.org/resource/Gold_Cobra
+1428.0	bad	Just Whitney	Whitney Houston	10-Dec-02	53.0	http://dbpedia.org/resource/Just_Whitney
+1429.0	bad	Love, Shelby	Shelby Lynne	13-Nov-01	53.0	http://dbpedia.org/resource/Love,_Shelby
+1431.0	bad	Mudvayne	Mudvayne	21-Dec-09	53.0	http://dbpedia.org/resource/Mudvayne_(album)
+1432.0	bad	Ocean Eyes	Owl City	28-Jul-09	53.0	http://dbpedia.org/resource/Ocean_Eyes
+1435.0	bad	Silence Is Easy	Starsailor	27-Jan-04	53.0	http://dbpedia.org/resource/Silence_Is_Easy
+1437.0	bad	Testimony: Vol. 1, Life & Relationship	India.Arie	27-Jun-06	53.0	http://dbpedia.org/resource/Testimony:_Vol._1,_Life_&_Relationship
+1438.0	bad	The Chronicles Of Life And Death	Good Charlotte	5-Oct-04	53.0	http://dbpedia.org/resource/The_Chronicles_of_Life_and_Death
+1441.0	bad	Trust Me	Craig David	6-May-08	53.0	http://dbpedia.org/resource/Trust_Me_(album)
+1442.0	bad	Universal Mind Control	Common	9-Dec-08	53.0	http://dbpedia.org/resource/Universal_Mind_Control
+1443.0	bad	Until One	Swedish House Mafia	25-Oct-10	53.0	http://dbpedia.org/resource/Until_One
+1444.0	bad	20 Y.O.	Janet Jackson	26-Sep-06	52.0	http://dbpedia.org/resource/20_Y.O.
+1445.0	bad	5	Nelly	16-Nov-10	52.0	http://dbpedia.org/resource/5.0
+1446.0	bad	Bat Out Of Hell III: The Monster Is Loose	Meat Loaf	31-Oct-06	52.0	http://dbpedia.org/resource/Bat_Out_of_Hell_III:_The_Monster_Is_Loose
+1448.0	bad	Blood Like Lemonade	Morcheeba	7-Jun-10	52.0	http://dbpedia.org/resource/Blood_Like_Lemonade
+1450.0	bad	Client	Client	26-Aug-03	52.0	http://dbpedia.org/resource/Client_(album)
+1451.0	bad	Destiny Fulfilled	Destiny's Child	16-Nov-04	52.0	http://dbpedia.org/resource/Destiny_Fulfilled
+1454.0	bad	F.A.M.E.	Chris Brown	22-Mar-11	52.0	http://dbpedia.org/resource/F.A.M.E._(album)
+1455.0	bad	Fake Songs	Liam Lynch	8-Apr-03	52.0	http://dbpedia.org/resource/Fake_Songs
+1457.0	bad	Keys To The World	Richard Ashcroft	21-Mar-06	52.0	http://dbpedia.org/resource/Keys_to_the_World
+1458.0	bad	Kris Allen	Kris Allen	17-Nov-09	52.0	http://dbpedia.org/resource/Kris_Allen_(album)
+1459.0	bad	Matthew Morrison	Matthew Morrison	10-May-11	52.0	http://dbpedia.org/resource/Matthew_Morrison_(album)
+1460.0	bad	Music Is Better Than Words	Seth MacFarlane	27-Sep-11	52.0	http://dbpedia.org/resource/Music_Is_Better_Than_Words
+1461.0	bad	Pop Trash	Duran Duran	13-Jun-00	52.0	http://dbpedia.org/resource/Pop_Trash
+1463.0	bad	Pushing The Senses	Feeder	31-Jan-05	52.0	http://dbpedia.org/resource/Pushing_the_Senses
+1464.0	bad	Rise And Fall, Rage And Grace	The Offspring	17-Jun-08	52.0	http://dbpedia.org/resource/Rise_and_Fall,_Rage_and_Grace
+1466.0	bad	Slipway Fires	Razorlight	10-Mar-09	52.0	http://dbpedia.org/resource/Slipway_Fires
+1467.0	bad	Soulbook	Rod Stewart	26-Oct-09	52.0	http://dbpedia.org/resource/Soulbook
+1469.0	bad	SuperHeavy	Superheavy	20-Sep-11	52.0	http://dbpedia.org/resource/SuperHeavy_(album)
+1471.0	bad	The Declaration	Ashanti	3-Jun-08	52.0	http://dbpedia.org/resource/The_Declaration
+1472.0	bad	The Incredible Machine	Sugarland	19-Oct-10	52.0	http://dbpedia.org/resource/The_Incredible_Machine_(album)
+1473.0	bad	The Latest Fashion	Attack! Attack!	21-Jun-11	52.0	http://dbpedia.org/resource/The_Latest_Fashion
+1475.0	bad	Attention Deficit Domination	Hank Williams III	6-Sep-11	51.0	http://dbpedia.org/resource/Attention_Deficit_Domination
+1477.0	bad	Clear as Day	Scotty McCreery	4-Oct-11	51.0	http://dbpedia.org/resource/Clear_as_Day
+1478.0	bad	Do You Want The Truth Or Something Beautiful?	Paloma Faith	28-Sep-09	51.0	http://dbpedia.org/resource/Do_You_Want_the_Truth_or_Something_Beautiful%3F
+1479.0	bad	Don't Tread On Me	311	16-Aug-05	51.0	http://dbpedia.org/resource/Don't_Tread_on_Me_(album)
+1480.0	bad	For(n)ever	Hoobastank	27-Jan-09	51.0	http://dbpedia.org/resource/Fornever
+1481.0	bad	Funstyle	Liz Phair	19-Oct-10	51.0	http://dbpedia.org/resource/Funstyle
+1482.0	bad	Grown & Sexy	Babyface	26-Jul-05	51.0	http://dbpedia.org/resource/Grown_&_Sexy
+1484.0	bad	My Bloody Underground	The Brian Jonestown Massacre	15-Apr-08	51.0	http://dbpedia.org/resource/My_Bloody_Underground
+1485.0	bad	Rebelution	Pitbull	1-Sep-09	51.0	http://dbpedia.org/resource/Rebelution_(Pitbull_album)
+1487.0	bad	See My Friends	Ray Davies	5-Apr-11	51.0	http://dbpedia.org/resource/See_My_Friends_(album)
+1488.0	bad	Shaka Rock	Jet	25-Aug-09	51.0	http://dbpedia.org/resource/Shaka_Rock
+1490.0	bad	Street Dreams	Fabolous	4-Mar-03	51.0	http://dbpedia.org/resource/Street_Dreams_(Fabolous_album)
+1491.0	bad	The Block	New Kids on the Block	2-Sep-08	51.0	http://dbpedia.org/resource/The_Block_(album)
+1492.0	bad	The Sea of Memories	Bush	13-Sep-11	51.0	http://dbpedia.org/resource/The_Sea_of_Memories
+1493.0	bad	Tical 0: The Prequel	Method Man	18-May-04	51.0	http://dbpedia.org/resource/Tical_0:_The_Prequel
+1496.0	bad	A Little More Personal (Raw)	Lindsay Lohan	6-Dec-05	50.0	http://dbpedia.org/resource/A_Little_More_Personal_(Raw)
+1497.0	bad	Birds Of Pray	Live	20-May-03	50.0	http://dbpedia.org/resource/Birds_of_Pray
+1498.0	bad	Brassbound	The Ordinary Boys	20-Jun-05	50.0	http://dbpedia.org/resource/Brassbound
+1499.0	bad	Cardiology	Good Charlotte	2-Nov-10	50.0	http://dbpedia.org/resource/Cardiology_(album)
+1500.0	bad	Faceless	Godsmack	8-Apr-03	50.0	http://dbpedia.org/resource/Faceless
+1502.0	bad	Light After Dark	Clare Maguire	8-Mar-11	50.0	http://dbpedia.org/resource/Light_After_Dark
+1503.0	bad	Lions	The Black Crowes	8-May-01	50.0	http://dbpedia.org/resource/Lions_(album)
+1504.0	bad	More Than You Think You Are	Matchbox Twenty	19-Nov-02	50.0	http://dbpedia.org/resource/More_Than_You_Think_You_Are
+1506.0	bad	Shock Value II	Timbaland	8-Dec-09	50.0	http://dbpedia.org/resource/Shock_Value_II
+1507.0	bad	Songs From Black Mountain	Live	6-Jun-06	50.0	http://dbpedia.org/resource/Songs_from_Black_Mountain
+1509.0	bad	The New Game	Mudvayne	18-Nov-08	50.0	http://dbpedia.org/resource/The_New_Game
+1510.0	bad	Theology	SinÃƒÂ©ad O'Connor	26-Jun-07	50.0	http://dbpedia.org/resource/Theology_(album)
+1511.0	bad	Time Changes Everything	John Squire	16-Sep-02	50.0	http://dbpedia.org/resource/Time_Changes_Everything
+1512.0	bad	Underclass Hero	Sum 41	24-Jul-07	50.0	http://dbpedia.org/resource/Underclass_Hero
+1514.0	bad	Winning Days	The Vines	23-Mar-04	50.0	http://dbpedia.org/resource/Winning_Days
+1515.0	bad	30 Seconds to Mars	Thirty Seconds to Mars	27-Aug-02	49.0	http://dbpedia.org/resource/30_Seconds_to_Mars_(album)
+1516.0	bad	All Things Bright and Beautiful	Owl City	14-Jun-11	49.0	http://dbpedia.org/resource/All_Things_Bright_and_Beautiful_(album)
+1517.0	bad	Chocolate Starfish and the Hot Dog Flavored Water	Limp Bizkit	17-Oct-00	49.0	http://dbpedia.org/resource/Chocolate_Starfish_and_the_Hot_Dog_Flavored_Water
+1518.0	bad	Custom Built	Bret Michaels	6-Jul-10	49.0	http://dbpedia.org/resource/Custom_Built_(album)
+1520.0	bad	Elixer	Bria Valente	29-Mar-09	49.0	http://dbpedia.org/resource/Lotusflower_(album)
+1521.0	bad	Marshall's House	John Squire	16-Feb-04	49.0	http://dbpedia.org/resource/Marshall's_House
+1522.0	bad	Switzerland	Electric Six	12-Sep-06	49.0	http://dbpedia.org/resource/Switzerland_(album)
+1523.0	bad	Take It To The Limit	Hinder	4-Nov-08	49.0	http://dbpedia.org/resource/Take_It_to_the_Limit_(Hinder_album)
+1525.0	bad	Beyond The Neighbourhood	Athlete	25-Sep-07	48.0	http://dbpedia.org/resource/Beyond_the_Neighbourhood
+1527.0	bad	If Not Now, When?	Incubus	12-Jul-11	48.0	http://dbpedia.org/resource/If_Not_Now,_When%3F_(album)
+1528.0	bad	In Living Cover	Jay Brannan	23-Jun-09	48.0	http://dbpedia.org/resource/In_Living_Cover
+1529.0	bad	Monkey Business	The Black Eyed Peas	7-Jun-05	48.0	http://dbpedia.org/resource/Monkey_Business_(album)
+1533.0	bad	Stealing Of A Nation	Radio 4	7-Sep-04	48.0	http://dbpedia.org/resource/Stealing_of_a_Nation
+1535.0	bad	Studio 150	Paul Weller	14-Sep-04	48.0	http://dbpedia.org/resource/Studio_150
+1536.0	bad	The End of All Things to Come	Mudvayne	19-Jan-02	48.0	http://dbpedia.org/resource/The_End_of_All_Things_to_Come
+1537.0	bad	Tomahawk Technique	Sean Paul	18-Sep-12	48.0	http://dbpedia.org/resource/Tomahawk_Technique
+1538.0	bad	When It All Goes South	Alabama	16-Jan-01	48.0	http://dbpedia.org/resource/When_It_All_Goes_South
+1539.0	bad	Big Bad World	Plain White T's	23-Sep-08	47.0	http://dbpedia.org/resource/Big_Bad_World
+1541.0	bad	Concrete Rose	Ashanti	14-Dec-04	47.0	http://dbpedia.org/resource/Concrete_Rose
+1542.0	bad	Everybody Wants To Be On TV	Scouting For Girls	12-Apr-10	47.0	http://dbpedia.org/resource/Everybody_Wants_to_Be_on_TV
+1543.0	bad	Gary Go	Gary Go	15-Sep-09	47.0	http://dbpedia.org/resource/Gary_Go_(album)
+1544.0	bad	No Baggage	Dolores O'Riordan	25-Aug-09	47.0	http://dbpedia.org/resource/No_Baggage
+1546.0	bad	Outta Sight / Outta Mind	The Datsuns	14-Sep-04	47.0	http://dbpedia.org/resource/Outta_Sight/Outta_Mind
+1547.0	bad	Pullhair Rubeye	Avey Tare & Kria Brekkan	24-Apr-07	47.0	http://dbpedia.org/resource/Pullhair_Rubeye
+1548.0	bad	Screaming Bloody Murder	Sum 41	29-Mar-11	47.0	http://dbpedia.org/resource/Screaming_Bloody_Murder
+1549.0	bad	Songs from the Sparkle Lounge	Def Leppard	29-Apr-08	47.0	http://dbpedia.org/resource/Songs_from_the_Sparkle_Lounge
+1550.0	bad	Sorry for Party Rocking	LMFAO	21-Jun-11	47.0	http://dbpedia.org/resource/Sorry_for_Party_Rocking
+1551.0	bad	The Battle For Everything	Five For Fighting	3-Feb-04	47.0	http://dbpedia.org/resource/The_Battle_for_Everything
+1552.0	bad	This Is A Fix	The Automatic	25-Aug-08	47.0	http://dbpedia.org/resource/This_Is_a_Fix
+1554.0	bad	Lost And Found	Mudvayne	12-Apr-05	46.0	http://dbpedia.org/resource/Lost_and_Found_(Mudvayne_album)
+1556.0	bad	The Devil's Rain	Misfits	6-Sep-11	46.0	http://dbpedia.org/resource/The_Devil's_Rain_(album)
+1558.0	bad	Billy Talent III	Billy Talent	22-Sep-09	45.0	http://dbpedia.org/resource/Billy_Talent_III
+1559.0	bad	Blood In My Eye	Ja Rule	4-Nov-03	45.0	http://dbpedia.org/resource/Blood_in_My_Eye
+1561.0	bad	Democrazy	Damon Albarn	8-Dec-03	45.0	http://dbpedia.org/resource/Democrazy
+1562.0	bad	Good Morning Revival	Good Charlotte	27-Mar-07	45.0	http://dbpedia.org/resource/Good_Morning_Revival
+1564.0	bad	Memphis Blues	Cyndi Lauper	22-Jun-10	45.0	http://dbpedia.org/resource/Memphis_Blues_(album)
+1565.0	bad	Shape Shifter	Santana	15-May-12	45.0	http://dbpedia.org/resource/Shape_Shifter_(album)
+1566.0	bad	Some Kind of Trouble	James Blunt	18-Jan-11	45.0	http://dbpedia.org/resource/Some_Kind_of_Trouble
+1567.0	bad	Better Than Heavy	Mongrel	7-Mar-09	44.0	http://dbpedia.org/resource/Better_Than_Heavy
+1568.0	bad	Hannicap Circus	Bizarre	28-Jun-05	44.0	http://dbpedia.org/resource/Hannicap_Circus
+1569.0	bad	Hell in a Handbasket	Meat Loaf	13-Mar-12	44.0	http://dbpedia.org/resource/Hell_in_a_Handbasket
+1570.0	bad	Imperial Blaze	Sean Paul	18-Aug-09	44.0	http://dbpedia.org/resource/Imperial_Blaze
+1571.0	bad	Melodia	The Vines	12-Jul-08	44.0	http://dbpedia.org/resource/Melodia_(album)
+1573.0	bad	Charmbracelet	Mariah Carey	3-Dec-02	43.0	http://dbpedia.org/resource/Charmbracelet
+1574.0	bad	Crown Royal	Run-D.M.C.	27-Feb-01	43.0	http://dbpedia.org/resource/Crown_Royal_(album)
+1575.0	bad	I Am Me	Ashlee Simpson	18-Oct-05	43.0	http://dbpedia.org/resource/I_Am_Me
+1576.0	bad	If On A Winter's Night...	Sting	26-Oct-09	43.0	http://dbpedia.org/resource/If_On_a_Winter's_Night...
+1577.0	bad	The Rebirth Of Venus	Ben Lee	28-Apr-09	43.0	http://dbpedia.org/resource/The_Rebirth_of_Venus
+1578.0	bad	It Had to Be You... The Great American Songbook	Rod Stewart	22-Oct-02	42.0	http://dbpedia.org/resource/It_Had_to_Be_You:_The_Great_American_Songbook
+1580.0	bad	Cosmos Rocks	Queen + Paul Rodgers	28-Oct-08	42.0	http://dbpedia.org/resource/The_Cosmos_Rocks
+1582.0	bad	A Day Without Rain	Enya	21-Nov-00	41.0	http://dbpedia.org/resource/A_Day_Without_Rain
+1583.0	bad	All The Right Reasons	Nickelback	4-Oct-05	41.0	http://dbpedia.org/resource/All_the_Right_Reasons
+1584.0	bad	Hoodstar	Chingy	19-Sep-06	41.0	http://dbpedia.org/resource/Hoodstar
+1586.0	bad	Jagged Little Pill Acoustic	Alanis Morissette	26-Jul-05	40.0	http://dbpedia.org/resource/Jagged_Little_Pill_Acoustic
+1587.0	bad	Liz Phair	Liz Phair	24-Jun-03	40.0	http://dbpedia.org/resource/Liz_Phair_(album)
+1589.0	bad	BAYTL	V-Nasty	13-Dec-11	39.0	http://dbpedia.org/resource/BAYTL
+1590.0	bad	Finding Beauty In Negative Spaces	Seether	23-Oct-07	39.0	http://dbpedia.org/resource/Finding_Beauty_in_Negative_Spaces
+1591.0	bad	Shwayze	Shwayze	19-Aug-08	39.0	http://dbpedia.org/resource/Shwayze_(album)
+1592.0	bad	Sweet 7	Sugababes	15-Mar-10	39.0	http://dbpedia.org/resource/Sweet_7
+1596.0	bad	Results May Vary	Limp Bizkit	23-Sep-03	33.0	http://dbpedia.org/resource/Results_May_Vary
+1597.0	bad	Hefty Fine	Bloodhound Gang	27-Sep-05	28.0	http://dbpedia.org/resource/Hefty_Fine
+1600.0	bad	Graffiti	Chris Brown	8-Dec-09	39.0	http://dbpedia.org/resource/Graffiti_(Chris_Brown_album)

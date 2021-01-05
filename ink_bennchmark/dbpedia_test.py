@@ -69,80 +69,86 @@ class EndpointConnector(AbstractConnector):
                              headers={"Accept": "application/sparql-results+json"},  timeout=1).text
         return json.loads(r)['results']['bindings']
 
-if __name__ == '__main__':
-    df = pd.read_csv('movies/completeDataset.tsv', delimiter='\t')
-    df_train = pd.read_csv('movies/TrainingSet.csv', delimiter='\t').dropna()
-    df_test = pd.read_csv('movies/TestSet.csv', delimiter='\t').dropna()
+from ink.base.structure import InkExtractor
+from sklearn.metrics import accuracy_score
+from sklearn.naive_bayes import GaussianNB
+from ink.miner.rulemining import RuleSetMiner
 
-    urls = df['DBpedia_URI'].values
+if __name__ == '__main__':
+    con_details = {
+        'endpoint': 'http://10.2.35.70:5820'
+    }
+    connector = StardogConnector(con_details, "dbpedia", False)
 
 
     #$$dbpedia = "http://10.2.32.192:8890/sparql"#"https://dbpedia.org/sparql" #"http://10.2.32.192:8890/sparql"#
-    dbpedia = "https://dbpedia.org/sparql"
-    con_details={
-        'endpoint': 'http://10.2.35.70:5820'
-    }
-    connector = StardogConnector(con_details,"dbpedia",False)
+    #dbpedia = "https://dbpedia.org/sparql"
 
-    from ink.base.structure import InkExtractor
-    from sklearn.metrics import accuracy_score
-    from sklearn.naive_bayes import GaussianNB
-    from ink.miner.rulemining import RuleSetMiner
 
     prefs = {'http://dbpedia.org/ontology':'dbo','http://dbpedia.org/resource':'dbr', 'http://www.w3.org/2000/01/rdf-schema':'rdfs',
              'http://www.w3.org/1999/02/22-rdf-syntax-ns':'rdf', 'http://www.w3.org/2002/07/owl':'owl'}
     extractor = InkExtractor(connector, prefixes=prefs,verbose=True)
+    skip = ["http://dbpedia.org/ontology/abstract", "http://dbpedia.org/ontology/wikiPageExternalLink"]
 
-    pos = set(urls)
+    depths = [1]
+    benches = ['cities','AAUP','forbes','albumns','movies']
+    for i in depths:
+        for b in benches:
+            df = pd.read_csv(b+'/CompleteDataset.tsv', delimiter='\t')
+            #df_train = pd.read_csv(b+'/TrainingSet.csv', delimiter='\t').dropna()
+            #df_test = pd.read_csv(b+'/TestSet.csv', delimiter='\t').dropna()
+            urls = df['DBpedia_URL'].values
+            pos = set(urls)
 
-    skip = ["http://dbpedia.org/ontology/abstract"]
+            X_train, _ = extractor.create_dataset(i,pos,skip_list=skip, jobs=1)
 
-    #s=""
-    #for p in pos:
-    #    s+="<"+p+"> "
-    #print(s)
-    #exit(0)
+            with open(b+'/depth_'+str(i)+'.p', 'wb') as file:
+                pickle.dump(X_train, file)
 
-    X_train, _ = extractor.create_dataset(1,pos,skip_list=skip, jobs=4)
-    X_train = extractor.fit_transform(X_train, counts=False, levels=False)
+    #X_train, _ = extractor.create_dataset(2, pos, skip_list=skip, jobs=1)
 
     #with open('movies/depth_1.p', 'wb') as file:
     #    pickle.dump(X_train, file)
 
-    from sklearn.preprocessing import MaxAbsScaler
-    scale = MaxAbsScaler()
-    data = scale.fit_transform(X_train[0])
-    data.data = np.nan_to_num(data.data, copy=False)
-    main_inds = X_train[1]
-
-    print(data.shape)
-#    cols = X_train[2]
-
-
-
-    train_inds = [main_inds.index(i) for i in df_train['DBpedia_URI'].values]
-    train_data = data[train_inds,:]
-    train_labels = df_train['Label'].values
-
-    test_inds = [main_inds.index(i) for i in df_test['DBpedia_URI'].values]
-    test_data = data[test_inds, :]
-    test_labels = df_test['Label'].values
-
-
-    #df_data = pd.DataFrame.sparse.from_spmatrix(data)
-    #df_data.columns = X_train[2]
-    #df_data.index = [x for x in X_train[1]]
-    #df_data.columns = X_train[2]
-    #print(df_data)
-    #df_data = df_data.loc[:, ~df_data.T.duplicated(keep='first')]
-
-
-    from sklearn.ensemble import ExtraTreesClassifier
-
-    clf = ExtraTreesClassifier(n_estimators=500, random_state = 42)#MultinomialNB(alpha=1)#KNeighborsClassifier(n_neighbors=30)#ExtraTreesClassifier(n_estimators=100, random_state = 42)
-    clf.fit(train_data, train_labels)
-
-    print(accuracy_score(test_labels, clf.predict(test_data)))
+#     X_train = extractor.fit_transform(X_train, counts=False, levels=False)
+#
+#     with open('movies/depth_1.p', 'wb') as file:
+#         pickle.dump(X_train, file)
+#
+#     from sklearn.preprocessing import MaxAbsScaler
+#     scale = MaxAbsScaler()
+#     data = scale.fit_transform(X_train[0])
+#     data.data = np.nan_to_num(data.data, copy=False)
+#     main_inds = X_train[1]
+#
+#     print(data.shape)
+# #    cols = X_train[2]
+#
+#
+#
+#     train_inds = [main_inds.index(i) for i in df_train['DBpedia_URI'].values]
+#     train_data = data[train_inds,:]
+#     train_labels = df_train['Label'].values
+#
+#     test_inds = [main_inds.index(i) for i in df_test['DBpedia_URI'].values]
+#     test_data = data[test_inds, :]
+#     test_labels = df_test['Label'].values
+#
+#
+#     #df_data = pd.DataFrame.sparse.from_spmatrix(data)
+#     #df_data.columns = X_train[2]
+#     #df_data.index = [x for x in X_train[1]]
+#     #df_data.columns = X_train[2]
+#     #print(df_data)
+#     #df_data = df_data.loc[:, ~df_data.T.duplicated(keep='first')]
+#
+#
+#     from sklearn.ensemble import ExtraTreesClassifier
+#
+#     clf = ExtraTreesClassifier(n_estimators=500, random_state = 42)#MultinomialNB(alpha=1)#KNeighborsClassifier(n_neighbors=30)#ExtraTreesClassifier(n_estimators=100, random_state = 42)
+#     clf.fit(train_data, train_labels)
+#
+#     print(accuracy_score(test_labels, clf.predict(test_data)))
 
 
 

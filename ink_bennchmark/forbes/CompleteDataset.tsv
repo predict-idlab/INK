@@ -1,0 +1,1586 @@
+id	Company	Industry	Country	Market_Value	Sales	Profits	Assets	Rank	DBpedia_URL	label
+1	Industrial and Commercial Bank of China	Major Banks	China	237.3	134.8	37.8	2813.5	1	http://dbpedia.org/resource/Industrial_and_Commercial_Bank_of_China	high
+2	China Construction Bank	Regional Banks	China	202	113.1	30.6	2241	2	http://dbpedia.org/resource/China_Construction_Bank	high
+3	JPMorgan Chase	Major Banks	United States	191.4	108.2	21.3	2359.1	3	http://dbpedia.org/resource/JPMorgan_Chase	high
+4	General Electric	Conglomerates	United States	243.7	147.4	13.6	685.3	4	http://dbpedia.org/resource/General_Electric	high
+5	Exxon Mobil	Oil & Gas Operations	United States	400.4	420.7	44.9	333.8	5	http://dbpedia.org/resource/Exxon_Mobil	high
+6	HSBC Holdings	Major Banks	United Kingdom	201.3	104.9	14.3	2684.1	6	http://dbpedia.org/resource/HSBC_Holdings	high
+7	Royal Dutch Shell	Oil & Gas Operations	Netherlands	213.1	467.2	26.6	360.3	7	http://dbpedia.org/resource/Royal_Dutch_Shell	high
+8	Agricultural Bank of China	Regional Banks	China	150.8	103	23	2124.2	8	http://dbpedia.org/resource/Agricultural_Bank_of_China	high
+9	Berkshire Hathaway	Investment Services	United States	252.8	162.5	14.8	427.5	9	http://dbpedia.org/resource/Berkshire_Hathaway	high
+10	PetroChina	Oil & Gas Operations	China	261.2	308.9	18.3	347.8	9	http://dbpedia.org/resource/PetroChina	high
+11	Bank of China	Major Banks	China	131.7	98.1	22.1	2033.8	11	http://dbpedia.org/resource/Bank_of_China	high
+12	Wells Fargo	Major Banks	United States	201.3	91.2	18.9	1423	12	http://dbpedia.org/resource/Wells_Fargo	high
+13	Chevron	Oil & Gas Operations	United States	232.5	222.6	26.2	233	13	http://dbpedia.org/resource/Chevron	high
+14	Volkswagen Group	Auto & Truck Manufacturers	Germany	94.4	254	28.6	408.2	14	http://dbpedia.org/resource/Volkswagen_Group	high
+15	Apple	Computer Hardware	United States	416.6	164.7	41.7	196.1	15	http://dbpedia.org/resource/Apple	high
+16	Wal-Mart Stores	Discount Stores	United States	242.5	469.2	17	203.1	15	http://dbpedia.org/resource/Wal-Mart_Stores	high
+17	Gazprom	Oil & Gas Operations	Russia	111.4	144	40.6	339.3	17	http://dbpedia.org/resource/Gazprom	high
+18	BP	Oil & Gas Operations	United Kingdom	130.4	370.9	11.6	301	18	http://dbpedia.org/resource/BP	high
+19	Citigroup	Major Banks	United States	143.6	90.7	7.5	1864.7	19	http://dbpedia.org/resource/Citigroup	high
+20	Petrobras	Oil & Gas Operations	Brazil	120.7	144.1	11	331.6	20	http://dbpedia.org/resource/Petrobras	high
+21	Samsung Electronics	Semiconductors	South Korea	174.4	187.8	21.7	196.3	20	http://dbpedia.org/resource/Samsung_Electronics	high
+22	BNP Paribas	Major Banks	France	71.3	126.2	8.6	2504.2	22	http://dbpedia.org/resource/BNP_Paribas	medium
+23	Total	Oil & Gas Operations	France	115.5	240.5	14.1	224.1	23	http://dbpedia.org/resource/Total	high
+24	AT&T	Telecommunications services	United States	200.1	127.4	7.3	272.3	24	http://dbpedia.org/resource/AT&T	high
+25	Allianz	Diversified Insurance	Germany	66.4	140.3	6.8	915.8	25	http://dbpedia.org/resource/Allianz	medium
+26	Mitsubishi UFJ Financial	Major Banks	Japan	85.7	59	11.9	2653.1	27	http://dbpedia.org/resource/Mitsubishi_UFJ_Financial	medium
+27	Bank of America	Major Banks	United States	135.5	100.1	4.2	2210	28	http://dbpedia.org/resource/Bank_of_America	high
+28	China Mobile	Telecommunications services	Hong Kong-China	213.8	88.8	20.5	168.7	29	http://dbpedia.org/resource/China_Mobile	high
+29	ENI	Oil & Gas Operations	Italy	86.3	163.7	10	185.2	30	http://dbpedia.org/resource/ENI	medium
+30	Toyota Motor	Auto & Truck Manufacturers	Japan	167.2	224.5	3.4	371.3	31	http://dbpedia.org/resource/Toyota_Motor	high
+31	Nestlé	Food Processing	Switzerland	233.5	100.6	11.6	134.7	32	http://dbpedia.org/resource/Nestlé	high
+32	Vodafone	Telecommunications services	United Kingdom	135.7	74.4	11.1	219.9	33	http://dbpedia.org/resource/Vodafone	high
+33	IBM	Computer Services	United States	239.5	104.5	16.6	119.2	34	http://dbpedia.org/resource/IBM	high
+34	Procter & Gamble	Household/Personal Care	United States	208.5	83.3	12.9	139.9	35	http://dbpedia.org/resource/Procter_&_Gamble	high
+35	Daimler	Auto & Truck Manufacturers	Germany	64.1	150.8	8	211.9	36	http://dbpedia.org/resource/Daimler	medium
+36	Pfizer	Pharmaceuticals	United States	201.4	59	14.6	185.8	37	http://dbpedia.org/resource/Pfizer	high
+37	Statoil	Oil & Gas Operations	Norway	78.1	126.8	12.4	140.2	38	http://dbpedia.org/resource/Statoil	medium
+38	AXA Group	Diversified Insurance	France	45.3	147.5	5.3	1005.4	39	http://dbpedia.org/resource/AXA_Group	medium
+39	Commonwealth Bank	Major Banks	Australia	117.5	47.8	7.3	735.2	40	http://dbpedia.org/resource/Commonwealth_Bank	high
+40	Microsoft	Software & Programming	United States	234.8	72.9	15.5	128.7	41	http://dbpedia.org/resource/Microsoft	high
+41	Itaú_Unibanco	Major Banks	Brazil	82	70.5	6.2	453.6	42	http://dbpedia.org/resource/Itaú_Unibanco	medium
+42	Banco Santander	Major Banks	Spain	82.1	108.8	2.9	1647.8	43	http://dbpedia.org/resource/Banco_Santander	medium
+43	BHP Billiton	Diversified Metals & Mining	Australia	184.7	72.2	15.4	129.3	44	http://dbpedia.org/resource/BHP_Billiton	high
+44	Banco Bradesco	Regional Banks	Brazil	71.6	78.3	5.6	417.5	45	http://dbpedia.org/resource/Banco_Bradesco	medium
+45	Johnson & Johnson	Medical Equipment & Supplies	United States	221.4	67.2	10.9	121.3	46	http://dbpedia.org/resource/Johnson_&_Johnson	high
+46	Westpac Banking Group	Major Banks	Australia	98.9	43.9	6.2	699.6	48	http://dbpedia.org/resource/Westpac_Banking_Group	high
+47	Goldman Sachs Group	Investment Services	United States	74.5	41.7	7.5	938.6	49	http://dbpedia.org/resource/Goldman_Sachs_Group	medium
+48	Royal Bank of Canada	Major Banks	Canada	87.2	38.3	7.7	838.5	50	http://dbpedia.org/resource/Royal_Bank_of_Canada	medium
+49	Siemens	Conglomerates	Germany	91.9	100.6	5.7	134.4	51	http://dbpedia.org/resource/Siemens	high
+50	Ford Motor	Auto & Truck Manufacturers	United States	51.8	134.3	5.7	190.6	53	http://dbpedia.org/resource/Ford_Motor	medium
+51	Bank of Communications	Major Banks	China	56.7	43.5	9.4	846.4	54	http://dbpedia.org/resource/Bank_of_Communications	medium
+52	BMW Group	Auto & Truck Manufacturers	Germany	60	98.8	6.6	165.5	55	http://dbpedia.org/resource/BMW_Group	medium
+53	Comcast	Broadcasting & Cable	United States	106.3	62.6	6.2	165	56	http://dbpedia.org/resource/Comcast	high
+54	Novartis	Pharmaceuticals	Switzerland	169.3	56.7	9.5	124.2	57	http://dbpedia.org/resource/Novartis	high
+55	National Australia Bank	Major Banks	Australia	76.3	49.2	4.2	791.3	58	http://dbpedia.org/resource/National_Australia_Bank	medium
+56	Rosneft	Oil & Gas Operations	Russia	73.2	68.8	11.2	126.3	59	http://dbpedia.org/resource/Rosneft	medium
+57	ING Group	Life & Health Insurance	Netherlands	31.9	130	5.1	1533.7	60	http://dbpedia.org/resource/ING_Group	medium
+58	Sberbank	Regional Banks	Russia	73.3	36.1	10.8	441.1	61	http://dbpedia.org/resource/Sberbank	medium
+59	American International Group	Diversified Insurance	United States	57.5	65.7	3.4	548.6	62	http://dbpedia.org/resource/American_International_Group	medium
+60	Lukoil	Oil & Gas Operations	Russia	55.4	116.3	11	99	64	http://dbpedia.org/resource/Lukoil	medium
+61	Prudential	Life & Health Insurance	United Kingdom	44.7	90.2	3.6	489.4	65	http://dbpedia.org/resource/Prudential	medium
+62	ANZ	Major Banks	Australia	81.2	37.5	5.9	666.9	66	http://dbpedia.org/resource/ANZ	medium
+63	Google	Computer Services	United States	268.4	50.2	10.7	93.8	68	http://dbpedia.org/resource/Google	high
+64	BASF	Diversified Chemicals	Germany	90.1	103.9	6.4	83.5	69	http://dbpedia.org/resource/BASF	high
+65	General Motors	Auto & Truck Manufacturers	United States	38.5	152.3	6.2	149.4	70	http://dbpedia.org/resource/General_Motors	medium
+66	Sanofi	Pharmaceuticals	France	131.6	46.1	6.6	132.4	72	http://dbpedia.org/resource/Sanofi	high
+67	ConocoPhillips	Oil & Gas Operations	United States	72.1	58.4	8.4	117.1	73	http://dbpedia.org/resource/ConocoPhillips	medium
+68	EDF	Electric Utilities	France	35.3	95.9	4.4	325.2	74	http://dbpedia.org/resource/EDF	medium
+69	Zurich Insurance Group	Diversified Insurance	Switzerland	41.8	70.4	3.9	409.3	75	http://dbpedia.org/resource/Zurich_Insurance_Group	medium
+70	Anheuser-Busch InBev	Beverages	Belgium	153.5	39.8	7.2	122.6	76	http://dbpedia.org/resource/Anheuser-Busch_InBev	high
+71	Intel	Semiconductors	United States	105.7	53.3	11	84.4	77	http://dbpedia.org/resource/Intel	high
+72	Coca-Cola	Beverages	United States	173.1	48	9	86.2	79	http://dbpedia.org/resource/Coca-Cola	high
+73	Cisco Systems	Communications Equipment	United States	116.9	47.3	9.3	96.4	80	http://dbpedia.org/resource/Cisco_Systems	high
+74	Munich Re	Diversified Insurance	Germany	34.9	88	4.2	340.6	81	http://dbpedia.org/resource/Munich_Re	medium
+75	Merck & Co	Pharmaceuticals	United States	133.3	47.3	6.2	106.1	82	http://dbpedia.org/resource/Merck_&_Co	high
+76	Ping An Insurance Group	Diversified Insurance	China	57	51.1	3.2	456.2	83	http://dbpedia.org/resource/Ping_An_Insurance_Group	medium
+77	Bank of Nova Scotia	Major Banks	Canada	70.6	27.6	6.4	737.2	84	http://dbpedia.org/resource/Bank_of_Nova_Scotia	medium
+78	Nissan Motor	Auto & Truck Manufacturers	Japan	43.4	113.7	4.1	133.4	85	http://dbpedia.org/resource/Nissan_Motor	medium
+79	Honda Motor	Auto & Truck Manufacturers	Japan	72.4	96	2.6	140.9	86	http://dbpedia.org/resource/Honda_Motor	medium
+80	Vale	Iron & Steel	Brazil	92.7	45.7	4.8	130.4	87	http://dbpedia.org/resource/Vale	high
+81	PepsiCo	Beverages	United States	118.9	65.5	6.2	74.6	88	http://dbpedia.org/resource/PepsiCo	high
+82	Hyundai Motor	Auto & Truck Manufacturers	South Korea	41.5	75	7.6	114.3	89	http://dbpedia.org/resource/Hyundai_Motor	medium
+83	UnitedHealth Group	Managed Health Care	United States	56.1	110.6	5.5	80.9	90	http://dbpedia.org/resource/UnitedHealth_Group	medium
+84	United Technologies	Conglomerates	United States	85.5	57.7	5.1	89.4	92	http://dbpedia.org/resource/United_Technologies	medium
+85	Saudi Basic Industries	Diversified Chemicals	Saudi Arabia	74.8	50.4	6.6	90.2	94	http://dbpedia.org/resource/Saudi_Basic_Industries	medium
+86	GDF Suez	Electric Utilities	France	45	128	2	268.9	95	http://dbpedia.org/resource/GDF_Suez	medium
+87	Boeing	Aerospace & Defense	United States	65.4	81.7	3.9	88.9	96	http://dbpedia.org/resource/Boeing	medium
+88	Caterpillar	Heavy Equipment	United States	58.2	65.9	5.7	89.4	97	http://dbpedia.org/resource/Caterpillar	medium
+89	Standard Chartered	Major Banks	United Kingdom	64.4	26.9	4.9	636.5	98	http://dbpedia.org/resource/Standard_Chartered	medium
+90	E.ON	Electric Utilities	Germany	32.5	174.2	2.9	184.9	99	http://dbpedia.org/resource/E.ON	medium
+91	China Merchants Bank	Major Banks	China	44.1	28.4	7.3	547	101	http://dbpedia.org/resource/China_Merchants_Bank	medium
+92	Oracle	Software & Programming	United States	172	37.1	10.6	79.4	102	http://dbpedia.org/resource/Oracle	high
+93	Unilever	Food Processing	Netherlands	122.3	67.7	5.9	59.9	103	http://dbpedia.org/resource/Unilever	high
+94	CVS Caremark	Drug Retail	United States	66	123.1	3.9	65.9	104	http://dbpedia.org/resource/CVS_Caremark	medium
+95	Tesco	Food Retail	United Kingdom	46.9	102.8	4.5	81.1	105	http://dbpedia.org/resource/Tesco	medium
+96	China Life Insurance	Life & Health Insurance	China	79.9	63.2	1.8	304.6	106	http://dbpedia.org/resource/China_Life_Insurance	medium
+97	China Minsheng Banking	Regional Banks	China	43.9	27.9	6.1	515.5	107	http://dbpedia.org/resource/China_Minsheng_Banking	medium
+98	Walt Disney	Broadcasting & Cable	United States	104	42.8	5.6	80.6	108	http://dbpedia.org/resource/Walt_Disney	high
+99	American Express	Consumer Financial Services	United States	73	33.8	4.5	153.1	108	http://dbpedia.org/resource/American_Express	medium
+100	Mitsubishi Corp	Trading Companies	Japan	32.1	67.2	5.5	152.6	110	http://dbpedia.org/resource/Mitsubishi_Corp	medium
+101	Cnooc	Oil & Gas Operations	Hong Kong-China	84.3	39.2	10.1	73.2	111	http://dbpedia.org/resource/Cnooc	medium
+102	GlaxoSmithKline	Pharmaceuticals	United Kingdom	111.1	43	7.4	63.5	112	http://dbpedia.org/resource/GlaxoSmithKline	high
+103	Hon Hai Precision	Electronics	Taiwan	32.1	132.1	10.7	65.8	113	http://dbpedia.org/resource/Hon_Hai_Precision	medium
+104	Ecopetrol	Oil & Gas Operations	Colombia	116.2	39	8.4	64.4	114	http://dbpedia.org/resource/Ecopetrol	high
+105	China Shenhua Energy	Diversified Metals & Mining	China	70.8	39.7	7.7	70.2	115	http://dbpedia.org/resource/China_Shenhua_Energy	medium
+106	US Bancorp	Major Banks	United States	63.8	22.2	5.6	353.9	116	http://dbpedia.org/resource/US_Bancorp	medium
+107	Hitachi	Electronics	Japan	28.5	116.8	4.2	113.2	117	http://dbpedia.org/resource/Hitachi	medium
+108	Nordea Bank	Regional Banks	Sweden	47.1	23.2	4.2	892.6	118	http://dbpedia.org/resource/Nordea_Bank	medium
+109	Schlumberger	Oil Services & Equipment	Netherlands	105.5	42.3	5.5	61.5	119	http://dbpedia.org/resource/Schlumberger	high
+110	Bayer	Diversified Chemicals	Germany	84.9	52.5	3.2	65.6	120	http://dbpedia.org/resource/Bayer	medium
+111	Reliance Industries	Oil & Gas Operations	India	50.4	70.3	3.9	64.2	121	http://dbpedia.org/resource/Reliance_Industries	medium
+112	MetLife	Diversified Insurance	United States	44	68.2	1.3	836.8	122	http://dbpedia.org/resource/MetLife	medium
+113	Abbott Laboratories	Pharmaceuticals	United States	53.6	39.9	6	67.2	123	http://dbpedia.org/resource/Abbott_Laboratories	medium
+114	Iberdrola	Electric Utilities	Spain	33.6	45.1	3.7	121.7	124	http://dbpedia.org/resource/Iberdrola	medium
+115	Mitsui & Co	Trading Companies	Japan	27	63.4	5.2	109.3	126	http://dbpedia.org/resource/Mitsui_&_Co	medium
+116	Swiss Re	Diversified Insurance	Switzerland	30.8	33.6	4.3	215.8	127	http://dbpedia.org/resource/Swiss_Re	medium
+117	China Citic Bank	Regional Banks	China	32.5	24.4	4.9	474.7	128	http://dbpedia.org/resource/China_Citic_Bank	medium
+118	Home Depot	Home Improvement Retail	United States	103.3	74.8	4.5	41.1	129	http://dbpedia.org/resource/Home_Depot	high
+119	Phillips 66	Oil & Gas Operations	United States	39.9	166.1	4.1	48.1	130	http://dbpedia.org/resource/Phillips_66	medium
+120	Bank of Montreal	Major Banks	Canada	41	20.9	4.1	542.9	131	http://dbpedia.org/resource/Bank_of_Montreal	medium
+121	Credit Suisse Group	Investment Services	Switzerland	37.1	42.5	1.6	1009.6	132	http://dbpedia.org/resource/Credit_Suisse_Group	medium
+122	Verizon Communications	Telecommunications services	United States	137.3	115.8	0.9	225.2	134	http://dbpedia.org/resource/Verizon_Communications	high
+123	EADS	Aerospace & Defense	Netherlands	46	74.5	1.6	115.5	135	http://dbpedia.org/resource/EADS	medium
+124	State Bank of India	Regional Banks	India	28.1	35.1	3	359.1	136	http://dbpedia.org/resource/State_Bank_of_India	medium
+125	News Corp	Broadcasting & Cable	United States	70.6	34.3	4	62.7	137	http://dbpedia.org/resource/News_Corp	medium
+126	Hutchison Whampoa	Conglomerates	Hong Kong-China	45.1	31.3	3.4	103.7	137	http://dbpedia.org/resource/Hutchison_Whampoa	medium
+127	China Telecom	Telecommunications services	China	42	44.9	2.4	87.4	139	http://dbpedia.org/resource/China_Telecom	medium
+128	Capital One Financial	Consumer Financial Services	United States	32.1	23.8	3.5	312.9	140	http://dbpedia.org/resource/Capital_One_Financial	medium
+129	Repsol YPF	Oil & Gas Operations	Spain	28.8	77.7	2.7	81.2	141	http://dbpedia.org/resource/Repsol_YPF	medium
+130	Suncor Energy	Oil & Gas Operations	Canada	47.3	38.8	2.8	76.8	142	http://dbpedia.org/resource/Suncor_Energy	medium
+131	Industrial Bank	Regional Banks	China	38.2	18.7	4.1	382.3	142	http://dbpedia.org/resource/Industrial_Bank	medium
+132	PTT PCL	Oil & Gas Operations	Thailand	32.9	89.9	3.4	53.3	144	http://dbpedia.org/resource/PTT_PCL	medium
+133	ENEL	Electric Utilities	Italy	32.2	111.9	1.1	226.3	145	http://dbpedia.org/resource/ENEL	medium
+134	Target	Discount Stores	United States	43.1	73.3	3	48.2	147	http://dbpedia.org/resource/Target	medium
+135	Softbank	Telecommunications services	Japan	47.2	38.7	3.8	58.3	148	http://dbpedia.org/resource/Softbank	medium
+136	AstraZeneca	Pharmaceuticals	United Kingdom	58	28.6	6.4	52.4	149	http://dbpedia.org/resource/AstraZeneca	medium
+137	Occidental Petroleum	Oil & Gas Operations	United States	67.4	24.3	4.6	64.2	151	http://dbpedia.org/resource/Occidental_Petroleum	medium
+138	Philip Morris International	Tobacco	United States	150.6	31.4	8.8	37.7	152	http://dbpedia.org/resource/Philip_Morris_International	high
+139	Time Warner	Broadcasting & Cable	United States	53	28.7	3	68.3	153	http://dbpedia.org/resource/Time_Warner	medium
+140	UniCredit Group	Major Banks	Italy	29	54.2	1.1	1221.9	154	http://dbpedia.org/resource/UniCredit_Group	medium
+141	Manulife Financial	Life & Health Insurance	Canada	27.8	37.3	1.6	488.2	156	http://dbpedia.org/resource/Manulife_Financial	medium
+142	Glencore International	Diversified Metals & Mining	Switzerland	41.7	214.4	1	105.5	157	http://dbpedia.org/resource/Glencore_International	medium
+143	ABB	Conglomerates	Switzerland	53.4	40.1	2.8	48.8	158	http://dbpedia.org/resource/ABB	medium
+144	TNK-BP Holding	Oil & Gas Operations	Russia	33	43.3	7.6	43.3	159	http://dbpedia.org/resource/TNK-BP_Holding	medium
+145	British American Tobacco	Tobacco	United Kingdom	102	24.1	6.1	44.2	159	http://dbpedia.org/resource/British_American_Tobacco	high
+146	Canadian Imperial Bank	Major Banks	Canada	32.3	17.1	3.3	393.2	161	http://dbpedia.org/resource/Canadian_Imperial_Bank	medium
+147	Vinci	Construction Services	France	25.4	51.7	2.5	80.9	162	http://dbpedia.org/resource/Vinci	medium
+148	BG Group	Oil & Gas Operations	United Kingdom	60.6	19.3	4.6	64.4	163	http://dbpedia.org/resource/BG_Group	medium
+149	Qualcomm	Semiconductors	United States	111.6	20.5	6.6	44.8	164	http://dbpedia.org/resource/Qualcomm	high
+150	PNC Financial Services	Regional Banks	United States	35.3	16.6	3	305.1	165	http://dbpedia.org/resource/PNC_Financial_Services	medium
+151	SAIC Motor	Auto & Truck Manufacturers	China	26.7	75	3.3	48.1	167	http://dbpedia.org/resource/SAIC_Motor	medium
+152	Wesfarmers	Food Retail	Australia	51.9	59	2.2	42.9	168	http://dbpedia.org/resource/Wesfarmers	medium
+153	France Telecom	Telecommunications services	France	29.2	57.4	1.5	113.9	169	http://dbpedia.org/resource/France_Telecom	medium
+154	Express Scripts	Healthcare Services	United States	48.9	93.9	1.3	58.1	170	http://dbpedia.org/resource/Express_Scripts	medium
+155	Itochu	Trading Companies	Japan	20.2	51.6	3.6	78.1	172	http://dbpedia.org/resource/Itochu	medium
+156	Renault	Auto & Truck Manufacturers	France	20.3	54.4	2.3	98.9	175	http://dbpedia.org/resource/Renault	medium
+157	Honeywell International	Conglomerates	United States	57.6	37.7	2.9	41.9	175	http://dbpedia.org/resource/Honeywell_International	medium
+158	National Grid	Natural Gas Utilities	United Kingdom	40.7	21.7	3.3	75.6	179	http://dbpedia.org/resource/National_Grid	medium
+159	McDonald's	Restaurants	United States	99.9	27.6	5.5	35.4	180	http://dbpedia.org/resource/McDonald's	high
+160	Canon	Business Products & Supplies	Japan	41.9	40.1	2.6	45.7	181	http://dbpedia.org/resource/Canon	medium
+161	Allstate	Diversified Insurance	United States	22.9	33.3	2.3	126.9	183	http://dbpedia.org/resource/Allstate	medium
+162	Posco	Iron & Steel	South Korea	22.9	56.5	2.2	74.5	184	http://dbpedia.org/resource/Posco	medium
+163	Jardine Matheson	Conglomerates	Hong Kong-China	43.3	39.6	1.7	63.5	185	http://dbpedia.org/resource/Jardine_Matheson	medium
+164	Aflac	Life & Health Insurance	United States	23.9	25.4	2.9	131.1	186	http://dbpedia.org/resource/Aflac	medium
+165	Surgutneftegas	Oil & Gas Operations	Russia	33.7	23.4	7.2	51.4	187	http://dbpedia.org/resource/Surgutneftegas	medium
+166	SABMiller	Beverages	United Kingdom	84.1	16.7	4.3	55	188	http://dbpedia.org/resource/SABMiller	medium
+167	Union Pacific	Railroads	United States	66.5	20.9	3.9	47.2	189	http://dbpedia.org/resource/Union_Pacific	medium
+168	Deutsche Post	Air Courier	Germany	29.4	73.2	2.2	45	190	http://dbpedia.org/resource/Deutsche_Post	medium
+169	Japan Tobacco	Tobacco	Japan	61.6	24.6	3.9	43	191	http://dbpedia.org/resource/Japan_Tobacco	medium
+170	Amgen	Biotechs	United States	68.7	17.3	4.3	54.3	192	http://dbpedia.org/resource/Amgen	medium
+171	3M	Conglomerates	United States	73.4	29.9	4.4	33.9	193	http://dbpedia.org/resource/3M	medium
+172	Dow Chemical	Diversified Chemicals	United States	40.7	56.8	1.2	69.6	193	http://dbpedia.org/resource/Dow_Chemical	medium
+173	Bank of New York Mellon	Major Banks	United States	33.5	15.1	2.4	359	195	http://dbpedia.org/resource/Bank_of_New_York_Mellon	medium
+174	Christian Dior	Apparel/Accessories	France	32	38.6	1.8	69.9	196	http://dbpedia.org/resource/Christian_Dior	medium
+175	Valero Energy	Oil & Gas Operations	United States	24.4	139.2	2.1	44.5	197	http://dbpedia.org/resource/Valero_Energy	medium
+176	Duke Energy	Electric Utilities	United States	49.3	19.6	1.8	113.9	198	http://dbpedia.org/resource/Duke_Energy	medium
+177	KDDI	Telecommunications services	Japan	29.1	43.2	2.9	47.4	199	http://dbpedia.org/resource/KDDI	medium
+178	Telstra	Telecommunications services	Australia	58.4	25.8	3.5	40.5	200	http://dbpedia.org/resource/Telstra	medium
+179	WellPoint	Managed Health Care	United States	19.8	61.7	2.7	59	201	http://dbpedia.org/resource/WellPoint	medium
+180	Xstrata	Diversified Metals & Mining	Switzerland	52.1	32.3	1.2	83.1	202	http://dbpedia.org/resource/Xstrata	medium
+181	Walgreen	Drug Retail	United States	40.2	70.8	2.1	35.6	203	http://dbpedia.org/resource/Walgreen	medium
+182	Schneider Electric	Electrical Equipment	France	42.2	31.6	2.4	45.4	204	http://dbpedia.org/resource/Schneider_Electric	medium
+183	Dell	Computer Hardware	United States	25	56.9	2.4	47.5	205	http://dbpedia.org/resource/Dell	medium
+184	China State Construction	Construction Services	China	16.9	76.7	2.2	79.9	206	http://dbpedia.org/resource/China_State_Construction	medium
+185	Aegon	Diversified Insurance	Netherlands	12.7	55.2	2	483.2	207	http://dbpedia.org/resource/Aegon	medium
+186	Legal & General Group	Life & Health Insurance	United Kingdom	15.5	56.9	1.3	562.9	208	http://dbpedia.org/resource/Legal_&_General_Group	medium
+187	Lockheed Martin	Aerospace & Defense	United States	29.9	47.2	2.7	38.7	209	http://dbpedia.org/resource/Lockheed_Martin	medium
+188	Volvo Group	Heavy Equipment	Sweden	31.9	46.7	1.7	50.4	210	http://dbpedia.org/resource/Volvo_Group	medium
+189	Costco Wholesale	Discount Stores	United States	44.2	103.1	2	29.1	211	http://dbpedia.org/resource/Costco_Wholesale	medium
+190	SAP	Software & Programming	Germany	103.9	20.9	3.6	35.5	211	http://dbpedia.org/resource/SAP	high
+191	ACE	Diversified Insurance	Switzerland	29.9	17.9	2.7	92.5	213	http://dbpedia.org/resource/ACE	medium
+192	JX Holdings	Oil & Gas Operations	Japan	14.4	129.5	2.1	80.7	214	http://dbpedia.org/resource/JX_Holdings	medium
+193	Carrefour	Food Retail	France	19.8	101.3	1.6	59.4	216	http://dbpedia.org/resource/Carrefour	medium
+194	China Unicom	Telecommunications services	Hong Kong-China	32.4	39.5	1.1	82.8	217	http://dbpedia.org/resource/China_Unicom	medium
+195	DNB	Regional Banks	Norway	26.5	14.4	2.5	406.8	219	http://dbpedia.org/resource/DNB	medium
+196	East Japan Railway	Railroads	Japan	32.5	30.6	1.3	82.9	220	http://dbpedia.org/resource/East_Japan_Railway	medium
+197	Seven & I Holdings	Food Retail	Japan	27.4	58.9	1.6	47.6	221	http://dbpedia.org/resource/Seven_&_I_Holdings	medium
+198	BT Group	Telecommunications services	United Kingdom	32.5	30.9	3.2	37.3	221	http://dbpedia.org/resource/BT_Group	medium
+199	Old Mutual	Investment Services	United Kingdom	15.5	32.2	1.9	230.4	224	http://dbpedia.org/resource/Old_Mutual	medium
+200	Marathon Petroleum	Oil & Gas Operations	United States	29.1	76.5	3.4	27.2	224	http://dbpedia.org/resource/Marathon_Petroleum	medium
+201	People's Insurance Company	Property & Casualty Insurance	China	24.4	41.3	1.1	110.5	226	http://dbpedia.org/resource/People's_Insurance_Company	medium
+202	Taiwan Semiconductor	Semiconductors	Taiwan	89.9	17.4	5.7	32.7	227	http://dbpedia.org/resource/Taiwan_Semiconductor	medium
+203	EMC	Computer Storage Devices	United States	53.3	21.7	2.7	38.1	228	http://dbpedia.org/resource/EMC	medium
+204	Danone	Food Processing	France	43.3	27.5	2.2	38	230	http://dbpedia.org/resource/Danone	medium
+205	Standard Bank Group	Major Banks	South Africa	19.9	21	1.9	182	231	http://dbpedia.org/resource/Standard_Bank_Group	medium
+206	Altria Group	Tobacco	United States	67.7	17.5	4.2	35.3	232	http://dbpedia.org/resource/Altria_Group	medium
+207	VTB Bank	Regional Banks	Russia	18.9	16.1	2.8	210	233	http://dbpedia.org/resource/VTB_Bank	medium
+208	Continental	Auto & Truck Parts	Germany	25.3	43.2	2.5	35.2	235	http://dbpedia.org/resource/Continental	medium
+209	Hess	Oil & Gas Operations	United States	24.8	37.7	2	43.4	236	http://dbpedia.org/resource/Hess	medium
+210	Archer Daniels Midland	Food Processing	United States	21.7	90.6	1.4	45.1	237	http://dbpedia.org/resource/Archer_Daniels_Midland	medium
+211	McKesson	Pharmaceuticals	United States	25.7	123.5	1.6	33.4	238	http://dbpedia.org/resource/McKesson	medium
+212	China Everbright Bank	Regional Banks	China	21	13.5	2.9	275.1	240	http://dbpedia.org/resource/China_Everbright_Bank	medium
+213	BCE	Telecommunications services	Canada	35.6	20	2.8	41.2	240	http://dbpedia.org/resource/BCE	medium
+214	Diageo	Beverages	United Kingdom	76.4	16.9	3	34.5	242	http://dbpedia.org/resource/Diageo	medium
+215	SEB	Major Banks	Sweden	23.5	14.4	1.8	376.8	243	http://dbpedia.org/resource/SEB	medium
+216	Centrica	Natural Gas Utilities	United Kingdom	27.7	38.9	2.1	35.4	245	http://dbpedia.org/resource/Centrica	medium
+217	FedEx	Air Courier	United States	34.3	43.9	1.8	31.8	246	http://dbpedia.org/resource/FedEx	medium
+218	Svenska Handelsbanken	Major Banks	Sweden	28.2	11.5	2.2	367	247	http://dbpedia.org/resource/Svenska_Handelsbanken	medium
+219	Bridgestone	Auto & Truck Parts	Japan	27.4	38.1	2.2	35.1	248	http://dbpedia.org/resource/Bridgestone	medium
+220	Time Warner Cable	Broadcasting & Cable	United States	27.3	21.4	2.2	49.8	250	http://dbpedia.org/resource/Time_Warner_Cable	medium
+221	Shinhan Financial Group	Investment Services	South Korea	17.2	16.3	2.1	277.5	251	http://dbpedia.org/resource/Shinhan_Financial_Group	medium
+222	Marubeni	Trading Companies	Japan	13.7	53	2.1	61.9	252	http://dbpedia.org/resource/Marubeni	medium
+223	United Parcel Service	Air Courier	United States	81.5	54.1	0.8	38.9	253	http://dbpedia.org/resource/United_Parcel_Service	medium
+224	Natixis	Major Banks	France	13.2	19.2	2.2	658	253	http://dbpedia.org/resource/Natixis	medium
+225	Apache	Oil & Gas Operations	United States	29.6	17.1	2	60.7	253	http://dbpedia.org/resource/Apache	medium
+226	BlackRock	Investment Services	United States	44.2	9.3	2.5	200.5	256	http://dbpedia.org/resource/BlackRock	medium
+227	AbbVie	Pharmaceuticals	United States	60.9	18	5.3	27	257	http://dbpedia.org/resource/AbbVie	medium
+228	Medtronic	Medical Equipment & Supplies	United States	46	16.4	3.5	34.9	258	http://dbpedia.org/resource/Medtronic	medium
+229	Exelon	Electric Utilities	United States	28.5	23.5	1.2	78.6	259	http://dbpedia.org/resource/Exelon	medium
+230	Saint-Gobain	Construction Materials	France	21.6	57	1	61	260	http://dbpedia.org/resource/Saint-Gobain	medium
+231	Halliburton	Oil Services & Equipment	United States	39	28.5	2.6	27.4	261	http://dbpedia.org/resource/Halliburton	medium
+232	Bristol-Myers Squibb	Pharmaceuticals	United States	63.8	17.6	2	35.9	262	http://dbpedia.org/resource/Bristol-Myers_Squibb	medium
+233	Toshiba	Electronics	Japan	21.3	73.7	0.9	65.1	263	http://dbpedia.org/resource/Toshiba	medium
+234	Denso	Auto & Truck Parts	Japan	34.9	38.1	1.1	43.2	264	http://dbpedia.org/resource/Denso	medium
+235	Swedbank	Major Banks	Sweden	27.4	10.9	2.2	283.8	265	http://dbpedia.org/resource/Swedbank	medium
+236	Brookfield Asset Management	Real Estate	Canada	23	18.6	1.4	108.6	266	http://dbpedia.org/resource/Brookfield_Asset_Management	medium
+237	Anadarko Petroleum	Oil & Gas Operations	United States	42.7	13.4	2.4	52.6	267	http://dbpedia.org/resource/Anadarko_Petroleum	medium
+238	Kia Motors	Auto & Truck Manufacturers	South Korea	19.8	42	3.4	30.5	268	http://dbpedia.org/resource/Kia_Motors	medium
+239	Prudential Financial	Life & Health Insurance	United States	28.1	84.8	0.5	709.3	269	http://dbpedia.org/resource/Prudential_Financial	medium
+240	VimpelCom	Telecommunications services	Netherlands	19	23.1	2.1	55.4	270	http://dbpedia.org/resource/VimpelCom	medium
+241	Linde	Diversified Chemicals	Germany	35.2	20.2	1.6	43.5	271	http://dbpedia.org/resource/Linde	medium
+242	Woolworths	Food Retail	Australia	46.3	56.4	1.9	21.5	271	http://dbpedia.org/resource/Woolworths	medium
+243	Ebay	Internet & Catalog Retail	United States	65.4	14.1	2.6	37.1	274	http://dbpedia.org/resource/Ebay	medium
+244	Danaher	Conglomerates	United States	43.1	18.3	2.4	32.9	276	http://dbpedia.org/resource/Danaher	medium
+245	Sun Life Financial	Life & Health Insurance	Canada	16.9	17.6	1.6	226.8	277	http://dbpedia.org/resource/Sun_Life_Financial	medium
+246	Hyundai Mobis	Auto & Truck Parts	South Korea	26.4	28.9	3.3	28.1	278	http://dbpedia.org/resource/Hyundai_Mobis	medium
+247	China Pacific Insurance	Life & Health Insurance	China	28.6	27.3	0.8	109.3	278	http://dbpedia.org/resource/China_Pacific_Insurance	medium
+248	China Communications Construction	Construction Services	China	12.9	45.7	1.9	69.6	280	http://dbpedia.org/resource/China_Communications_Construction	medium
+249	Takeda Pharmaceutical	Pharmaceuticals	Japan	43.6	18.2	1.5	43.2	281	http://dbpedia.org/resource/Takeda_Pharmaceutical	medium
+250	NextEra Energy	Electric Utilities	United States	31.6	14.3	1.9	64.4	282	http://dbpedia.org/resource/NextEra_Energy	medium
+251	Ping An Bank	Regional Banks	China	18.3	13.2	2.2	257.3	283	http://dbpedia.org/resource/Ping_An_Bank	medium
+252	Air Liquide	Specialized Chemicals	France	39.3	20.2	2.1	32.5	284	http://dbpedia.org/resource/Air_Liquide	medium
+253	Danske Bank	Major Banks	Denmark	19.1	22.6	0.8	615.6	285	http://dbpedia.org/resource/Danske_Bank	medium
+254	TeliaSonera	Telecommunications services	Sweden	31	16.1	3.1	38.1	286	http://dbpedia.org/resource/TeliaSonera	medium
+255	Standard Life	Life & Health Insurance	United Kingdom	13.5	31.2	1.1	283	287	http://dbpedia.org/resource/Standard_Life	medium
+256	Canadian Natural Resources	Oil & Gas Operations	Canada	36	14.7	1.9	49.2	288	http://dbpedia.org/resource/Canadian_Natural_Resources	medium
+257	Husky Energy	Oil & Gas Operations	Canada	29	22.5	2	35.3	289	http://dbpedia.org/resource/Husky_Energy	medium
+258	Cigna	Managed Health Care	United States	17.9	29.1	1.6	53.7	290	http://dbpedia.org/resource/Cigna	medium
+259	Ericsson	Communications Equipment	Sweden	44.1	35	0.9	40.4	292	http://dbpedia.org/resource/Ericsson	medium
+260	State Street	Investment Services	United States	27.4	10.1	2.1	222.6	292	http://dbpedia.org/resource/State_Street	medium
+261	CNP Assurances	Diversified Insurance	France	9.9	53.2	1.2	466.1	294	http://dbpedia.org/resource/CNP_Assurances	low
+262	SingTel	Telecommunications services	Singapore	45.7	15	3.2	31.4	295	http://dbpedia.org/resource/SingTel	medium
+263	Imperial Tobacco Group	Tobacco	United Kingdom	35.2	23.7	1.1	44.4	296	http://dbpedia.org/resource/Imperial_Tobacco_Group	medium
+264	National Oilwell Varco	Oil Services & Equipment	United States	30.1	20	2.5	31.5	297	http://dbpedia.org/resource/National_Oilwell_Varco	medium
+265	Heineken Holding	Beverages	Netherlands	18.6	24.3	1.9	46.7	299	http://dbpedia.org/resource/Heineken_Holding	medium
+266	Power Corp of Canada	Life & Health Insurance	Canada	12.4	34.2	1.1	272.8	299	http://dbpedia.org/resource/Power_Corp_of_Canada	medium
+267	Deutsche Bank	Major Banks	Germany	41.3	55	0.4	2652.6	301	http://dbpedia.org/resource/Deutsche_Bank	medium
+268	Central Japan Railway	Railroads	Japan	20.6	18.2	1.6	61.3	302	http://dbpedia.org/resource/Central_Japan_Railway	medium
+269	Mitsubishi Electric	Electrical Equipment	Japan	18.8	44	1.4	39.1	303	http://dbpedia.org/resource/Mitsubishi_Electric	medium
+270	OMV Group	Oil & Gas Operations	Austria	14.7	56.3	1.8	39.8	304	http://dbpedia.org/resource/OMV_Group	medium
+271	Emerson Electric	Electrical Equipment	United States	41.6	24.7	2.1	23.8	305	http://dbpedia.org/resource/Emerson_Electric	medium
+272	Nippon Steel & Sumitomo Metal	Iron & Steel	Japan	25.6	49.4	0.7	58.9	305	http://dbpedia.org/resource/Nippon_Steel_&_Sumitomo_Metal	medium
+273	Sun Hung Kai Properties	Real Estate	Hong Kong-China	36.4	8.8	5.6	60.3	307	http://dbpedia.org/resource/Sun_Hung_Kai_Properties	medium
+274	Directv	Broadcasting & Cable	United States	31.5	29.7	2.9	20.6	310	http://dbpedia.org/resource/Directv	medium
+275	BB&T	Regional Banks	United States	21.7	10.7	2	183.9	310	http://dbpedia.org/resource/BB&T	medium
+276	Aetna	Managed Health Care	United States	16.7	36.6	1.7	41.5	312	http://dbpedia.org/resource/Aetna	medium
+277	Wilmar International	Food Processing	Singapore	17	46.3	1.3	41.7	313	http://dbpedia.org/resource/Wilmar_International	medium
+278	Visa	Consumer Financial Services	United States	104.8	10.7	2.4	35.9	314	http://dbpedia.org/resource/Visa	high
+279	China Vanke	Real Estate	China	18.9	15.5	2	60.3	314	http://dbpedia.org/resource/China_Vanke	medium
+280	China Railway Construction	Construction Services	China	10.4	74.5	1.3	77.1	316	http://dbpedia.org/resource/China_Railway_Construction	medium
+281	Henkel	Household/Personal Care	Germany	37.3	21.8	2	25	317	http://dbpedia.org/resource/Henkel	medium
+282	Accenture	Computer Services	Ireland	53.3	30.1	3.1	16.4	318	http://dbpedia.org/resource/Accenture	medium
+283	Sasol	Diversified Chemicals	South Africa	29.4	20.8	2.9	24.7	320	http://dbpedia.org/resource/Sasol	medium
+284	Inditex	Apparel/Footwear Retail	Spain	83.3	20.6	3	17.5	321	http://dbpedia.org/resource/Inditex	medium
+285	China Railway Group	Construction Services	China	10.2	76.7	1.2	88.4	322	http://dbpedia.org/resource/China_Railway_Group	medium
+286	Johnson Controls	Auto & Truck Parts	United States	23.9	42	1.2	31.2	323	http://dbpedia.org/resource/Johnson_Controls	medium
+287	KBC Group	Major Banks	Belgium	16.3	21.7	0.8	338.7	323	http://dbpedia.org/resource/KBC_Group	medium
+288	BAE Systems	Aerospace & Defense	United Kingdom	18.8	26.3	1.7	36.2	325	http://dbpedia.org/resource/BAE_Systems	medium
+289	Telenor	Telecommunications services	Norway	34.1	18.3	1.7	29.6	326	http://dbpedia.org/resource/Telenor	medium
+290	Enbridge	Oil Services & Equipment	Canada	36.9	25.4	0.7	47.4	328	http://dbpedia.org/resource/Enbridge	medium
+291	Fresenius	Medical Equipment & Supplies	Germany	22.1	24.8	1.2	40.5	329	http://dbpedia.org/resource/Fresenius	medium
+292	Samsung Life Insurance	Life & Health Insurance	South Korea	17.7	19.1	0.8	142.2	330	http://dbpedia.org/resource/Samsung_Life_Insurance	medium
+293	Komatsu	Heavy Equipment	Japan	22.2	23.9	2	27.7	331	http://dbpedia.org/resource/Komatsu	medium
+294	Maybank	Regional Banks	Malaysia	24.3	9.1	1.9	161.4	332	http://dbpedia.org/resource/Maybank	medium
+295	Tata Motors	Auto & Truck Manufacturers	India	15.9	32.6	2.7	27.6	334	http://dbpedia.org/resource/Tata_Motors	medium
+296	Resona Holdings	Regional Banks	Japan	13.6	9.5	3.1	522.9	335	http://dbpedia.org/resource/Resona_Holdings	medium
+297	Kroger	Food Retail	United States	16.3	96.8	1.5	24.7	336	http://dbpedia.org/resource/Kroger	medium
+298	SunTrust Banks	Regional Banks	United States	15.7	11.2	2	173.4	337	http://dbpedia.org/resource/SunTrust_Banks	medium
+299	Carnival	Hotels & Motels	Panama	28.4	15.4	1.5	38.7	338	http://dbpedia.org/resource/Carnival	medium
+300	American Electric	Electric Utilities	United States	23.3	14.9	1.3	54.4	339	http://dbpedia.org/resource/American_Electric	medium
+301	Chubb	Property & Casualty Insurance	United States	22.3	13.6	1.5	52.2	340	http://dbpedia.org/resource/Chubb	medium
+302	Garanti Bank	Regional Banks	Turkey	22	9.8	1.9	99.2	341	http://dbpedia.org/resource/Garanti_Bank	medium
+303	Inpex	Oil & Gas Operations	Japan	20.6	14.3	2.3	36.9	342	http://dbpedia.org/resource/Inpex	medium
+304	NIKE	Apparel/Accessories	United States	49.4	25.3	2.4	15.6	343	http://dbpedia.org/resource/NIKE	medium
+305	Monsanto	Specialized Chemicals	United States	55.9	14	2.3	22.5	344	http://dbpedia.org/resource/Monsanto	medium
+306	United Overseas Bank	Regional Banks	Singapore	25.1	7.2	2.3	207	345	http://dbpedia.org/resource/United_Overseas_Bank	medium
+307	MTN Group	Telecommunications services	South Africa	34.5	16.5	2.5	21.4	345	http://dbpedia.org/resource/MTN_Group	medium
+308	Eaton	Other Industrial Equipment	Ireland	29.5	16.3	1.2	35.8	347	http://dbpedia.org/resource/Eaton	medium
+309	Marathon Oil	Oil & Gas Operations	United States	24.8	15.6	1.6	35.3	348	http://dbpedia.org/resource/Marathon_Oil	medium
+310	Indian Oil	Oil & Gas Operations	India	14.2	70.8	0.8	43.2	350	http://dbpedia.org/resource/Indian_Oil	medium
+311	Raytheon	Aerospace & Defense	United States	18.9	24.4	1.9	26.7	351	http://dbpedia.org/resource/Raytheon	medium
+312	HCA Holdings	Healthcare Services	United States	16.8	33	1.6	28.1	352	http://dbpedia.org/resource/HCA_Holdings	medium
+313	Discover Financial Services	Consumer Financial Services	United States	22	9	2.3	75.3	353	http://dbpedia.org/resource/Discover_Financial_Services	medium
+314	Kimberly-Clark	Household/Personal Care	United States	36.2	21.1	1.8	19.9	353	http://dbpedia.org/resource/Kimberly-Clark	medium
+315	WPP	Advertising	United Kingdom	20.7	16.9	1.3	40.3	355	http://dbpedia.org/resource/WPP	medium
+316	Cardinal Health	Pharmaceuticals	United States	15.9	104.8	1.1	24.6	356	http://dbpedia.org/resource/Cardinal_Health	medium
+317	Thomson Reuters	Printing & Publishing	Canada	26.7	13.3	2.1	32.6	358	http://dbpedia.org/resource/Thomson_Reuters	medium
+318	Saudi Telecom	Telecommunications services	Saudi Arabia	21.7	15.8	1.9	31.3	359	http://dbpedia.org/resource/Saudi_Telecom	medium
+319	Kraft Foods Group	Food Processing	United States	29.8	18.3	1.6	23.3	360	http://dbpedia.org/resource/Kraft_Foods_Group	medium
+320	Delta Air Lines	Airline	United States	13.6	36.7	1	44.6	361	http://dbpedia.org/resource/Delta_Air_Lines	medium
+321	Northrop Grumman	Aerospace & Defense	United States	16.3	25.2	2	26.5	362	http://dbpedia.org/resource/Northrop_Grumman	medium
+322	Fannie Mae	Investment Services	United States	2.3	131.9	7.2	3226.2	363	http://dbpedia.org/resource/Fannie_Mae	low
+323	Illinois Tool Works	Other Industrial Equipment	United States	28.3	17.9	2.9	19.3	364	http://dbpedia.org/resource/Illinois_Tool_Works	medium
+324	General Mills	Food Processing	United States	29.9	17.4	1.8	22.8	365	http://dbpedia.org/resource/General_Mills	medium
+325	Holcim	Construction Materials	Switzerland	26.9	23.5	0.7	44.8	367	http://dbpedia.org/resource/Holcim	medium
+326	Safran	Aerospace & Defense	France	19.6	18	1.7	30	368	http://dbpedia.org/resource/Safran	medium
+327	CenturyLink	Telecommunications services	United States	21.5	18.4	0.8	54	369	http://dbpedia.org/resource/CenturyLink	medium
+328	Baoshan Iron & Steel	Iron & Steel	China	13.4	35.4	1.2	36.7	370	http://dbpedia.org/resource/Baoshan_Iron_&_Steel	medium
+329	Baxter International	Medical Equipment & Supplies	United States	37.9	14.2	2.3	20.4	371	http://dbpedia.org/resource/Baxter_International	medium
+330	Freddie Mac	Investment Services	United States	1.3	80.6	11	1989.9	372	http://dbpedia.org/resource/Freddie_Mac	low
+331	AMP	Investment Services	Australia	16	17.2	0.7	122.1	373	http://dbpedia.org/resource/AMP	medium
+332	Canadian National Railway	Railroads	Canada	42.7	10	2.7	26.8	374	http://dbpedia.org/resource/Canadian_National_Railway	medium
+333	Baker Hughes	Oil Services & Equipment	United States	21.2	21.4	1.3	26.7	375	http://dbpedia.org/resource/Baker_Hughes	medium
+334	Coal India	Diversified Metals & Mining	India	37.4	12.3	2.9	20.8	377	http://dbpedia.org/resource/Coal_India	medium
+335	PPR	Department Stores	France	29.4	12.8	1.4	32.5	378	http://dbpedia.org/resource/PPR	medium
+336	Hyundai Heavy Industries	Heavy Equipment	South Korea	11.6	48.8	0.9	46.3	379	http://dbpedia.org/resource/Hyundai_Heavy_Industries	medium
+337	CBS	Broadcasting & Cable	United States	29.4	14.1	1.6	26.5	380	http://dbpedia.org/resource/CBS	medium
+338	Viacom	Broadcasting & Cable	United States	31.3	13.2	2.2	21.9	381	http://dbpedia.org/resource/Viacom	medium
+339	Akbank	Regional Banks	Turkey	20.6	8.2	1.7	91.6	382	http://dbpedia.org/resource/Akbank	medium
+340	Woori Finance Holdings	Investment Services	South Korea	9	15.2	1.4	306.2	383	http://dbpedia.org/resource/Woori_Finance_Holdings	low
+341	NTPC	Electric Utilities	India	22.3	12.8	1.9	30.5	384	http://dbpedia.org/resource/NTPC	medium
+342	Norilsk Nickel	Diversified Metals & Mining	Russia	32.9	12.8	3.3	18.8	385	http://dbpedia.org/resource/Norilsk_Nickel	medium
+343	Alstom	Conglomerates	France	14	26.6	1	39.4	386	http://dbpedia.org/resource/Alstom	medium
+344	International Paper	Paper & Paper Products	United States	20.1	27.8	0.8	32.2	387	http://dbpedia.org/resource/International_Paper	medium
+345	Sabanci Holding	Conglomerates	Turkey	12.7	14.6	1	98.3	388	http://dbpedia.org/resource/Sabanci_Holding	medium
+346	PPL	Electric Utilities	United States	17.8	12.3	1.5	43.6	389	http://dbpedia.org/resource/PPL	medium
+347	Pernod Ricard	Beverages	France	34.5	10.4	1.5	33.5	390	http://dbpedia.org/resource/Pernod_Ricard	medium
+348	Lloyds Banking Group	Major Banks	United Kingdom	53.8	75.6	-2.3	1495.9	390	http://dbpedia.org/resource/Lloyds_Banking_Group	medium
+349	Gilead Sciences	Biotechs	United States	68.4	9.7	2.6	21.2	392	http://dbpedia.org/resource/Gilead_Sciences	medium
+350	Suncorp Group	Diversified Insurance	Australia	15.9	15.6	0.7	98.3	393	http://dbpedia.org/resource/Suncorp_Group	medium
+351	Syngenta	Specialized Chemicals	Switzerland	40.1	14.5	1.9	18.3	393	http://dbpedia.org/resource/Syngenta	medium
+352	Mitsubishi Estate	Real Estate	Japan	40.8	12.2	0.7	53.2	395	http://dbpedia.org/resource/Mitsubishi_Estate	medium
+353	CSX	Railroads	United States	24.5	11.8	1.9	30.6	396	http://dbpedia.org/resource/CSX	medium
+354	FirstRand	Major Banks	South Africa	18	8.4	1.6	94.1	397	http://dbpedia.org/resource/FirstRand	medium
+355	PG&E	Electric Utilities	United States	19.1	15	0.8	52.4	398	http://dbpedia.org/resource/PG&E	medium
+356	Mapfre	Diversified Insurance	Spain	10.7	27.1	0.9	69.2	399	http://dbpedia.org/resource/Mapfre	medium
+357	Barclays	Major Banks	United Kingdom	62.3	55.7	-1.7	2422.5	400	http://dbpedia.org/resource/Barclays	medium
+358	Colgate-Palmolive	Household/Personal Care	United States	52.4	17.1	2.5	13.4	402	http://dbpedia.org/resource/Colgate-Palmolive	medium
+359	Deutsche Lufthansa	Airline	Germany	9.7	39.7	1.3	37.5	403	http://dbpedia.org/resource/Deutsche_Lufthansa	low
+360	Huaneng Power International	Electric Utilities	China	14.9	21.1	0.9	41.2	404	http://dbpedia.org/resource/Huaneng_Power_International	medium
+361	SK Holdings	Oil & Gas Operations	South Korea	7	106.3	0.9	85.2	405	http://dbpedia.org/resource/SK_Holdings	low
+362	TransCanada	Oil Services & Equipment	Canada	33.9	8	1.4	48.5	406	http://dbpedia.org/resource/TransCanada	medium
+363	Huaxia Bank	Regional Banks	China	11.5	10.5	1.5	197.2	407	http://dbpedia.org/resource/Huaxia_Bank	medium
+364	Texas Instruments	Semiconductors	United States	38.8	12.8	1.8	20	408	http://dbpedia.org/resource/Texas_Instruments	medium
+365	Ameriprise Financial	Investment Services	United States	15.1	10.3	1	134.7	409	http://dbpedia.org/resource/Ameriprise_Financial	medium
+366	UBS	Investment Services	Switzerland	61.9	47.7	-2.7	1366.8	409	http://dbpedia.org/resource/UBS	medium
+367	QBE Insurance Group	Property & Casualty Insurance	Australia	17	17	0.8	50.8	411	http://dbpedia.org/resource/QBE_Insurance_Group	medium
+368	Lafarge	Construction Materials	France	20.3	20.9	0.6	50.5	413	http://dbpedia.org/resource/Lafarge	medium
+369	Norfolk Southern	Railroads	United States	23.7	11	1.7	30.3	415	http://dbpedia.org/resource/Norfolk_Southern	medium
+370	Orix	Consumer Financial Services	Japan	13.5	11.8	1	101.2	416	http://dbpedia.org/resource/Orix	medium
+371	Covidien	Medical Equipment & Supplies	Ireland	30.9	12	1.9	22	417	http://dbpedia.org/resource/Covidien	medium
+372	FirstEnergy	Electric Utilities	United States	17.6	15.3	0.8	50.4	418	http://dbpedia.org/resource/FirstEnergy	medium
+373	Mitsui Fudosan	Real Estate	Japan	25.2	16.2	0.6	46.9	419	http://dbpedia.org/resource/Mitsui_Fudosan	medium
+374	Royal Bank of Scotland	Major Banks	United Kingdom	52	42.1	-9.4	2133.1	420	http://dbpedia.org/resource/Royal_Bank_of_Scotland	medium
+375	Macy's	Department Stores	United States	16.2	27.7	1.3	21	421	http://dbpedia.org/resource/Macy's	medium
+376	Las Vegas Sands	Casinos & Gaming	United States	44.1	11.1	1.5	22.2	422	http://dbpedia.org/resource/Las_Vegas_Sands	medium
+377	Aeon	Discount Stores	Japan	8.9	64.1	0.8	49.1	423	http://dbpedia.org/resource/Aeon	low
+378	Ageas	Diversified Insurance	Belgium	8.5	20.6	1	128	424	http://dbpedia.org/resource/Ageas	low
+379	Thermo Fisher Scientific	Precision Healthcare Equipment	United States	27.6	12.5	1.2	27.4	425	http://dbpedia.org/resource/Thermo_Fisher_Scientific	medium
+380	Bouygues	Construction Services	France	9.4	44.3	0.8	48.1	426	http://dbpedia.org/resource/Bouygues	low
+381	Cenovus Energy	Oil & Gas Operations	Canada	24.4	16.9	1	24.3	427	http://dbpedia.org/resource/Cenovus_Energy	medium
+382	Ahold	Food Retail	Netherlands	15.7	43.3	1.1	19.4	428	http://dbpedia.org/resource/Ahold	medium
+383	CEZ Group	Electric Utilities	Czech Republic	15.7	11.3	2.2	33.4	429	http://dbpedia.org/resource/CEZ_Group	medium
+384	Sampo	Diversified Insurance	Finland	22.2	8.4	1.9	41.4	430	http://dbpedia.org/resource/Sampo	medium
+385	Hana Financial Group	Regional Banks	South Korea	8.5	12.5	1.5	263.9	431	http://dbpedia.org/resource/Hana_Financial_Group	low
+386	Consolidated Edison	Electric Utilities	United States	17.3	12.2	1.1	41.2	432	http://dbpedia.org/resource/Consolidated_Edison	medium
+387	Deutsche Telekom	Telecommunications services	Germany	48.4	76.7	-6.9	136.1	433	http://dbpedia.org/resource/Deutsche_Telekom	medium
+388	Swisscom	Telecommunications services	Switzerland	24	12.4	1.9	21.5	434	http://dbpedia.org/resource/Swisscom	medium
+389	Rio Tinto	Diversified Metals & Mining	United Kingdom	98.5	51	-3	117.6	435	http://dbpedia.org/resource/Rio_Tinto	high
+390	Generali Group	Diversified Insurance	Italy	26	116.7	0.1	582.4	436	http://dbpedia.org/resource/Generali_Group	medium
+391	CLP Holdings	Electric Utilities	Hong Kong-China	21.7	13.5	1.1	29.4	437	http://dbpedia.org/resource/CLP_Holdings	medium
+392	Hewlett-Packard	Computer Hardware	United States	43.1	118.7	-12.9	106.7	438	http://dbpedia.org/resource/Hewlett-Packard	medium
+393	Novo Nordisk	Pharmaceuticals	Denmark	95	13.8	3.8	11.2	439	http://dbpedia.org/resource/Novo_Nordisk	high
+394	Grupo Mexico	Diversified Metals & Mining	Mexico	32.3	10.4	2.4	18.4	440	http://dbpedia.org/resource/Grupo_Mexico	medium
+395	Lincoln National	Life & Health Insurance	United States	9.1	11.5	1.3	218.9	441	http://dbpedia.org/resource/Lincoln_National	low
+396	Loews	Diversified Insurance	United States	17.5	14.6	0.6	80	442	http://dbpedia.org/resource/Loews	medium
+397	Morgan Stanley	Investment Services	United States	46.6	32	0.1	781	443	http://dbpedia.org/resource/Morgan_Stanley	medium
+398	Macquarie Group	Investment Services	Australia	13.5	11.4	0.8	157.8	445	http://dbpedia.org/resource/Macquarie_Group	medium
+399	Bank Mandiri	Regional Banks	Indonesia	24	6.3	1.6	65.5	446	http://dbpedia.org/resource/Bank_Mandiri	medium
+400	Richemont	Specialty Stores	Switzerland	48.9	11.9	2.1	15.1	447	http://dbpedia.org/resource/Richemont	medium
+401	Newmont Mining	Diversified Metals & Mining	United States	19.7	9.9	1.8	29.6	448	http://dbpedia.org/resource/Newmont_Mining	medium
+402	Rogers Communications	Telecommunications services	Canada	25.3	12.5	1.7	19.7	448	http://dbpedia.org/resource/Rogers_Communications	medium
+403	Shin-Etsu Chemical	Diversified Chemicals	Japan	28.7	12.7	1.2	21.8	450	http://dbpedia.org/resource/Shin-Etsu_Chemical	medium
+404	Merck	Pharmaceuticals	Germany	32	13.8	0.7	28.6	451	http://dbpedia.org/resource/Merck	medium
+405	Fifth Third Bancorp	Regional Banks	United States	14.7	7.1	1.6	121.9	452	http://dbpedia.org/resource/Fifth_Third_Bancorp	medium
+406	Toyota Tsusho	Trading Companies	Japan	9.2	71.5	0.8	34.4	453	http://dbpedia.org/resource/Toyota_Tsusho	low
+407	CRH	Construction Materials	Ireland	16.7	24.6	0.7	27.6	454	http://dbpedia.org/resource/CRH	medium
+408	Raiffeisen Bank International	Major Banks	Austria	7.6	13.9	1.3	190.5	455	http://dbpedia.org/resource/Raiffeisen_Bank_International	low
+409	Bharti Airtel	Telecommunications services	India	21.8	14	0.8	29.8	456	http://dbpedia.org/resource/Bharti_Airtel	medium
+410	Praxair	Specialized Chemicals	United States	33.6	11.2	1.7	18.1	457	http://dbpedia.org/resource/Praxair	medium
+411	Xerox	Business Products & Supplies	United States	10.7	22.4	1.2	30	458	http://dbpedia.org/resource/Xerox	medium
+412	Intesa Sanpaolo	Major Banks	Italy	26.4	47.7	-10.6	813.8	459	http://dbpedia.org/resource/Intesa_Sanpaolo	medium
+413	Bank Rakyat Indonesia	Regional Banks	Indonesia	22.4	6	1.9	57	461	http://dbpedia.org/resource/Bank_Rakyat_Indonesia	medium
+414	Porsche Automobil Holding	Auto & Truck Manufacturers	Germany	24.5	5.2	10.3	41.1	462	http://dbpedia.org/resource/Porsche_Automobil_Holding	medium
+415	HDFC Bank	Regional Banks	India	28.1	6.5	1	66.7	463	http://dbpedia.org/resource/HDFC_Bank	medium
+416	National Bank of Canada	Major Banks	Canada	12.3	7.1	1.6	184	464	http://dbpedia.org/resource/National_Bank_of_Canada	medium
+417	Magna International	Auto & Truck Parts	Canada	13.2	30.8	1.4	17.1	465	http://dbpedia.org/resource/Magna_International	medium
+418	Humana	Managed Health Care	United States	11.1	39.1	1.2	20	466	http://dbpedia.org/resource/Humana	medium
+419	Kirin Holdings	Beverages	Japan	15.2	21.6	0.6	33.6	467	http://dbpedia.org/resource/Kirin_Holdings	medium
+420	Keppel Corp	Conglomerates	Singapore	17	11.4	1.8	23.9	469	http://dbpedia.org/resource/Keppel_Corp	medium
+421	Compass Group	Restaurants	United Kingdom	23.1	27.3	1	14.4	471	http://dbpedia.org/resource/Compass_Group	medium
+422	Paccar	Heavy Equipment	United States	18	17	1.1	18.6	472	http://dbpedia.org/resource/Paccar	medium
+423	China Coal Energy	Diversified Metals & Mining	China	12.2	13.6	1.5	29.5	473	http://dbpedia.org/resource/China_Coal_Energy	medium
+424	Aon	Insurance Brokers	United Kingdom	18.7	11.5	1	30.5	473	http://dbpedia.org/resource/Aon	medium
+425	Kinder Morgan	Oil Services & Equipment	United States	41.2	10	0.4	68.5	476	http://dbpedia.org/resource/Kinder_Morgan	medium
+426	Siam Commercial Bank	Regional Banks	Thailand	21.5	6	1.3	74.2	477	http://dbpedia.org/resource/Siam_Commercial_Bank	medium
+427	Sysco	Food Retail	United States	19.8	43.4	1.1	12.4	479	http://dbpedia.org/resource/Sysco	medium
+428	Fortum	Electric Utilities	Finland	17.6	8.1	1.9	32.3	480	http://dbpedia.org/resource/Fortum	medium
+429	Atlas Copco	Other Industrial Equipment	Sweden	35.2	13.4	2.1	12.5	481	http://dbpedia.org/resource/Atlas_Copco	medium
+430	LG Chem	Specialized Chemicals	South Korea	16.2	21.9	1.4	15.4	482	http://dbpedia.org/resource/LG_Chem	medium
+431	Woodside Petroleum	Oil & Gas Operations	Australia	31.9	6.4	3	23.9	483	http://dbpedia.org/resource/Woodside_Petroleum	medium
+432	Tatneft	Oil & Gas Operations	Russia	14.8	13	2.1	19.5	484	http://dbpedia.org/resource/Tatneft	medium
+433	ArcelorMittal	Iron & Steel	Luxembourg	23.1	84.2	-3.7	114.6	485	http://dbpedia.org/resource/ArcelorMittal	medium
+434	H&M	Apparel/Footwear Retail	Sweden	59.8	18.1	2.5	8.8	486	http://dbpedia.org/resource/H&M	medium
+435	Suzuki Motor	Auto & Truck Manufacturers	Japan	13.3	30.3	0.7	27.2	487	http://dbpedia.org/resource/Suzuki_Motor	medium
+436	Bank of Beijing	Regional Banks	China	13.1	6.3	1.4	151.7	488	http://dbpedia.org/resource/Bank_of_Beijing	medium
+437	Mosaic	Specialized Chemicals	United States	26.7	10.1	1.9	17.3	490	http://dbpedia.org/resource/Mosaic	medium
+438	GFNorte	Regional Banks	Mexico	18.5	7.7	0.8	70.6	491	http://dbpedia.org/resource/GFNorte	medium
+439	Kyocera	Electronics	Japan	17.1	14.4	1	24	492	http://dbpedia.org/resource/Kyocera	medium
+440	Associated British Foods	Food Processing	United Kingdom	22.7	19.8	0.9	16.2	493	http://dbpedia.org/resource/Associated_British_Foods	medium
+441	Origin Energy	Electric Utilities	Australia	14.9	13.2	1	28.7	494	http://dbpedia.org/resource/Origin_Energy	medium
+442	Telus	Telecommunications services	Canada	22.3	11	1.3	20.5	496	http://dbpedia.org/resource/Telus	medium
+443	Etisalat	Telecommunications services	United Arab Emirates	21.8	9	1.8	21.8	497	http://dbpedia.org/resource/Etisalat	medium
+444	Progressive	Property & Casualty Insurance	United States	15.2	17.1	0.9	22.7	499	http://dbpedia.org/resource/Progressive	medium
+445	Sempra Energy	Natural Gas Utilities	United States	19.2	9.6	0.9	36.5	500	http://dbpedia.org/resource/Sempra_Energy	medium
+446	Corning	Communications Equipment	United States	19	8	1.7	29.4	501	http://dbpedia.org/resource/Corning	medium
+447	Reed Elsevier	Printing & Publishing	United Kingdom	25.6	9.9	1.7	17.9	502	http://dbpedia.org/resource/Reed_Elsevier	medium
+448	Dongfeng Motor Group	Auto & Truck Manufacturers	China	11.8	19.7	1.4	19.2	503	http://dbpedia.org/resource/Dongfeng_Motor_Group	medium
+449	Tokio Marine Holdings	Property & Casualty Insurance	Japan	23.5	39.4	0.1	196.4	503	http://dbpedia.org/resource/Tokio_Marine_Holdings	medium
+450	Sandvik	Other Industrial Equipment	Sweden	20.5	15.2	1.2	16	505	http://dbpedia.org/resource/Sandvik	medium
+451	Sony	Consumer Electronics	Japan	17.6	78.5	-5.5	160.3	506	http://dbpedia.org/resource/Sony	medium
+452	Poly Real Estate	Real Estate	China	12.2	9.6	1.3	40.3	507	http://dbpedia.org/resource/Poly_Real_Estate	medium
+453	Agrium	Specialized Chemicals	Canada	15.3	16.7	1.5	16	509	http://dbpedia.org/resource/Agrium	medium
+454	Cummins	Heavy Equipment	United States	22.3	17.3	1.5	12.5	510	http://dbpedia.org/resource/Cummins	medium
+455	EOG Resources	Oil & Gas Operations	United States	35.4	11.7	0.6	27.3	511	http://dbpedia.org/resource/EOG_Resources	medium
+456	Omnicom Group	Advertising	United States	15.7	14.2	1	22.2	512	http://dbpedia.org/resource/Omnicom_Group	medium
+457	Teck Resources	Diversified Metals & Mining	Canada	17.4	10.4	0.8	34.8	513	http://dbpedia.org/resource/Teck_Resources	medium
+458	Qatar National Bank	Regional Banks	Qatar	25.7	4	2.3	100.8	514	http://dbpedia.org/resource/Qatar_National_Bank	medium
+459	Tenaris	Oil Services & Equipment	Luxembourg	24.2	11.1	1.7	15.7	515	http://dbpedia.org/resource/Tenaris	medium
+460	Tenaga Nasional	Electric Utilities	Malaysia	12.6	11.5	1.3	28.3	516	http://dbpedia.org/resource/Tenaga_Nasional	medium
+461	Toyota Industries	Auto & Truck Parts	Japan	11.7	18.6	0.7	32.2	517	http://dbpedia.org/resource/Toyota_Industries	medium
+462	Swire Pacific	Conglomerates	Hong Kong-China	18.8	5.7	2.3	41.5	517	http://dbpedia.org/resource/Swire_Pacific	medium
+463	Liberty Interactive	Internet & Catalog Retail	United States	14.6	10.1	1.5	26.3	519	http://dbpedia.org/resource/Liberty_Interactive	medium
+464	J Sainsbury	Food Retail	United Kingdom	10.4	35.7	1	19.7	520	http://dbpedia.org/resource/J_Sainsbury	medium
+465	Aviva	Life & Health Insurance	United Kingdom	14.5	69	-5.1	512.7	520	http://dbpedia.org/resource/Aviva	medium
+466	Anglo American	Diversified Metals & Mining	United Kingdom	39.9	29.4	-1.5	78.1	522	http://dbpedia.org/resource/Anglo_American	medium
+467	Cheung Kong Holdings	Real Estate	Hong Kong-China	33.7	2.5	4.1	49.4	523	http://dbpedia.org/resource/Cheung_Kong_Holdings	medium
+468	Kasikornbank	Major Banks	Thailand	17.5	6	1.2	67.8	524	http://dbpedia.org/resource/Kasikornbank	medium
+469	Carlsberg	Beverages	Denmark	15.8	11.6	1	27.2	525	http://dbpedia.org/resource/Carlsberg	medium
+470	Amazon.com	Internet & Catalog Retail	United States	119	61.1	0	32.6	525	http://dbpedia.org/resource/Amazon.com	high
+471	Larsen & Toubro	Construction Services	India	17.2	12.6	0.9	23.8	527	http://dbpedia.org/resource/Larsen_&_Toubro	medium
+472	Principal Financial Group	Life & Health Insurance	United States	10	9.2	0.8	161.9	528	http://dbpedia.org/resource/Principal_Financial_Group	medium
+473	Waste Management	Environmental & Waste	United States	17.4	13.6	0.8	23.1	529	http://dbpedia.org/resource/Waste_Management	medium
+474	Murphy Oil	Oil & Gas Operations	United States	11.8	28.6	1	17.5	531	http://dbpedia.org/resource/Murphy_Oil	medium
+475	CaixaBank	Regional Banks	Spain	16.8	16.3	0.3	450.1	532	http://dbpedia.org/resource/CaixaBank	medium
+476	TE Connectivity	Electronics	Switzerland	17.6	13.2	1.1	18.1	533	http://dbpedia.org/resource/TE_Connectivity	medium
+477	Nomura Holdings	Investment Services	Japan	23.6	22.4	0.1	431.3	535	http://dbpedia.org/resource/Nomura_Holdings	medium
+478	Vivendi	Telecommunications services	France	27.8	38.3	0.2	76.6	536	http://dbpedia.org/resource/Vivendi	medium
+479	Fujitsu	Computer Hardware	Japan	9.2	54	0.5	35	537	http://dbpedia.org/resource/Fujitsu	low
+480	Charles Schwab	Investment Services	United States	22.8	5	0.9	133.6	538	http://dbpedia.org/resource/Charles_Schwab	medium
+481	SSE	Electric Utilities	United Kingdom	21.2	50.8	0.3	31.1	539	http://dbpedia.org/resource/SSE	medium
+482	Al Rajhi Bank	Regional Banks	Saudi Arabia	26	4	2.1	71.3	539	http://dbpedia.org/resource/Al_Rajhi_Bank	medium
+483	Ingersoll-Rand	Conglomerates	Ireland	16.4	14	1	18.5	541	http://dbpedia.org/resource/Ingersoll-Rand	medium
+484	Sime Darby	Conglomerates	Malaysia	17.3	15	1.3	14.9	542	http://dbpedia.org/resource/Sime_Darby	medium
+485	Halkbank	Regional Banks	Turkey	13.3	6.2	1.5	61	543	http://dbpedia.org/resource/Halkbank	medium
+486	Philips	Conglomerates	Netherlands	27.5	32.7	0.3	35.8	544	http://dbpedia.org/resource/Philips	medium
+487	PPG Industries	Diversified Chemicals	United States	20.2	15.2	0.9	15.9	545	http://dbpedia.org/resource/PPG_Industries	medium
+488	Mitsubishi Heavy Industries	Heavy Equipment	Japan	18.8	34.1	0.3	48	546	http://dbpedia.org/resource/Mitsubishi_Heavy_Industries	medium
+489	Transneft	Oil Services & Equipment	Russia	3.6	20.8	5.8	57.8	547	http://dbpedia.org/resource/Transneft	low
+490	Korea Electric Power	Electric Utilities	South Korea	17.4	43.9	-2.8	129.3	548	http://dbpedia.org/resource/Korea_Electric_Power	medium
+491	Marsh & McLennan	Insurance Brokers	United States	20.3	11.9	1.2	16.3	549	http://dbpedia.org/resource/Marsh_&_McLennan	medium
+492	Kellogg	Food Processing	United States	22.5	14.2	1	15.2	551	http://dbpedia.org/resource/Kellogg	medium
+493	Aisin Seiki	Auto & Truck Parts	Japan	10.6	27.8	0.7	24.7	552	http://dbpedia.org/resource/Aisin_Seiki	medium
+494	Entergy	Electric Utilities	United States	11.6	10.3	0.9	43.2	553	http://dbpedia.org/resource/Entergy	medium
+495	Astellas Pharma	Pharmaceuticals	Japan	25.9	11.7	0.9	16.6	553	http://dbpedia.org/resource/Astellas_Pharma	medium
+496	SK Telecom	Telecommunications services	South Korea	11.5	14.5	1	24.1	555	http://dbpedia.org/resource/SK_Telecom	medium
+497	Simon Property Group	Real Estate	United States	49.5	4.9	1.4	32.6	556	http://dbpedia.org/resource/Simon_Property_Group	medium
+498	Panasonic	Consumer Electronics	Japan	16.7	94.8	-9.3	76.1	557	http://dbpedia.org/resource/Panasonic	medium
+499	AmerisourceBergen	Pharmaceuticals	United States	11.3	80.6	0.7	15.5	558	http://dbpedia.org/resource/AmerisourceBergen	medium
+500	Goldcorp	Diversified Metals & Mining	Canada	26.4	5.4	1.7	31.2	559	http://dbpedia.org/resource/Goldcorp	medium
+501	Xcel Energy	Electric Utilities	United States	14.2	10.1	0.9	31.1	560	http://dbpedia.org/resource/Xcel_Energy	medium
+502	HDFC	Consumer Financial Services	India	23.3	5.9	1.1	41.6	561	http://dbpedia.org/resource/HDFC	medium
+503	MasterCard	Consumer Financial Services	United States	63.8	7.4	2.8	12.5	561	http://dbpedia.org/resource/MasterCard	medium
+504	Solvay	Diversified Chemicals	Belgium	12.5	16.4	0.8	23.4	564	http://dbpedia.org/resource/Solvay	medium
+505	Yara International	Specialized Chemicals	Norway	13.2	15.1	1.9	14.4	565	http://dbpedia.org/resource/Yara_International	medium
+506	Sumitomo Electric	Auto & Truck Parts	Japan	10	24.9	0.7	25	566	http://dbpedia.org/resource/Sumitomo_Electric	medium
+507	Quanta Computer	Computer Hardware	Taiwan	8.5	34.4	0.8	24.6	567	http://dbpedia.org/resource/Quanta_Computer	low
+508	Regions Financial	Regional Banks	United States	11.8	6	1.1	121.3	568	http://dbpedia.org/resource/Regions_Financial	medium
+509	Falabella	Department Stores	Chile	26.8	11.5	0.8	17.9	569	http://dbpedia.org/resource/Falabella	medium
+510	Adidas	Apparel/Accessories	Germany	21.8	19.6	0.7	14.7	570	http://dbpedia.org/resource/Adidas	medium
+511	Western Digital	Computer Storage Devices	United States	12.1	15.6	2.1	13.9	570	http://dbpedia.org/resource/Western_Digital	medium
+512	Cencosud	Food Retail	Chile	17.4	19.1	0.6	19.7	573	http://dbpedia.org/resource/Cencosud	medium
+513	Sanlam	Life & Health Insurance	South Africa	10.7	10.8	0.7	52.3	574	http://dbpedia.org/resource/Sanlam	medium
+514	Veolia Environnement	Diversified Utilities	France	6.8	38.8	0.5	57.2	576	http://dbpedia.org/resource/Veolia_Environnement	low
+515	Wm Morrison Supermarkets	Food Retail	United Kingdom	9.5	28.8	1	16.6	576	http://dbpedia.org/resource/Wm_Morrison_Supermarkets	low
+516	Novatek	Oil & Gas Operations	Russia	31.3	6.9	2.3	15.1	578	http://dbpedia.org/resource/Novatek	medium
+517	Air Products & Chemicals	Specialized Chemicals	United States	18.7	9.9	1.2	17.4	578	http://dbpedia.org/resource/Air_Products_&_Chemicals	medium
+518	PKO Bank Polski	Regional Banks	Poland	13.8	5.7	1.2	62.3	580	http://dbpedia.org/resource/PKO_Bank_Polski	medium
+519	Tokyo Gas	Natural Gas Utilities	Japan	13.5	21.2	0.6	22.2	581	http://dbpedia.org/resource/Tokyo_Gas	medium
+520	Precision Castparts	Aerospace & Defense	United States	28.5	7.9	1.3	16.7	582	http://dbpedia.org/resource/Precision_Castparts	medium
+521	Franklin Resources	Investment Services	United States	31.9	7.3	2	14.4	584	http://dbpedia.org/resource/Franklin_Resources	medium
+522	SCA	Household/Personal Care	Sweden	17.3	13.1	0.7	20.2	585	http://dbpedia.org/resource/SCA	medium
+523	Ecolab	Specialized Chemicals	United States	23.5	11.8	0.7	17.6	586	http://dbpedia.org/resource/Ecolab	medium
+524	Telecom Italia	Telecommunications services	Italy	15.2	37.9	-2.1	102.3	586	http://dbpedia.org/resource/Telecom_Italia	medium
+525	Dominion Resources	Electric Utilities	United States	32.7	13.1	0.3	46.8	589	http://dbpedia.org/resource/Dominion_Resources	medium
+526	Tata Steel	Iron & Steel	India	6.4	26.1	1	28.8	590	http://dbpedia.org/resource/Tata_Steel	low
+527	Tencent Holdings	Computer Services	China	65	7	2	12.1	591	http://dbpedia.org/resource/Tencent_Holdings	medium
+528	Sodexo	Business & Personal Services	France	14.3	22.9	0.7	15.9	592	http://dbpedia.org/resource/Sodexo	medium
+529	Industrial Bank of Korea	Regional Banks	South Korea	6.4	9.3	1	185.9	593	http://dbpedia.org/resource/Industrial_Bank_of_Korea	low
+530	Public Bank	Regional Banks	Malaysia	18	4.2	1.3	89.8	594	http://dbpedia.org/resource/Public_Bank	medium
+531	HeidelbergCement	Construction Materials	Germany	13.9	18	0.4	37	595	http://dbpedia.org/resource/HeidelbergCement	medium
+532	Ferrovial	Other Transportation	Spain	11.9	10.1	0.9	27.2	596	http://dbpedia.org/resource/Ferrovial	medium
+533	Cemig	Electric Utilities	Brazil	10.7	9.5	2.2	19.4	597	http://dbpedia.org/resource/Cemig	medium
+534	Swatch Group	Apparel/Accessories	Switzerland	32.1	8.5	1.7	12	598	http://dbpedia.org/resource/Swatch_Group	medium
+535	Yum Brands	Restaurants	United States	31.6	13.6	1.6	9	598	http://dbpedia.org/resource/Yum_Brands	medium
+536	Thales	Aerospace & Defense	France	8.8	18.2	0.7	28.2	600	http://dbpedia.org/resource/Thales	low
+537	Unum Group	Life & Health Insurance	United States	7.5	10.5	0.9	62.2	601	http://dbpedia.org/resource/Unum_Group	low
+538	Investor	Investment Services	Sweden	22.9	3.5	3.7	35.3	602	http://dbpedia.org/resource/Investor	medium
+539	Toray Industries	Diversified Chemicals	Japan	10.4	19.2	0.8	18.8	604	http://dbpedia.org/resource/Toray_Industries	medium
+540	Starbucks	Restaurants	United States	43.2	13.7	1.4	8.5	605	http://dbpedia.org/resource/Starbucks	medium
+541	Kubota	Heavy Equipment	Japan	17.4	12.2	0.7	18	606	http://dbpedia.org/resource/Kubota	medium
+542	PTT Global Chemical	Diversified Chemicals	Thailand	11.3	18.5	1.1	14.2	607	http://dbpedia.org/resource/PTT_Global_Chemical	medium
+543	Sprint Nextel	Telecommunications services	United States	17.5	35.3	-4.3	51.6	609	http://dbpedia.org/resource/Sprint_Nextel	medium
+544	SLM	Consumer Financial Services	United States	9	6.1	0.9	181.3	611	http://dbpedia.org/resource/SLM	low
+545	Bank Central Asia	Regional Banks	Indonesia	27.1	4	1.2	46	613	http://dbpedia.org/resource/Bank_Central_Asia	medium
+546	Publicis Groupe	Advertising	France	14.7	8.7	1	21.8	615	http://dbpedia.org/resource/Publicis_Groupe	medium
+547	DISH Network	Broadcasting & Cable	United States	15.9	14.3	0.6	17.4	616	http://dbpedia.org/resource/DISH_Network	medium
+548	Kohl's	Department Stores	United States	11.4	19.3	1	13.9	616	http://dbpedia.org/resource/Kohl's	medium
+549	Chunghwa Telecom	Telecommunications services	Taiwan	24.3	7.4	1.4	15.2	618	http://dbpedia.org/resource/Chunghwa_Telecom	medium
+550	T&D Holdings	Life & Health Insurance	Japan	8.1	24.5	0.3	155.1	619	http://dbpedia.org/resource/T&D_Holdings	low
+551	Stryker	Medical Equipment & Supplies	United States	25.1	8.7	1.3	13.2	620	http://dbpedia.org/resource/Stryker	medium
+552	Isuzu Motors	Auto & Truck Manufacturers	Japan	10.5	16.9	1.1	14.6	621	http://dbpedia.org/resource/Isuzu_Motors	medium
+553	Hartford Financial Services	Diversified Insurance	United States	11.5	26.4	0	298.5	622	http://dbpedia.org/resource/Hartford_Financial_Services	medium
+554	Unibail-Rodamco	Real Estate	France	22.2	2.3	1.9	39	623	http://dbpedia.org/resource/Unibail-Rodamco	medium
+555	Yahoo	Computer Services	United States	24.3	5	3.9	17.1	624	http://dbpedia.org/resource/Yahoo	medium
+556	HJ Heinz	Food Processing	United States	23.2	11.6	1	11.9	625	http://dbpedia.org/resource/HJ_Heinz	medium
+557	General Dynamics	Aerospace & Defense	United States	24.7	31.5	-0.3	34.3	626	http://dbpedia.org/resource/General_Dynamics	medium
+558	MTR	Railroads	Hong Kong-China	23	4.6	1.7	26.7	627	http://dbpedia.org/resource/MTR	medium
+559	Abertis	Other Transportation	Spain	14.3	5.2	1.4	37.2	628	http://dbpedia.org/resource/Abertis	medium
+560	Westfield Group	Real Estate	Australia	25.4	2.5	1.8	35.3	630	http://dbpedia.org/resource/Westfield_Group	medium
+561	Mitsubishi Chemical	Diversified Chemicals	Japan	7.4	38.8	0.4	37.4	631	http://dbpedia.org/resource/Mitsubishi_Chemical	low
+562	Virgin Media	Telecommunications services	United States	12.5	6.7	4.6	17.1	631	http://dbpedia.org/resource/Virgin_Media	medium
+563	Siam Cement	Specialized Chemicals	Thailand	20.3	13.3	0.8	12.8	633	http://dbpedia.org/resource/Siam_Cement	medium
+564	M&T Bank	Regional Banks	United States	13.4	4.6	1	83	634	http://dbpedia.org/resource/M&T_Bank	medium
+565	Daqin Railway	Railroads	China	18.7	7.2	1.9	14.9	635	http://dbpedia.org/resource/Daqin_Railway	medium
+566	Tata Consultancy Services	Computer Services	India	56.9	9.6	2	8.1	636	http://dbpedia.org/resource/Tata_Consultancy_Services	medium
+567	Fanuc	Other Industrial Equipment	Japan	29.7	6.5	1.7	13.7	637	http://dbpedia.org/resource/Fanuc	medium
+568	China Resources Land	Real Estate	Hong Kong-China	14.6	5.7	1.4	29.4	637	http://dbpedia.org/resource/China_Resources_Land	medium
+569	Datang International Power	Electric Utilities	China	8.4	12.2	0.6	42.4	639	http://dbpedia.org/resource/Datang_International_Power	low
+570	Bangkok Bank	Regional Banks	Thailand	15.1	4.3	1.1	79.1	640	http://dbpedia.org/resource/Bangkok_Bank	medium
+571	Seagate Technology	Computer Storage Devices	Ireland	12.7	16.3	3.2	8.7	641	http://dbpedia.org/resource/Seagate_Technology	medium
+572	Ensco	Oil Services & Equipment	United Kingdom	14.1	6.8	1.8	18.5	642	http://dbpedia.org/resource/Ensco	medium
+573	Kingfisher	Home Improvement Retail	United Kingdom	10.3	16.8	0.9	15.6	643	http://dbpedia.org/resource/Kingfisher	medium
+574	HollyFrontier	Oil & Gas Operations	United States	10.8	20.1	1.7	10.3	643	http://dbpedia.org/resource/HollyFrontier	medium
+575	Galp Energia	Oil & Gas Operations	Portugal	13.1	24.4	0.5	18	645	http://dbpedia.org/resource/Galp_Energia	medium
+576	George Weston	Food Retail	Canada	9.1	32.8	0.5	21.9	646	http://dbpedia.org/resource/George_Weston	low
+577	Rostelecom	Telecommunications services	Russia	11.3	10.4	1.1	17.7	647	http://dbpedia.org/resource/Rostelecom	medium
+578	Evergrande Real Estate	Real Estate	China	6.9	10.3	1.5	31.1	648	http://dbpedia.org/resource/Evergrande_Real_Estate	low
+579	Japan Airlines	Airline	Japan	8.7	14.6	2.3	13.2	649	http://dbpedia.org/resource/Japan_Airlines	low
+580	Jiangxi Copper	Diversified Metals & Mining	China	10.8	25	0.8	12.5	650	http://dbpedia.org/resource/Jiangxi_Copper	medium
+581	PKN Orlen	Oil & Gas Operations	Poland	7.4	38.8	0.8	16.9	651	http://dbpedia.org/resource/PKN_Orlen	low
+582	Grupo Aval	Investment Services	Colombia	13.2	6.1	0.7	57.4	652	http://dbpedia.org/resource/Grupo_Aval	medium
+583	Commerzbank	Major Banks	Germany	9.2	25.5	0	838.3	654	http://dbpedia.org/resource/Commerzbank	low
+584	JBS	Food Processing	Brazil	10.4	38.9	0.4	24.3	656	http://dbpedia.org/resource/JBS	medium
+585	China Resources Power	Electric Utilities	Hong Kong-China	12.4	8.1	1	22.9	657	http://dbpedia.org/resource/China_Resources_Power	medium
+586	Barrick Gold	Diversified Metals & Mining	Canada	28.7	14.5	-0.7	47.3	659	http://dbpedia.org/resource/Barrick_Gold	medium
+587	Wheelock & Co	Real Estate	Hong Kong-China	10	4.3	3.5	49.4	661	http://dbpedia.org/resource/Wheelock_&_Co	medium
+588	Daiwa House Industry	Construction Services	Japan	11.5	22.3	0.4	24	662	http://dbpedia.org/resource/Daiwa_House_Industry	medium
+589	Dollar General	Discount Stores	United States	15.8	16	1	10.4	663	http://dbpedia.org/resource/Dollar_General	medium
+590	Spectra Energy	Oil Services & Equipment	United States	19.3	5.1	0.9	30.6	666	http://dbpedia.org/resource/Spectra_Energy	medium
+591	JFE Holdings	Iron & Steel	Japan	12.6	38.3	-0.4	47.4	667	http://dbpedia.org/resource/JFE_Holdings	medium
+592	Gree Electric Appliances	Household Appliances	China	13.5	13.3	0.8	13.5	668	http://dbpedia.org/resource/Gree_Electric_Appliances	medium
+593	CSN	Iron & Steel	Brazil	7.2	8.9	2	24.2	671	http://dbpedia.org/resource/CSN	low
+594	Asahi Kasei	Diversified Chemicals	Japan	9.2	19	0.7	16.9	672	http://dbpedia.org/resource/Asahi_Kasei	low
+595	Erste Group Bank	Major Banks	Austria	12.3	15.5	-0.9	271.7	672	http://dbpedia.org/resource/Erste_Group_Bank	medium
+596	Yanzhou Coal Mining	Diversified Metals & Mining	China	11.8	9.2	1	18	674	http://dbpedia.org/resource/Yanzhou_Coal_Mining	medium
+597	Nucor	Iron & Steel	United States	14.8	19.4	0.5	14.2	675	http://dbpedia.org/resource/Nucor	medium
+598	Henderson Land	Real Estate	Hong Kong-China	15.1	2	2.6	33.9	675	http://dbpedia.org/resource/Henderson_Land	medium
+599	Parker-Hannifin	Other Industrial Equipment	United States	14.4	13.1	1	11.5	677	http://dbpedia.org/resource/Parker-Hannifin	medium
+600	Axis Bank	Regional Banks	India	11.6	5.3	0.8	55.8	678	http://dbpedia.org/resource/Axis_Bank	medium
+601	Delphi Automotive	Auto & Truck Parts	United Kingdom	13.6	15.5	1.1	10.2	679	http://dbpedia.org/resource/Delphi_Automotive	medium
+602	Stanley Black & Decker	Household/Personal Care	United States	13	10.2	0.9	15.8	680	http://dbpedia.org/resource/Stanley_Black_&_Decker	medium
+603	PGE	Electric Utilities	Poland	10.5	9.4	1	18.8	681	http://dbpedia.org/resource/PGE	medium
+604	Fuji Heavy Industries	Auto & Truck Manufacturers	Japan	12.9	18.3	0.5	16.4	683	http://dbpedia.org/resource/Fuji_Heavy_Industries	medium
+605	Deutsche Boerse	Investment Services	Germany	12.5	2.8	0.8	285.5	684	http://dbpedia.org/resource/Deutsche_Boerse	medium
+606	Idemitsu Kosan	Oil & Gas Operations	Japan	3.5	52.1	0.8	32.4	685	http://dbpedia.org/resource/Idemitsu_Kosan	low
+607	Liberty Global	Broadcasting & Cable	United States	17.8	10.3	0.3	38.3	687	http://dbpedia.org/resource/Liberty_Global	medium
+608	Sekisui House	Construction Services	Japan	9.4	20	0.6	16.9	688	http://dbpedia.org/resource/Sekisui_House	low
+609	Nokia	Communications Equipment	Finland	12.5	39.8	-4.1	37.8	689	http://dbpedia.org/resource/Nokia	medium
+610	Metro Group	Food Retail	Germany	9.3	88	0	45.8	690	http://dbpedia.org/resource/Metro_Group	low
+611	National Bank of Abu Dhabi	Regional Banks	United Arab Emirates	12.4	3.1	1.1	81.8	691	http://dbpedia.org/resource/National_Bank_of_Abu_Dhabi	medium
+612	Lenovo Group	Computer Hardware	China	10.4	29.6	0.5	15.5	692	http://dbpedia.org/resource/Lenovo_Group	medium
+613	National Bank of Kuwait	Regional Banks	Kuwait	14.6	2.5	1.1	58.4	692	http://dbpedia.org/resource/National_Bank_of_Kuwait	medium
+614	San Miguel	Conglomerates	Philippines	7	16.6	0.7	25.1	694	http://dbpedia.org/resource/San_Miguel	low
+615	Samsung C&T	Trading Companies	South Korea	8.5	23.8	0.4	24.2	695	http://dbpedia.org/resource/Samsung_C&T	low
+616	MegaFon	Telecommunications services	Russia	17.6	8.8	1.2	11.5	696	http://dbpedia.org/resource/MegaFon	medium
+617	Bombardier	Aerospace & Defense	Canada	7.3	16.8	0.6	25.8	697	http://dbpedia.org/resource/Bombardier	low
+618	Becton Dickinson	Medical Equipment & Supplies	United States	17.9	7.8	1.5	11.6	698	http://dbpedia.org/resource/Becton_Dickinson	medium
+619	Celgene	Biotechs	United States	47.1	5.5	1.5	11.7	699	http://dbpedia.org/resource/Celgene	medium
+620	British Sky Broadcasting	Broadcasting & Cable	United Kingdom	21.6	10.7	1.4	8.6	700	http://dbpedia.org/resource/British_Sky_Broadcasting	medium
+621	KPN	Telecommunications services	Netherlands	5.5	16.4	0.9	27.2	701	http://dbpedia.org/resource/KPN	low
+622	DTE Energy	Electric Utilities	United States	11.4	8.8	0.6	26.3	702	http://dbpedia.org/resource/DTE_Energy	medium
+623	Fortescue Metals Group	Iron & Steel	Australia	13.2	7	1.6	14.9	703	http://dbpedia.org/resource/Fortescue_Metals_Group	medium
+624	ConAgra Foods	Food Processing	United States	14.4	13.8	0.7	12.5	704	http://dbpedia.org/resource/ConAgra_Foods	medium
+625	Gap	Apparel/Footwear Retail	United States	17.5	15.7	1.1	7.5	705	http://dbpedia.org/resource/Gap	medium
+626	RusHydro	Electric Utilities	Russia	6.9	11.3	1	25.3	706	http://dbpedia.org/resource/RusHydro	low
+627	VF	Apparel/Accessories	United States	18.2	10.9	1.1	9.6	707	http://dbpedia.org/resource/VF	medium
+628	CME Group	Investment Services	United States	21.1	2.9	0.9	38.9	708	http://dbpedia.org/resource/CME_Group	medium
+629	XL Group	Diversified Insurance	Ireland	9	7.2	0.7	45.4	709	http://dbpedia.org/resource/XL_Group	low
+630	CSR	Heavy Equipment	China	9.9	14.1	0.6	16.8	710	http://dbpedia.org/resource/CSR	low
+631	VakifBank	Regional Banks	Turkey	7.9	6.3	0.8	60.6	711	http://dbpedia.org/resource/VakifBank	low
+632	ALFA	Conglomerates	Mexico	12.7	15.6	0.7	11.8	712	http://dbpedia.org/resource/ALFA	medium
+633	Fast Retailing	Apparel/Footwear Retail	Japan	32.6	11.8	0.9	7.5	713	http://dbpedia.org/resource/Fast_Retailing	medium
+634	Noble Group	Conglomerates	Hong Kong-China	6.2	94	0.5	19.7	713	http://dbpedia.org/resource/Noble_Group	low
+635	Novolipetsk Steel	Iron & Steel	Russia	10.7	12.2	0.6	18.5	713	http://dbpedia.org/resource/Novolipetsk_Steel	medium
+636	Li & Fung	Trading Companies	Hong Kong-China	11.5	20.2	0.6	12	716	http://dbpedia.org/resource/Li_&_Fung	medium
+637	Punjab National Bank	Regional Banks	India	5	8.2	1	92.3	717	http://dbpedia.org/resource/Punjab_National_Bank	low
+638	Symantec	Software & Programming	United States	16.9	6.8	1.1	14	718	http://dbpedia.org/resource/Symantec	medium
+639	Motorola Solutions	Communications Equipment	United States	17.1	8.7	0.9	12.7	719	http://dbpedia.org/resource/Motorola_Solutions	medium
+640	Northern Trust	Regional Banks	United States	13	4.2	0.7	97.5	720	http://dbpedia.org/resource/Northern_Trust	medium
+641	KeyCorp	Regional Banks	United States	9.3	4.7	0.9	89.2	721	http://dbpedia.org/resource/KeyCorp	low
+642	Chubu Electric Power	Electric Utilities	Japan	9	29.6	-1.1	65.8	722	http://dbpedia.org/resource/Chubu_Electric_Power	low
+643	Vienna Insurance Group	Diversified Insurance	Austria	6.6	12.4	0.5	50	723	http://dbpedia.org/resource/Vienna_Insurance_Group	low
+644	New World Development	Real Estate	Hong Kong-China	10.7	4.6	1.3	36.8	724	http://dbpedia.org/resource/New_World_Development	medium
+645	Genting	Casinos & Gaming	Malaysia	11.6	5.6	1.4	21.5	725	http://dbpedia.org/resource/Genting	medium
+646	Severstal	Iron & Steel	Russia	8.7	14.1	0.8	15.7	725	http://dbpedia.org/resource/Severstal	low
+647	Bank of Baroda	Regional Banks	India	5.5	6.8	1	89.8	727	http://dbpedia.org/resource/Bank_of_Baroda	low
+648	Anhui Conch Cement	Construction Materials	China	15.9	7.2	1	14	728	http://dbpedia.org/resource/Anhui_Conch_Cement	medium
+649	Luxottica Group	Specialty Stores	Italy	23.7	9.3	0.7	10.9	729	http://dbpedia.org/resource/Luxottica_Group	medium
+650	LG Electronics	Consumer Electronics	South Korea	11.6	45.3	0.1	29.6	730	http://dbpedia.org/resource/LG_Electronics	medium
+651	RSA Insurance Group	Property & Casualty Insurance	United Kingdom	6.3	14.4	0.6	33.4	731	http://dbpedia.org/resource/RSA_Insurance_Group	low
+652	Adecco	Business & Personal Services	Switzerland	10.9	26.4	0.5	12.7	732	http://dbpedia.org/resource/Adecco	medium
+653	Technip	Oil Services & Equipment	France	11.8	10.8	0.7	14.9	732	http://dbpedia.org/resource/Technip	medium
+654	BRF-Brasil Foods	Food Processing	Brazil	19.2	13.9	0.4	14.7	734	http://dbpedia.org/resource/BRF-Brasil_Foods	medium
+655	Krung Thai Bank	Regional Banks	Thailand	12.4	4.1	0.8	73.7	735	http://dbpedia.org/resource/Krung_Thai_Bank	medium
+656	United Continental Holdings	Airline	United States	10.3	37.2	-0.7	37.6	736	http://dbpedia.org/resource/United_Continental_Holdings	medium
+657	Osaka Gas	Natural Gas Utilities	Japan	8.7	15.6	0.5	17.9	738	http://dbpedia.org/resource/Osaka_Gas	low
+658	Asahi Glass	Construction Materials	Japan	7.8	14.9	0.5	21.9	739	http://dbpedia.org/resource/Asahi_Glass	low
+659	China Yangtze Power	Electric Utilities	China	19.4	3.3	1.2	25.2	740	http://dbpedia.org/resource/China_Yangtze_Power	medium
+660	West Japan Railway	Railroads	Japan	9.2	15.6	0.4	30.6	741	http://dbpedia.org/resource/West_Japan_Railway	low
+661	SCOR	Diversified Insurance	France	5.8	13.4	0.6	43	742	http://dbpedia.org/resource/SCOR	low
+662	ASML Holding	Semiconductors	Netherlands	28.9	6.2	1.5	9.7	743	http://dbpedia.org/resource/ASML_Holding	medium
+663	Daikin Industries	Construction Materials	Japan	12.5	14.7	0.5	14	744	http://dbpedia.org/resource/Daikin_Industries	medium
+664	Newcrest Mining	Diversified Metals & Mining	Australia	17.5	4.5	1.1	20.8	744	http://dbpedia.org/resource/Newcrest_Mining	medium
+665	Tyson Foods	Food Processing	United States	8.7	33.4	0.6	11.9	746	http://dbpedia.org/resource/Tyson_Foods	low
+666	Samba Financial Group	Regional Banks	Saudi Arabia	10.8	2	1.2	53.1	747	http://dbpedia.org/resource/Samba_Financial_Group	medium
+667	Biogen Idec	Biotechs	United States	41.8	5.5	1.4	10.1	748	http://dbpedia.org/resource/Biogen_Idec	medium
+668	Tokyu	Railroads	Japan	9.3	13.2	0.4	23.8	749	http://dbpedia.org/resource/Tokyu	low
+669	Grupo ACS	Construction Services	Spain	7.7	50.7	-2.5	51.5	750	http://dbpedia.org/resource/Grupo_ACS	low
+670	NRG Energy	Electric Utilities	United States	8.4	8.4	0.6	35.1	751	http://dbpedia.org/resource/NRG_Energy	low
+671	Reynolds American	Tobacco	United States	23.8	4.4	1.3	16.6	752	http://dbpedia.org/resource/Reynolds_American	medium
+672	Pearson	Printing & Publishing	United Kingdom	14.9	8.2	0.5	18.1	753	http://dbpedia.org/resource/Pearson	medium
+673	Bunge	Food Processing	Bermuda	11.1	61	0.1	24.1	755	http://dbpedia.org/resource/Bunge	medium
+674	Antofagasta	Diversified Metals & Mining	United Kingdom	16.1	6.7	1	12.9	756	http://dbpedia.org/resource/Antofagasta	medium
+675	Seadrill	Oil Services & Equipment	Bermuda	17.6	4.5	1.1	19.6	756	http://dbpedia.org/resource/Seadrill	medium
+676	Atlantia	Other Transportation	Italy	10.6	4.4	1	40.1	756	http://dbpedia.org/resource/Atlantia	medium
+677	Marks & Spencer	Department Stores	United Kingdom	9.1	15.9	0.8	11.6	759	http://dbpedia.org/resource/Marks_&_Spencer	low
+678	Kansai Electric Power	Electric Utilities	Japan	7	34	-2.9	86.7	759	http://dbpedia.org/resource/Kansai_Electric_Power	low
+679	Magnit	Food Retail	Russia	18.8	14.4	0.8	5.5	759	http://dbpedia.org/resource/Magnit	medium
+680	S-Oil	Oil & Gas Operations	South Korea	9.4	30.8	0.5	11.7	762	http://dbpedia.org/resource/S-Oil	low
+681	Northeast Utilities	Electric Utilities	United States	13.4	6.3	0.5	28.3	763	http://dbpedia.org/resource/Northeast_Utilities	medium
+682	First Gulf Bank	Regional Banks	United Arab Emirates	11.1	2.6	1.1	47.7	765	http://dbpedia.org/resource/First_Gulf_Bank	medium
+683	Tesoro	Oil & Gas Operations	United States	7.8	33	0.7	10.7	766	http://dbpedia.org/resource/Tesoro	low
+684	Devon Energy	Oil & Gas Operations	United States	23.6	9.5	-0.2	43.3	768	http://dbpedia.org/resource/Devon_Energy	medium
+685	Grupo Modelo	Beverages	Mexico	29	7.2	1	9.6	769	http://dbpedia.org/resource/Grupo_Modelo	medium
+686	Bharat Heavy Electricals	Electrical Equipment	India	9	9.4	1.4	12.9	770	http://dbpedia.org/resource/Bharat_Heavy_Electricals	low
+687	Southwest Airlines	Airline	United States	9	17.1	0.4	18.6	771	http://dbpedia.org/resource/Southwest_Airlines	low
+688	Edison International	Electric Utilities	United States	16.6	11.9	-0.1	44.4	772	http://dbpedia.org/resource/Edison_International	medium
+689	Hyundai Steel	Iron & Steel	South Korea	6.3	13.3	0.7	21.4	773	http://dbpedia.org/resource/Hyundai_Steel	low
+690	Fairfax Financial	Property & Casualty Insurance	Canada	8.2	8	0.5	36.9	775	http://dbpedia.org/resource/Fairfax_Financial	low
+691	Safeway	Food Retail	United States	6	44.2	0.6	14.7	776	http://dbpedia.org/resource/Safeway	low
+692	Cemex	Construction Materials	Mexico	13.6	15.3	-0.9	35.9	778	http://dbpedia.org/resource/Cemex	medium
+693	Republic Services	Environmental & Waste	United States	11.5	8.1	0.6	19.6	780	http://dbpedia.org/resource/Republic_Services	medium
+694	LG Corp	Household Appliances	South Korea	10.2	8.7	0.8	15.1	781	http://dbpedia.org/resource/LG_Corp	medium
+695	Chesapeake Energy	Oil & Gas Operations	United States	15	12.3	-0.8	41.6	782	http://dbpedia.org/resource/Chesapeake_Energy	medium
+696	Country Garden Holdings	Real Estate	China	8.2	6.6	1.1	21.9	783	http://dbpedia.org/resource/Country_Garden_Holdings	low
+697	Akzo Nobel	Diversified Chemicals	Netherlands	16.2	20.3	-2.9	22.6	784	http://dbpedia.org/resource/Akzo_Nobel	medium
+698	KGHM Polska Miedz	Diversified Metals & Mining	Poland	10.7	8.7	1.6	10.7	785	http://dbpedia.org/resource/KGHM_Polska_Miedz	medium
+699	Broadcom	Semiconductors	United States	19.7	8	0.7	11.2	787	http://dbpedia.org/resource/Broadcom	medium
+700	Infosys	Computer Services	India	30.5	6.6	1.6	7.5	788	http://dbpedia.org/resource/Infosys	medium
+701	Citic Pacific	Iron & Steel	Hong Kong-China	4.7	12	0.9	31.9	789	http://dbpedia.org/resource/Citic_Pacific	low
+702	Sistema	Telecommunications services	Russia	8.1	30	0.2	43.7	790	http://dbpedia.org/resource/Sistema	low
+703	Noble Energy	Oil & Gas Operations	United States	20.8	4.2	1	17.6	791	http://dbpedia.org/resource/Noble_Energy	medium
+704	Cameron International	Oil Services & Equipment	United States	16.5	8.5	0.8	11.2	792	http://dbpedia.org/resource/Cameron_International	medium
+705	Mobily	Telecommunications services	Saudi Arabia	16.3	6.3	1.6	10.3	792	http://dbpedia.org/resource/Mobily	medium
+706	Alcoa	Aluminum	United States	9.2	23.7	0.2	40.2	794	http://dbpedia.org/resource/Alcoa	low
+707	Samsung Heavy Industries	Heavy Equipment	South Korea	7.5	12.9	0.7	15.6	795	http://dbpedia.org/resource/Samsung_Heavy_Industries	low
+708	Credicorp	Regional Banks	Peru	12.7	3.6	0.8	41	796	http://dbpedia.org/resource/Credicorp	medium
+709	IDGC Holding	Electric Utilities	Russia	2.6	19.7	0.7	27.3	797	http://dbpedia.org/resource/IDGC_Holding	low
+710	Citic Securities	Investment Services	China	23.1	2.2	0.7	27	798	http://dbpedia.org/resource/Citic_Securities	medium
+711	GD Power Development	Electric Utilities	China	8	8	0.6	29.2	799	http://dbpedia.org/resource/GD_Power_Development	low
+712	China Resources Enterprise	Specialty Stores	Hong Kong-China	7.6	16.3	0.5	16.4	800	http://dbpedia.org/resource/China_Resources_Enterprise	low
+713	Bank of East Asia	Regional Banks	Hong Kong-China	9	3.7	0.8	89.3	801	http://dbpedia.org/resource/Bank_of_East_Asia	low
+714	Turk Telekom	Telecommunications services	Turkey	15	7.1	1.5	9.5	802	http://dbpedia.org/resource/Turk_Telekom	medium
+715	L-3 Communications	Aerospace & Defense	United States	7.3	13.1	0.8	13.8	803	http://dbpedia.org/resource/L-3_Communications	low
+716	Agilent Technologies	Electronics	United States	14.9	6.9	1.1	10.7	804	http://dbpedia.org/resource/Agilent_Technologies	medium
+717	Allergan	Pharmaceuticals	United States	32.7	5.8	1.1	9.2	805	http://dbpedia.org/resource/Allergan	medium
+718	AES	Electric Utilities	United States	9.3	18.1	-0.9	41.8	806	http://dbpedia.org/resource/AES	low
+719	Allied Irish Banks	Regional Banks	Ireland	50	4.6	-4.8	161.5	808	http://dbpedia.org/resource/Allied_Irish_Banks	medium
+720	TRW Automotive Holdings	Auto & Truck Parts	United States	7.1	16.4	1	10.9	809	http://dbpedia.org/resource/TRW_Automotive_Holdings	low
+721	DaVita	Healthcare Services	United States	12.5	8.2	0.5	16	810	http://dbpedia.org/resource/DaVita	medium
+722	HCP	Real Estate	United States	22.1	1.9	0.8	19.9	811	http://dbpedia.org/resource/HCP	medium
+723	Wipro	Computer Services	India	20.1	7.3	1.1	8.5	812	http://dbpedia.org/resource/Wipro	medium
+724	Riyad Bank	Regional Banks	Saudi Arabia	9.1	2.1	0.9	50.7	813	http://dbpedia.org/resource/Riyad_Bank	low
+725	All Nippon Airways	Airline	Japan	7.8	17.1	0.3	23.5	814	http://dbpedia.org/resource/All_Nippon_Airways	low
+726	Kuehne + Nagel	Other Transportation	Switzerland	13.5	22.7	0.5	6.9	815	http://dbpedia.org/resource/Kuehne_+_Nagel	medium
+727	Mahindra & Mahindra	Auto & Truck Manufacturers	India	10.5	10.9	0.6	12.5	816	http://dbpedia.org/resource/Mahindra_&_Mahindra	medium
+728	Transocean	Oil Services & Equipment	Switzerland	19.3	9.2	-0.2	34.3	817	http://dbpedia.org/resource/Transocean	medium
+729	Oi	Telecommunications services	Brazil	6.1	12.3	0.4	38	819	http://dbpedia.org/resource/Oi	low
+730	Sumitomo Metal Mining	Diversified Metals & Mining	Japan	8	10.2	0.8	13.9	822	http://dbpedia.org/resource/Sumitomo_Metal_Mining	low
+731	CF Industries Holdings	Specialized Chemicals	United States	12.8	6.1	1.8	10.2	823	http://dbpedia.org/resource/CF_Industries_Holdings	medium
+732	LG Display	Electronics	South Korea	10.4	26.1	0.2	23	824	http://dbpedia.org/resource/LG_Display	medium
+733	Bed Bath & Beyond	Specialty Stores	United States	13.8	10.2	1	6.4	825	http://dbpedia.org/resource/Bed_Bath_&_Beyond	medium
+734	Whirlpool	Household Appliances	United States	9.1	18.1	0.4	15.4	828	http://dbpedia.org/resource/Whirlpool	low
+735	Hanwha Life Insurance	Life & Health Insurance	South Korea	5.3	9.4	0.5	61	828	http://dbpedia.org/resource/Hanwha_Life_Insurance	low
+736	Ajinomoto	Food Processing	Japan	8.7	14.5	0.5	13.2	830	http://dbpedia.org/resource/Ajinomoto	low
+737	Skanska	Construction Services	Sweden	8	19.9	0.4	13.4	832	http://dbpedia.org/resource/Skanska	low
+738	Dover	Conglomerates	United States	12.9	8.1	0.8	10.4	833	http://dbpedia.org/resource/Dover	medium
+739	Stora Enso	Paper & Paper Products	Finland	5.7	14.3	0.6	17.9	834	http://dbpedia.org/resource/Stora_Enso	low
+740	Resolution	Life & Health Insurance	Channel Islands	5.7	17.6	-0.1	207.5	835	http://dbpedia.org/resource/Resolution	low
+741	CPFL Energia	Electric Utilities	Brazil	10.4	7.7	0.6	15.2	836	http://dbpedia.org/resource/CPFL_Energia	medium
+742	Priceline.com	Business & Personal Services	United States	35.6	5.3	1.4	6.6	838	http://dbpedia.org/resource/Priceline.com	medium
+743	Tokyo Electric Power	Electric Utilities	Japan	3.6	64.6	-9.4	188.8	839	http://dbpedia.org/resource/Tokyo_Electric_Power	low
+744	Eisai	Pharmaceuticals	Japan	13	7.8	0.7	11.7	840	http://dbpedia.org/resource/Eisai	medium
+745	ITC	Tobacco	India	44.1	5.2	1.2	5.9	841	http://dbpedia.org/resource/ITC	medium
+746	Turkcell	Telecommunications services	Turkey	14.8	5.9	1.2	10.5	843	http://dbpedia.org/resource/Turkcell	medium
+747	Textron	Conglomerates	United States	8.4	12.2	0.6	13	844	http://dbpedia.org/resource/Textron	low
+748	Bank Hapoalim	Major Banks	Israel	5.9	5.1	0.7	100.8	845	http://dbpedia.org/resource/Bank_Hapoalim	low
+749	DSM	Diversified Chemicals	Netherlands	11.4	12	0.4	15.3	846	http://dbpedia.org/resource/DSM	medium
+750	Equity Residential	Real Estate	United States	20.2	2.1	0.8	17.2	847	http://dbpedia.org/resource/Equity_Residential	medium
+751	Shanghai Electric Group	Heavy Equipment	China	8	12.1	0.4	18.3	848	http://dbpedia.org/resource/Shanghai_Electric_Group	low
+752	Kone	Construction Services	Finland	20.5	8.3	0.8	6.5	849	http://dbpedia.org/resource/Kone	medium
+753	Mazda Motor	Auto & Truck Manufacturers	Japan	9.5	24.6	-1.3	23.2	852	http://dbpedia.org/resource/Mazda_Motor	low
+754	Aluminum Corp of China	Aluminum	China	8.4	23.7	-1.3	28.7	853	http://dbpedia.org/resource/Aluminum_Corp_of_China	low
+755	Saudi British Bank	Regional Banks	Saudi Arabia	8.9	1.6	0.9	41.8	854	http://dbpedia.org/resource/Saudi_British_Bank	low
+756	Canadian Pacific Railway	Railroads	Canada	22.1	5.7	0.5	14.8	855	http://dbpedia.org/resource/Canadian_Pacific_Railway	medium
+757	CapitaLand	Real Estate	Singapore	11.6	2.7	0.8	30.9	857	http://dbpedia.org/resource/CapitaLand	medium
+758	China Southern Airlines	Airline	China	5.8	15.7	0.4	22.9	859	http://dbpedia.org/resource/China_Southern_Airlines	low
+759	Reinsurance Group of America	Diversified Insurance	United States	4.5	9.8	0.6	40.4	861	http://dbpedia.org/resource/Reinsurance_Group_of_America	low
+760	Nikon	Consumer Electronics	Japan	9.4	11.1	0.7	10.3	862	http://dbpedia.org/resource/Nikon	low
+761	CenterPoint Energy	Natural Gas Utilities	United States	10	7.5	0.4	22.9	864	http://dbpedia.org/resource/CenterPoint_Energy	medium
+762	Intact Financial	Property & Casualty Insurance	Canada	8.4	7.2	0.6	19.9	865	http://dbpedia.org/resource/Intact_Financial	low
+763	Hankyu Hanshin Holdings	Railroads	Japan	7.5	7.8	0.5	27.6	866	http://dbpedia.org/resource/Hankyu_Hanshin_Holdings	low
+764	Asustek Computer	Computer Hardware	Taiwan	8.8	15.2	0.8	8.7	867	http://dbpedia.org/resource/Asustek_Computer	low
+765	China Eastern Airlines	Airline	China	5.7	13.5	0.5	19.4	868	http://dbpedia.org/resource/China_Eastern_Airlines	low
+766	Discovery Communications	Broadcasting & Cable	United States	19	4.5	0.9	12.9	869	http://dbpedia.org/resource/Discovery_Communications	medium
+767	NEC	Electronics	Japan	6.9	36.7	-1.3	29.9	870	http://dbpedia.org/resource/NEC	low
+768	Power Assets Holdings	Electric Utilities	Hong Kong-China	19.5	1.3	1.3	13.1	871	http://dbpedia.org/resource/Power_Assets_Holdings	medium
+769	AutoZone	Specialty Stores	United States	14.1	8.7	1	6.7	872	http://dbpedia.org/resource/AutoZone	medium
+770	Dentsu	Advertising	Japan	8	22.9	0.4	14.3	873	http://dbpedia.org/resource/Dentsu	low
+771	Fluor	Construction Services	United States	10.5	27.6	0.5	8.3	874	http://dbpedia.org/resource/Fluor	medium
+772	Amcor	Containers & Packaging	Australia	11.9	12.5	0.4	11.5	875	http://dbpedia.org/resource/Amcor	medium
+773	Peugeot	Auto & Truck Manufacturers	France	3	73.1	-6.6	84.7	876	http://dbpedia.org/resource/Peugeot	low
+774	VMware	Software & Programming	United States	35.9	4.6	0.7	10.6	879	http://dbpedia.org/resource/VMware	medium
+775	Zijin Mining Group	Diversified Metals & Mining	China	10.8	7.6	0.8	10.8	880	http://dbpedia.org/resource/Zijin_Mining_Group	medium
+776	Isetan Mitsukoshi Holdings	Department Stores	Japan	5.3	15	0.7	14.9	882	http://dbpedia.org/resource/Isetan_Mitsukoshi_Holdings	low
+777	Dexia	Major Banks	Belgium	0.1	26.6	-16.2	534.9	883	http://dbpedia.org/resource/Dexia	low
+778	Bank of Yokohama	Major Banks	Japan	7.1	3.6	0.6	155.1	884	http://dbpedia.org/resource/Bank_of_Yokohama	low
+779	Uralkali	Specialized Chemicals	Russia	22.8	3.2	1.1	12.7	884	http://dbpedia.org/resource/Uralkali	medium
+780	Ricoh	Business Products & Supplies	Japan	7.9	23	-0.5	27.2	886	http://dbpedia.org/resource/Ricoh	low
+781	Belgacom	Telecommunications services	Belgium	8.9	8.5	0.9	10.7	887	http://dbpedia.org/resource/Belgacom	low
+782	L Brands	Apparel/Footwear Retail	United States	13	10.5	0.8	6.4	888	http://dbpedia.org/resource/L_Brands	medium
+783	Genworth Financial	Diversified Insurance	United States	5.2	10	0.3	113.3	889	http://dbpedia.org/resource/Genworth_Financial	low
+784	Sherwin-Williams	Home Improvement Retail	United States	17.4	9.5	0.6	6.2	890	http://dbpedia.org/resource/Sherwin-Williams	medium
+785	Galaxy Entertainment	Casinos & Gaming	Hong Kong-China	16.7	7.3	1	5.7	891	http://dbpedia.org/resource/Galaxy_Entertainment	medium
+786	RTL Group	Broadcasting & Cable	Luxembourg	11.5	7.7	0.8	10.4	892	http://dbpedia.org/resource/RTL_Group	medium
+787	Assa Abloy	Other Industrial Equipment	Sweden	14.9	7.2	0.8	9.2	892	http://dbpedia.org/resource/Assa_Abloy	medium
+788	Capgemini	Computer Services	France	8.1	13.5	0.5	12.6	894	http://dbpedia.org/resource/Capgemini	low
+789	Hindalco Industries	Aluminum	India	3.4	15.8	0.7	19.9	895	http://dbpedia.org/resource/Hindalco_Industries	low
+790	Suning Appliance	Specialty Stores	China	7.4	14.9	0.8	9.4	896	http://dbpedia.org/resource/Suning_Appliance	low
+791	IntercontinentalExchange	Investment Services	United States	11.7	1.4	0.6	37.2	899	http://dbpedia.org/resource/IntercontinentalExchange	medium
+792	London Stock Exchange	Investment Services	United Kingdom	5.7	1.1	0.8	163.6	900	http://dbpedia.org/resource/London_Stock_Exchange	low
+793	Leucadia National	Conglomerates	United States	9.9	9.2	0.9	9.3	901	http://dbpedia.org/resource/Leucadia_National	low
+794	Genuine Parts	Specialty Stores	United States	11.7	13	0.6	6.8	901	http://dbpedia.org/resource/Genuine_Parts	medium
+795	Formosa Plastics	Specialized Chemicals	Taiwan	15.3	7.4	0.5	11.8	903	http://dbpedia.org/resource/Formosa_Plastics	medium
+796	Uni-President	Food Processing	Taiwan	9.5	14.5	0.4	11.6	904	http://dbpedia.org/resource/Uni-President	low
+797	OTP Bank	Regional Banks	Hungary	5.6	6.6	0.5	45.8	905	http://dbpedia.org/resource/OTP_Bank	low
+798	Nordstrom	Department Stores	United States	10.6	12.1	0.7	8.1	906	http://dbpedia.org/resource/Nordstrom	medium
+799	China Steel	Iron & Steel	Taiwan	13.7	12.1	0.2	21.3	907	http://dbpedia.org/resource/China_Steel	medium
+800	Ross Stores	Apparel/Footwear Retail	United States	12.5	9.7	0.8	3.7	909	http://dbpedia.org/resource/Ross_Stores	medium
+801	Sabesp	Diversified Utilities	Brazil	10.5	5.5	1	12.8	910	http://dbpedia.org/resource/Sabesp	medium
+802	WW Grainger	Electrical Equipment	United States	15.6	9	0.7	5	911	http://dbpedia.org/resource/WW_Grainger	medium
+803	Computer Sciences	Computer Services	United States	7.5	15.5	0.5	11.3	913	http://dbpedia.org/resource/Computer_Sciences	low
+804	Charoen Pokphand Foods	Food Processing	Thailand	9	11.7	0.6	10.1	914	http://dbpedia.org/resource/Charoen_Pokphand_Foods	low
+805	SM Investments	Department Stores	Philippines	16.6	5.3	0.6	13.6	915	http://dbpedia.org/resource/SM_Investments	medium
+806	Mylan	Pharmaceuticals	United States	12.1	6.8	0.6	11.9	916	http://dbpedia.org/resource/Mylan	medium
+807	Whole Foods Market	Food Retail	United States	16.1	12.2	0.5	5.1	917	http://dbpedia.org/resource/Whole_Foods_Market	medium
+808	Grupo Televisa	Broadcasting & Cable	Mexico	14.9	5.4	0.7	12.6	918	http://dbpedia.org/resource/Grupo_Televisa	medium
+809	Voestalpine	Iron & Steel	Austria	5.8	16.1	0.4	16.3	920	http://dbpedia.org/resource/Voestalpine	low
+810	Canara Bank	Major Banks	India	3.5	6.7	0.7	74.4	920	http://dbpedia.org/resource/Canara_Bank	low
+811	Bank Negara Indonesia	Regional Banks	Indonesia	9	3.2	0.7	34.6	922	http://dbpedia.org/resource/Bank_Negara_Indonesia	low
+812	Evraz Group	Iron & Steel	United Kingdom	5.4	16.4	0.5	17	923	http://dbpedia.org/resource/Evraz_Group	low
+813	Investec	Investment Services	United Kingdom	6.5	5.8	0.4	82.1	924	http://dbpedia.org/resource/Investec	low
+814	Campbell Soup	Food Processing	United States	13.1	8.1	0.7	8.6	926	http://dbpedia.org/resource/Campbell_Soup	medium
+815	Marriott International	Hotels & Motels	United States	12.6	11.8	0.6	6.3	929	http://dbpedia.org/resource/Marriott_International	medium
+816	Beiersdorf	Household/Personal Care	Germany	20.8	8	0.6	7.2	930	http://dbpedia.org/resource/Beiersdorf	medium
+817	Weatherford International	Oil Services & Equipment	Switzerland	9.4	15.2	-0.8	22.8	931	http://dbpedia.org/resource/Weatherford_International	low
+818	Secom	Security Systems	Japan	11.6	8.2	0.4	13.2	932	http://dbpedia.org/resource/Secom	medium
+819	Daiwa Securities	Investment Services	Japan	12	5.1	-0.5	229.9	933	http://dbpedia.org/resource/Daiwa_Securities	medium
+820	Kweichow Moutai	Beverages	China	29.6	3.8	2.1	6.2	934	http://dbpedia.org/resource/Kweichow_Moutai	medium
+821	AngloGold Ashanti	Diversified Metals & Mining	South Africa	9.5	6.1	0.8	12.6	936	http://dbpedia.org/resource/AngloGold_Ashanti	low
+822	Antarchile	Investment Services	Chile	7.5	22.8	0.2	22.3	938	http://dbpedia.org/resource/Antarchile	low
+823	Rexel	Electronics	France	6.4	17.7	0.4	13.4	939	http://dbpedia.org/resource/Rexel	low
+824	Jeronimo Martins	Food Retail	Portugal	12.8	14	0.5	5.9	940	http://dbpedia.org/resource/Jeronimo_Martins	medium
+825	Petronas Chemicals	Specialized Chemicals	Malaysia	16.3	5.4	1.2	8.3	941	http://dbpedia.org/resource/Petronas_Chemicals	medium
+826	Invesco	Investment Services	Bermuda	12.8	4.2	0.7	17.5	942	http://dbpedia.org/resource/Invesco	medium
+827	Electrolux Group	Household Appliances	Sweden	8.1	16.9	0.4	11.2	943	http://dbpedia.org/resource/Electrolux_Group	low
+828	Best Buy	Computer & Electronics Retail	United States	7.2	49.6	-0.2	16.8	944	http://dbpedia.org/resource/Best_Buy	low
+829	Tyco International	Security Systems	Switzerland	14.7	10.5	0.3	12.1	947	http://dbpedia.org/resource/Tyco_International	medium
+830	Onex	Investment Services	Canada	5.3	27.4	-0.1	36.3	948	http://dbpedia.org/resource/Onex	low
+831	Daiichi Sankyo	Pharmaceuticals	Japan	13.9	11.3	0.1	17.9	948	http://dbpedia.org/resource/Daiichi_Sankyo	medium
+832	SK Hynix	Semiconductors	South Korea	18	9.6	-0.1	17.1	951	http://dbpedia.org/resource/SK_Hynix	medium
+833	Sinopharm Group	Pharmaceuticals	China	8	21.5	0.3	12.8	952	http://dbpedia.org/resource/Sinopharm_Group	low
+834	Insurance Australia Group	Property & Casualty Insurance	Australia	12.4	9.2	0.2	25.4	952	http://dbpedia.org/resource/Insurance_Australia_Group	medium
+835	Weyerhaeuser	Real Estate	United States	16.6	7.1	0.4	12.6	955	http://dbpedia.org/resource/Weyerhaeuser	medium
+836	CSL	Biotechs	Australia	32	4.5	1	5.8	956	http://dbpedia.org/resource/CSL	medium
+837	Great Wall Motor	Auto & Truck Manufacturers	China	14.3	6.6	0.9	6.8	957	http://dbpedia.org/resource/Great_Wall_Motor	medium
+838	Ryanair Holdings	Airline	Ireland	10.7	5.8	0.7	12	959	http://dbpedia.org/resource/Ryanair_Holdings	medium
+839	Baidu	Computer Services	China	29.7	3.5	1.7	7.3	960	http://dbpedia.org/resource/Baidu	medium
+840	GAIL India	Natural Gas Utilities	India	7.6	8.7	0.9	10	962	http://dbpedia.org/resource/GAIL_India	low
+841	Shizuoka Bank	Regional Banks	Japan	7.3	2.4	0.4	117.8	963	http://dbpedia.org/resource/Shizuoka_Bank	low
+842	Advanced Info Service	Telecommunications services	Thailand	23.2	4.6	1.1	3.1	964	http://dbpedia.org/resource/Advanced_Info_Service	medium
+843	Dassault Aviation	Aerospace & Defense	France	11.9	5.1	0.7	13.7	967	http://dbpedia.org/resource/Dassault_Aviation	medium
+844	Coca-Cola Enterprises	Beverages	United States	10.1	8.1	0.7	9.5	968	http://dbpedia.org/resource/Coca-Cola_Enterprises	medium
+845	Haitong Securities	Investment Services	China	16.7	1.6	0.5	20.3	969	http://dbpedia.org/resource/Haitong_Securities	medium
+846	Ralph Lauren	Apparel/Accessories	United States	15.5	6.9	0.7	5.5	970	http://dbpedia.org/resource/Ralph_Lauren	medium
+847	Hershey	Food Processing	United States	18.2	6.6	0.7	4.8	971	http://dbpedia.org/resource/Hershey	medium
+848	Singapore Airlines	Airline	Singapore	10	11.8	0.3	17.5	972	http://dbpedia.org/resource/Singapore_Airlines	medium
+849	Bank of India	Regional Banks	India	3.4	6.3	0.5	76.1	973	http://dbpedia.org/resource/Bank_of_India	low
+850	Mitsubishi Motors	Auto & Truck Manufacturers	Japan	6.8	21.8	0.3	15.9	975	http://dbpedia.org/resource/Mitsubishi_Motors	low
+851	Lear	Auto & Truck Parts	United States	5.4	14.6	1.3	8.2	977	http://dbpedia.org/resource/Lear	low
+852	Mechel	Iron & Steel	Russia	2.2	11.4	0.7	19.3	978	http://dbpedia.org/resource/Mechel	low
+853	GKN	Auto & Truck Parts	United Kingdom	6.8	10.6	0.8	9.7	979	http://dbpedia.org/resource/GKN	low
+854	Wolseley	Construction Materials	Switzerland	13.7	21	0.1	10.9	980	http://dbpedia.org/resource/Wolseley	medium
+855	Emirates NBD	Regional Banks	United Arab Emirates	5.8	3.8	0.6	83.9	981	http://dbpedia.org/resource/Emirates_NBD	low
+856	Eastman Chemical	Specialized Chemicals	United States	11.2	8.1	0.4	11.6	982	http://dbpedia.org/resource/Eastman_Chemical	medium
+857	Shaw Communications	Broadcasting & Cable	Canada	10.8	5.1	0.8	12.5	983	http://dbpedia.org/resource/Shaw_Communications	medium
+858	Huntington Bancshares	Regional Banks	United States	6.3	3	0.6	56.2	984	http://dbpedia.org/resource/Huntington_Bancshares	low
+859	Steel Authority of India	Iron & Steel	India	5.3	9	0.7	15.4	985	http://dbpedia.org/resource/Steel_Authority_of_India	low
+860	DP World	Other Transportation	United Arab Emirates	12	3.1	0.7	16.4	985	http://dbpedia.org/resource/DP_World	medium
+861	Bidvest Group	Conglomerates	South Africa	8.1	16.4	0.5	6.8	987	http://dbpedia.org/resource/Bidvest_Group	low
+862	Comerica	Regional Banks	United States	6.9	2.7	0.5	65.4	987	http://dbpedia.org/resource/Comerica	low
+863	Murata Manufacturing	Electronics	Japan	15.6	7.1	0.4	12	989	http://dbpedia.org/resource/Murata_Manufacturing	medium
+864	Mattel	Household/Personal Care	United States	14.5	6.4	0.8	6.5	990	http://dbpedia.org/resource/Mattel	medium
+865	Bank of Ireland	Major Banks	Ireland	6	8.2	-2.4	195.3	992	http://dbpedia.org/resource/Bank_of_Ireland	low
+866	CA	Software & Programming	United States	11.6	4.7	0.9	11.6	993	http://dbpedia.org/resource/CA	medium
+867	Adobe Systems	Software & Programming	United States	20.6	4.4	0.7	10.2	995	http://dbpedia.org/resource/Adobe_Systems	medium
+868	Avnet	Electronics	United States	5	25.2	0.5	10.6	997	http://dbpedia.org/resource/Avnet	low
+869	CH Robinson Worldwide	Other Transportation	United States	9.6	11.4	0.6	2.8	998	http://dbpedia.org/resource/CH_Robinson_Worldwide	low
+870	Land Securities Group	Real Estate	United Kingdom	9.8	1.1	0.8	17.3	999	http://dbpedia.org/resource/Land_Securities_Group	low
+871	Yamada Denki	Computer & Electronics Retail	Japan	4	22.2	0.7	11.2	1000	http://dbpedia.org/resource/Yamada_Denki	low
+872	NetApp	Computer Storage Devices	United States	12.4	6.3	0.5	10.9	1003	http://dbpedia.org/resource/NetApp	medium
+873	Chiba Bank	Major Banks	Japan	6	2.4	0.5	132.2	1004	http://dbpedia.org/resource/Chiba_Bank	low
+874	Abu Dhabi Commercial Bank	Regional Banks	United Arab Emirates	6.1	2.6	0.7	49.2	1005	http://dbpedia.org/resource/Abu_Dhabi_Commercial_Bank	low
+875	Johnson Matthey	Diversified Chemicals	United Kingdom	7.5	19.3	0.5	5.2	1006	http://dbpedia.org/resource/Johnson_Matthey	low
+876	Latam Airlines	Airline	Chile	11.1	9.7	0	20.6	1007	http://dbpedia.org/resource/Latam_Airlines	medium
+877	Public Storage	Real Estate	United States	26.7	1.8	0.9	8.8	1009	http://dbpedia.org/resource/Public_Storage	medium
+878	SGS	Business & Personal Services	Switzerland	19.6	6.1	0.6	5.2	1010	http://dbpedia.org/resource/SGS	medium
+879	Areva	Diversified Utilities	France	6.2	12.3	-0.1	39.8	1011	http://dbpedia.org/resource/Areva	low
+880	Subsea 7	Oil Services & Equipment	United Kingdom	8.3	6.3	0.8	10.5	1013	http://dbpedia.org/resource/Subsea_7	low
+881	Santos	Oil & Gas Operations	Australia	13.1	3.4	0.5	17.7	1014	http://dbpedia.org/resource/Santos	medium
+882	Bankia	Regional Banks	Spain	0.7	12.2	-24.5	372.6	1015	http://dbpedia.org/resource/Bankia	low
+883	Lend Lease Group	Real Estate	Australia	5.8	11.9	0.5	12.6	1016	http://dbpedia.org/resource/Lend_Lease_Group	low
+884	Norsk Hydro	Aluminum	Norway	9	11.7	-0.2	20.9	1017	http://dbpedia.org/resource/Norsk_Hydro	low
+885	Sears Holdings	Department Stores	United States	5.5	39.9	-1.1	19.3	1019	http://dbpedia.org/resource/Sears_Holdings	low
+886	Fosun International	Iron & Steel	China	4.1	8.2	0.6	26	1019	http://dbpedia.org/resource/Fosun_International	low
+887	Delta Lloyd	Diversified Insurance	Netherlands	3.3	14.6	-2	105.5	1021	http://dbpedia.org/resource/Delta_Lloyd	low
+888	UC Rusal	Aluminum	Russia	8.1	11	-0.1	25.5	1022	http://dbpedia.org/resource/UC_Rusal	low
+889	Sumitomo Chemical	Diversified Chemicals	Japan	5.1	23.5	0.1	28.1	1023	http://dbpedia.org/resource/Sumitomo_Chemical	low
+890	Banca MPS	Major Banks	Italy	3.2	12.1	-4.1	288.9	1024	http://dbpedia.org/resource/Banca_MPS	low
+891	Alleghany	Property & Casualty Insurance	United States	6.4	4.8	0.7	22.8	1025	http://dbpedia.org/resource/Alleghany	low
+892	Hyundai Engineering	Construction Services	South Korea	6.4	11.8	0.5	12	1026	http://dbpedia.org/resource/Hyundai_Engineering	low
+893	Canadian Tire	Specialty Stores	Canada	5.6	11.5	0.5	13.2	1027	http://dbpedia.org/resource/Canadian_Tire	low
+894	Shanghai International Port	Other Transportation	China	9.8	4.5	0.8	13.3	1028	http://dbpedia.org/resource/Shanghai_International_Port	low
+895	St Jude Medical	Medical Equipment & Supplies	United States	11.9	5.5	0.8	9.3	1029	http://dbpedia.org/resource/St_Jude_Medical	medium
+896	Eiffage	Construction Services	France	4.1	18	0.3	33.8	1030	http://dbpedia.org/resource/Eiffage	low
+897	Tohoku Electric Power	Electric Utilities	Japan	3.6	20.4	-2.8	48.9	1031	http://dbpedia.org/resource/Tohoku_Electric_Power	low
+898	Shoppers Drug Mart	Drug Retail	Canada	8.5	10.8	0.6	7.5	1033	http://dbpedia.org/resource/Shoppers_Drug_Mart	low
+899	Air France-KLM	Airline	France	3.1	33.8	-1.6	34.7	1035	http://dbpedia.org/resource/Air_France-KLM	low
+900	Lanxess	Diversified Chemicals	Germany	6.8	11.7	0.7	8.7	1037	http://dbpedia.org/resource/Lanxess	low
+901	CarMax	Specialty Stores	United States	9.5	10.6	0.4	9.3	1037	http://dbpedia.org/resource/CarMax	low
+902	Coach	Apparel/Accessories	United States	14.2	4.9	1.1	3.3	1039	http://dbpedia.org/resource/Coach	medium
+903	Staples	Specialty Stores	United States	9	24.4	-0.2	12.3	1040	http://dbpedia.org/resource/Staples	low
+904	Hang Lung Group	Real Estate	Hong Kong-China	7.9	1	0.7	23.6	1041	http://dbpedia.org/resource/Hang_Lung_Group	low
+905	Assurant	Diversified Insurance	United States	3.5	8.5	0.5	28.9	1042	http://dbpedia.org/resource/Assurant	low
+906	Talisman Energy	Oil & Gas Operations	Canada	12.7	7.3	0.1	21.9	1043	http://dbpedia.org/resource/Talisman_Energy	medium
+907	Attijariwafa Bank	Regional Banks	Morocco	6.7	3.4	0.5	43.5	1044	http://dbpedia.org/resource/Attijariwafa_Bank	low
+908	Kyushu Electric Power	Electric Utilities	Japan	4.3	18.2	-2	51.6	1045	http://dbpedia.org/resource/Kyushu_Electric_Power	low
+909	China Cosco Holdings	Other Transportation	China	6.4	14	-1.5	26.5	1045	http://dbpedia.org/resource/China_Cosco_Holdings	low
+910	Lorillard	Tobacco	United States	14.9	4.6	1.1	3.4	1047	http://dbpedia.org/resource/Lorillard	medium
+911	Kintetsu	Railroads	Japan	8.1	11.4	0.1	22.2	1049	http://dbpedia.org/resource/Kintetsu	low
+912	NiSource	Natural Gas Utilities	United States	8.8	5.1	0.4	21.8	1051	http://dbpedia.org/resource/NiSource	low
+913	Rockwell Automation	Other Industrial Equipment	United States	12.4	6.3	0.7	5.7	1052	http://dbpedia.org/resource/Rockwell_Automation	medium
+914	Naspers	Broadcasting & Cable	South Africa	27.7	5.1	0.4	10.5	1053	http://dbpedia.org/resource/Naspers	medium
+915	Zain	Telecommunications services	Kuwait	10.8	4.6	0.9	10.4	1054	http://dbpedia.org/resource/Zain	medium
+916	SES	Broadcasting & Cable	Luxembourg	12.6	2.4	0.9	11.8	1055	http://dbpedia.org/resource/SES	medium
+917	Nippon Express	Trucking	Japan	5.2	19.7	0.3	15	1058	http://dbpedia.org/resource/Nippon_Express	low
+918	Gjensidige Forsikring	Property & Casualty Insurance	Norway	8.4	4.1	0.8	16.8	1059	http://dbpedia.org/resource/Gjensidige_Forsikring	low
+919	PLDT	Telecommunications services	Philippines	15.1	4	0.9	9.9	1060	http://dbpedia.org/resource/PLDT	medium
+920	LeGrand	Electrical Equipment	France	12.2	5.9	0.7	8.8	1061	http://dbpedia.org/resource/LeGrand	medium
+921	Dai Nippon Printing	Printing & Publishing	Japan	6.4	18.2	-0.2	19.1	1061	http://dbpedia.org/resource/Dai_Nippon_Printing	low
+922	Sojitz	Trading Companies	Japan	2	54.3	0	25.5	1061	http://dbpedia.org/resource/Sojitz	low
+923	Arab National Bank	Regional Banks	Saudi Arabia	6.2	1.5	0.6	36.4	1065	http://dbpedia.org/resource/Arab_National_Bank	low
+924	Starwood Hotels	Hotels & Motels	United States	12.3	6.3	0.6	8.9	1066	http://dbpedia.org/resource/Starwood_Hotels	medium
+925	Finmeccanica	Aerospace & Defense	Italy	3	22.4	-3	38.4	1068	http://dbpedia.org/resource/Finmeccanica	low
+926	Western Union	Business & Personal Services	United States	8.3	5.7	1	9.5	1070	http://dbpedia.org/resource/Western_Union	low
+927	Facebook	Computer Services	United States	63.5	5.1	0.1	15.1	1071	http://dbpedia.org/resource/Facebook	medium
+928	Sharp	Consumer Electronics	Japan	3.7	29.7	-4.5	31.8	1072	http://dbpedia.org/resource/Sharp	low
+929	Shimao Property Holdings	Real Estate	China	5.9	4.5	0.9	19.2	1073	http://dbpedia.org/resource/Shimao_Property_Holdings	low
+930	Harley-Davidson	Recreational Products	United States	12.5	5.6	0.6	9.2	1074	http://dbpedia.org/resource/Harley-Davidson	medium
+931	Cielo	Business & Personal Services	Brazil	18.9	2.6	1.1	4.7	1075	http://dbpedia.org/resource/Cielo	medium
+932	Vedanta Resources	Diversified Metals & Mining	United Kingdom	4.7	14	0.1	45.4	1076	http://dbpedia.org/resource/Vedanta_Resources	low
+933	Julius Baer Group	Investment Services	Switzerland	8.8	2.2	0.3	59.9	1077	http://dbpedia.org/resource/Julius_Baer_Group	low
+934	Nintendo	Consumer Electronics	Japan	14.4	7.8	-0.5	15.9	1078	http://dbpedia.org/resource/Nintendo	medium
+935	Belle International Holdings	Apparel/Footwear Retail	Hong Kong-China	15.3	5.2	0.7	4.6	1081	http://dbpedia.org/resource/Belle_International_Holdings	medium
+936	Cathay Pacific Airways	Airline	Hong Kong-China	7.1	12.6	0.1	20.5	1082	http://dbpedia.org/resource/Cathay_Pacific_Airways	low
+937	Arrow Electronics	Electronics	United States	4.4	20.4	0.5	10.8	1083	http://dbpedia.org/resource/Arrow_Electronics	low
+938	Mediolanum	Life & Health Insurance	Italy	4.5	15	0.1	43.7	1085	http://dbpedia.org/resource/Mediolanum	low
+939	Dollar Tree	Discount Stores	United States	10.1	7.4	0.6	2.8	1086	http://dbpedia.org/resource/Dollar_Tree	medium
+940	Bank of Ayudhya	Regional Banks	Thailand	7.2	2.8	0.5	34.8	1086	http://dbpedia.org/resource/Bank_of_Ayudhya	low
+941	National Bank of Greece	Major Banks	Greece	1	10.4	-16	137	1089	http://dbpedia.org/resource/National_Bank_of_Greece	low
+942	Quest Diagnostics	Healthcare Services	United States	8.9	7.4	0.6	9.3	1090	http://dbpedia.org/resource/Quest_Diagnostics	low
+943	Liberty Media	Broadcasting & Cable	United States	13.4	2	1.4	8.3	1091	http://dbpedia.org/resource/Liberty_Media	medium
+944	Flextronics International	Electronics	Singapore	4.5	24.7	0.4	11.2	1091	http://dbpedia.org/resource/Flextronics_International	low
+945	Aozora Bank	Major Banks	Japan	5.1	1.6	0.6	61.3	1093	http://dbpedia.org/resource/Aozora_Bank	low
+946	Nippon Yusen	Other Transportation	Japan	4.7	21.8	-0.9	25.7	1094	http://dbpedia.org/resource/Nippon_Yusen	low
+947	WR Berkley	Property & Casualty Insurance	United States	5.9	5.8	0.5	20.2	1095	http://dbpedia.org/resource/WR_Berkley	low
+948	Shire	Pharmaceuticals	Ireland	17.2	4.6	0.7	7.3	1096	http://dbpedia.org/resource/Shire	medium
+949	Rakuten	Internet & Catalog Retail	Japan	13.1	5.6	0.2	24.3	1097	http://dbpedia.org/resource/Rakuten	medium
+950	Schroders	Investment Services	United Kingdom	9.2	2.3	0.4	23.8	1098	http://dbpedia.org/resource/Schroders	low
+951	Intuit	Software & Programming	United States	19.4	4.2	0.8	5.1	1099	http://dbpedia.org/resource/Intuit	medium
+952	Coventry Health Care	Managed Health Care	United States	6.3	14.1	0.5	8.8	1100	http://dbpedia.org/resource/Coventry_Health_Care	low
+953	Pohjola Bank	Regional Banks	Finland	5.2	5.1	0.4	58.8	1101	http://dbpedia.org/resource/Pohjola_Bank	low
+954	Hormel Foods	Food Processing	United States	10.4	8.3	0.5	4.6	1102	http://dbpedia.org/resource/Hormel_Foods	medium
+955	Keyence	Electronics	Japan	18.3	2.6	0.8	8.6	1103	http://dbpedia.org/resource/Keyence	medium
+956	Terna	Electric Utilities	Italy	8.3	2.3	0.6	18.6	1105	http://dbpedia.org/resource/Terna	low
+957	Grupo Bimbo	Food Processing	Mexico	13	13.5	0.2	10.1	1106	http://dbpedia.org/resource/Grupo_Bimbo	medium
+958	T Rowe Price	Investment Services	United States	19.5	3	0.9	4.2	1107	http://dbpedia.org/resource/T_Rowe_Price	medium
+959	Nidec	Electrical Equipment	Japan	8	8.2	0.5	9.6	1108	http://dbpedia.org/resource/Nidec	low
+960	Continental Resources	Oil & Gas Operations	United States	17.2	2.6	0.7	9.1	1109	http://dbpedia.org/resource/Continental_Resources	medium
+961	Emaar Properties	Real Estate	United Arab Emirates	9.2	2.4	0.6	16.6	1110	http://dbpedia.org/resource/Emaar_Properties	low
+962	China Oilfield Services	Oil Services & Equipment	China	11.1	3.5	0.7	12	1111	http://dbpedia.org/resource/China_Oilfield_Services	medium
+963	Bharat Petroleum	Oil & Gas Operations	India	5.4	36.7	0.2	15.3	1112	http://dbpedia.org/resource/Bharat_Petroleum	low
+964	CMS Energy	Electric Utilities	United States	7.3	6.3	0.4	17.1	1113	http://dbpedia.org/resource/CMS_Energy	low
+965	Delhaize Group	Food Retail	Belgium	5.5	29.2	0.1	15.8	1114	http://dbpedia.org/resource/Delhaize_Group	low
+966	Zimmer Holdings	Medical Equipment & Supplies	United States	12.5	4.5	0.8	9	1115	http://dbpedia.org/resource/Zimmer_Holdings	medium
+967	Brambles	Business & Personal Services	Australia	14.1	5.6	0.6	7.7	1116	http://dbpedia.org/resource/Brambles	medium
+968	Grupo Carso	Conglomerates	Mexico	11.3	6.4	0.6	5.9	1117	http://dbpedia.org/resource/Grupo_Carso	medium
+969	Bank of Greece	Major Banks	Greece	0.4	5.4	0.3	210.7	1118	http://dbpedia.org/resource/Bank_of_Greece	low
+970	O'Reilly Automotive	Specialty Stores	United States	11.5	6.2	0.6	5.7	1119	http://dbpedia.org/resource/O'Reilly_Automotive	medium
+971	Next	Apparel/Footwear Retail	United Kingdom	10	5.6	0.8	3	1120	http://dbpedia.org/resource/Next	medium
+972	Experian	Business & Personal Services	Ireland	18	4.5	0.7	7.8	1121	http://dbpedia.org/resource/Experian	medium
+973	Wisconsin Energy	Electric Utilities	United States	9.5	4.2	0.5	14.3	1122	http://dbpedia.org/resource/Wisconsin_Energy	low
+974	Delek Group	Investment Services	Israel	3	18.6	0.1	30.7	1124	http://dbpedia.org/resource/Delek_Group	low
+975	K+S	Diversified Chemicals	Germany	9.4	5.1	0.9	8.8	1126	http://dbpedia.org/resource/K+S	low
+976	Kawasaki Heavy Industries	Heavy Equipment	Japan	5.3	15.8	0.3	16.1	1126	http://dbpedia.org/resource/Kawasaki_Heavy_Industries	low
+977	Kuwait Finance House	Regional Banks	Kuwait	8.1	3.6	0.3	52.2	1129	http://dbpedia.org/resource/Kuwait_Finance_House	low
+978	Canadian Oil Sands	Oil & Gas Operations	Canada	10.2	3.7	1	10.2	1130	http://dbpedia.org/resource/Canadian_Oil_Sands	medium
+979	Valeo	Auto & Truck Parts	France	4.3	15.1	0.5	11.8	1131	http://dbpedia.org/resource/Valeo	low
+980	Brenntag	Specialized Chemicals	Germany	7.7	12.5	0.4	7.5	1132	http://dbpedia.org/resource/Brenntag	low
+981	Colruyt	Food Retail	Belgium	8.2	10.5	0.5	4.2	1133	http://dbpedia.org/resource/Colruyt	low
+982	Tullow Oil	Oil & Gas Operations	United Kingdom	17.2	2.4	0.6	9.4	1133	http://dbpedia.org/resource/Tullow_Oil	medium
+983	Kobe Steel	Iron & Steel	Japan	3.8	22.5	-0.2	26	1136	http://dbpedia.org/resource/Kobe_Steel	low
+984	Dr Pepper Snapple Group	Beverages	United States	9	6	0.6	8.9	1138	http://dbpedia.org/resource/Dr_Pepper_Snapple_Group	low
+985	Alcatel-Lucent	Communications Equipment	France	3.5	19.1	-1.8	28.2	1138	http://dbpedia.org/resource/Alcatel-Lucent	low
+986	Cosmo Oil	Oil & Gas Operations	Japan	1.8	37.6	-0.1	20	1140	http://dbpedia.org/resource/Cosmo_Oil	low
+987	AMR	Airline	United States	1.3	24.9	-1.9	23.5	1141	http://dbpedia.org/resource/AMR	low
+988	BPI	Regional Banks	Philippines	9.1	1.4	0.4	23.9	1142	http://dbpedia.org/resource/BPI	low
+989	Applied Materials	Semiconductors	United States	16	8.1	0	11.7	1143	http://dbpedia.org/resource/Applied_Materials	medium
+990	Wuliangye Yibin	Beverages	China	14.7	3	1	5.9	1145	http://dbpedia.org/resource/Wuliangye_Yibin	medium
+991	Chugoku Electric Power	Electric Utilities	Japan	4.4	14.3	0	34.2	1149	http://dbpedia.org/resource/Chugoku_Electric_Power	low
+992	Tokyo Electron	Semiconductors	Japan	8.5	7.6	0.4	9.3	1149	http://dbpedia.org/resource/Tokyo_Electron	low
+993	Shoprite Holdings	Food Retail	South Africa	10.2	10.1	0.4	3.7	1151	http://dbpedia.org/resource/Shoprite_Holdings	medium
+994	Weichai Power	Heavy Equipment	China	7	7.6	0.5	10.6	1151	http://dbpedia.org/resource/Weichai_Power	low
+995	OHL Group	Construction Services	Spain	3.5	5.3	1.3	15.2	1153	http://dbpedia.org/resource/OHL_Group	low
+996	Braskem	Specialized Chemicals	Brazil	5	17.3	-0.4	19.6	1156	http://dbpedia.org/resource/Braskem	low
+997	BM&F Bovespa	Investment Services	Brazil	13.4	1	0.5	11.7	1158	http://dbpedia.org/resource/BM&F_Bovespa	medium
+998	First Quantum Minerals	Diversified Metals & Mining	Canada	10.2	3	1.8	7.5	1159	http://dbpedia.org/resource/First_Quantum_Minerals	medium
+999	General Growth Properties	Real Estate	United States	18.7	2.5	-0.5	27.3	1160	http://dbpedia.org/resource/General_Growth_Properties	medium
+1000	SanDisk	Computer Storage Devices	United States	13.3	5.1	0.4	10.3	1161	http://dbpedia.org/resource/SanDisk	medium
+1001	Tokyu Land	Real Estate	Japan	5	6.7	0.4	21	1162	http://dbpedia.org/resource/Tokyu_Land	low
+1002	Prologis	Real Estate	United States	18	2	0	27.3	1164	http://dbpedia.org/resource/Prologis	medium
+1003	ZTE	Communications Equipment	China	6.5	13.3	-0.4	16.4	1165	http://dbpedia.org/resource/ZTE	low
+1004	EnCana	Oil & Gas Operations	Canada	15	5.2	-2.8	18.7	1166	http://dbpedia.org/resource/EnCana	medium
+1005	Banco Popolare	Regional Banks	Italy	2.6	7.8	-2.9	169.9	1166	http://dbpedia.org/resource/Banco_Popolare	low
+1006	Alrosa	Diversified Metals & Mining	Russia	7.7	4.7	0.9	10	1168	http://dbpedia.org/resource/Alrosa	low
+1007	Boston Scientific	Medical Equipment & Supplies	United States	10	7.2	-4.1	17.2	1169	http://dbpedia.org/resource/Boston_Scientific	medium
+1008	American Financial Group	Diversified Insurance	United States	4.2	5.1	0.5	39.2	1170	http://dbpedia.org/resource/American_Financial_Group	low
+1009	Noble	Oil Services & Equipment	Switzerland	9.6	3.5	0.5	14.6	1171	http://dbpedia.org/resource/Noble	low
+1010	Prada	Apparel/Accessories	Italy	25.8	3.3	0.6	3.6	1172	http://dbpedia.org/resource/Prada	medium
+1011	Metalurgica Gerdau	Iron & Steel	Brazil	3.8	18.5	0.2	25	1173	http://dbpedia.org/resource/Metalurgica_Gerdau	low
+1012	NMDC	Diversified Metals & Mining	India	10.6	2.2	1.4	6.9	1174	http://dbpedia.org/resource/NMDC	medium
+1013	Storebrand	Diversified Insurance	Norway	2	9	0.2	75.6	1175	http://dbpedia.org/resource/Storebrand	low
+1014	Hebei Iron & Steel	Iron & Steel	China	4.1	21.2	0.2	22.8	1177	http://dbpedia.org/resource/Hebei_Iron_&_Steel	low
+1015	US Airways Group	Airline	United States	2.6	13.8	0.6	9.4	1178	http://dbpedia.org/resource/US_Airways_Group	low
+1016	Regeneron Pharmaceuticals	Biotechs	United States	16.7	1.4	0.8	1.7	1178	http://dbpedia.org/resource/Regeneron_Pharmaceuticals	medium
+1017	Celanese	Diversified Chemicals	United States	7.5	6.4	0.6	9.2	1178	http://dbpedia.org/resource/Celanese	low
+1018	HTC	Communications Equipment	Taiwan	6.6	9.8	0.6	7.1	1182	http://dbpedia.org/resource/HTC	low
+1019	UBI Banca	Regional Banks	Italy	3.7	7.4	0.1	174.8	1183	http://dbpedia.org/resource/UBI_Banca	low
+1020	Adani Enterprises	Trading Companies	India	4.9	7.7	0.4	21	1183	http://dbpedia.org/resource/Adani_Enterprises	low
+1021	Nielsen Holdings	Printing & Publishing	Netherlands	12.9	5.6	0.3	14.6	1186	http://dbpedia.org/resource/Nielsen_Holdings	medium
+1022	Bank of Ningbo	Regional Banks	China	4.9	2.4	0.5	41.3	1187	http://dbpedia.org/resource/Bank_of_Ningbo	low
+1023	PGN	Natural Gas Utilities	Indonesia	13.5	2.6	0.9	3.9	1188	http://dbpedia.org/resource/PGN	medium
+1024	Intuitive Surgical	Medical Equipment & Supplies	United States	18.4	2.2	0.7	4.1	1189	http://dbpedia.org/resource/Intuitive_Surgical	medium
+1025	Dangote Cement	Construction Materials	Nigeria	15.1	1.5	0.8	3.2	1190	http://dbpedia.org/resource/Dangote_Cement	medium
+1026	Greentown China Holdings	Real Estate	China	3.2	5.6	0.8	17.3	1191	http://dbpedia.org/resource/Greentown_China_Holdings	low
+1027	Fresnillo	Diversified Metals & Mining	Mexico	16.1	2.2	0.7	3.3	1192	http://dbpedia.org/resource/Fresnillo	medium
+1028	UPM-Kymmene	Paper & Paper Products	Finland	6.1	13.8	-1.7	16.1	1194	http://dbpedia.org/resource/UPM-Kymmene	low
+1029	Ameren	Electric Utilities	United States	8.3	6.8	-1	21.8	1195	http://dbpedia.org/resource/Ameren	low
+1030	Clorox	Household/Personal Care	United States	11	5.6	0.6	4.5	1196	http://dbpedia.org/resource/Clorox	medium
+1031	Guangzhou R&F	Real Estate	China	4.8	4.8	0.9	15.8	1197	http://dbpedia.org/resource/Guangzhou_R&F	low
+1032	IDBI Bank	Regional Banks	India	2.1	5	0.4	56.9	1197	http://dbpedia.org/resource/IDBI_Bank	low
+1033	Portugal Telecom	Telecommunications services	Portugal	4.7	8.5	0.3	26.5	1201	http://dbpedia.org/resource/Portugal_Telecom	low
+1034	Petrofac	Oil Services & Equipment	United Kingdom	8.1	6.5	0.6	5.3	1202	http://dbpedia.org/resource/Petrofac	low
+1035	GS Holdings	Oil & Gas Operations	South Korea	5.4	8.7	0.4	12	1203	http://dbpedia.org/resource/GS_Holdings	low
+1036	Metso	Other Industrial Equipment	Finland	6.3	9.9	0.5	8.5	1203	http://dbpedia.org/resource/Metso	low
+1037	FMC Technologies	Oil Services & Equipment	United States	12.5	6.2	0.4	5.9	1205	http://dbpedia.org/resource/FMC_Technologies	medium
+1038	British Land	Real Estate	United Kingdom	7.5	0.6	0.8	13	1206	http://dbpedia.org/resource/British_Land	low
+1039	Toppan Printing	Printing & Publishing	Japan	4.6	18.2	0	19.1	1207	http://dbpedia.org/resource/Toppan_Printing	low
+1040	Metro Inc	Food Retail	Canada	6	12.1	0.5	5.2	1208	http://dbpedia.org/resource/Metro_Inc	low
+1041	Turkish Airlines	Airline	Turkey	4.8	8.3	0.6	10.5	1210	http://dbpedia.org/resource/Turkish_Airlines	low
+1042	Cosan	Food Processing	Brazil	5.5	14.1	0.3	12.2	1211	http://dbpedia.org/resource/Cosan	low
+1043	Mitsui OSK Lines	Other Transportation	Japan	4.2	17.3	-0.3	23.5	1212	http://dbpedia.org/resource/Mitsui_OSK_Lines	low
+1044	MBIA	Diversified Insurance	United States	2.3	2.4	1.2	21.7	1213	http://dbpedia.org/resource/MBIA	low
+1045	Ingram Micro	Electronics	United States	3	37.8	0.3	11.5	1214	http://dbpedia.org/resource/Ingram_Micro	low
+1046	BorgWarner	Auto & Truck Parts	United States	9.2	7.2	0.5	6.4	1215	http://dbpedia.org/resource/BorgWarner	low
+1047	Hindustan Petroleum	Oil & Gas Operations	India	1.9	32.6	0	16.8	1217	http://dbpedia.org/resource/Hindustan_Petroleum	low
+1048	Qingdao Haier	Household Appliances	China	5.4	12.6	0.5	8	1218	http://dbpedia.org/resource/Qingdao_Haier	low
+1049	E-mart	Discount Stores	South Korea	5.4	11.3	0.4	11.5	1219	http://dbpedia.org/resource/E-mart	low
+1050	Interpublic Group	Advertising	United States	5.5	7	0.4	13.5	1221	http://dbpedia.org/resource/Interpublic_Group	low
+1051	Orascom Construction	Construction Services	Egypt	7	5.4	0.7	9.8	1222	http://dbpedia.org/resource/Orascom_Construction	low
+1052	Molson Coors Brewing	Beverages	United States	8.8	3.9	0.4	16.2	1223	http://dbpedia.org/resource/Molson_Coors_Brewing	low
+1053	Shinsei Bank	Regional Banks	Japan	6.6	4.5	0.1	104.4	1224	http://dbpedia.org/resource/Shinsei_Bank	low
+1054	IHI	Heavy Equipment	Japan	4.5	14.8	0.3	15.7	1225	http://dbpedia.org/resource/IHI	low
+1055	Research In Motion	Communications Equipment	Canada	7.9	11.1	-0.6	13.2	1226	http://dbpedia.org/resource/Research_In_Motion	low
+1056	Want Want China	Food Processing	China	19.8	3.4	0.6	3.5	1227	http://dbpedia.org/resource/Want_Want_China	medium
+1057	Royal Caribbean Cruises	Hotels & Motels	Liberia	7.4	7.7	0	19.8	1228	http://dbpedia.org/resource/Royal_Caribbean_Cruises	low
+1058	Charter Communications	Broadcasting & Cable	United States	9.1	7.5	-0.3	15.6	1229	http://dbpedia.org/resource/Charter_Communications	low
+1059	Verbund	Electric Utilities	Austria	7.4	4.1	0.5	16.3	1229	http://dbpedia.org/resource/Verbund	low
+1060	Delta Electronics	Electronics	Taiwan	9.8	5.8	0.5	6.3	1231	http://dbpedia.org/resource/Delta_Electronics	low
+1061	Micron Technology	Semiconductors	United States	9.6	8	-1.1	13.9	1231	http://dbpedia.org/resource/Micron_Technology	low
+1062	FCC	Construction Services	Spain	1.3	14.7	-1.1	25.1	1233	http://dbpedia.org/resource/FCC	low
+1063	CCR	Other Transportation	Brazil	17.3	3	0.6	7	1234	http://dbpedia.org/resource/CCR	medium
+1064	Hyundai Glovis	Other Transportation	South Korea	6.7	10.4	0.4	4	1234	http://dbpedia.org/resource/Hyundai_Glovis	low
+1065	Fiserv	Software & Programming	United States	11.4	4.5	0.6	8.5	1237	http://dbpedia.org/resource/Fiserv	medium
+1066	Fidelity National Financial	Property & Casualty Insurance	United States	5.5	7.2	0.6	9.9	1238	http://dbpedia.org/resource/Fidelity_National_Financial	low
+1067	Synovus Financial	Regional Banks	United States	2.2	1.3	0.8	26.8	1241	http://dbpedia.org/resource/Synovus_Financial	low
+1068	AGL Energy	Electric Utilities	Australia	9.5	7.6	0.1	14.5	1242	http://dbpedia.org/resource/AGL_Energy	low
+1069	Mitsubishi Materials	Diversified Metals & Mining	Japan	3.8	17.4	0.1	21.1	1243	http://dbpedia.org/resource/Mitsubishi_Materials	low
+1070	Wendel	Investment Services	France	5.4	8.6	0.3	18.8	1244	http://dbpedia.org/resource/Wendel	low
+1071	Enka	Construction Services	Turkey	8.3	5.7	0.6	8.2	1245	http://dbpedia.org/resource/Enka	low
+1072	Wynn Resorts	Casinos & Gaming	United States	12.1	5.2	0.5	7.3	1247	http://dbpedia.org/resource/Wynn_Resorts	medium
+1073	Coca-Cola Amatil	Beverages	Australia	12.1	5.3	0.5	7	1249	http://dbpedia.org/resource/Coca-Cola_Amatil	medium
+1074	Kajima	Construction Services	Japan	2.9	17.6	0	20.2	1249	http://dbpedia.org/resource/Kajima	low
+1075	Lennar	Construction Services	United States	7.7	4.4	0.7	10.4	1252	http://dbpedia.org/resource/Lennar	low
+1076	SQM	Diversified Chemicals	Chile	14.8	2.5	0.7	4.4	1252	http://dbpedia.org/resource/SQM	medium
+1077	Qantas Airways	Airline	Australia	4.1	16.1	-0.3	21.7	1254	http://dbpedia.org/resource/Qantas_Airways	low
+1078	Arab Bank	Regional Banks	Jordan	5.9	2.1	0.3	45.6	1255	http://dbpedia.org/resource/Arab_Bank	low
+1079	Orica	Diversified Metals & Mining	Australia	9.6	6.9	0.4	7.7	1256	http://dbpedia.org/resource/Orica	low
+1080	Valeant Pharmaceuticals	Pharmaceuticals	Canada	21.2	3.5	-0.1	18	1258	http://dbpedia.org/resource/Valeant_Pharmaceuticals	medium
+1081	TUI	Business & Personal Services	Germany	2.8	23.6	-0.1	16.8	1259	http://dbpedia.org/resource/TUI	low
+1082	Maxis	Telecommunications services	Malaysia	15.6	2.9	0.6	5.8	1260	http://dbpedia.org/resource/Maxis	medium
+1083	YTL	Diversified Utilities	Malaysia	5.6	6.4	0.4	16.3	1261	http://dbpedia.org/resource/YTL	low
+1084	Jacobs Engineering	Construction Services	United States	7	11	0.4	6.9	1263	http://dbpedia.org/resource/Jacobs_Engineering	low
+1085	Boston Properties	Real Estate	United States	16	1.9	0.3	15.5	1264	http://dbpedia.org/resource/Boston_Properties	medium
+1086	CIT Group	Consumer Financial Services	United States	9	4	-0.6	44	1265	http://dbpedia.org/resource/CIT_Group	low
+1087	Kotak Mahindra Bank	Regional Banks	India	9.2	2.6	0.4	18.1	1266	http://dbpedia.org/resource/Kotak_Mahindra_Bank	low
+1088	DR Horton	Construction Services	United States	7.8	4.7	1	7.3	1267	http://dbpedia.org/resource/DR_Horton	low
+1089	Family Dollar Stores	Discount Stores	United States	6.9	9.6	0.4	3.7	1268	http://dbpedia.org/resource/Family_Dollar_Stores	low
+1090	Analog Devices	Semiconductors	United States	13.9	2.7	0.6	5.7	1269	http://dbpedia.org/resource/Analog_Devices	medium
+1091	Consol Energy	Diversified Metals & Mining	United States	7.7	5.4	0.4	12.7	1271	http://dbpedia.org/resource/Consol_Energy	low
+1092	Cincinnati Financial	Diversified Insurance	United States	7.7	4.1	0.4	16.5	1273	http://dbpedia.org/resource/Cincinnati_Financial	low
+1093	Mead Johnson Nutrition	Household/Personal Care	United States	14.9	3.9	0.6	3.3	1273	http://dbpedia.org/resource/Mead_Johnson_Nutrition	medium
+1094	Goodyear	Auto & Truck Parts	United States	3.4	21	0.2	17	1275	http://dbpedia.org/resource/Goodyear	low
+1095	United Utilities	Diversified Utilities	United Kingdom	7.1	2.5	0.5	16	1277	http://dbpedia.org/resource/United_Utilities	low
+1096	Yamana Gold	Diversified Metals & Mining	Canada	11	2.3	0.4	11.8	1279	http://dbpedia.org/resource/Yamana_Gold	medium
+1097	Randstad Holding	Business & Personal Services	Netherlands	7.6	22.5	0	8.3	1280	http://dbpedia.org/resource/Randstad_Holding	low
+1098	LabCorp	Healthcare Services	United States	8.5	5.7	0.6	6.8	1282	http://dbpedia.org/resource/LabCorp	low
+1099	Smith & Nephew	Medical Equipment & Supplies	United Kingdom	10.2	4.2	0.7	5.5	1283	http://dbpedia.org/resource/Smith_&_Nephew	medium
+1100	Coca-Cola HBC	Beverages	Greece	10.2	9.3	0.3	9.5	1285	http://dbpedia.org/resource/Coca-Cola_HBC	medium
+1101	Kerry Group	Food Processing	Ireland	9.8	7.7	0.4	7	1286	http://dbpedia.org/resource/Kerry_Group	low
+1102	Nitto Denko	Diversified Chemicals	Japan	9.6	7.3	0.4	7.8	1287	http://dbpedia.org/resource/Nitto_Denko	low
+1103	Huadian Power International	Electric Utilities	China	4.8	9.4	0.2	26.4	1288	http://dbpedia.org/resource/Huadian_Power_International	low
+1104	Actavis	Pharmaceuticals	United States	11.7	5.9	0.1	14.1	1291	http://dbpedia.org/resource/Actavis	medium
+1105	Autoliv	Auto & Truck Parts	Sweden	6.6	8.3	0.5	6.6	1294	http://dbpedia.org/resource/Autoliv	low
+1106	Saputo	Food Processing	Canada	9.7	7	0.4	3.7	1296	http://dbpedia.org/resource/Saputo	low
+1107	Showa Shell Sekiyu	Oil & Gas Operations	Japan	2.6	30.3	0	14	1296	http://dbpedia.org/resource/Showa_Shell_Sekiyu	low
+1108	Mediobanca	Regional Banks	Italy	5.1	5	0.1	98.9	1298	http://dbpedia.org/resource/Mediobanca	low
+1109	Zoetis	Pharmaceuticals	United States	16.7	4.3	0.4	6.3	1301	http://dbpedia.org/resource/Zoetis	medium
+1110	Jupiter Telecommunications	Broadcasting & Cable	Japan	8.9	4.7	0.5	9.4	1303	http://dbpedia.org/resource/Jupiter_Telecommunications	low
+1111	Crown Holdings	Containers & Packaging	United States	5.8	8.5	0.6	7.5	1303	http://dbpedia.org/resource/Crown_Holdings	low
+1112	PVH	Apparel/Accessories	United States	9.6	6	0.4	7.8	1305	http://dbpedia.org/resource/PVH	low
+1113	Bank Leumi	Major Banks	Israel	5.1	4.7	0.2	100.7	1306	http://dbpedia.org/resource/Bank_Leumi	low
+1114	MediaTek	Semiconductors	Taiwan	15.4	3.4	0.5	7.2	1306	http://dbpedia.org/resource/MediaTek	medium
+1115	Manila Electric	Electric Utilities	Philippines	9.2	6.8	0.4	5.3	1308	http://dbpedia.org/resource/Manila_Electric	low
+1116	Israel Corp	Investment Services	Israel	5.7	11.5	-0.1	15.7	1309	http://dbpedia.org/resource/Israel_Corp	low
+1117	Fukuoka Financial Group	Regional Banks	Japan	4.1	3	0.3	156.6	1309	http://dbpedia.org/resource/Fukuoka_Financial_Group	low
+1118	Crown Castle International	Telecommunications services	United States	20.5	2.4	0.2	16.1	1311	http://dbpedia.org/resource/Crown_Castle_International	medium
+1119	China Merchants Property	Real Estate	China	6.1	3.3	0.5	17.5	1312	http://dbpedia.org/resource/China_Merchants_Property	low
+1120	TDC	Telecommunications services	Denmark	6.4	4.6	0.6	11.2	1312	http://dbpedia.org/resource/TDC	low
+1121	AGCO	Heavy Equipment	United States	5.3	10	0.5	7.7	1314	http://dbpedia.org/resource/AGCO	low
+1122	Obayashi	Construction Services	Japan	3.6	15	0.1	19.2	1316	http://dbpedia.org/resource/Obayashi	low
+1123	IOI Group	Food Processing	Malaysia	9.6	4.9	0.6	7.2	1317	http://dbpedia.org/resource/IOI_Group	low
+1124	Essar Energy	Oil & Gas Operations	United Kingdom	2.9	16.7	-0.6	17.4	1318	http://dbpedia.org/resource/Essar_Energy	low
+1125	Tele2	Telecommunications services	Sweden	7.4	6.7	0.5	6.9	1319	http://dbpedia.org/resource/Tele2	low
+1126	Aurubis	Diversified Metals & Mining	Germany	3.1	17.7	0.5	6.3	1320	http://dbpedia.org/resource/Aurubis	low
+1127	Union Bank of India	Regional Banks	India	2.4	4.6	0.3	51.7	1320	http://dbpedia.org/resource/Union_Bank_of_India	low
+1128	Moody's	Business & Personal Services	United States	11.5	2.7	0.7	4	1322	http://dbpedia.org/resource/Moody's	medium
+1129	Pegatron	Electronics	Taiwan	3.3	29.8	0.2	13.5	1324	http://dbpedia.org/resource/Pegatron	low
+1130	ST Engineering	Aerospace & Defense	Singapore	10.4	5.2	0.5	6.5	1325	http://dbpedia.org/resource/ST_Engineering	medium
+1131	Taisei	Construction Services	Japan	3.2	16	0	17.7	1325	http://dbpedia.org/resource/Taisei	low
+1132	Joy Global	Heavy Equipment	United States	6.6	5.7	0.8	6.2	1325	http://dbpedia.org/resource/Joy_Global	low
+1133	Beijing Enterprises	Natural Gas Utilities	Hong Kong-China	8.6	4.6	0.4	11.5	1329	http://dbpedia.org/resource/Beijing_Enterprises	low
+1134	Torchmark	Life & Health Insurance	United States	5.6	3.6	0.5	18.8	1332	http://dbpedia.org/resource/Torchmark	low
+1135	China Longyuan Power	Diversified Utilities	China	7.2	2.7	0.4	17.3	1333	http://dbpedia.org/resource/China_Longyuan_Power	low
+1136	Infineon Technologies	Semiconductors	Germany	9.3	5	0.5	7.2	1334	http://dbpedia.org/resource/Infineon_Technologies	low
+1137	Amphenol	Electronics	United States	11.6	4.3	0.6	5.2	1335	http://dbpedia.org/resource/Amphenol	medium
+1138	First Republic Bank	Regional Banks	United States	5	1.5	0.4	34.4	1336	http://dbpedia.org/resource/First_Republic_Bank	low
+1139	Shimizu	Construction Services	Japan	2.6	16.1	0	17	1338	http://dbpedia.org/resource/Shimizu	low
+1140	Ball	Containers & Packaging	United States	6.9	8.7	0.4	7.5	1339	http://dbpedia.org/resource/Ball	low
+1141	Zions Bancorp	Regional Banks	United States	4.7	2.5	0.3	55.5	1340	http://dbpedia.org/resource/Zions_Bancorp	low
+1142	Umicore	Diversified Metals & Mining	Belgium	5.9	16.6	0.3	4.7	1341	http://dbpedia.org/resource/Umicore	low
+1143	Wuhan Iron & Steel	Iron & Steel	China	4.5	16.1	0.2	15.5	1342	http://dbpedia.org/resource/Wuhan_Iron_&_Steel	low
+1144	US Steel	Iron & Steel	United States	2.9	19.3	-0.1	15.2	1343	http://dbpedia.org/resource/US_Steel	low
+1145	Odakyu Electric Railway	Railroads	Japan	8.8	6.1	0.2	15.9	1343	http://dbpedia.org/resource/Odakyu_Electric_Railway	low
+1146	Atos	Computer Services	France	6.4	11.7	0.3	9.3	1346	http://dbpedia.org/resource/Atos	low
+1147	Eurasian Natural Resources	Diversified Metals & Mining	United Kingdom	6.8	6.3	-0.8	20.2	1350	http://dbpedia.org/resource/Eurasian_Natural_Resources	low
+1148	Abengoa	Construction Services	Spain	1.5	10.3	0.2	25.5	1351	http://dbpedia.org/resource/Abengoa	low
+1149	DSME	Heavy Equipment	South Korea	5	12.5	0.2	15.2	1352	http://dbpedia.org/resource/DSME	low
+1150	Givaudan	Specialized Chemicals	Switzerland	11.9	4.6	0.4	6.9	1353	http://dbpedia.org/resource/Givaudan	medium
+1151	Host Hotels & Resorts	Real Estate	United States	12.9	5.3	0.1	13	1355	http://dbpedia.org/resource/Host_Hotels_&_Resorts	medium
+1152	Calpine	Electric Utilities	United States	9.2	5.5	0.2	16.5	1357	http://dbpedia.org/resource/Calpine	low
+1153	Henry Schein	Medical Equipment & Supplies	United States	7.9	8.9	0.3	5.3	1358	http://dbpedia.org/resource/Henry_Schein	low
+1154	Darden Restaurants	Restaurants	United States	6.4	8.3	0.4	7	1359	http://dbpedia.org/resource/Darden_Restaurants	low
+1155	Acciona	Construction Services	Spain	3.6	9.3	0.2	24.9	1360	http://dbpedia.org/resource/Acciona	low
+1156	Paychex	Business & Personal Services	United States	12.4	2.3	0.6	7.5	1361	http://dbpedia.org/resource/Paychex	medium
+1157	Mitsui Chemicals	Specialized Chemicals	Japan	2.3	17.6	0	15.2	1361	http://dbpedia.org/resource/Mitsui_Chemicals	low
+1158	Supervalu	Food Retail	United States	0.9	34.8	-0.5	11.9	1364	http://dbpedia.org/resource/Supervalu	low
+1159	Rockwell Collins	Aerospace & Defense	United States	8.7	4.7	0.6	5.3	1367	http://dbpedia.org/resource/Rockwell_Collins	low
+1160	Strabag	Construction Services	Austria	2.4	17.8	0.3	13.3	1369	http://dbpedia.org/resource/Strabag	low
+1161	Raymond James Financial	Investment Services	United States	6.7	4.2	0.3	22.3	1370	http://dbpedia.org/resource/Raymond_James_Financial	low
+1162	Korean Air	Airline	South Korea	2.6	11.3	0.2	21.6	1373	http://dbpedia.org/resource/Korean_Air	low
+1163	UCB	Pharmaceuticals	Belgium	11.7	4	0.3	11.7	1375	http://dbpedia.org/resource/UCB	medium
+1164	Samsung Engineering	Construction Services	South Korea	4.7	10.8	0.5	5.3	1376	http://dbpedia.org/resource/Samsung_Engineering	low
+1165	Gudang Garam	Tobacco	Indonesia	9.8	5.2	0.4	4.3	1378	http://dbpedia.org/resource/Gudang_Garam	low
+1166	AU Optronics	Electronics	Taiwan	3.8	13	-1.9	18.2	1379	http://dbpedia.org/resource/AU_Optronics	low
+1167	Olympus	Consumer Electronics	Japan	6.8	10.2	-0.6	11.6	1380	http://dbpedia.org/resource/Olympus	low
+1168	Far Eastern New Century	Diversified Chemicals	Taiwan	5.4	7.8	0.4	10.9	1383	http://dbpedia.org/resource/Far_Eastern_New_Century	low
+1169	JGC	Construction Services	Japan	6.7	6.7	0.5	6.3	1386	http://dbpedia.org/resource/JGC	low
+1170	China Taiping Insurance	Diversified Insurance	Hong Kong-China	3.1	8.1	0.1	31.3	1387	http://dbpedia.org/resource/China_Taiping_Insurance	low
+1171	GEA Group	Conglomerates	Germany	6.6	7.4	0.4	8.5	1388	http://dbpedia.org/resource/GEA_Group	low
+1172	AutoNation	Specialty Stores	United States	5.4	15.7	0.3	6.6	1390	http://dbpedia.org/resource/AutoNation	low
+1173	Jabil Circuit	Electronics	United States	3.9	17.6	0.4	8.2	1392	http://dbpedia.org/resource/Jabil_Circuit	low
+1174	Caesars Entertainment	Casinos & Gaming	United States	2.1	8.6	-1.5	28	1393	http://dbpedia.org/resource/Caesars_Entertainment	low
+1175	Silver Wheaton	Diversified Metals & Mining	Canada	10.8	0.8	0.6	3.2	1394	http://dbpedia.org/resource/Silver_Wheaton	medium
+1176	Scana	Electric Utilities	United States	6.6	4.2	0.4	14.6	1395	http://dbpedia.org/resource/Scana	low
+1177	Alfa Laval	Other Industrial Equipment	Sweden	9.9	4.6	0.5	5.1	1395	http://dbpedia.org/resource/Alfa_Laval	low
+1178	Catamaran	Healthcare Services	United States	10.7	9.9	0.1	7.4	1397	http://dbpedia.org/resource/Catamaran	medium
+1179	Altera	Semiconductors	United States	11.2	1.8	0.6	4.7	1398	http://dbpedia.org/resource/Altera	medium
+1180	A2A	Electric Utilities	Italy	1.9	8.1	0.3	15.8	1399	http://dbpedia.org/resource/A2A	low
+1181	TAQA	Electric Utilities	United Arab Emirates	2.2	7.5	0.2	33.3	1401	http://dbpedia.org/resource/TAQA	low
+1182	SAIC	Aerospace & Defense	United States	4.3	11.2	0.5	5.9	1403	http://dbpedia.org/resource/SAIC	low
+1183	Taishin Financial Holdings	Investment Services	Taiwan	2.8	2.4	0.3	86.2	1403	http://dbpedia.org/resource/Taishin_Financial_Holdings	low
+1184	Peabody Energy	Diversified Metals & Mining	United States	5.9	8.1	-0.6	15.8	1406	http://dbpedia.org/resource/Peabody_Energy	low
+1185	Taiwan Mobile	Telecommunications services	Taiwan	12	3.4	0.5	3.2	1406	http://dbpedia.org/resource/Taiwan_Mobile	medium
+1186	Fastenal	Home Improvement Retail	United States	15.1	3.1	0.4	1.8	1408	http://dbpedia.org/resource/Fastenal	medium
+1187	Bilfinger	Construction Services	Germany	4.9	11.2	0.4	8.8	1410	http://dbpedia.org/resource/Bilfinger	low
+1188	Vallourec	Other Industrial Equipment	France	6.6	7	0.3	11.9	1411	http://dbpedia.org/resource/Vallourec	low
+1189	Rexam	Containers & Packaging	United Kingdom	6.3	7	0.3	9.9	1414	http://dbpedia.org/resource/Rexam	low
+1190	ADT	Security Systems	United States	11.5	3.2	0.4	9.5	1415	http://dbpedia.org/resource/ADT	medium
+1191	Bajaj Auto	Recreational Products	India	9.9	3.7	0.6	2.2	1416	http://dbpedia.org/resource/Bajaj_Auto	low
+1192	Roper Industries	Other Industrial Equipment	United States	12.3	3	0.5	7.1	1417	http://dbpedia.org/resource/Roper_Industries	medium
+1193	China Merchants Holdings	Other Transportation	Hong Kong-China	8.6	1.4	0.5	10	1419	http://dbpedia.org/resource/China_Merchants_Holdings	low
+1194	Rock-Tenn	Containers & Packaging	United States	6.5	9.2	0.3	10.5	1420	http://dbpedia.org/resource/Rock-Tenn	low
+1195	KLA-Tencor	Semiconductors	United States	8.7	3.1	0.7	5.1	1420	http://dbpedia.org/resource/KLA-Tencor	low
+1196	Cerner	Healthcare Services	United States	16	2.7	0.4	3.7	1423	http://dbpedia.org/resource/Cerner	medium
+1197	First Pacific	Investment Services	Hong Kong-China	5.3	6	0.3	13.9	1424	http://dbpedia.org/resource/First_Pacific	low
+1198	Semen Indonesia	Construction Materials	Indonesia	11.2	2.1	0.5	2.8	1425	http://dbpedia.org/resource/Semen_Indonesia	medium
+1199	Empire	Food Retail	Canada	4.2	17.4	0.4	7	1425	http://dbpedia.org/resource/Empire	low
+1200	Oriental Land	Hotels & Motels	Japan	13.3	4.4	0.4	7.5	1425	http://dbpedia.org/resource/Oriental_Land	medium
+1201	Tobu Railway	Railroads	Japan	6.2	6.6	0.2	17.6	1425	http://dbpedia.org/resource/Tobu_Railway	low
+1202	Exxaro Resources	Diversified Metals & Mining	South Africa	6.4	1.5	1.2	4.9	1429	http://dbpedia.org/resource/Exxaro_Resources	low
+1203	Rural Electrification	Investment Services	India	4.1	2.1	0.6	21.7	1429	http://dbpedia.org/resource/Rural_Electrification	low
+1204	BYD	Auto & Truck Manufacturers	China	8.3	7.4	0	11	1431	http://dbpedia.org/resource/BYD	low
+1205	Alliance Data Systems	Business & Personal Services	United States	7.9	3.6	0.4	12	1434	http://dbpedia.org/resource/Alliance_Data_Systems	low
+1206	Gold Fields	Diversified Metals & Mining	South Africa	5.9	3.4	0.7	11.2	1435	http://dbpedia.org/resource/Gold_Fields	low
+1207	Angang Steel	Iron & Steel	China	4.1	12.3	-0.7	16.2	1436	http://dbpedia.org/resource/Angang_Steel	low
+1208	Denbury Resources	Oil & Gas Operations	United States	7	2.5	0.5	11.1	1436	http://dbpedia.org/resource/Denbury_Resources	low
+1209	Pioneer Natural Resources	Oil & Gas Operations	United States	17.3	3.2	0.2	13.1	1438	http://dbpedia.org/resource/Pioneer_Natural_Resources	medium
+1210	NYSE Euronext	Investment Services	United States	9.2	3.7	0.3	12.6	1440	http://dbpedia.org/resource/NYSE_Euronext	low
+1211	Celesio	Healthcare Services	Germany	3.2	28.6	-0.2	10.5	1441	http://dbpedia.org/resource/Celesio	low
+1212	KT&G	Tobacco	South Korea	8.4	3.7	0.7	6.3	1442	http://dbpedia.org/resource/KT&G	low
+1213	Banco BPI	Regional Banks	Portugal	2	2.2	0.3	58.8	1444	http://dbpedia.org/resource/Banco_BPI	low
+1214	Hengan International Group	Household/Personal Care	China	11.9	2.4	0.5	3.8	1447	http://dbpedia.org/resource/Hengan_International_Group	medium
+1215	Petro Rabigh	Diversified Chemicals	Saudi Arabia	4	16.5	0.1	12.7	1448	http://dbpedia.org/resource/Petro_Rabigh	low
+1216	Olam International	Food Processing	Singapore	3.1	13.5	0.3	10.9	1448	http://dbpedia.org/resource/Olam_International	low
+1217	Life Technologies	Biotechs	United States	10.8	3.8	0.4	8.6	1454	http://dbpedia.org/resource/Life_Technologies	medium
+1218	Arca Continental	Beverages	Mexico	12	4.4	0.4	4.9	1455	http://dbpedia.org/resource/Arca_Continental	medium
+1219	Wyndham Worldwide	Hotels & Motels	United States	8.6	4.5	0.4	9.5	1455	http://dbpedia.org/resource/Wyndham_Worldwide	low
+1220	Avon Products	Household/Personal Care	United States	8.7	10.7	0	7.4	1455	http://dbpedia.org/resource/Avon_Products	low
+1221	SNC-Lavalin Group	Construction Services	Canada	6.4	7.9	0.3	9.7	1459	http://dbpedia.org/resource/SNC-Lavalin_Group	low
+1222	GPT Group	Real Estate	Australia	7	0.7	0.6	9.7	1460	http://dbpedia.org/resource/GPT_Group	low
+1223	Hysan Development	Real Estate	Hong Kong-China	5.2	0.3	1.3	8.8	1463	http://dbpedia.org/resource/Hysan_Development	low
+1224	Capita	Business & Personal Services	United Kingdom	8.7	5.4	0.4	6.3	1464	http://dbpedia.org/resource/Capita	low
+1225	Grupo Elektra	Computer & Electronics Retail	Mexico	9.5	5.3	-1.5	12.8	1465	http://dbpedia.org/resource/Grupo_Elektra	low
+1226	Allahabad Bank	Regional Banks	India	1.3	3.3	0.4	36	1466	http://dbpedia.org/resource/Allahabad_Bank	low
+1227	Ashland	Specialized Chemicals	United States	6.4	8.1	0.1	12.4	1466	http://dbpedia.org/resource/Ashland	low
+1228	WorleyParsons	Construction Services	Australia	6.6	7.6	0.4	4.4	1468	http://dbpedia.org/resource/WorleyParsons	low
+1229	Mexichem	Specialized Chemicals	Mexico	10.8	4.9	0.4	7.6	1469	http://dbpedia.org/resource/Mexichem	medium
+1230	American Water Works	Diversified Utilities	United States	7.1	2.9	0.4	14.7	1470	http://dbpedia.org/resource/American_Water_Works	low
+1231	Samsung Electro-Mechanics	Electronics	South Korea	6.4	7	0.4	6.5	1471	http://dbpedia.org/resource/Samsung_Electro-Mechanics	low
+1232	Brown-Forman	Beverages	United States	14.7	2.4	0.4	3.5	1472	http://dbpedia.org/resource/Brown-Forman	medium
+1233	Yamaha Motor	Recreational Products	Japan	4.9	13.9	0.1	11.1	1472	http://dbpedia.org/resource/Yamaha_Motor	low
+1234	Petsmart	Specialty Stores	United States	6.7	6.8	0.4	2.5	1472	http://dbpedia.org/resource/Petsmart	low
+1235	Nomos Bank	Regional Banks	Russia	2.6	2.7	0.4	29.4	1475	http://dbpedia.org/resource/Nomos_Bank	low
+1236	NHN	Computer Services	South Korea	10.4	2.1	0.5	2.8	1477	http://dbpedia.org/resource/NHN	medium
+1237	Daelim Industrial	Construction Services	South Korea	2.8	9.6	0.4	10.2	1479	http://dbpedia.org/resource/Daelim_Industrial	low
+1238	Tauron Group	Electric Utilities	Poland	2.5	7.6	0.5	10.1	1480	http://dbpedia.org/resource/Tauron_Group	low
+1239	Hoya	Electronics	Japan	8.2	4.4	0.5	6.7	1480	http://dbpedia.org/resource/Hoya	low
+1240	Avago Technologies	Semiconductors	Singapore	8.8	2.4	0.6	2.9	1483	http://dbpedia.org/resource/Avago_Technologies	low
+1241	Protective Life	Life & Health Insurance	United States	2.7	3.6	0.3	57.4	1484	http://dbpedia.org/resource/Protective_Life	low
+1242	Huntsman	Diversified Chemicals	United States	4.6	11.2	0.3	8.9	1486	http://dbpedia.org/resource/Huntsman	low
+1243	Mondi	Paper & Paper Products	United Kingdom	6.4	7.7	0.3	8.7	1487	http://dbpedia.org/resource/Mondi	low
+1244	Bunzl	Business & Personal Services	United Kingdom	6.5	8.7	0.3	4.8	1489	http://dbpedia.org/resource/Bunzl	low
+1245	Newell Rubbermaid	Household/Personal Care	United States	7.3	5.9	0.4	6.2	1492	http://dbpedia.org/resource/Newell_Rubbermaid	low
+1246	Kingdom Holding	Investment Services	Saudi Arabia	19	0.8	0.2	11.2	1494	http://dbpedia.org/resource/Kingdom_Holding	medium
+1247	Hutchison Port Holdings	Other Transportation	Singapore	7.3	1.6	0.3	17.4	1495	http://dbpedia.org/resource/Hutchison_Port_Holdings	low
+1248	Jindal Steel & Power	Iron & Steel	India	6.2	3.6	0.8	8.8	1497	http://dbpedia.org/resource/Jindal_Steel_&_Power	low
+1249	G4S	Security Systems	United Kingdom	6.4	11.9	0.1	9.1	1498	http://dbpedia.org/resource/G4S	low
+1250	Perrigo	Pharmaceuticals	United States	10.9	3.3	0.4	4.3	1499	http://dbpedia.org/resource/Perrigo	medium
+1251	Nvidia	Semiconductors	United States	7.8	4.3	0.6	6.4	1500	http://dbpedia.org/resource/Nvidia	low
+1252	Xilinx	Semiconductors	United States	10.1	2.2	0.5	4.6	1500	http://dbpedia.org/resource/Xilinx	medium
+1253	Chang Hwa Bank	Regional Banks	Taiwan	4.3	1.2	0.3	52.3	1503	http://dbpedia.org/resource/Chang_Hwa_Bank	low
+1254	Accor	Hotels & Motels	France	8.4	7.3	-0.8	10	1504	http://dbpedia.org/resource/Accor	low
+1255	Alpha Bank	Regional Banks	Greece	0.5	4.6	-1.4	76.9	1505	http://dbpedia.org/resource/Alpha_Bank	low
+1256	Samsung Card	Consumer Financial Services	South Korea	4.1	3.3	0.7	15.3	1508	http://dbpedia.org/resource/Samsung_Card	low
+1257	Ametek	Electrical Equipment	United States	10.4	3.3	0.5	5.2	1510	http://dbpedia.org/resource/Ametek	medium
+1258	CBRE Group	Real Estate	United States	8.2	6.5	0.3	7.8	1510	http://dbpedia.org/resource/CBRE_Group	low
+1259	Smurfit Kappa Group	Paper & Paper Products	Ireland	3.7	9.7	0.3	10.9	1512	http://dbpedia.org/resource/Smurfit_Kappa_Group	low
+1260	BBMG	Construction Materials	China	4.4	5.1	0.5	13.3	1513	http://dbpedia.org/resource/BBMG	low
+1261	Bank Audi	Regional Banks	Lebanon	2.4	2	0.4	31.3	1514	http://dbpedia.org/resource/Bank_Audi	low
+1262	Flowserve	Other Industrial Equipment	United States	8.1	4.8	0.4	4.8	1515	http://dbpedia.org/resource/Flowserve	low
+1263	Orkla	Conglomerates	Norway	8.4	5.4	0.3	10.4	1516	http://dbpedia.org/resource/Orkla	low
+1264	Embraer	Aerospace & Defense	Brazil	6.3	6.2	0.3	9.5	1517	http://dbpedia.org/resource/Embraer	low
+1265	EasyJet	Airline	United Kingdom	6.4	6.2	0.4	6.9	1517	http://dbpedia.org/resource/EasyJet	low
+1266	BR Malls	Real Estate	Brazil	5.8	0.6	0.9	8.7	1520	http://dbpedia.org/resource/BR_Malls	low
+1267	Hexagon	Other Industrial Equipment	Sweden	9.8	3.2	0.5	7	1521	http://dbpedia.org/resource/Hexagon	low
+1268	Compal Electronics	Computer Hardware	Taiwan	3	23.1	0.2	9.8	1523	http://dbpedia.org/resource/Compal_Electronics	low
+1269	Neste Oil	Oil & Gas Operations	Finland	3.8	23.7	0.2	9.7	1524	http://dbpedia.org/resource/Neste_Oil	low
+1270	STMicroelectronics	Semiconductors	Switzerland	6.8	8.7	-1.2	10	1525	http://dbpedia.org/resource/STMicroelectronics	low
+1271	Travis Perkins	Home Improvement Retail	United Kingdom	5	7.9	0.4	7.1	1526	http://dbpedia.org/resource/Travis_Perkins	low
+1272	Aker Solutions	Construction Services	Norway	5.1	8.1	0.4	7.1	1531	http://dbpedia.org/resource/Aker_Solutions	low
+1273	Crescent Point Energy	Oil & Gas Operations	Canada	14.4	2	0.2	12.2	1532	http://dbpedia.org/resource/Crescent_Point_Energy	medium
+1274	Sino Land	Real Estate	Hong Kong-China	3.9	1.1	0.6	14.7	1534	http://dbpedia.org/resource/Sino_Land	low
+1275	HCL Technologies	Software & Programming	India	10.2	3.8	0.4	3.2	1534	http://dbpedia.org/resource/HCL_Technologies	medium
+1276	Citrix Systems	Software & Programming	United States	13.8	2.6	0.4	4.8	1537	http://dbpedia.org/resource/Citrix_Systems	medium
+1277	PostNL	Other Transportation	Netherlands	1	5.7	0.9	6.1	1539	http://dbpedia.org/resource/PostNL	low
+1278	InterContinental Hotels	Hotels & Motels	United Kingdom	8.1	1.9	0.6	3.1	1540	http://dbpedia.org/resource/InterContinental_Hotels	low
+1279	Avis Budget Group	Rental & Leasing	United States	3	7.4	0.3	15.2	1541	http://dbpedia.org/resource/Avis_Budget_Group	low
+1280	CGI Group	Computer Services	Canada	8	6.3	0	10.8	1543	http://dbpedia.org/resource/CGI_Group	low
+1281	Hunan Valin Steel	Iron & Steel	China	1	11.7	0	13.6	1544	http://dbpedia.org/resource/Hunan_Valin_Steel	low
+1282	Sigma-Aldrich	Specialized Chemicals	United States	9.5	2.6	0.5	3.8	1545	http://dbpedia.org/resource/Sigma-Aldrich	low
+1283	NSK	Other Industrial Equipment	Japan	4.2	8.9	0.3	10.2	1547	http://dbpedia.org/resource/NSK	low
+1284	CR Bard	Medical Equipment & Supplies	United States	8.3	3	0.5	4.2	1548	http://dbpedia.org/resource/CR_Bard	low
+1285	Expeditors International	Air Courier	United States	7.9	6	0.3	3	1549	http://dbpedia.org/resource/Expeditors_International	low
+1286	Union National Bank	Regional Banks	United Arab Emirates	2.7	1.2	0.4	23.7	1550	http://dbpedia.org/resource/Union_National_Bank	low
+1287	Kinross Gold	Diversified Metals & Mining	Canada	9.1	4.3	-2.5	14.9	1551	http://dbpedia.org/resource/Kinross_Gold	low
+1288	Weir Group	Other Industrial Equipment	United Kingdom	7.9	4.1	0.5	5.3	1551	http://dbpedia.org/resource/Weir_Group	low
+1289	China Communications Services	Telecommunications services	China	4.7	9.8	0.4	7.2	1553	http://dbpedia.org/resource/China_Communications_Services	low
+1290	ICAP	Investment Services	United Kingdom	3.2	2.7	0.2	129.9	1554	http://dbpedia.org/resource/ICAP	low
+1291	Wistron	Computer Hardware	Taiwan	2.5	22.2	0.2	9.4	1555	http://dbpedia.org/resource/Wistron	low
+1292	Hokuhoku Financial Group	Regional Banks	Japan	2.6	2.5	0.2	128.7	1556	http://dbpedia.org/resource/Hokuhoku_Financial_Group	low
+1293	Andritz	Other Industrial Equipment	Austria	7.4	6.7	0.3	6.8	1558	http://dbpedia.org/resource/Andritz	low
+1294	Beam	Beverages	United States	10.1	2.5	0.4	8.6	1559	http://dbpedia.org/resource/Beam	medium
+1295	Hokkaido Electric Power	Electric Utilities	Japan	1.7	7.7	-0.9	19.6	1560	http://dbpedia.org/resource/Hokkaido_Electric_Power	low
+1296	Kansas City Southern	Railroads	United States	11.9	2.2	0.4	6.4	1561	http://dbpedia.org/resource/Kansas_City_Southern	medium
+1297	Pall	Precision Healthcare Equipment	United States	7.6	2.7	0.6	3.5	1563	http://dbpedia.org/resource/Pall	low
+1298	Pinnacle West	Electric Utilities	United States	6.3	3.3	0.4	13.4	1565	http://dbpedia.org/resource/Pinnacle_West	low
+1299	Dongfang Electric	Electrical Equipment	China	4.7	6	0.3	12.6	1568	http://dbpedia.org/resource/Dongfang_Electric	low
+1300	Coloplast	Medical Equipment & Supplies	Denmark	11.4	1.9	0.4	1.8	1569	http://dbpedia.org/resource/Coloplast	medium
+1301	World Fuel Services	Specialty Stores	United States	2.9	38.9	0.2	4.1	1570	http://dbpedia.org/resource/World_Fuel_Services	low
+1302	Burberry Group	Apparel/Accessories	United Kingdom	9.7	3	0.4	2.4	1571	http://dbpedia.org/resource/Burberry_Group	low
+1303	Scripps Networks Interactive	Broadcasting & Cable	United States	9.6	2.3	0.4	4.1	1572	http://dbpedia.org/resource/Scripps_Networks_Interactive	low
+1304	Salzgitter	Iron & Steel	Germany	2.5	13.4	-0.1	11.7	1572	http://dbpedia.org/resource/Salzgitter	low
+1305	Banrisul	Regional Banks	Brazil	3.6	3.6	0.4	22.3	1574	http://dbpedia.org/resource/Banrisul	low
+1306	Pentair	Other Industrial Equipment	Switzerland	10.9	4.4	-0.1	11.8	1575	http://dbpedia.org/resource/Pentair	medium
+1307	Arkema	Diversified Chemicals	France	6.4	8.4	0.3	7.2	1576	http://dbpedia.org/resource/Arkema	low
+1308	Ingredion	Food Processing	United States	5.3	6.5	0.4	5.6	1578	http://dbpedia.org/resource/Ingredion	low
+1309	Enagas	Natural Gas Utilities	Spain	5.8	1.6	0.5	10.6	1581	http://dbpedia.org/resource/Enagas	low
+1310	Indian Bank	Regional Banks	India	1.4	2.6	0.3	27.5	1581	http://dbpedia.org/resource/Indian_Bank	low
+1311	Joyo Bank	Regional Banks	Japan	4.2	1.9	0.2	97.1	1581	http://dbpedia.org/resource/Joyo_Bank	low
+1312	Teradata	Computer Services	United States	9.6	2.7	0.4	3.1	1584	http://dbpedia.org/resource/Teradata	low
+1313	Hyosung	Diversified Metals & Mining	South Korea	1.6	11.2	0.1	12.9	1586	http://dbpedia.org/resource/Hyosung	low
+1314	Marfrig Group	Food Processing	Brazil	2.5	12.3	-0.1	12	1586	http://dbpedia.org/resource/Marfrig_Group	low
+1315	Plains Exploration	Oil & Gas Operations	United States	6.1	2.6	0.3	17.3	1588	http://dbpedia.org/resource/Plains_Exploration	low
+1316	Wolters Kluwer	Printing & Publishing	Netherlands	6.6	4.8	0.4	8.5	1588	http://dbpedia.org/resource/Wolters_Kluwer	low
+1317	77 Bank	Regional Banks	Japan	2	1.4	0.1	92.2	1588	http://dbpedia.org/resource/77_Bank	low
+1318	Empresas CMPC	Paper & Paper Products	Chile	8	4.8	0.2	14	1591	http://dbpedia.org/resource/Empresas_CMPC	low
+1319	Goodman Group	Real Estate	Australia	8.9	0.7	0.4	8.4	1592	http://dbpedia.org/resource/Goodman_Group	low
+1320	Grupo Argos	Construction Materials	Colombia	9.5	3.8	0.2	15.2	1594	http://dbpedia.org/resource/Grupo_Argos	low
+1321	TDK	Electronics	Japan	4.6	9.8	0	12.6	1597	http://dbpedia.org/resource/TDK	low
+1322	Buenaventura	Diversified Metals & Mining	Peru	6.3	1.5	0.7	4.5	1601	http://dbpedia.org/resource/Buenaventura	low
+1323	Smiths Group	Conglomerates	United Kingdom	7.8	4.7	0.4	5.3	1602	http://dbpedia.org/resource/Smiths_Group	low
+1324	Geberit	Construction Materials	Switzerland	9.4	2	0.4	2.2	1602	http://dbpedia.org/resource/Geberit	low
+1325	InTouch	Communications Equipment	Thailand	8.6	0.3	0.5	1.5	1604	http://dbpedia.org/resource/InTouch	low
+1326	Gecina	Real Estate	France	7.1	0.9	0.3	14.8	1606	http://dbpedia.org/resource/Gecina	low
+1327	Kawasaki Kisen Kaisha	Other Transportation	Japan	2.2	11.7	-0.5	12.3	1608	http://dbpedia.org/resource/Kawasaki_Kisen_Kaisha	low
+1328	Atco	Electric Utilities	Canada	5	4.4	0.4	14.4	1609	http://dbpedia.org/resource/Atco	low
+1329	Maanshan Iron & Steel	Iron & Steel	China	2.3	11.8	-0.6	12.2	1610	http://dbpedia.org/resource/Maanshan_Iron_&_Steel	low
+1330	Quinenco	Conglomerates	Chile	4.6	4.1	0.2	46.3	1611	http://dbpedia.org/resource/Quinenco	low
+1331	TCL Corp	Consumer Electronics	China	3.4	11	0.1	12.8	1613	http://dbpedia.org/resource/TCL_Corp	low
+1332	Advance Auto Parts	Specialty Stores	United States	5.9	6.2	0.4	4.6	1615	http://dbpedia.org/resource/Advance_Auto_Parts	low
+1333	Western Refining	Oil & Gas Operations	United States	3.1	9.5	0.4	2.5	1616	http://dbpedia.org/resource/Western_Refining	low
+1334	NHPC	Electric Utilities	India	4.6	1.4	0.6	11.8	1620	http://dbpedia.org/resource/NHPC	low
+1335	Doosan Infracore	Other Industrial Equipment	South Korea	2.3	7.2	0.4	10.5	1622	http://dbpedia.org/resource/Doosan_Infracore	low
+1336	Grifols	Biotechs	Spain	12.1	3.5	0.3	7.4	1623	http://dbpedia.org/resource/Grifols	medium
+1337	Soriana	Specialty Stores	Mexico	6.8	8	0.3	5.7	1626	http://dbpedia.org/resource/Soriana	low
+1338	Usiminas	Iron & Steel	Brazil	5.3	6.2	-0.3	15.3	1627	http://dbpedia.org/resource/Usiminas	low
+1339	Bankinter	Regional Banks	Spain	3.3	3.7	0.2	76.5	1629	http://dbpedia.org/resource/Bankinter	low
+1340	Waters	Precision Healthcare Equipment	United States	8.1	1.8	0.5	3.2	1630	http://dbpedia.org/resource/Waters	low
+1341	Netease	Computer Services	China	6.8	1.3	0.6	3.1	1631	http://dbpedia.org/resource/Netease	low
+1342	Novozymes	Biotechs	Denmark	11	2	0.4	2.6	1633	http://dbpedia.org/resource/Novozymes	medium
+1343	URS	Construction Services	United States	3.5	11	0.3	8.8	1633	http://dbpedia.org/resource/URS	low
+1344	ARM Holdings	Semiconductors	United Kingdom	19.6	0.9	0.3	2.3	1636	http://dbpedia.org/resource/ARM_Holdings	medium
+1345	Oil India	Oil & Gas Operations	India	6.1	1.9	0.7	4.5	1638	http://dbpedia.org/resource/Oil_India	low
+1346	Halyk Bank	Regional Banks	Kazakhstan	2	1.6	0.5	16	1640	http://dbpedia.org/resource/Halyk_Bank	low
+1347	Pacific Rubiales Energy	Oil & Gas Operations	Canada	7.1	3.9	0.5	7.1	1641	http://dbpedia.org/resource/Pacific_Rubiales_Energy	low
+1348	Rite Aid	Drug Retail	United States	1.7	26.1	-0.2	7.2	1646	http://dbpedia.org/resource/Rite_Aid	low
+1349	Serco Group	Business & Personal Services	United Kingdom	4.7	7.8	0.4	5.3	1647	http://dbpedia.org/resource/Serco_Group	low
+1350	Boliden	Diversified Metals & Mining	Sweden	4.6	6.2	0.5	6.1	1648	http://dbpedia.org/resource/Boliden	low
+1351	Minmetals Development	Trading Companies	China	2.6	25.7	0.1	7.6	1648	http://dbpedia.org/resource/Minmetals_Development	low
+1352	Banca Carige	Thrifts & Mortgage Finance	Italy	1.8	2	-0.1	65.1	1650	http://dbpedia.org/resource/Banca_Carige	low
+1353	Constellation Brands	Beverages	United States	8.4	2.7	0.4	8.3	1651	http://dbpedia.org/resource/Constellation_Brands	low
+1354	Hudson City Bancorp	Thrifts & Mortgage Finance	United States	4.6	1.7	0.2	40.6	1651	http://dbpedia.org/resource/Hudson_City_Bancorp	low
+1355	Tate & Lyle	Food Processing	United Kingdom	5.8	4.9	0.5	4.6	1654	http://dbpedia.org/resource/Tate_&_Lyle	low
+1356	Salesforce.com	Software & Programming	United States	25.8	3	-0.3	5.5	1654	http://dbpedia.org/resource/Salesforce.com	medium
+1357	Tech Data	Electronics	United States	1.9	25.4	0.2	6.8	1656	http://dbpedia.org/resource/Tech_Data	low
+1358	Corporation Bank	Regional Banks	India	1.1	2.9	0.3	32.1	1656	http://dbpedia.org/resource/Corporation_Bank	low
+1359	Tiffany & Co	Specialty Stores	United States	8.8	3.8	0.4	4.6	1659	http://dbpedia.org/resource/Tiffany_&_Co	low
+1360	Piraeus Bank	Regional Banks	Greece	0.3	3.9	-8.6	62.5	1660	http://dbpedia.org/resource/Piraeus_Bank	low
+1361	Manpower	Business & Personal Services	United States	4.5	20.7	0.2	7	1662	http://dbpedia.org/resource/Manpower	low
+1362	Aggreko	Business & Personal Services	United Kingdom	8	2.6	0.4	3.4	1664	http://dbpedia.org/resource/Aggreko	low
+1363	Airgas	Specialized Chemicals	United States	7.9	4.9	0.3	5.5	1667	http://dbpedia.org/resource/Airgas	low
+1364	Aareal Bank	Thrifts & Mortgage Finance	Germany	1.4	1.5	0.1	60.3	1668	http://dbpedia.org/resource/Aareal_Bank	low
+1365	Timken	Other Industrial Equipment	United States	5.5	5	0.5	4.2	1669	http://dbpedia.org/resource/Timken	low
+1366	FirstGroup	Other Transportation	United Kingdom	1.5	10.7	0.3	8.4	1671	http://dbpedia.org/resource/FirstGroup	low
+1367	Pepco Holdings	Electric Utilities	United States	4.8	5.1	0.3	15.8	1673	http://dbpedia.org/resource/Pepco_Holdings	low
+1368	Hero MotoCorp	Recreational Products	India	6.2	4.6	0.5	1.9	1674	http://dbpedia.org/resource/Hero_MotoCorp	low
+1369	Garmin	Consumer Electronics	Switzerland	6.8	2.7	0.5	4.8	1675	http://dbpedia.org/resource/Garmin	low
+1370	Nanto Bank	Regional Banks	Japan	1.3	1	0	58.2	1676	http://dbpedia.org/resource/Nanto_Bank	low
+1371	Maxim Integrated Products	Semiconductors	United States	9.6	2.4	0.4	3.7	1677	http://dbpedia.org/resource/Maxim_Integrated_Products	low
+1372	Bank Muscat	Regional Banks	Oman	3.3	1.1	0.4	20.5	1678	http://dbpedia.org/resource/Bank_Muscat	low
+1373	Alexion Pharmaceuticals	Biotechs	United States	18.2	1.1	0.3	2.6	1679	http://dbpedia.org/resource/Alexion_Pharmaceuticals	medium
+1374	Balfour Beatty	Construction Services	United Kingdom	2.9	15.4	0.1	9.2	1680	http://dbpedia.org/resource/Balfour_Beatty	low
+1375	Thomas Cook Group	Business & Personal Services	United Kingdom	1.6	15.3	-0.9	9.2	1683	http://dbpedia.org/resource/Thomas_Cook_Group	low
+1376	Varian Medical Systems	Medical Equipment & Supplies	United States	8	2.9	0.4	2.9	1685	http://dbpedia.org/resource/Varian_Medical_Systems	low
+1377	Macerich	Real Estate	United States	8.6	0.9	0.3	9.3	1685	http://dbpedia.org/resource/Macerich	low
+1378	Mashreq Bank	Regional Banks	United Arab Emirates	2.2	1.5	0.4	20.8	1687	http://dbpedia.org/resource/Mashreq_Bank	low
+1379	Hellenic Petroleum	Oil & Gas Operations	Greece	3.3	13.8	0.1	9.7	1688	http://dbpedia.org/resource/Hellenic_Petroleum	low
+1380	Verisk Analytics	Business & Personal Services	United States	11	1.5	0.3	2.4	1692	http://dbpedia.org/resource/Verisk_Analytics	medium
+1381	Israel Discount Bank	Regional Banks	Israel	1.9	2.9	0.2	53.8	1692	http://dbpedia.org/resource/Israel_Discount_Bank	low
+1382	Dubai Islamic Bank	Regional Banks	United Arab Emirates	2.2	1.3	0.3	26	1694	http://dbpedia.org/resource/Dubai_Islamic_Bank	low
+1383	Lawson	Food Retail	Japan	7.1	5.9	0.3	6.4	1695	http://dbpedia.org/resource/Lawson	low
+1384	Shikoku Electric Power	Electric Utilities	Japan	2.3	7.2	-0.1	16.3	1696	http://dbpedia.org/resource/Shikoku_Electric_Power	low
+1385	Volksbank	Regional Banks	Austria	0.5	2.2	-1.2	53.3	1697	http://dbpedia.org/resource/Volksbank	low
+1386	FMC	Specialized Chemicals	United States	8.3	3.7	0.4	4.4	1697	http://dbpedia.org/resource/FMC	low
+1387	Linear Technology	Semiconductors	United States	8.8	1.3	0.4	1.9	1700	http://dbpedia.org/resource/Linear_Technology	low
+1388	Abu Dhabi Islamic Bank	Regional Banks	United Arab Emirates	2.4	1	0.3	23.3	1701	http://dbpedia.org/resource/Abu_Dhabi_Islamic_Bank	low
+1389	Windstream	Telecommunications services	United States	5.2	6.2	0.2	14	1702	http://dbpedia.org/resource/Windstream	low
+1390	Orient	Consumer Financial Services	Japan	1.9	2.6	0	52	1703	http://dbpedia.org/resource/Orient	low
+1391	ITV	Broadcasting & Cable	United Kingdom	7.8	3.6	0.4	4.4	1704	http://dbpedia.org/resource/ITV	low
+1392	Randgold Resources	Diversified Metals & Mining	Channel Islands	7.7	1.3	0.4	3.1	1705	http://dbpedia.org/resource/Randgold_Resources	low
+1393	Toho Bank	Regional Banks	Japan	0.8	0.7	0.1	51.4	1705	http://dbpedia.org/resource/Toho_Bank	low
+1394	Central Bank of India	Regional Banks	India	1	4	0.1	45.2	1708	http://dbpedia.org/resource/Central_Bank_of_India	low
+1395	OPAP	Casinos & Gaming	Greece	2.8	5.2	0.7	2.3	1709	http://dbpedia.org/resource/OPAP	low
+1396	Vopak	Other Transportation	Netherlands	7.9	1.7	0.4	6.6	1710	http://dbpedia.org/resource/Vopak	low
+1397	Shanghai Industrial	Real Estate	Hong Kong-China	3.3	2.5	0.4	14.9	1714	http://dbpedia.org/resource/Shanghai_Industrial	low
+1398	JC Penney	Department Stores	United States	3.4	13	-1	9.8	1717	http://dbpedia.org/resource/JC_Penney	low
+1399	Grasim Industries	Construction Materials	India	5	4.9	0.5	7.2	1720	http://dbpedia.org/resource/Grasim_Industries	low
+1400	Nabors Industries	Oil Services & Equipment	Bermuda	5	6.8	0.2	12.7	1722	http://dbpedia.org/resource/Nabors_Industries	low
+1401	Eutelsat Communications	Broadcasting & Cable	France	8	1.5	0.4	6.3	1724	http://dbpedia.org/resource/Eutelsat_Communications	low
+1402	Carphone Warehouse	Computer & Electronics Retail	United Kingdom	1.4	0	1.2	1.2	1726	http://dbpedia.org/resource/Carphone_Warehouse	low
+1403	DIA	Food Retail	Spain	4.9	13.4	0.2	4.4	1728	http://dbpedia.org/resource/DIA	low
+1404	Syndicate Bank	Regional Banks	India	1.3	3.2	0.3	35.8	1729	http://dbpedia.org/resource/Syndicate_Bank	low
+1405	Juniper Networks	Communications Equipment	United States	10.4	4.4	0.2	9.8	1731	http://dbpedia.org/resource/Juniper_Networks	medium
+1406	Masco	Construction Materials	United States	7.1	7.7	-0.1	6.9	1732	http://dbpedia.org/resource/Masco	low
+1407	LinkedIn	Computer Services	United States	19.1	1	0	1.4	1736	http://dbpedia.org/resource/LinkedIn	medium
+1408	Jyske Bank	Regional Banks	Denmark	2.6	1.7	0.1	45.6	1737	http://dbpedia.org/resource/Jyske_Bank	low
+1409	Foot Locker	Apparel/Footwear Retail	United States	4.9	6.2	0.4	3.4	1739	http://dbpedia.org/resource/Foot_Locker	low
+1410	CNO Financial Group	Life & Health Insurance	United States	2.6	4.3	0.2	34.1	1740	http://dbpedia.org/resource/CNO_Financial_Group	low
+1411	Tim Hortons	Restaurants	Canada	7.9	3.1	0.4	2.3	1741	http://dbpedia.org/resource/Tim_Hortons	low
+1412	Doosan Heavy Industries	Heavy Equipment	South Korea	3.5	8.6	0	12.6	1742	http://dbpedia.org/resource/Doosan_Heavy_Industries	low
+1413	Tronox	Specialized Chemicals	United States	2.4	1.8	1.1	5.5	1744	http://dbpedia.org/resource/Tronox	low
+1414	Meiji Holdings	Food Processing	Japan	3.3	13.4	0.1	9.1	1747	http://dbpedia.org/resource/Meiji_Holdings	low
+1415	Terumo	Medical Equipment & Supplies	Japan	8.3	4.7	0.3	8.3	1748	http://dbpedia.org/resource/Terumo	low
+1416	SL Green Realty	Real Estate	United States	7.8	1.4	0.2	14.4	1749	http://dbpedia.org/resource/SL_Green_Realty	low
+1417	Indian Overseas Bank	Regional Banks	India	1	3.9	0.2	43.1	1749	http://dbpedia.org/resource/Indian_Overseas_Bank	low
+1418	Bank of Queensland	Regional Banks	Australia	3.1	2.8	0	43	1751	http://dbpedia.org/resource/Bank_of_Queensland	low
+1419	Renesas Electronics	Semiconductors	Japan	1.1	10.7	-0.8	10.4	1751	http://dbpedia.org/resource/Renesas_Electronics	low
+1420	OfficeMax	Specialty Stores	United States	1	6.9	0.4	3.8	1754	http://dbpedia.org/resource/OfficeMax	low
+1421	OGE Energy	Electric Utilities	United States	6.7	3.7	0.4	9.9	1759	http://dbpedia.org/resource/OGE_Energy	low
+1422	Green Mountain Coffee	Beverages	United States	8.1	4	0.4	3.5	1761	http://dbpedia.org/resource/Green_Mountain_Coffee	low
+1423	PhosAgro	Specialized Chemicals	Russia	5.5	3.1	0.6	3.4	1761	http://dbpedia.org/resource/PhosAgro	low
+1424	China Agri-Industries	Diversified Chemicals	Hong Kong-China	2.9	11.8	0.2	9.6	1764	http://dbpedia.org/resource/China_Agri-Industries	low
+1425	Popular	Regional Banks	United States	2.9	2.2	0.2	36.5	1767	http://dbpedia.org/resource/Popular	low
+1426	AOL	Computer Services	United States	2.6	2.2	1	2.8	1768	http://dbpedia.org/resource/AOL	low
+1427	Gannett	Printing & Publishing	United States	5	5.4	0.4	6.4	1768	http://dbpedia.org/resource/Gannett	low
+1428	Hokkoku Bank	Regional Banks	Japan	1.3	0.8	0.1	41.3	1770	http://dbpedia.org/resource/Hokkoku_Bank	low
+1429	CC Media Holdings	Broadcasting & Cable	United States	0.2	6.2	-0.4	16.3	1771	http://dbpedia.org/resource/CC_Media_Holdings	low
+1430	Quanta Services	Construction Services	United States	6.3	5.9	0.3	5.1	1771	http://dbpedia.org/resource/Quanta_Services	low
+1431	Luzhou Laojiao	Beverages	China	6.6	1.3	0.5	1.9	1773	http://dbpedia.org/resource/Luzhou_Laojiao	low
+1432	DLF	Real Estate	India	8.6	1.9	0.2	12.4	1775	http://dbpedia.org/resource/DLF	low
+1433	Konica Minolta	Consumer Electronics	Japan	4.2	9.3	0.2	10.5	1777	http://dbpedia.org/resource/Konica_Minolta	low
+1434	Whitbread	Hotels & Motels	United Kingdom	7	2.8	0.4	4.7	1778	http://dbpedia.org/resource/Whitbread	low
+1435	AMEC	Oil Services & Equipment	United Kingdom	4.8	6.8	0.4	4	1779	http://dbpedia.org/resource/AMEC	low
+1436	Taiheiyo Cement	Construction Materials	Japan	2.9	8.8	0.1	11.7	1780	http://dbpedia.org/resource/Taiheiyo_Cement	low
+1437	Hugo Boss	Apparel/Accessories	Germany	7.7	3	0.4	2.1	1782	http://dbpedia.org/resource/Hugo_Boss	low
+1438	Ayala	Conglomerates	Philippines	8.2	2.5	0.3	11.9	1784	http://dbpedia.org/resource/Ayala	low
+1439	Credit Saison	Consumer Financial Services	Japan	4.6	4.3	0.1	25.3	1784	http://dbpedia.org/resource/Credit_Saison	low
+1440	CJ CheilJedang	Food Processing	South Korea	4	8.8	0.2	11.6	1786	http://dbpedia.org/resource/CJ_CheilJedang	low
+1441	Anadolu Efes	Beverages	Turkey	9	3.6	0.3	6.5	1788	http://dbpedia.org/resource/Anadolu_Efes	low
+1442	Nagoya Railroad	Railroads	Japan	2.8	7.3	0.1	13.6	1788	http://dbpedia.org/resource/Nagoya_Railroad	low
+1443	Bank of Iwate	Regional Banks	Japan	0.8	0.5	0.1	38.6	1790	http://dbpedia.org/resource/Bank_of_Iwate	low
+1444	Saudi Hollandi Bank	Regional Banks	Saudi Arabia	3	0.7	0.3	18.3	1793	http://dbpedia.org/resource/Saudi_Hollandi_Bank	low
+1445	Saras	Oil & Gas Operations	Italy	1.1	15.7	-0.1	5.2	1794	http://dbpedia.org/resource/Saras	low
+1446	Church & Dwight	Household/Personal Care	United States	8.5	2.9	0.3	4.1	1796	http://dbpedia.org/resource/Church_&_Dwight	low
+1447	Harbinger Group	Household/Personal Care	United States	1.2	4.5	0.1	26.9	1797	http://dbpedia.org/resource/Harbinger_Group	low
+1448	Shiseido	Household/Personal Care	Japan	5.7	8.2	0.2	8.5	1799	http://dbpedia.org/resource/Shiseido	low
+1449	Hanjin Shipping	Other Transportation	South Korea	1.3	10	-0.6	10.3	1801	http://dbpedia.org/resource/Hanjin_Shipping	low
+1450	Zodiac Aerospace	Aerospace & Defense	France	6.4	4.3	0.4	5.1	1802	http://dbpedia.org/resource/Zodiac_Aerospace	low
+1451	Air Canada	Airline	Canada	0.7	12.2	0.1	9.1	1802	http://dbpedia.org/resource/Air_Canada	low
+1452	Eurazeo	Investment Services	France	3.6	5.7	-0.3	17.7	1804	http://dbpedia.org/resource/Eurazeo	low
+1453	First Niagara Financial	Thrifts & Mortgage Finance	United States	3	1.5	0.2	36.8	1806	http://dbpedia.org/resource/First_Niagara_Financial	low
+1454	Takashimaya	Department Stores	Japan	3	10.6	0.1	9.8	1807	http://dbpedia.org/resource/Takashimaya	low
+1455	Level 3 Communications	Telecommunications services	United States	4.6	6.4	-0.4	13.3	1808	http://dbpedia.org/resource/Level_3_Communications	low
+1456	LG Uplus	Telecommunications services	South Korea	3.5	10.2	-0.1	9.9	1810	http://dbpedia.org/resource/LG_Uplus	low
+1457	Lojas Americanas	Discount Stores	Brazil	8.9	5.5	0.2	5.3	1811	http://dbpedia.org/resource/Lojas_Americanas	low
+1458	Vesuvius	Iron & Steel	United Kingdom	1.7	2.5	0.9	3	1812	http://dbpedia.org/resource/Vesuvius	low
+1459	Furukawa Electric	Electrical Equipment	Japan	1.6	11.1	-0.1	9.5	1813	http://dbpedia.org/resource/Furukawa_Electric	low
+1460	Sage Group	Software & Programming	United Kingdom	6.1	2.2	0.5	4	1813	http://dbpedia.org/resource/Sage_Group	low
+1461	Mohawk Industries	Furniture & Fixtures	United States	7.9	5.8	0.3	6.3	1815	http://dbpedia.org/resource/Mohawk_Industries	low
+1462	Toyo Seikan Kaisha	Containers & Packaging	Japan	2.9	8.5	0	11.5	1816	http://dbpedia.org/resource/Toyo_Seikan_Kaisha	low
+1463	UCO Bank	Regional Banks	India	0.7	3.1	0.2	35.4	1818	http://dbpedia.org/resource/UCO_Bank	low
+1464	Incitec Pivot	Specialized Chemicals	Australia	5.7	3.6	0.5	7.3	1819	http://dbpedia.org/resource/Incitec_Pivot	low
+1465	Telecom of New Zealand	Telecommunications services	New Zealand	3.4	3.5	0.9	2.9	1820	http://dbpedia.org/resource/Telecom_of_New_Zealand	low
+1466	China Aviation Oil	Trading Companies	Singapore	0.6	14.8	0.1	1.6	1821	http://dbpedia.org/resource/China_Aviation_Oil	low
+1467	Acer	Computer Hardware	Taiwan	2.5	14.8	-0.1	7.8	1822	http://dbpedia.org/resource/Acer	low
+1468	Grupa Lotos	Oil & Gas Operations	Poland	1.8	10.2	0.3	6.5	1826	http://dbpedia.org/resource/Grupa_Lotos	low
+1469	Oriental Bank of Commerce	Regional Banks	India	1.5	3.4	0.2	35	1827	http://dbpedia.org/resource/Oriental_Bank_of_Commerce	low
+1470	DGB Financial Group	Consumer Financial Services	South Korea	2	1.7	0.2	32.2	1829	http://dbpedia.org/resource/DGB_Financial_Group	low
+1471	Getinge	Medical Equipment & Supplies	Sweden	7.3	3.7	0.4	6.5	1830	http://dbpedia.org/resource/Getinge	low
+1472	Kimco Realty	Real Estate	United States	9	0.9	0.3	9.7	1831	http://dbpedia.org/resource/Kimco_Realty	low
+1473	Chicago Bridge & Iron	Construction Services	Netherlands	6.1	5.6	0.3	4.3	1832	http://dbpedia.org/resource/Chicago_Bridge_&_Iron	low
+1474	Hainan Airlines	Airline	China	4.5	4.4	0.3	14.9	1833	http://dbpedia.org/resource/Hainan_Airlines	low
+1475	Total Access Communication	Telecommunications services	Thailand	7.7	2.9	0.4	3.3	1833	http://dbpedia.org/resource/Total_Access_Communication	low
+1476	Imerys	Construction Materials	France	5.2	5.1	0.4	6.3	1837	http://dbpedia.org/resource/Imerys	low
+1477	Navistar International	Heavy Equipment	United States	2.9	12.5	-3	8.5	1838	http://dbpedia.org/resource/Navistar_International	low
+1478	Laurentian Bank	Regional Banks	Canada	1.2	1.5	0.1	34.3	1839	http://dbpedia.org/resource/Laurentian_Bank	low
+1479	MISC	Other Transportation	Malaysia	7.4	3.1	0.2	12.2	1842	http://dbpedia.org/resource/MISC	low
+1480	DCC	Conglomerates	Ireland	2.8	14.3	0.1	5	1843	http://dbpedia.org/resource/DCC	low
+1481	Ternium	Iron & Steel	Luxembourg	4	8.6	0.1	10.9	1843	http://dbpedia.org/resource/Ternium	low
+1482	Inchcape	Specialty Stores	United Kingdom	3.6	9.6	0.3	5.5	1843	http://dbpedia.org/resource/Inchcape	low
+1483	Toll Brothers	Construction Services	United States	5.8	2	0.5	6.1	1847	http://dbpedia.org/resource/Toll_Brothers	low
+1484	Alpha Natural Resources	Diversified Metals & Mining	United States	1.9	7	-2.4	13.1	1847	http://dbpedia.org/resource/Alpha_Natural_Resources	low
+1485	Zhongjin Gold	Diversified Metals & Mining	China	6.9	5.3	0.3	3	1847	http://dbpedia.org/resource/Zhongjin_Gold	low
+1486	Aichi Bank	Regional Banks	Japan	0.6	0.6	0	33.5	1851	http://dbpedia.org/resource/Aichi_Bank	low
+1487	East West Bancorp	Regional Banks	United States	3.5	1.1	0.3	22.5	1852	http://dbpedia.org/resource/East_West_Bancorp	low
+1488	Willis Group Holdings	Insurance Brokers	United Kingdom	6.6	3.5	-0.4	15.1	1854	http://dbpedia.org/resource/Willis_Group_Holdings	low
+1489	Calsonic Kansei	Auto & Truck Parts	Japan	1.2	9.4	0.3	4.1	1856	http://dbpedia.org/resource/Calsonic_Kansei	low
+1490	Interactive Brokers Group	Investment Services	United States	0.7	1.2	0	33.2	1857	http://dbpedia.org/resource/Interactive_Brokers_Group	low
+1491	Kuala Lumpur Kepong	Diversified Chemicals	Malaysia	6.9	3.3	0.4	3.7	1858	http://dbpedia.org/resource/Kuala_Lumpur_Kepong	low
+1492	Almarai	Food Processing	Saudi Arabia	7.1	2.6	0.4	5.2	1858	http://dbpedia.org/resource/Almarai	low
+1493	Energizer Holdings	Household/Personal Care	United States	5.8	4.6	0.4	6.7	1858	http://dbpedia.org/resource/Energizer_Holdings	low
+1494	Swedish Match	Tobacco	Sweden	6.3	1.8	0.4	2.2	1862	http://dbpedia.org/resource/Swedish_Match	low
+1495	Mirvac Group	Real Estate	Australia	6.1	1.6	0.4	8.3	1863	http://dbpedia.org/resource/Mirvac_Group	low
+1496	Inventec	Computer Hardware	Taiwan	1.3	13.9	0.1	6.9	1866	http://dbpedia.org/resource/Inventec	low
+1497	Transurban Group	Other Transportation	Australia	9.5	1.2	0.1	10.1	1866	http://dbpedia.org/resource/Transurban_Group	low
+1498	Cabot Oil & Gas	Oil & Gas Operations	United States	14.1	1.2	0.1	4.6	1869	http://dbpedia.org/resource/Cabot_Oil_&_Gas	medium
+1499	Monster Beverage	Beverages	United States	8	2.1	0.3	1	1870	http://dbpedia.org/resource/Monster_Beverage	low
+1500	Banque Centrale Populaire	Regional Banks	Morocco	3.9	1.9	0.2	32	1871	http://dbpedia.org/resource/Banque_Centrale_Populaire	low
+1501	Gemalto	Electronics	Netherlands	8.1	2.9	0.3	3.6	1872	http://dbpedia.org/resource/Gemalto	low
+1502	Iliad	Computer Services	France	11	4.2	0.2	6.3	1873	http://dbpedia.org/resource/Iliad	medium
+1503	Teijin	Diversified Chemicals	Japan	2.3	10.3	0.1	9.2	1875	http://dbpedia.org/resource/Teijin	low
+1504	BayWa	Specialty Stores	Germany	1.7	13.5	0.1	5.9	1875	http://dbpedia.org/resource/BayWa	low
+1505	Akita Bank	Regional Banks	Japan	0.5	0.6	0	31.6	1878	http://dbpedia.org/resource/Akita_Bank	low
+1506	Andhra Bank	Regional Banks	India	1	2.5	0.3	24.7	1878	http://dbpedia.org/resource/Andhra_Bank	low
+1507	DVB Bank	Regional Banks	Germany	1.5	1.5	0.2	31.4	1880	http://dbpedia.org/resource/DVB_Bank	low
+1508	Prysmian	Electrical Equipment	Italy	4.9	10.1	0.2	7.9	1881	http://dbpedia.org/resource/Prysmian	low
+1509	Nokian Tyres	Auto & Truck Parts	Finland	6.1	2.1	0.4	2.7	1883	http://dbpedia.org/resource/Nokian_Tyres	low
+1510	Showa Denko	Diversified Chemicals	Japan	2.2	8.5	0.1	10.5	1885	http://dbpedia.org/resource/Showa_Denko	low
+1511	Tenet Healthcare	Healthcare Services	United States	4.6	9.1	0.1	9	1885	http://dbpedia.org/resource/Tenet_Healthcare	low
+1512	Sealed Air	Containers & Packaging	United States	4.7	7.6	-1.1	10	1887	http://dbpedia.org/resource/Sealed_Air	low
+1513	CapitaMall Trust	Real Estate	Singapore	5.8	0.5	0.4	8.1	1889	http://dbpedia.org/resource/CapitaMall_Trust	low
+1514	H&R Block	Business & Personal Services	United States	7.5	2.7	0.4	3.9	1890	http://dbpedia.org/resource/H&R_Block	low
+1515	Southwestern Energy	Oil & Gas Operations	United States	13.5	2.7	-0.7	6.7	1890	http://dbpedia.org/resource/Southwestern_Energy	medium
+1516	Dixons Retail	Computer & Electronics Retail	United Kingdom	1.9	13.3	-0.3	4.7	1892	http://dbpedia.org/resource/Dixons_Retail	low
+1517	Seiko Epson	Business Products & Supplies	Japan	1.9	10.6	0.1	9	1894	http://dbpedia.org/resource/Seiko_Epson	low
+1518	Luzerner Kantonalbank	Regional Banks	Switzerland	3.2	0.7	0.2	30.6	1894	http://dbpedia.org/resource/Luzerner_Kantonalbank	low
+1519	Hillshire Brands	Food Processing	United States	4.2	4.1	0.7	2.5	1896	http://dbpedia.org/resource/Hillshire_Brands	low
+1520	Smithfield Foods	Food Processing	United States	3.7	13.1	0.2	7.6	1897	http://dbpedia.org/resource/Smithfield_Foods	low
+1521	Dragon Oil	Oil & Gas Operations	United Arab Emirates	4.8	1.2	0.6	3.8	1902	http://dbpedia.org/resource/Dragon_Oil	low
+1522	Range Resources	Oil & Gas Operations	United States	13.4	1.5	0	6.7	1903	http://dbpedia.org/resource/Range_Resources	medium
+1523	Aomori Bank	Regional Banks	Japan	0.7	0.5	0	29.8	1907	http://dbpedia.org/resource/Aomori_Bank	low
+1524	Porto Seguro	Diversified Insurance	Brazil	4.4	6.1	0.3	8.8	1908	http://dbpedia.org/resource/Porto_Seguro	low
+1525	Chipotle Mexican Grill	Restaurants	United States	10	2.7	0.3	1.7	1908	http://dbpedia.org/resource/Chipotle_Mexican_Grill	medium
+1526	Lindt & Sprungli	Food Processing	Switzerland	9.3	2.8	0.3	2.9	1910	http://dbpedia.org/resource/Lindt_&_Sprungli	low
+1527	Symetra Financial	Life & Health Insurance	United States	1.7	2.1	0.2	29.5	1911	http://dbpedia.org/resource/Symetra_Financial	low
+1528	CareFusion	Medical Equipment & Supplies	United States	7.6	3.6	0.3	8.4	1911	http://dbpedia.org/resource/CareFusion	low
+1529	TransDigm Group	Aerospace & Defense	United States	7.9	1.8	0.3	5.6	1914	http://dbpedia.org/resource/TransDigm_Group	low
+1530	WEG	Electrical Equipment	Brazil	8.1	3	0.3	4.3	1914	http://dbpedia.org/resource/WEG	low
+1531	Commerce Bancshares	Regional Banks	United States	3.6	1.1	0.3	22.2	1917	http://dbpedia.org/resource/Commerce_Bancshares	low
+1532	Metcash	Food Retail	Australia	3.9	12.8	0.1	4.1	1918	http://dbpedia.org/resource/Metcash	low
+1533	Kesko	Food Retail	Finland	3.2	12.8	0.2	5.8	1919	http://dbpedia.org/resource/Kesko	low
+1534	Motor Oil	Oil & Gas Operations	Greece	1.2	12.8	0.1	3.4	1920	http://dbpedia.org/resource/Motor_Oil	low
+1535	Fraport	Other Transportation	Germany	5.2	3.1	0.3	12.7	1921	http://dbpedia.org/resource/Fraport	low
+1536	Frontier Communications	Telecommunications services	United States	4.1	5	0.1	17.7	1923	http://dbpedia.org/resource/Frontier_Communications	low
+1537	Dean Foods	Food Processing	United States	3.4	12.5	0.2	5.7	1927	http://dbpedia.org/resource/Dean_Foods	low
+1538	Dick's Sporting Goods	Specialty Stores	United States	5.8	5.8	0.3	2.9	1927	http://dbpedia.org/resource/Dick's_Sporting_Goods	low
+1539	Sika	Construction Materials	Switzerland	6.2	5.2	0.3	4.7	1931	http://dbpedia.org/resource/Sika	low
+1540	Alliant Energy	Electric Utilities	United States	5.4	3.1	0.3	10.8	1932	http://dbpedia.org/resource/Alliant_Energy	low
+1541	Sacyr Vallehermoso	Construction Services	Spain	0.9	4.6	-1.3	19.7	1934	http://dbpedia.org/resource/Sacyr_Vallehermoso	low
+1542	Lululemon Athletica	Apparel/Footwear Retail	Canada	10	1.4	0.3	1.1	1937	http://dbpedia.org/resource/Lululemon_Athletica	medium
+1543	Nippon Meat Packers	Food Processing	Japan	3.3	12.3	0.1	7	1937	http://dbpedia.org/resource/Nippon_Meat_Packers	low
+1544	Severn Trent	Diversified Utilities	United Kingdom	5.9	2.8	0.3	12.3	1941	http://dbpedia.org/resource/Severn_Trent	low
+1545	Hyundai Wia	Auto & Truck Parts	South Korea	4	6.2	0.4	4.3	1942	http://dbpedia.org/resource/Hyundai_Wia	low
+1546	Aberdeen Asset Management	Investment Services	United Kingdom	7.5	1.4	0.3	6.5	1942	http://dbpedia.org/resource/Aberdeen_Asset_Management	low
+1547	Tongling Nonferrous Metals	Diversified Metals & Mining	China	3.9	12.2	0.1	5.9	1944	http://dbpedia.org/resource/Tongling_Nonferrous_Metals	low
+1548	SpareBank 1 SR-Bank	Regional Banks	Norway	2.4	1.2	0.2	25.4	1944	http://dbpedia.org/resource/SpareBank_1_SR-Bank	low
+1549	Catlin Group	Property & Casualty Insurance	Bermuda	2.8	3.8	0.3	14	1947	http://dbpedia.org/resource/Catlin_Group	low
+1550	Expedia	Business & Personal Services	United States	9	4	0.3	7.1	1948	http://dbpedia.org/resource/Expedia	low
+1551	Hikvision	Electronics	China	12.3	0.8	0.2	1.3	1948	http://dbpedia.org/resource/Hikvision	medium
+1552	Whiting Petroleum	Oil & Gas Operations	United States	6.1	2.2	0.4	7.3	1948	http://dbpedia.org/resource/Whiting_Petroleum	low
+1553	Finning International	Other Industrial Equipment	Canada	4.3	6.7	0.3	5.1	1952	http://dbpedia.org/resource/Finning_International	low
+1554	MeadWestvaco	Paper & Paper Products	United States	6.6	5.5	0.2	8.9	1953	http://dbpedia.org/resource/MeadWestvaco	low
+1555	Makita	Household/Personal Care	Japan	6.4	3.6	0.4	4.6	1954	http://dbpedia.org/resource/Makita	low
+1556	Kanematsu	Trading Companies	Japan	0.6	12.2	0.1	4.7	1954	http://dbpedia.org/resource/Kanematsu	low
+1557	Ambac Financial Group	Diversified Insurance	United States	0	0.7	-0.3	27	1957	http://dbpedia.org/resource/Ambac_Financial_Group	low
+1558	Sydbank	Regional Banks	Denmark	1.6	1.1	0.1	27	1958	http://dbpedia.org/resource/Sydbank	low
+1559	TPV Technology	Computer Storage Devices	Hong Kong-China	0.8	12	0.1	6.9	1959	http://dbpedia.org/resource/TPV_Technology	low
+1560	James Hardie Industries	Construction Materials	Ireland	4.7	1.2	0.6	1.9	1959	http://dbpedia.org/resource/James_Hardie_Industries	low
+1561	Telekom Malaysia	Telecommunications services	Malaysia	6.1	3.2	0.4	7.3	1961	http://dbpedia.org/resource/Telekom_Malaysia	low
+1562	Vestas Wind Systems	Electrical Equipment	Denmark	1.6	9.5	-1.3	9	1962	http://dbpedia.org/resource/Vestas_Wind_Systems	low
+1563	Yamagata Bank	Regional Banks	Japan	0.8	0.5	0	26.6	1964	http://dbpedia.org/resource/Yamagata_Bank	low
+1564	Nelnet	Consumer Financial Services	United States	1.6	1	0.2	26.6	1965	http://dbpedia.org/resource/Nelnet	low
+1565	Commercial International Bank	Regional Banks	Egypt	2.8	1.5	0.3	14.8	1966	http://dbpedia.org/resource/Commercial_International_Bank	low
+1566	Hakuhodo DY Holdings	Advertising	Japan	3	11.8	0.1	6.2	1967	http://dbpedia.org/resource/Hakuhodo_DY_Holdings	low
+1567	Dillard's	Department Stores	United States	3.8	6.8	0.3	4	1969	http://dbpedia.org/resource/Dillard's	low
+1568	EQT	Oil & Gas Operations	United States	10	1.6	0.2	8.8	1969	http://dbpedia.org/resource/EQT	medium
+1569	Aeroflot-Russian Airlines	Airline	Russia	1.9	4.9	0.5	5.2	1974	http://dbpedia.org/resource/Aeroflot-Russian_Airlines	low
+1570	Fuji Electric	Electrical Equipment	Japan	2.1	8.5	0.1	9.6	1975	http://dbpedia.org/resource/Fuji_Electric	low
+1571	Omron	Electronics	Japan	5.5	7.5	0.2	6.1	1975	http://dbpedia.org/resource/Omron	low
+1572	Ford Otosan	Auto & Truck Manufacturers	Turkey	4.5	5.5	0.4	2.6	1977	http://dbpedia.org/resource/Ford_Otosan	low
+1573	Toyota Boshoku	Auto & Truck Parts	Japan	2.6	11.6	0	7.1	1977	http://dbpedia.org/resource/Toyota_Boshoku	low
+1574	EFG International	Major Banks	Switzerland	2.1	1.3	0.1	25.8	1979	http://dbpedia.org/resource/EFG_International	low
+1575	Cliffs Natural Resources	Iron & Steel	United States	3.5	5.9	-0.9	13.6	1981	http://dbpedia.org/resource/Cliffs_Natural_Resources	low
+1576	First Horizon National	Regional Banks	United States	2.7	1.5	0	25.5	1983	http://dbpedia.org/resource/First_Horizon_National	low
+1577	Reliance Infrastructure	Electric Utilities	India	2	4.7	0.3	12.1	1984	http://dbpedia.org/resource/Reliance_Infrastructure	low
+1578	Wing Hang Bank	Regional Banks	Hong Kong-China	3.2	0.9	0.2	25.5	1986	http://dbpedia.org/resource/Wing_Hang_Bank	low
+1579	IMI	Other Industrial Equipment	United Kingdom	6.6	3.5	0.4	2.8	1987	http://dbpedia.org/resource/IMI	low
+1580	Klabin	Containers & Packaging	Brazil	6.5	2	0.4	6.9	1989	http://dbpedia.org/resource/Klabin	low
+1581	Alexander's	Real Estate	United States	1.7	0.2	0.7	1.5	1990	http://dbpedia.org/resource/Alexander's	low
+1582	Health Net	Managed Health Care	United States	2.3	11.3	0.1	3.9	1993	http://dbpedia.org/resource/Health_Net	low
+1583	Tractor Supply	Specialty Stores	United States	7.1	4.7	0.3	1.7	1995	http://dbpedia.org/resource/Tractor_Supply	low
+1584	San-Ai Oil	Oil & Gas Operations	Japan	0.4	11.2	0.1	2.6	1996	http://dbpedia.org/resource/San-Ai_Oil	low
+1585	UOL Group	Real Estate	Singapore	4.2	0.9	0.7	7.8	1996	http://dbpedia.org/resource/UOL_Group	low
