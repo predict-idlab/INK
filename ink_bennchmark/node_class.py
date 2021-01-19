@@ -67,6 +67,13 @@ class MultiProcessingRandomWalker(RandomWalker):
 
         return canonical_walks
 ###
+import os.path
+import csv
+
+if not os.path.exists('results.csv'):
+    with open('results.csv', 'w+') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Dataset','Method','depth','NB', 'NN', 'DT', 'SVC','LR','Create_time','Train_time','Test_time', 'Memory'])
 
 """ parameters """
 if __name__ == "__main__":
@@ -148,188 +155,199 @@ if __name__ == "__main__":
     connector.upload_kg(dir_kb+'/'+file)
 
     ink_var = True
-    for _ in tqdm(range(5)):
+    #for _ in tqdm(range(5)):
 
-        ## INK exrtact
-        if ink_var:
-            t0 = time.time()
-            extractor = InkExtractor(connector, verbose=False)
-            X_train, y_train = extractor.create_dataset(depth, pos_file, set(), excludes, jobs=4)
-            extracted_data = extractor.fit_transform(X_train, counts=False, levels=False)
-
-            df_data = pd.DataFrame.sparse.from_spmatrix(extracted_data[0])
-            df_data.index = [x[1:-1] for x in extracted_data[1]]
-            df_data.columns = extracted_data[2]
-
-            #threshold_n = 0.75
-            #sel = VarianceThreshold(threshold=(threshold_n * (1 - threshold_n)))
-            #sel_var = sel.fit_transform(df_data)
-            #df_data = df_data[df_data.columns[sel.get_support(indices=True)]]
-
-            ink_time_create.append(time.time()-t0)
-
-            ink_memory.append(asizeof.asizeof(df_data))
-
-        ## RDF2Vec extract:
+    ## INK exrtact
+    if ink_var:
         t0 = time.time()
-        kg = KG(location="http://localhost:5820/"+str(dataset)+"/query", is_remote=True, label_predicates=excludes)
-        walkers = [MultiProcessingRandomWalker(depth, 1000, UniformSampler())]
-        embedder = Word2Vec(size=500, sg=1)
-        transformer = RDF2VecTransformer(walkers=walkers, embedder=embedder)
-        inds = [ind[1:-1] for ind in list(pos_file)]
-        embeddings = transformer.fit_transform(kg, inds)
-        rdf_time_create.append(time.time()-t0)
+        extractor = InkExtractor(connector, verbose=False)
+        X_train, y_train = extractor.create_dataset(depth, pos_file, set(), excludes, jobs=4)
+        extracted_data = extractor.fit_transform(X_train, counts=False, levels=False)
 
-        rdf_memory.append(asizeof.asizeof(embeddings))
+        df_data = pd.DataFrame.sparse.from_spmatrix(extracted_data[0])
+        df_data.index = [x[1:-1] for x in extracted_data[1]]
+        df_data.columns = extracted_data[2]
 
-        # split in test & train
-        if ink_var:
-            t1 = time.time()
-            # INK train:
-            df_train_extr = df_data[df_data.index.isin(df_train[items_name].values)]#df_data.loc[[df_train['proxy']],:]
-            df_test_extr = df_data[df_data.index.isin(df_test[items_name].values)]#df_data.loc[[df_test['proxy']],:]
+        #threshold_n = 0.75
+        #sel = VarianceThreshold(threshold=(threshold_n * (1 - threshold_n)))
+        #sel_var = sel.fit_transform(df_data)
+        #df_data = df_data[df_data.columns[sel.get_support(indices=True)]]
 
-            df_train_extr = df_train_extr.merge(df_train[[items_name,'label']], left_index=True, right_on=items_name)
-            df_test_extr = df_test_extr.merge(df_test[[items_name, 'label']], left_index=True, right_on=items_name)
+        ink_time_create.append(time.time()-t0)
 
-            ####
-            X = df_train_extr.drop(['label',items_name], axis=1).values
-            y = df_train_extr['label'].values
+        ink_memory.append(asizeof.asizeof(df_data))
 
-            clf_1 = KNeighborsClassifier(n_neighbors=3)
-            clf_2 = GaussianNB()#MultinomialNB(alpha=0)
-            clf_3 = DecisionTreeClassifier()
-            clf_4 = GridSearchCV(SVC(), {'C':[10**-3, 10**-2, 0.1, 1, 10, 10**2, 10**3]}, cv=3, n_jobs=4)
-            clf_5 = GridSearchCV(LogisticRegression(), {'C':[10**-3, 10**-2, 0.1, 1, 10, 10**2, 10**3], 'max_iter':[10000]}, cv=3, n_jobs=4)
+    ## RDF2Vec extract:
+    t0 = time.time()
+    kg = KG(location="http://localhost:5820/"+str(dataset)+"/query", is_remote=True, label_predicates=excludes)
+    walkers = [MultiProcessingRandomWalker(depth, 1000, UniformSampler())]
+    embedder = Word2Vec(size=500, sg=1)
+    transformer = RDF2VecTransformer(walkers=walkers, embedder=embedder)
+    inds = [ind[1:-1] for ind in list(pos_file)]
+    embeddings = transformer.fit_transform(kg, inds)
+    rdf_time_create.append(time.time()-t0)
 
-            clf_1.fit(X,y)
-            clf_2.fit(X,y)
-            clf_3.fit(X,y)
-            clf_4.fit(X,y)
-            clf_5.fit(X,y)
+    rdf_memory.append(asizeof.asizeof(embeddings))
 
-            ink_time_train.append(time.time()-t1)
-
-            # INK predict
-            t2 = time.time()
-            y_pred_1 = clf_1.predict(df_test_extr.drop(['label',items_name], axis=1).values)
-            y_pred_2 = clf_2.predict(df_test_extr.drop(['label',items_name], axis=1).values)
-            y_pred_3 = clf_3.predict(df_test_extr.drop(['label',items_name], axis=1).values)
-            y_pred_4 = clf_4.predict(df_test_extr.drop(['label',items_name], axis=1).values)
-            y_pred_5 = clf_5.predict(df_test_extr.drop(['label',items_name], axis=1).values)
-
-            ink_time_test.append(time.time()-t2)
-
-            ink_total_NN.append(accuracy_score(df_test_extr['label'].values, y_pred_1))
-            ink_total_NB.append(accuracy_score(df_test_extr['label'].values, y_pred_2))
-            ink_total_tree.append(accuracy_score(df_test_extr['label'].values, y_pred_3))
-            ink_total_support.append(accuracy_score(df_test_extr['label'].values, y_pred_4))
-            ink_total_log.append(accuracy_score(df_test_extr['label'].values, y_pred_5))
-
-
-        #print(pos_file)
-        # RDF2Vec train:
+    # split in test & train
+    if ink_var:
         t1 = time.time()
-        train_inds = [inds.index(v) for v in df_train[items_name].values]
-        test_inds = [inds.index(v) for v in df_test[items_name].values]
+        # INK train:
+        df_train_extr = df_data[df_data.index.isin(df_train[items_name].values)]#df_data.loc[[df_train['proxy']],:]
+        df_test_extr = df_data[df_data.index.isin(df_test[items_name].values)]#df_data.loc[[df_test['proxy']],:]
 
-        X = [embeddings[i] for i in train_inds]
-        y = df_train['label'].values
+        df_train_extr = df_train_extr.merge(df_train[[items_name,'label']], left_index=True, right_on=items_name)
+        df_test_extr = df_test_extr.merge(df_test[[items_name, 'label']], left_index=True, right_on=items_name)
+
+        ####
+        X = df_train_extr.drop(['label',items_name], axis=1).values
+        y = df_train_extr['label'].values
 
         clf_1 = KNeighborsClassifier(n_neighbors=3)
-        clf_2 = GaussianNB()
+        clf_2 = GaussianNB()#MultinomialNB(alpha=0)
         clf_3 = DecisionTreeClassifier()
-        clf_4 = GridSearchCV(SVC(), {'C': [10 ** -3, 10 ** -2, 0.1, 1, 10, 10 ** 2, 10 ** 3]}, cv=3, n_jobs=4)
-        clf_5 = GridSearchCV(LogisticRegression(),
-                             {'C': [10 ** -3, 10 ** -2, 0.1, 1, 10, 10 ** 2, 10 ** 3], 'max_iter': [10000]}, cv=3,
-                             n_jobs=4)
+        clf_4 = GridSearchCV(SVC(), {'C':[10**-3, 10**-2, 0.1, 1, 10, 10**2, 10**3]}, cv=3, n_jobs=4)
+        clf_5 = GridSearchCV(LogisticRegression(), {'C':[10**-3, 10**-2, 0.1, 1, 10, 10**2, 10**3], 'max_iter':[10000]}, cv=3, n_jobs=4)
 
-        clf_1.fit(X, y)
-        clf_2.fit(X, y)
-        clf_3.fit(X, y)
-        clf_4.fit(X, y)
-        clf_5.fit(X, y)
+        clf_1.fit(X,y)
+        clf_2.fit(X,y)
+        clf_3.fit(X,y)
+        clf_4.fit(X,y)
+        clf_5.fit(X,y)
 
-        rdf_time_train.append(time.time()-t1)
+        ink_time_train.append(time.time()-t1)
 
-        # RDF2vec predict
-
+        # INK predict
         t2 = time.time()
-        y_pred_1 = clf_1.predict([embeddings[i] for i in test_inds])
-        y_pred_2 = clf_2.predict([embeddings[i] for i in test_inds])
-        y_pred_3 = clf_3.predict([embeddings[i] for i in test_inds])
-        y_pred_4 = clf_4.predict([embeddings[i] for i in test_inds])
-        y_pred_5 = clf_5.predict([embeddings[i] for i in test_inds])
+        y_pred_1 = clf_1.predict(df_test_extr.drop(['label',items_name], axis=1).values)
+        y_pred_2 = clf_2.predict(df_test_extr.drop(['label',items_name], axis=1).values)
+        y_pred_3 = clf_3.predict(df_test_extr.drop(['label',items_name], axis=1).values)
+        y_pred_4 = clf_4.predict(df_test_extr.drop(['label',items_name], axis=1).values)
+        y_pred_5 = clf_5.predict(df_test_extr.drop(['label',items_name], axis=1).values)
 
-        rdf_time_test.append(time.time()-t2)
+        ink_time_test.append(time.time()-t2)
 
-        rdf_total_NN.append(accuracy_score(df_test['label'].values, y_pred_1))
-        rdf_total_NB.append(accuracy_score(df_test['label'].values, y_pred_2))
-        rdf_total_tree.append(accuracy_score(df_test['label'].values, y_pred_3))
-        rdf_total_support.append(accuracy_score(df_test['label'].values, y_pred_4))
-        rdf_total_log.append(accuracy_score(df_test['label'].values, y_pred_5))
+        ink_total_NN.append(accuracy_score(df_test_extr['label'].values, y_pred_1))
+        ink_total_NB.append(accuracy_score(df_test_extr['label'].values, y_pred_2))
+        ink_total_tree.append(accuracy_score(df_test_extr['label'].values, y_pred_3))
+        ink_total_support.append(accuracy_score(df_test_extr['label'].values, y_pred_4))
+        ink_total_log.append(accuracy_score(df_test_extr['label'].values, y_pred_5))
 
-        #print(f'AUC LR: {accuracy_score(y_test, y_pred_1)}')
-    if ink_var:
-        print('---INK----')
-        print('INK Naive bayes')
-        print(np.mean(ink_total_NB))
-        print(np.std(ink_total_NB))
-        print('INK Neirest neighbors')
-        print(np.mean(ink_total_NN))
-        print(np.std(ink_total_NN))
-        print('INK Decision Tree')
-        print(np.mean(ink_total_tree))
-        print(np.std(ink_total_tree))
-        print('INK SVC')
-        print(np.mean(ink_total_support))
-        print(np.std(ink_total_support))
-        print('INK Logreg')
-        print(np.mean(ink_total_log))
-        print(np.std(ink_total_log))
-        print('---')
-        print('INK create time')
-        print(np.mean(ink_time_create))
-        print(np.std(ink_time_create))
-        print('INK train time')
-        print(np.mean(ink_time_train))
-        print(np.std(ink_time_train))
-        print('INK test time')
-        print(np.mean(ink_time_test))
-        print(np.std(ink_time_test))
-        print('---')
-        print('INK embedding size')
-        print(np.mean(ink_memory))
-        print(np.std(ink_memory))
 
-    print('---RDF2Vec----')
-    print('RDF2Vec Naive bayes')
-    print(np.mean(rdf_total_NB))
-    print(np.std(rdf_total_NB))
-    print('RDF2Vec Neirest neighbors')
-    print(np.mean(rdf_total_NN))
-    print(np.std(rdf_total_NN))
-    print('RDF2Vec Decision Tree')
-    print(np.mean(rdf_total_tree))
-    print(np.std(rdf_total_tree))
-    print('RDF2Vec SVC')
-    print(np.mean(rdf_total_support))
-    print(np.std(rdf_total_support))
-    print('RDF2Vec Logreg')
-    print(np.mean(rdf_total_log))
-    print(np.std(rdf_total_log))
-    print('---')
-    print('RDF create time')
-    print(np.mean(rdf_time_create))
-    print(np.std(rdf_time_create))
-    print('RDF train time')
-    print(np.mean(rdf_time_train))
-    print(np.std(rdf_time_train))
-    print('RDF test time')
-    print(np.mean(rdf_time_test))
-    print(np.std(rdf_time_test))
-    print('---')
-    print('RDF embedding size')
-    print(np.mean(rdf_memory))
-    print(np.std(rdf_memory))
+    #print(pos_file)
+    # RDF2Vec train:
+    t1 = time.time()
+    train_inds = [inds.index(v) for v in df_train[items_name].values]
+    test_inds = [inds.index(v) for v in df_test[items_name].values]
+
+    X = [embeddings[i] for i in train_inds]
+    y = df_train['label'].values
+
+    clf_1 = KNeighborsClassifier(n_neighbors=3)
+    clf_2 = GaussianNB()
+    clf_3 = DecisionTreeClassifier()
+    clf_4 = GridSearchCV(SVC(), {'C': [10 ** -3, 10 ** -2, 0.1, 1, 10, 10 ** 2, 10 ** 3]}, cv=3, n_jobs=4)
+    clf_5 = GridSearchCV(LogisticRegression(),
+                         {'C': [10 ** -3, 10 ** -2, 0.1, 1, 10, 10 ** 2, 10 ** 3], 'max_iter': [10000]}, cv=3,
+                         n_jobs=4)
+
+    clf_1.fit(X, y)
+    clf_2.fit(X, y)
+    clf_3.fit(X, y)
+    clf_4.fit(X, y)
+    clf_5.fit(X, y)
+
+    rdf_time_train.append(time.time()-t1)
+
+    # RDF2vec predict
+
+    t2 = time.time()
+    y_pred_1 = clf_1.predict([embeddings[i] for i in test_inds])
+    y_pred_2 = clf_2.predict([embeddings[i] for i in test_inds])
+    y_pred_3 = clf_3.predict([embeddings[i] for i in test_inds])
+    y_pred_4 = clf_4.predict([embeddings[i] for i in test_inds])
+    y_pred_5 = clf_5.predict([embeddings[i] for i in test_inds])
+
+    rdf_time_test.append(time.time()-t2)
+
+    rdf_total_NN.append(accuracy_score(df_test['label'].values, y_pred_1))
+    rdf_total_NB.append(accuracy_score(df_test['label'].values, y_pred_2))
+    rdf_total_tree.append(accuracy_score(df_test['label'].values, y_pred_3))
+    rdf_total_support.append(accuracy_score(df_test['label'].values, y_pred_4))
+    rdf_total_log.append(accuracy_score(df_test['label'].values, y_pred_5))
+
+    with open('results.csv', 'a') as f:
+        writer = csv.writer(f)
+        writer.writerow(
+            [dataset,'INK', depth, ink_total_NB[0], ink_total_NN[0], ink_total_tree[0], ink_total_support[0], ink_total_log[0], ink_time_create[0], ink_time_train[0], ink_time_test[0], ink_memory[0]])
+
+    with open('results.csv', 'a') as f:
+        writer = csv.writer(f)
+        writer.writerow(
+            [dataset,'RDF2Vec', depth, rdf_total_NB[0], rdf_total_NN[0], rdf_total_tree[0], rdf_total_support[0], rdf_total_log[0], rdf_time_create[0], rdf_time_train[0], rdf_time_test[0], rdf_memory[0]])
+
+    #
+    #     #print(f'AUC LR: {accuracy_score(y_test, y_pred_1)}')
+    # if ink_var:
+    #     print('---INK----')
+    #     print('INK Naive bayes')
+    #     print(np.mean(ink_total_NB))
+    #     print(np.std(ink_total_NB))
+    #     print('INK Neirest neighbors')
+    #     print(np.mean(ink_total_NN))
+    #     print(np.std(ink_total_NN))
+    #     print('INK Decision Tree')
+    #     print(np.mean(ink_total_tree))
+    #     print(np.std(ink_total_tree))
+    #     print('INK SVC')
+    #     print(np.mean(ink_total_support))
+    #     print(np.std(ink_total_support))
+    #     print('INK Logreg')
+    #     print(np.mean(ink_total_log))
+    #     print(np.std(ink_total_log))
+    #     print('---')
+    #     print('INK create time')
+    #     print(np.mean(ink_time_create))
+    #     print(np.std(ink_time_create))
+    #     print('INK train time')
+    #     print(np.mean(ink_time_train))
+    #     print(np.std(ink_time_train))
+    #     print('INK test time')
+    #     print(np.mean(ink_time_test))
+    #     print(np.std(ink_time_test))
+    #     print('---')
+    #     print('INK embedding size')
+    #     print(np.mean(ink_memory))
+    #     print(np.std(ink_memory))
+    #
+    # print('---RDF2Vec----')
+    # print('RDF2Vec Naive bayes')
+    # print(np.mean(rdf_total_NB))
+    # print(np.std(rdf_total_NB))
+    # print('RDF2Vec Neirest neighbors')
+    # print(np.mean(rdf_total_NN))
+    # print(np.std(rdf_total_NN))
+    # print('RDF2Vec Decision Tree')
+    # print(np.mean(rdf_total_tree))
+    # print(np.std(rdf_total_tree))
+    # print('RDF2Vec SVC')
+    # print(np.mean(rdf_total_support))
+    # print(np.std(rdf_total_support))
+    # print('RDF2Vec Logreg')
+    # print(np.mean(rdf_total_log))
+    # print(np.std(rdf_total_log))
+    # print('---')
+    # print('RDF create time')
+    # print(np.mean(rdf_time_create))
+    # print(np.std(rdf_time_create))
+    # print('RDF train time')
+    # print(np.mean(rdf_time_train))
+    # print(np.std(rdf_time_train))
+    # print('RDF test time')
+    # print(np.mean(rdf_time_test))
+    # print(np.std(rdf_time_test))
+    # print('---')
+    # print('RDF embedding size')
+    # print(np.mean(rdf_memory))
+    # print(np.std(rdf_memory))
 
