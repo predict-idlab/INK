@@ -7,7 +7,7 @@ from tqdm import tqdm
 import multiprocessing as mp
 from functools import lru_cache
 from multiprocessing import Pool
-import gc
+from sqlitedict import SqliteDict
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'
@@ -30,7 +30,7 @@ class KnowledgeGraph:
     :param prefixes: Optional dictionary of prefixes which should be mapped.
     :type prefixes: list
     """
-    def __init__(self, connector, prefixes=None):
+    def __init__(self, connector, prefixes=None, storage_name="default.sqlite"):
         if prefixes is None:
             prefixes = []
         self.connector = connector
@@ -39,6 +39,7 @@ class KnowledgeGraph:
         self.total_parts = {}
         self.neighbour_parts = {}
         self.prefixes = prefixes
+        self.storage = storage_name
 
     @lru_cache(maxsize=10000000)
     def neighborhood_request(self, noi):
@@ -110,8 +111,10 @@ class KnowledgeGraph:
         total_parts = {}
         all_done = []
         res = self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
-        gc.collect()
-        return noi, res
+        with SqliteDict(self.storage) as store:
+            store[noi] = res
+
+        return noi, []
 
     def _replace_pref(self, r):
         """
