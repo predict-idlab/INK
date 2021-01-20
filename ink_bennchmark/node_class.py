@@ -80,8 +80,8 @@ if __name__ == "__main__":
 
     rel = False
 
-    dataset = 'BGS'#'BGS'
-    depth = 1
+    dataset = sys.argv[1]#'BGS'#'BGS'
+    depth = int(sys.argv[2])
 
 
     dir_kb = '../data_node_class/'+dataset
@@ -119,8 +119,8 @@ if __name__ == "__main__":
     df_train['label'] = le.fit_transform(df_train[label_name])
     df_test['label'] = le.transform(df_test[label_name])
 
-    print(df_train['label'].value_counts())
-    print(df_test['label'].value_counts())
+    #print(df_train['label'].value_counts())
+    #print(df_test['label'].value_counts())
 
     pos_file = set(['<' + x + '>' for x in data[items_name].values])
 
@@ -180,7 +180,7 @@ if __name__ == "__main__":
     ## RDF2Vec extract:
     t0 = time.time()
     kg = KG(location="http://localhost:5820/"+str(dataset)+"/query", is_remote=True, label_predicates=excludes)
-    walkers = [MultiProcessingRandomWalker(depth, 1000, UniformSampler())]
+    walkers = [MultiProcessingRandomWalker(depth, 500, UniformSampler())]
     embedder = Word2Vec(size=500, sg=1)
     transformer = RDF2VecTransformer(walkers=walkers, embedder=embedder)
     inds = [ind[1:-1] for ind in list(pos_file)]
