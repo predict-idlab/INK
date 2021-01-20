@@ -7,6 +7,7 @@ from tqdm import tqdm
 import multiprocessing as mp
 from functools import lru_cache
 from multiprocessing import Pool
+import gc
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'
@@ -84,11 +85,11 @@ class KnowledgeGraph:
 
         seq =[(r, depth, skip_list) for r in data]
         if jobs > 1:
-            pool = Pool(jobs, maxtasksperchild=10)# as pool:
-            res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=10),
-                            total=len(data), disable=not verbose))
-            pool.close()
-            pool.join()
+            with Pool(jobs) as pool:
+                res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=10),
+                                total=len(data), disable=not verbose))
+                pool.close()
+                pool.join()
         else:
             res = []
             for s in tqdm(seq, disable=not verbose, total=len(data)):
@@ -108,8 +109,9 @@ class KnowledgeGraph:
         value = noi, ""
         total_parts = {}
         all_done = []
-        noi, self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
-        return
+        res = self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
+        gc.collect()
+        return noi, res
 
     def _replace_pref(self, r):
         """
