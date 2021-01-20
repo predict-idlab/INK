@@ -124,6 +124,7 @@ class KnowledgeGraph:
         for x in self.prefixes:
             r = r.replace(x, self.prefixes[x])
             return r
+        return r
 
     def _define_neighborhood(self, value, depth, avoid_lst, total_parts, all_done):
         """
