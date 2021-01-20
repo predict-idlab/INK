@@ -7,6 +7,7 @@ from tqdm import tqdm
 import multiprocessing as mp
 from functools import lru_cache
 from multiprocessing import Pool
+import gc
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'
@@ -106,7 +107,9 @@ class KnowledgeGraph:
         value = noi, ""
         total_parts = {}
         all_done = []
-        return noi, self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
+        res = self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
+        gc.collect()
+        return noi, res
 
     def _replace_pref(self, r):
         """
