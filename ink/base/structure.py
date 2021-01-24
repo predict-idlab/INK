@@ -100,7 +100,7 @@ class InkExtractor:
 
         return noi_neighbours, np.array(a)
 
-    def fit_transform(self, dct, counts=False, levels=False):
+    def fit_transform(self, dct, counts=False, levels=False, float_rpr=False):
         """
         Fit_transform function which transforms the neighborhood of several nodes of interest into
         a binary representation.
@@ -124,7 +124,7 @@ class InkExtractor:
         if levels:
             dct = create_levels(dct, dct, verbose=self.verbose)
 
-        cat_df = create_representation(dct, verbose=self.verbose)
+        cat_df = create_representation(dct, float_rpr=float_rpr, verbose=self.verbose)
 
         return cat_df
 
