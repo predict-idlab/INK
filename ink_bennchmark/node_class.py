@@ -134,7 +134,6 @@ if __name__ == "__main__":
 
     pos_file = set(['<' + x + '>' for x in data[items_name].values])
 
-
     ink_total_NB = []
     ink_total_NN = []
     ink_total_tree = []
@@ -174,23 +173,17 @@ if __name__ == "__main__":
 
     if method=='INK':
         t0 = time.time()
-        extractor = InkExtractor(connector, verbose=False)
-        X_train, y_train = extractor.create_dataset(depth, pos_file, set(), excludes, jobs=4)
-        extracted_data = extractor.fit_transform(X_train, counts=False, levels=False)
+        extractor = InkExtractor(connector, verbose=True)
+        X_train, _ = extractor.create_dataset(depth, pos_file, set(), excludes, jobs=4)
+        extracted_data = extractor.fit_transform(X_train, counts=False, levels=False, float_rpr=True)
 
         df_data = pd.DataFrame.sparse.from_spmatrix(extracted_data[0])
         df_data.index = [x[1:-1] for x in extracted_data[1]]
         df_data.columns = extracted_data[2]
 
-        threshold_n = 0.75
-        sel = VarianceThreshold(threshold=(threshold_n * (1 - threshold_n)))
-        sel_var = sel.fit_transform(df_data)
-        df_data = df_data[df_data.columns[sel.get_support(indices=True)]]
-
         ink_time_create.append(time.time()-t0)
 
         ink_memory.append(asizeof.asizeof(df_data))
-
 
 
         df_train_extr = df_data[df_data.index.isin(df_train[items_name].values)]  # df_data.loc[[df_train['proxy']],:]
@@ -260,6 +253,11 @@ if __name__ == "__main__":
         y_pred_7 = clf_7.predict(df_test_extr.drop(['label', items_name], axis=1).values)
         ink_time_test.append(time.time() - t2)
 
+        print(y_pred_1)
+        print(df_test_extr['label'].values)
+        print(df_test_extr[items_name].values)
+
+
         ink_total_NN.append(accuracy_score(df_test_extr['label'].values, y_pred_1))
         ink_total_NN.append(f1_score(df_test_extr['label'].values, y_pred_1, average='weighted'))
         ink_total_NN.append(precision_score(df_test_extr['label'].values, y_pred_1, average='weighted'))
@@ -311,7 +309,7 @@ if __name__ == "__main__":
         # extract
         t0 = time.time()
         kg = KG(location="http://localhost:5820/"+str(dataset)+"/query", is_remote=True, label_predicates=excludes)
-        walkers = [MultiProcessingRandomWalker(depth, 500, UniformSampler())]
+        walkers = [RandomWalker(depth, 10000)]
         embedder = Word2Vec(size=500, sg=1)
         transformer = RDF2VecTransformer(walkers=walkers, embedder=embedder)
         inds = [ind[1:-1] for ind in list(pos_file)]
