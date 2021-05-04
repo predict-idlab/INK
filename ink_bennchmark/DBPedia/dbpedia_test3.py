@@ -342,8 +342,7 @@ if __name__ == "__main__":
 
     excludes = []#excludes_dict[dataset]#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://swrc.ontoware.org/ontology#employs', 'http://swrc.ontoware.org/ontology#affiliation']#['http://purl.org/collections/nl/am/objectCategory', 'http://purl.org/collections/nl/am/material']#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://dl-learner.org/carcinogenesis#isMutagenic']#['http://swrc.ontoware.org/ontology#employs', 'http://swrc.ontoware.org/ontology#affiliation']#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://dl-learner.org/carcinogenesis#isMutagenic']#['http://purl.org/collections/nl/am/objectCategory', 'http://purl.org/collections/nl/am/material']#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://dl-learner.org/carcinogenesis#isMutagenic']#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://swrc.ontoware.org/ontology#employs', 'http://swrc.ontoware.org/ontology#affiliation']
 
-    labels_dict = {'AAUP': 'Average_salary_all_ranks', 'albums': 'rating', 'cities': 'rating', 'forbes': 'Rank',
-                   'movies': 'rating'}
+    labels_dict = {'AAUP': 'label_salary', 'albums': 'label', 'cities': 'label', 'forbes': 'label', 'movies': 'Label'}
     label_name = labels_dict[dataset]
     items_name = 'DBpedia_URI'
 
