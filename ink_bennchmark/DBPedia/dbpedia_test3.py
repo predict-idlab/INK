@@ -344,7 +344,7 @@ if __name__ == "__main__":
 
     labels_dict = {'AAUP': 'label_salary', 'albums': 'label', 'cities': 'label', 'forbes': 'label', 'movies': 'Label'}
     label_name = labels_dict[dataset]
-    items_name = 'DBpedia_URI'
+    items_name = 'DBpedia_URL'
 
     #pos_file = 'mela/pos_mela.txt'
     #neg_file = 'mela/neg_mela.txt'
