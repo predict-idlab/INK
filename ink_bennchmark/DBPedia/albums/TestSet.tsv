@@ -1,4 +1,4 @@
-id	album	artist	date	rating	DBpedia_URI	label
+id	album	artist	date	rating	DBpedia_URL	label
 2.0	Histoire de Melody Nelson	Serge Gainsbourg	24-Mar-09	96.0	http://dbpedia.org/resource/Histoire_de_Melody_Nelson	good
 4.0	My Beautiful Dark Twisted Fantasy	Kanye West	22-Nov-10	94.0	http://dbpedia.org/resource/My_Beautiful_Dark_Twisted_Fantasy	good
 7.0	Live At Reading	Nirvana	3-Nov-09	93.0	http://dbpedia.org/resource/Live_at_Reading	good

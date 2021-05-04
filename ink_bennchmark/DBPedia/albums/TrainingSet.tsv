@@ -1,4 +1,4 @@
-id	label   album	artist	date	rating	DBpedia_URI
+id	label   album	artist	date	rating	DBpedia_URL
 1.0	good	Van Lear Rose	Loretta Lynn	27-Apr-04	97.0	http://dbpedia.org/resource/Van_Lear_Rose
 3.0	good	Stankonia	Outkast	31-Oct-00	95.0	http://dbpedia.org/resource/Stankonia
 5.0	good	Savane	Ali Farka Toure	25-Jul-06	94.0	http://dbpedia.org/resource/Savane_(album)

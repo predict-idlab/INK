@@ -1,4 +1,4 @@
-id	Company	Industry	Country	Market_Value	Sales	Profits	Assets	Rank	DBpedia_URI	label
+id	Company	Industry	Country	Market_Value	Sales	Profits	Assets	Rank	DBpedia_URL	label
 1.0	Industrial and Commercial Bank of China	Major Banks	China	237.3	134.8	37.8	2813.5	1.0	http://dbpedia.org/resource/Industrial_and_Commercial_Bank_of_China	high
 2.0	China Construction Bank	Regional Banks	China	202.0	113.1	30.6	2241.0	2.0	http://dbpedia.org/resource/China_Construction_Bank	high
 4.0	General Electric	Conglomerates	United States	243.7	147.4	13.6	685.3	4.0	http://dbpedia.org/resource/General_Electric	high

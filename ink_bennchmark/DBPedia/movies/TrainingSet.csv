@@ -1,4 +1,4 @@
-Movie	Release date	DBpedia_URI	Label	id	rating
+Movie	Release date	DBpedia_URL	Label	id	rating
 Best Kept Secret	9/6/2013 0:00	http://dbpedia.org/resource/Best_Kept_Secret_(film)	good	1	100
 The Godfather	3/11/1972 0:00	http://dbpedia.org/resource/The_Godfather	good	2	100
 Army of Shadows	4/28/2006 0:00	http://dbpedia.org/resource/Army_of_Shadows	good	3	99

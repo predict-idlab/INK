@@ -1,4 +1,4 @@
-Movie	Release date	DBpedia_URI	Label	id	rating
+Movie	Release date	DBpedia_URL	Label	id	rating
 4 Months, 3 Weeks and 2 Days	1/23/2008 0:00	http://dbpedia.org/resource/4_Months,_3_Weeks_and_2_Days	good	1601	97
 Ratatouille	6/29/2007 0:00	http://dbpedia.org/resource/Ratatouille_(film)	good	1602	96
 Killer of Sheep	3/30/2007 0:00	http://dbpedia.org/resource/Killer_of_Sheep	good	1603	94

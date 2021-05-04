@@ -1,4 +1,4 @@
-id	Company	Industry	Country	Market_Value	Sales	Profits	Assets	Rank	DBpedia_URI	label
+id	Company	Industry	Country	Market_Value	Sales	Profits	Assets	Rank	DBpedia_URL	label
 3.0	JPMorgan Chase	Major Banks	United States	191.4	108.2	21.3	2359.1	3.0	http://dbpedia.org/resource/JPMorgan_Chase	high
 5.0	Exxon Mobil	Oil & Gas Operations	United States	400.4	420.7	44.9	333.8	5.0	http://dbpedia.org/resource/Exxon_Mobil	high
 6.0	HSBC Holdings	Major Banks	United Kingdom	201.3	104.9	14.3	2684.1	6.0	http://dbpedia.org/resource/HSBC_Holdings	high
