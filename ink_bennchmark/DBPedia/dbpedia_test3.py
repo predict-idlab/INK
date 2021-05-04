@@ -350,7 +350,9 @@ if __name__ == "__main__":
     #neg_file = 'mela/neg_mela.txt'
 
     df_train = pd.read_csv(train, delimiter='\t')
+    df_train = df_train.dropna(subset=['label_name'])
     df_test = pd.read_csv(test, delimiter='\t')
+    df_test = df_test.dropna(subset=['label_name'])
 
     data = pd.concat([df_train, df_test])
 
