@@ -412,6 +412,15 @@ if __name__ == "__main__":
         df_data.index = [x[1:-1] for x in extracted_data[1]]
         df_data.columns = extracted_data[2]
 
+        print(df_data.shape)
+
+        threshold_n = 0.9
+        sel = VarianceThreshold(threshold_n * (1 - threshold_n))
+        sel_var = sel.fit_transform(df_data)
+        df_data = df_data[df_data.columns[sel.get_support(indices=True)]]
+
+        print(df_data.shape)
+
         ink_time_create.append(time.time()-t0)
 
         ink_memory.append(asizeof.asizeof(df_data))
