@@ -120,6 +120,7 @@ class StardogConnector(AbstractConnector):
         if fast:
             #a = time.time()
             r = ftr.get2str(self.host + '/' + self.db + '/query?query=' + query+'&reasoning='+str(self.reason))
+            ftr.close_client()
             #print(time.time()-a)
         else:
             r = self.session.get(self.host + '/' + self.db + '/query?query=' + query+'&reasoning='+str(self.reason),
