@@ -60,7 +60,7 @@ class KnowledgeGraph:
             #q = 'SELECT ?p ?o WHERE { <'+noi+'> ?p ?o. }'
             return self.connector.query(q)
         except Exception as e:
-            print(e)
+            #print(e)
             return []
 
     def extract_neighborhoods(self, data, depth, skip_list=None, verbose=False, jobs=1):
@@ -85,8 +85,8 @@ class KnowledgeGraph:
 
         seq =[(r, depth, skip_list) for r in data]
         if jobs > 1:
-            with Pool(jobs,maxtasksperchild=10) as pool:
-                res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=1),
+            with Pool(jobs) as pool:
+                res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=5),
                                 total=len(data), disable=not verbose))
                 pool.close()
                 pool.join()
