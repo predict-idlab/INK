@@ -120,6 +120,7 @@ class StardogConnector(AbstractConnector):
         :rtype: dict
         """
         if self.connection is None:
+            print("new connection")
             self.connection = stardog.Connection(self.db, **self.details)
 
         r = self.connection.select(q_str)
