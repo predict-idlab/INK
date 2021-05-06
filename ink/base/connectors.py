@@ -70,7 +70,7 @@ class StardogConnector(AbstractConnector):
         self.host = conn_details['endpoint']
         self.db = database
         self.reason = reason
-        self.connection = stardog.Connection(self.db, **conn_details)
+        #self.connection =
 
         if not fast:
             self.session = Session()
@@ -119,8 +119,8 @@ class StardogConnector(AbstractConnector):
         :return: Dictionary generated from the ['results']['bindings'] json.
         :rtype: dict
         """
-
-        r = self.connection.select(q_str)
+        with stardog.Connection(self.db, **self.details) as conn:
+            r = conn.select(q_str)
         return r['results']['bindings']
 
     def old_query(self, q_str):
