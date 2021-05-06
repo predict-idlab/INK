@@ -112,7 +112,7 @@ class StardogConnector(AbstractConnector):
     def close(self):
         self.connection.close()
 
-    @lru_cache(maxsize=10000000000)
+    @lru_cache(maxsize=100000)
     def query(self, q_str):
         """
         Execute a query on the initialized Stardog database
