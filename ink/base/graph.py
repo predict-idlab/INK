@@ -40,7 +40,7 @@ class KnowledgeGraph:
         self.neighbour_parts = {}
         self.prefixes = prefixes
 
-    @lru_cache(maxsize=10000000)
+    #@lru_cache(maxsize=10000000)
     def neighborhood_request(self, noi):
         """
         Function to make a neighborhood request of a certain instance.
