@@ -124,7 +124,6 @@ class StardogConnector(AbstractConnector):
             self.connection = stardog.Connection(self.db, **self.details)
 
         r = self.connection.select(q_str)
-        self.connection.close()
         return r['results']['bindings']
 
     def old_query(self, q_str):
