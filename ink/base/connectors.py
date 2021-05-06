@@ -8,6 +8,7 @@ import stardog
 from urllib import parse
 from rdflib import Graph
 from abc import ABC, abstractmethod
+from functools import lru_cache
 import xmltodict
 import time
 
@@ -70,7 +71,7 @@ class StardogConnector(AbstractConnector):
         self.host = conn_details['endpoint']
         self.db = database
         self.reason = reason
-        self.connection = None
+        self.connection = stardog.Connection(self.db, **conn_details)
 
         if not fast:
             self.session = Session()
@@ -111,6 +112,7 @@ class StardogConnector(AbstractConnector):
     def close(self):
         self.connection.close()
 
+    @lru_cache(maxsize=10000000000)
     def query(self, q_str):
         """
         Execute a query on the initialized Stardog database
@@ -119,9 +121,6 @@ class StardogConnector(AbstractConnector):
         :return: Dictionary generated from the ['results']['bindings'] json.
         :rtype: dict
         """
-        if self.connection is None:
-            print("new connection")
-            self.connection = stardog.Connection(self.db, **self.details)
 
         r = self.connection.select(q_str)
         return r['results']['bindings']
