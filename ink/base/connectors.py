@@ -120,7 +120,7 @@ class StardogConnector(AbstractConnector):
         :rtype: dict
         """
         if self.connection is None:
-            stardog.Connection(self.db, **self.details)
+            self.connection = stardog.Connection(self.db, **self.details)
 
         r = self.connection.select(q_str)
         return r['results']['bindings']
