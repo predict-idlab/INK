@@ -121,7 +121,7 @@ class StardogConnector(AbstractConnector):
         """
 
         r = self.connection.select(q_str)
-        print(json.loads(r)['results']['bindings'])
+        print(r['results']['bindings'])
         return json.loads(r)['results']['bindings']
 
     def old_query(self, q_str):
