@@ -85,8 +85,8 @@ class KnowledgeGraph:
 
         seq =[(r, depth, skip_list) for r in data]
         if jobs > 1:
-            with Pool(jobs, maxtasksperchild=1) as pool:
-                res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=1),
+            with Pool(jobs) as pool:
+                res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=2),
                                 total=len(data), disable=not verbose))
                 pool.close()
                 pool.join()
