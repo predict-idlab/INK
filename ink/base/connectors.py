@@ -109,7 +109,7 @@ class StardogConnector(AbstractConnector):
                 print(ex)
 
     def close(self):
-        self.connection.close(x)
+        self.connection.close()
 
     def query(self, q_str):
         """
@@ -120,9 +120,8 @@ class StardogConnector(AbstractConnector):
         :rtype: dict
         """
 
-        res = self.connection.select(q_str)
-        print(res)
-        return res
+        r = self.connection.select(q_str)
+        return json.loads(r)['results']['bindings']
 
     def old_query(self, q_str):
         """
