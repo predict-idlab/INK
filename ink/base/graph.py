@@ -60,7 +60,7 @@ class KnowledgeGraph:
             #q = 'SELECT ?p ?o WHERE { <'+noi+'> ?p ?o. }'
             return self.connector.query(q)
         except Exception as e:
-            #print(e)
+            print(e)
             return []
 
     def extract_neighborhoods(self, data, depth, skip_list=None, verbose=False, jobs=1):
