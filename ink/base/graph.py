@@ -110,7 +110,7 @@ class KnowledgeGraph:
         total_parts = {}
         all_done = []
         res = self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
-        self.connector.close()
+        #self.connector.close()
         gc.collect()
         return noi, res
 
