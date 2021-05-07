@@ -74,7 +74,7 @@ class StardogConnector(AbstractConnector):
         self.host = conn_details['endpoint']
         self.db = database
         self.reason = reason
-        #self.connection = stardog.Connection(self.db, **conn_details)
+        self.connection = stardog.Connection(self.db, **conn_details)
 
         if not fast:
             self.session = Session()
@@ -124,8 +124,8 @@ class StardogConnector(AbstractConnector):
         :return: Dictionary generated from the ['results']['bindings'] json.
         :rtype: dict
         """
-        with stardog.Connection(self.db, **self.details) as conn:
-            r =conn.select(q_str)
+
+        r = self.connection.select(q_str)
         return r['results']['bindings']
 
     def old_query(self, q_str):
@@ -183,4 +183,4 @@ class RDFLibConnector(AbstractConnector):
         return json.loads(res.serialize(format="json"))['results']['bindings']
 
     def close(self):
-        None
+        return True
