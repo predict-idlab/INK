@@ -40,7 +40,6 @@ class KnowledgeGraph:
         self.neighbour_parts = {}
         self.prefixes = prefixes
 
-    @lru_cache(maxsize=1000)
     def neighborhood_request(self, noi):
         """
         Function to make a neighborhood request of a certain instance.
@@ -193,6 +192,7 @@ class KnowledgeGraph:
                                     total_parts[prop + "." + p] = list()
                                 total_parts[prop + "." + p].append(self._replace_pref(o))
             if depth-1 > 0:
+                self.connector.close()
                 [total_parts.update(self._define_neighborhood(value, depth - 1, avoid_lst, total_parts, all_done))
                  for value in next_noi]
             return total_parts
