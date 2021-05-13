@@ -8,7 +8,6 @@ import stardog
 from urllib import parse
 from rdflib import Graph
 from abc import ABC, abstractmethod
-from functools import lru_cache
 import xmltodict
 import time
 
@@ -48,9 +47,6 @@ class AbstractConnector(ABC):
         :type q_str: str
         :rtype: dict
         """
-        pass
-
-    def close(self):
         pass
 
 
@@ -115,7 +111,6 @@ class StardogConnector(AbstractConnector):
     def close(self):
         self.connection.close()
 
-    #@lru_cache(maxsize=100000)
     def query(self, q_str):
         """
         Execute a query on the initialized Stardog database
@@ -181,6 +176,3 @@ class RDFLibConnector(AbstractConnector):
         """
         res = self.g.query(q_str)
         return json.loads(res.serialize(format="json"))['results']['bindings']
-
-    def close(self):
-        return True

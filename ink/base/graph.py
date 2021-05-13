@@ -40,7 +40,7 @@ class KnowledgeGraph:
         self.neighbour_parts = {}
         self.prefixes = prefixes
 
-    #@lru_cache(maxsize=10000000)
+    @lru_cache(maxsize=10000000)
     def neighborhood_request(self, noi):
         """
         Function to make a neighborhood request of a certain instance.
@@ -85,7 +85,7 @@ class KnowledgeGraph:
 
         seq =[(r, depth, skip_list) for r in data]
         if jobs > 1:
-            with Pool(jobs, maxtasksperchild=1) as pool:
+            with Pool(jobs) as pool:
                 res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=1),
                                 total=len(data), disable=not verbose))
                 pool.close()
@@ -110,7 +110,6 @@ class KnowledgeGraph:
         total_parts = {}
         all_done = []
         res = self._define_neighborhood(value, depth, avoid_lst, total_parts, all_done)
-        self.connector.close()
         gc.collect()
         return noi, res
 
@@ -194,7 +193,6 @@ class KnowledgeGraph:
                                     total_parts[prop + "." + p] = list()
                                 total_parts[prop + "." + p].append(self._replace_pref(o))
             if depth-1 > 0:
-                print(n_e,len((next_noi)))
                 [total_parts.update(self._define_neighborhood(value, depth - 1, avoid_lst, total_parts, all_done))
                  for value in next_noi]
             return total_parts
