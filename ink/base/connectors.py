@@ -70,12 +70,12 @@ class StardogConnector(AbstractConnector):
         self.host = conn_details['endpoint']
         self.db = database
         self.reason = reason
-        self.connection = None
+        #self.connection = stardog.Connection(self.db, **conn_details)
 
-        if not fast:
-            self.session = Session()
-            adapter = HTTPAdapter(pool_connections=10000, pool_maxsize=10000)
-            self.session.mount('http://', adapter)
+        #if not fast:
+        #    self.session = Session()
+        #    adapter = HTTPAdapter(pool_connections=10000, pool_maxsize=10000)
+        #    self.session.mount('http://', adapter)
         #else:
         #    ftr.set_headers(headers=[("Accept", "application/sparql-results+json")])
 
@@ -108,9 +108,8 @@ class StardogConnector(AbstractConnector):
             except Exception as ex:
                 print(ex)
 
-    def close(self):
-        self.connection.close()
-        self.connection = None
+    #def close(self):
+    #    self.connection.close()
 
     def query(self, q_str):
         """
@@ -120,10 +119,9 @@ class StardogConnector(AbstractConnector):
         :return: Dictionary generated from the ['results']['bindings'] json.
         :rtype: dict
         """
-        if self.connection is None:
-            self.connection=stardog.Connection(self.db, **self.details)
-
-        r = self.connection.select(q_str)
+        with stardog.Connection(self.db, **self.details) as conn:
+            r = conn.select(q_str)
+            time.sleep(1)
         return r['results']['bindings']
 
     def old_query(self, q_str):

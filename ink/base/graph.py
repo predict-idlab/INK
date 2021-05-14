@@ -192,7 +192,7 @@ class KnowledgeGraph:
                                     total_parts[prop + "." + p] = list()
                                 total_parts[prop + "." + p].append(self._replace_pref(o))
             if depth-1 > 0:
-                self.connector.close()
+                #self.connector.close()
                 [total_parts.update(self._define_neighborhood(value, depth - 1, avoid_lst, total_parts, all_done))
                  for value in next_noi]
             return total_parts
