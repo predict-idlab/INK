@@ -343,6 +343,11 @@ if __name__ == "__main__":
     excludes = []#excludes_dict[dataset]#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://swrc.ontoware.org/ontology#employs', 'http://swrc.ontoware.org/ontology#affiliation']#['http://purl.org/collections/nl/am/objectCategory', 'http://purl.org/collections/nl/am/material']#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://dl-learner.org/carcinogenesis#isMutagenic']#['http://swrc.ontoware.org/ontology#employs', 'http://swrc.ontoware.org/ontology#affiliation']#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://dl-learner.org/carcinogenesis#isMutagenic']#['http://purl.org/collections/nl/am/objectCategory', 'http://purl.org/collections/nl/am/material']#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://dl-learner.org/carcinogenesis#isMutagenic']#['http://data.bgs.ac.uk/ref/Lexicon/hasLithogenesis']#['http://swrc.ontoware.org/ontology#employs', 'http://swrc.ontoware.org/ontology#affiliation']
 
     labels_dict = {'AAUP': 'label_salary', 'albums': 'label', 'cities': 'label', 'forbes': 'label', 'movies': 'Label'}
+    add_cols = {"AAUP":['DBpedia_URL','Number_of_full_professors','Number_of_associate_professors','Number_of_assistant_professors','Number_of_instructors','Number_of_faculty_all_ranks'],
+                "forbes":["DBpedia_URL","Market_Value","Sales","Profits","Assets"],
+                "movies":["DBpedia_URL"],
+                "albums":["DBpedia_URL"],
+                "cities":["DBpedia_URL"]}
     label_name = labels_dict[dataset]
     items_name = 'DBpedia_URL'
 
@@ -400,12 +405,17 @@ if __name__ == "__main__":
 
     #for _ in tqdm(range(5)):
 
+    skip = ["http://dbpedia.org/ontology/abstract", "http://dbpedia.org/ontology/wikiPageExternalLink",
+           "http://www.w3.org/2002/07/owl/sameAs", "http://purl.org/dc/terms/subject",
+           "http://www.w3.org/2000/01/rdf-schema#comment","http://www.w3.org/2000/01/rdf-schema#label",
+           "http://dbpedia.org/ontology/wikiPageWikiLinkText"]
+
     ## INK exrtact
 
     if method=='INK':
         t0 = time.time()
         extractor = InkExtractor(connector, prefixes=prefs, verbose=True)
-        X_train, _ = extractor.create_dataset(depth, pos_file, set(), excludes, jobs=4)
+        X_train, _ = extractor.create_dataset(depth, pos_file, set(),skip_list=skip, jobs=4)
         extracted_data = extractor.fit_transform(X_train, counts=False, levels=False, float_rpr=True)
 
         df_data = pd.DataFrame.sparse.from_spmatrix(extracted_data[0])
@@ -418,6 +428,12 @@ if __name__ == "__main__":
         sel = VarianceThreshold(threshold_n * (1 - threshold_n))
         sel_var = sel.fit_transform(df_data)
         df_data = df_data[df_data.columns[sel.get_support(indices=True)]]
+
+        print(df_data.shape)
+
+        if len(add_cols[dataset]) > 1:
+            add_col_data = data[add_cols[dataset]]
+            df_data = df_data.merge(add_col_data, on='DBpedia_URL')
 
         print(df_data.shape)
 
