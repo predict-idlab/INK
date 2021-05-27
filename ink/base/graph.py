@@ -8,7 +8,7 @@ import multiprocessing as mp
 from functools import lru_cache
 from multiprocessing import Pool
 import gc
-import shelve
+import hashlib
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'
@@ -125,16 +125,8 @@ class KnowledgeGraph:
         #    r = r.replace(x, self.prefixes[x])
         #    return r
         #return r
+        return int(hashlib.sha1(r.encode("utf-8")).hexdigest(), 16) % (10 ** 8)
 
-        with shelve.open('part') as db:
-            if r in db:
-                return db[r]
-            else:
-                if "$$counter" not in db:
-                    db["$$counter"] = 0
-                db["$$counter"] = db["$$counter"]+1
-                db[r] = db["$$counter"]
-            return db[r]
 
     def _define_neighborhood(self, value, depth, avoid_lst, total_parts, all_done):
         """
