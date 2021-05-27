@@ -125,7 +125,7 @@ class KnowledgeGraph:
         #    r = r.replace(x, self.prefixes[x])
         #    return r
         #return r
-        return int(hashlib.sha1(r.encode("utf-8")).hexdigest(), 16) % (10 ** 8)
+        return int(hashlib.sha1(r.encode("utf-8")).hexdigest(), 16) % (10 ** 6)
 
 
     def _define_neighborhood(self, value, depth, avoid_lst, total_parts, all_done):

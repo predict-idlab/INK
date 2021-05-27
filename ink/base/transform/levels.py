@@ -65,8 +65,8 @@ def create_levels(dct, dct_t, verbose=True):
             if key in level_counts and key not in black_list:
                 for lvl in level_counts[key]:
                     try:
-                        n_levels[key + '<=' + str(lvl)] = any(float(x) <= float(lvl) for x in tup[1][key] if x != '')
-                        n_levels[key + '>=' + str(lvl)] = any(float(x) >= float(lvl) for x in tup[1][key] if x != '')
+                        n_levels[str(key) + '<=' + str(lvl)] = any(float(x) <= float(lvl) for x in tup[1][key] if x != '')
+                        n_levels[str(key) + '>=' + str(lvl)] = any(float(x) >= float(lvl) for x in tup[1][key] if x != '')
                     except Exception as exp:
                         print(exp)
                         continue
