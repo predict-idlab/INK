@@ -181,7 +181,7 @@ class KnowledgeGraph:
                                     total_parts[p].append(self._replace_pref(o))
                                 else:
                                     next_noi.append(('<' + o + '>', int(str(prop) + str(p))))
-                                    if prop + "." + p not in total_parts:
+                                    if int(str(prop) + str(p)) not in total_parts:
                                         total_parts[int(str(prop) + str(p))] = list()
                                     total_parts[int(str(prop) + str(p))].append(self._replace_pref(o))
                         else:
