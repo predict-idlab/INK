@@ -172,7 +172,7 @@ class KnowledgeGraph:
                                 if prop == "":
                                     next_noi.append(('<_:' + o + '>', p))
                                 else:
-                                    next_noi.append(('<_:' + o + '>', prop + '.' + p))
+                                    next_noi.append(('<_:' + o + '>', int(str(prop) + str(p))))
                             else:
                                 if prop == "":
                                     next_noi.append(('<' + o + '>', p))
@@ -180,10 +180,10 @@ class KnowledgeGraph:
                                         total_parts[p] = list()
                                     total_parts[p].append(self._replace_pref(o))
                                 else:
-                                    next_noi.append(('<' + o + '>', prop + '.' + p))
+                                    next_noi.append(('<' + o + '>', int(str(prop) + str(p))))
                                     if prop + "." + p not in total_parts:
-                                        total_parts[prop + "." + p] = list()
-                                    total_parts[prop + "." + p].append(self._replace_pref(o))
+                                        total_parts[int(str(prop) + str(p))] = list()
+                                    total_parts[int(str(prop) + str(p))].append(self._replace_pref(o))
                         else:
                             if prop == "":
                                 if p not in total_parts:
@@ -191,9 +191,9 @@ class KnowledgeGraph:
                                 total_parts[p].append(self._replace_pref(o))
 
                             else:
-                                if prop + "." + p not in total_parts:
-                                    total_parts[prop + "." + p] = list()
-                                total_parts[prop + "." + p].append(self._replace_pref(o))
+                                if int(str(prop) + str(p)) not in total_parts:
+                                    total_parts[int(str(prop) + str(p))] = list()
+                                total_parts[int(str(prop) + str(p))].append(self._replace_pref(o))
             if depth-1 > 0:
                 #self.connector.close()
                 [total_parts.update(self._define_neighborhood(value, depth - 1, avoid_lst, total_parts, all_done))
