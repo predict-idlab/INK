@@ -8,7 +8,6 @@ import multiprocessing as mp
 from functools import lru_cache
 from multiprocessing import Pool
 import gc
-import hashlib
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'
@@ -121,12 +120,10 @@ class KnowledgeGraph:
         :return: URI string, with the prefix replaced.
         :rtype str
         """
-        #for x in self.prefixes:
-        #    r = r.replace(x, self.prefixes[x])
-        #    return r
-        #return r
-        return int(hashlib.sha1(r.encode("utf-8")).hexdigest(), 16) % (10 ** 6)
-
+        for x in self.prefixes:
+            r = r.replace(x, self.prefixes[x])
+            return r
+        return r
 
     def _define_neighborhood(self, value, depth, avoid_lst, total_parts, all_done):
         """
@@ -172,7 +169,7 @@ class KnowledgeGraph:
                                 if prop == "":
                                     next_noi.append(('<_:' + o + '>', p))
                                 else:
-                                    next_noi.append(('<_:' + o + '>', int(str(prop) + str(p))))
+                                    next_noi.append(('<_:' + o + '>', prop + '.' + p))
                             else:
                                 if prop == "":
                                     next_noi.append(('<' + o + '>', p))
@@ -180,10 +177,10 @@ class KnowledgeGraph:
                                         total_parts[p] = list()
                                     total_parts[p].append(self._replace_pref(o))
                                 else:
-                                    next_noi.append(('<' + o + '>', int(str(prop) + str(p))))
-                                    if int(str(prop) + str(p)) not in total_parts:
-                                        total_parts[int(str(prop) + str(p))] = list()
-                                    total_parts[int(str(prop) + str(p))].append(self._replace_pref(o))
+                                    next_noi.append(('<' + o + '>', prop + '.' + p))
+                                    if prop + "." + p not in total_parts:
+                                        total_parts[prop + "." + p] = list()
+                                    total_parts[prop + "." + p].append(self._replace_pref(o))
                         else:
                             if prop == "":
                                 if p not in total_parts:
@@ -191,9 +188,9 @@ class KnowledgeGraph:
                                 total_parts[p].append(self._replace_pref(o))
 
                             else:
-                                if int(str(prop) + str(p)) not in total_parts:
-                                    total_parts[int(str(prop) + str(p))] = list()
-                                total_parts[int(str(prop) + str(p))].append(self._replace_pref(o))
+                                if prop + "." + p not in total_parts:
+                                    total_parts[prop + "." + p] = list()
+                                total_parts[prop + "." + p].append(self._replace_pref(o))
             if depth-1 > 0:
                 #self.connector.close()
                 [total_parts.update(self._define_neighborhood(value, depth - 1, avoid_lst, total_parts, all_done))

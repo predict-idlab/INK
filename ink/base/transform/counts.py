@@ -36,9 +36,9 @@ def create_counts(dct, verbose=True):
         for key in tup[1]:
             for cnt in set(tup[1][key]):
                 if tup[1][key].count(cnt) > 1:
-                    n_counts['count.'+str(key)+'.'+str(cnt)] = [tup[1][key].count(cnt)]
+                    n_counts['count.'+key+'.'+str(cnt)] = [tup[1][key].count(cnt)]
             if len(tup[1][key]) > 1:
-                n_counts['count.'+str(key)] = [len(tup[1][key])]
+                n_counts['count.'+key] = [len(tup[1][key])]
         n = tup[1]
         n.update(n_counts)
         n_dct.append((tup[0], n))
