@@ -8,6 +8,7 @@ import multiprocessing as mp
 from functools import lru_cache
 from multiprocessing import Pool
 import gc
+import shelve
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'
@@ -120,10 +121,20 @@ class KnowledgeGraph:
         :return: URI string, with the prefix replaced.
         :rtype str
         """
-        for x in self.prefixes:
-            r = r.replace(x, self.prefixes[x])
-            return r
-        return r
+        #for x in self.prefixes:
+        #    r = r.replace(x, self.prefixes[x])
+        #    return r
+        #return r
+
+        with shelve.open('part') as db:
+            if r in db:
+                return db[r]
+            else:
+                if "$$counter" not in db:
+                    db["$$counter"] = 0
+                db["$$counter"] = db["$$counter"]+1
+                db[r] = db["$$counter"]
+            return db[r]
 
     def _define_neighborhood(self, value, depth, avoid_lst, total_parts, all_done):
         """
