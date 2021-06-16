@@ -1,4 +1,4 @@
-id	album	artist	date	rating	DBpedia_URL	label
+id	album	artist	date	rating	DBpedia_URL label
 1.0	Van Lear Rose	Loretta Lynn	27-Apr-04	97.0	http://dbpedia.org/resource/Van_Lear_Rose	good
 2.0	Histoire de Melody Nelson	Serge Gainsbourg	24-Mar-09	96.0	http://dbpedia.org/resource/Histoire_de_Melody_Nelson	good
 3.0	Stankonia	Outkast	31-Oct-00	95.0	http://dbpedia.org/resource/Stankonia	good

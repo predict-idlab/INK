@@ -60,8 +60,9 @@ class MultiProcessingRandomWalker(RandomWalker):
         canonical_walks = set()
         seq = [(kg, r) for _,r in enumerate(instances)]
         #print(self.depth)
-        with Pool(4) as pool:
-            res = list(pool.imap_unordered(self._proc, seq))
+        with Pool(30) as pool:
+            res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=1), total=len(data)))
+            #res = list(pool.imap_unordered(self._proc, seq))
         res = {k:v for element in res for k,v in element.items()}
         for r in instances:
             canonical_walks.update(res[r])
