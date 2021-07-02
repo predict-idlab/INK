@@ -71,7 +71,9 @@ class InkExtractor:
                 for s in res:
                     v_set.add(s['s']['value'])
             else:
-                if val is not None and not isinstance(val, set):
+                if isinstance(val, list):
+                    v_set = val
+                elif val is not None and not isinstance(val, set):
                     with open(val) as file:
                         v_set = set(['<' + r.rstrip("\n") + '>' for r in file.readlines()])
                 else:
@@ -85,7 +87,10 @@ class InkExtractor:
         if self.verbose:
             print("#Process: get neighbourhood")
 
-        all_noi = list(pos_set.union(neg_set))
+        if isinstance(pos_set,list) and len(neg_set)==0:
+            all_noi = pos_set
+        else:
+            all_noi = list(pos_set.union(neg_set))
         noi_neighbours = self.kg.extract_neighborhoods(all_noi, depth, skip_list, verbose=self.verbose, jobs=jobs)
         # update order
         all_noi = [n[0] for n in noi_neighbours]

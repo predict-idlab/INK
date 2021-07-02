@@ -8,6 +8,7 @@ import multiprocessing as mp
 from functools import lru_cache
 from multiprocessing import Pool
 import gc
+import sys
 
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'
@@ -50,14 +51,15 @@ class KnowledgeGraph:
         :rtype: dict
         """
         try:
-            if noi[0] == '<':
-                noi = noi[1:]
-            if noi[-1] == '>':
-                noi = noi[:-1]
+            if isinstance(noi, str):
+                if noi[0] == '<':
+                    noi = noi[1:]
+                if noi[-1] == '>':
+                    noi = noi[:-1]
 
-            q = 'SELECT ?p ?o ?dt WHERE { BIND( IRI("' + noi + '") AS ?s ) ?s ?p ?o. BIND (datatype(?o) AS ?dt) }'
+            #q = 'SELECT ?p ?o ?dt WHERE { BIND( IRI("' + noi + '") AS ?s ) ?s ?p ?o. BIND (datatype(?o) AS ?dt) }'
             #q = 'SELECT ?p ?o WHERE { <'+noi+'> ?p ?o. }'
-            return self.connector.query(q)
+            return self.connector.query(noi)
         except Exception as e:
             print(e)
             return []
@@ -85,7 +87,7 @@ class KnowledgeGraph:
         seq =[(r, depth, skip_list) for r in data]
         if jobs > 1:
             with Pool(jobs) as pool:
-                res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=1),
+                res = list(tqdm(pool.imap_unordered(self._create_neighbour_paths, seq, chunksize=10),
                                 total=len(data), disable=not verbose))
                 pool.close()
                 pool.join()
@@ -93,6 +95,7 @@ class KnowledgeGraph:
             res = []
             for s in tqdm(seq, disable=not verbose, total=len(data)):
                 res.append(self._create_neighbour_paths(s))
+        print(sys.getsizeof(res))
         return res
 
     def _create_neighbour_paths(self, t):
@@ -150,49 +153,23 @@ class KnowledgeGraph:
             res = self.neighborhood_request(n_e)
             next_noi = []
             for row in res:
-                p = self._replace_pref(row['p']['value'])
-                os = row['o']['value']
-                if 'dt' in row:
-                    dt = True
-                else:
-                    dt = False
+                s,p,o = row
 
-                if not dt:
-                    os = os.split(' ')
-                else:
-                    os = [os]
+                if p not in avoid_lst and o not in avoid_lst:
+                    if len(prop) == 0:
+                        next_noi.append((o, [p]))
+                        if tuple([p]) not in total_parts:
+                            total_parts[tuple([p])] = list()
+                        total_parts[tuple([p])].append(o)
+                    else:
+                        next_noi.append((o, prop+[p]))
+                        if tuple(prop+[p]) not in total_parts:
+                            total_parts[tuple(prop+[p])] = list()
+                        total_parts[tuple(prop + [p])].append(o)
 
-                for o in os:
-                    if p not in avoid_lst and o not in avoid_lst:
-                        if not dt:
-                            if o.startswith('bnode'):
-                                if prop == "":
-                                    next_noi.append(('<_:' + o + '>', p))
-                                else:
-                                    next_noi.append(('<_:' + o + '>', prop + '.' + p))
-                            else:
-                                if prop == "":
-                                    next_noi.append(('<' + o + '>', p))
-                                    if p not in total_parts:
-                                        total_parts[p] = list()
-                                    total_parts[p].append(self._replace_pref(o))
-                                else:
-                                    next_noi.append(('<' + o + '>', prop + '.' + p))
-                                    if prop + "." + p not in total_parts:
-                                        total_parts[prop + "." + p] = list()
-                                    total_parts[prop + "." + p].append(self._replace_pref(o))
-                        else:
-                            if prop == "":
-                                if p not in total_parts:
-                                    total_parts[p] = list()
-                                total_parts[p].append(self._replace_pref(o))
-
-                            else:
-                                if prop + "." + p not in total_parts:
-                                    total_parts[prop + "." + p] = list()
-                                total_parts[prop + "." + p].append(self._replace_pref(o))
             if depth-1 > 0:
                 #self.connector.close()
                 [total_parts.update(self._define_neighborhood(value, depth - 1, avoid_lst, total_parts, all_done))
                  for value in next_noi]
+
             return total_parts

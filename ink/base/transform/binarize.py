@@ -41,7 +41,7 @@ def create_tups(dataset, verbose, float_rpr):
             if isinstance(tup[1][key], list):
                 if len(tup[1][key]) > 0:
                     #feature_map, counter = increment_dict(key, feature_map, counter)
-                    n_dct[key] = np.int8(1)
+                    n_dct[tuple([key])] = np.int8(1)
                     if float_rpr and check_floats(tup[1][key]):
                         for dat in tup[1][key]:
                             # feature_map, counter = increment_dict(str(key + '§' + str(dat)), feature_map, counter)
@@ -50,11 +50,11 @@ def create_tups(dataset, verbose, float_rpr):
                     else:
                         for dat in tup[1][key]:
                             #feature_map, counter = increment_dict(str(key + '§' + str(dat)), feature_map, counter)
-                            n_dct[key + '§' + str(dat)] = np.int8(1)  #
+                            n_dct[(key,dat)] = np.int8(1)  #
                             # n_dct[feature_map[key+'§'+str(dat)]] = np.int8(1)
             else:
                 #feature_map, counter = increment_dict(key, feature_map, counter)
-                n_dct[key] = np.int8(tup[1][key])
+                n_dct[tuple([key])] = np.int8(tup[1][key])
                 # n_dct[feature_map[key]] = np.int8(tup[1][key])
         yield n_dct
         #lst.append(n_dct)
