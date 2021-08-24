@@ -82,6 +82,9 @@ def create_representation(dataset, verbose=True, float_rpr=False):
     #lst = [create_tups(tup) for tup in tqdm(dataset, disable=not verbose)]
     ids = [tup[0] for tup in dataset]
 
-    vec = DictVectorizer(sparse=True, dtype=bool)
+    if float_rpr is True:
+        vec = DictVectorizer(sparse=True, dtype=float)
+    else:
+        vec = DictVectorizer(sparse=True, dtype=bool)
     features = vec.fit_transform(create_tups(dataset, verbose, float_rpr))
     return features, ids, vec.feature_names_
