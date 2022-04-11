@@ -21,7 +21,7 @@ This repository contains:
 * The code INK Miner code: Semantic rule mining on the INK representation for both task-specific and task-agnostic use cases.
 
 ## Installation
-* `pip install semantic-ink`
+* `pip install https://github.com/IBCNServices/INK`
 * or clone this repository
 ## Usage
 See the [example notebook](https://github.com/IBCNServices/INK/blob/master/example.ipynb) for more information on how to use INK and the INK miner.<br>
