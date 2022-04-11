@@ -49,6 +49,7 @@ def __agnostic_rules(miner, X_trans):
     filter_items = {}
 
     relations_ab = {}
+    inv_relations_ab = {}
     k_as_sub = {}
     k_as_obj = {}
     cleaned_relations = set()
@@ -58,7 +59,9 @@ def __agnostic_rules(miner, X_trans):
             rel, obj = cols[j].split('§')
             if rel not in relations_ab:
                 relations_ab[rel]=set()
+                inv_relations_ab[rel]=set()
             relations_ab[rel].add((inds[i],obj))
+            inv_relations_ab[rel].add((obj,inds[i]))
 
             if rel not in k_as_sub:
                 k_as_sub[rel] = {}
@@ -118,10 +121,11 @@ def __agnostic_rules(miner, X_trans):
     #done_objs = set()
     #for p in tqdm(_pr):
     with Pool(mp.cpu_count() - 1, initializer=__init,
-              initargs=(k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
+              initargs=(k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
 
-        for r in tqdm(pool.imap_unordered(exec_f1, _pr_comb, chunksize=100), total=len(_pr_comb)):
-            filter_items.update(r)
+        for r in tqdm(pool.imap_unordered(exec_f1, _pr_comb, chunksize=1000), total=len(_pr_comb)):
+            for el in r:
+                filter_items[el] = r[el]
 
         for r in tqdm(pool.imap_unordered(exec, _pr, chunksize=1), total=len(_pr)):
             p, cons_sub, cons_objs, ant_subs, ant_objs = r
@@ -216,9 +220,9 @@ def __agnostic_rules(miner, X_trans):
     miner.rules = rules
     #1miner.rules = None
 
-def __init(d1, d2, d3, d4, d5, d6):
-    global k_as_sub, k_as_obj, relations_ab, rule_len,support,cleaned_relations
-    k_as_sub, k_as_obj, relations_ab, rule_len,support, cleaned_relations = d1,d2,d3,d4,d5,d6
+def __init(d1, d2, d3, d4, d5, d6, d7):
+    global k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len,support,cleaned_relations
+    k_as_sub, k_as_obj, relations_ab,inv_relations_ab, rule_len,support, cleaned_relations = d1,d2,d3,d4,d5,d6,d7
 
 def exec_f1(p):
     filter_items = {}
@@ -237,7 +241,7 @@ def exec_f1(p):
                                 filter_items[(('?a ' + p[0] + ' ?b', '?a ' + p[1] + ' ?b'), '?a ' + c + ' ?b')] = len(
                                     dd)
 
-        d = len({(b, a) for a, b in relations_ab[p[1]]}.intersection(relations_ab[p[0]]))
+        d = len(inv_relations_ab[p[1]].intersection(relations_ab[p[0]]))
         if d >= support:
             filter_items[('?b ' + p[0] + ' ?a', '?a ' + p[1] + ' ?b',)] = d
     return filter_items
