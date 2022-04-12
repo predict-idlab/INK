@@ -261,18 +261,13 @@ def exec(p):
         if len(relations_ab[p[0]]) >= support and len(relations_ab[p[1]]) >= support:
             dd = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
             if np.sum([len(k_as_sub[p[0]][d]) * len(k_as_sub[p[1]][d]) for d in dd]) >=support:
-                d1 = set(itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in dd]))
-
-                if len(d1) < support:
-                    d1 = set()
+                d1 = itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in dd])
             else:
                 d1 = set()
 
             dd = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
             if np.sum([len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d]) for d in dd]) >= support:
-                d2 = set(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in dd]))
-                if len(d2) < support:
-                    d2 = set()
+                d2 = itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in dd])
             else:
                 d2 = set()
 
@@ -283,7 +278,8 @@ def exec(p):
         #else:
         #    dd = set(k_as_sub[p[0]].keys())
         #d1 = {(x, y) for el in dd for x in k_as_sub[p[0]][el] for y in k_as_sub[p[1]][el]}
-        ant_subs = len(d1)
+        #ant_subs = len(d1)
+
 
         #if p[0] != p[1]:
         #    k1 = set(k_as_obj[p[0]].keys())
@@ -292,13 +288,31 @@ def exec(p):
         #else:
         #    dd = set(k_as_obj[p[0]].keys())
         #d2 = {(x, y) for el in dd for x in k_as_obj[p[0]][el] for y in k_as_obj[p[1]][el]}
-        ant_objs = len(d2)
+        #ant_objs = len(d2)
 
-        for ant in cleaned_relations:
-            if ant_subs >= support:
-                cons_sub[ant] = len(relations_ab[ant].intersection(d1))
-            if ant_objs >= support:
-                cons_objs[ant] = len(relations_ab[ant].intersection(d2))
+        for x in d1:
+            ant_subs += 1
+            for ant in cleaned_relations:
+                s = relations_ab[ant]
+                if ant not in cons_sub:
+                    cons_sub[ant] = 0
+                if x in s:
+                    cons_sub[ant]+=1
+
+        for x in d2:
+            ant_objs += 1
+            for ant in cleaned_relations:
+                s = relations_ab[ant]
+                if ant not in cons_objs:
+                    cons_objs[ant] = 0
+                if x in s:
+                    cons_objs[ant] += 1
+
+
+            #if ant_subs >= support:
+            #    cons_sub[ant] = len([x for x in d1 if x in ])
+            #if ant_objs >= support:
+            #    cons_objs[ant] = len([x for x in d2 if x in relations_ab[ant]])
 
     return p,cons_sub,cons_objs,ant_subs,ant_objs
 def __proc(t):
