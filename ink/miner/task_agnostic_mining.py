@@ -131,7 +131,6 @@ def __agnostic_rules(miner, X_trans):
 
         for r in tqdm(pool.imap_unordered(exec, _pr, chunksize=1), total=len(_pr)):
             p, cons_sub, cons_objs, ant_subs, ant_objs = r
-            print(p, ant_subs, ant_objs)
         # = exec(p, cleaned_relations,k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support)
             for ant in cons_sub:
                 if cons_sub[ant]>= miner.support:
@@ -252,55 +251,39 @@ def exec_f1(p):
             filter_items[('?b ' + p[0] + ' ?a', '?a ' + p[1] + ' ?b',)] = d
     return filter_items
 
-import functools, itertools, operator
 def exec(p):
     cons_sub = {}
-    ant_subs = 0
+    ant_subs = -1
 
     cons_objs = {}
-    ant_objs = 0
+    ant_objs = -1
 
-    if p[0].count(':') + p[1].count(':') <= rule_len-1:
+    for p3 in cleaned_relations:
+        all_coms = relations_ab[p3]
+        rel1_k = {k for obj in all_coms if obj[0] in k_as_obj[p[0]] for k in k_as_obj[p[0]][obj[0]]}
+        rel2_k = {k for obj in all_coms if obj[1] in k_as_obj[p[1]] for k in k_as_obj[p[1]][obj[1]]}
+        dd = rel1_k.intersection(rel2_k)
+        zz = len({(x,y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d] if (x,y) in all_coms})
+        if zz>=support:
+            if ant_subs == -1:
+                dd = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
+                ant_subs = len({(x, y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
+            cons_sub[p3] = zz
 
-        if len(relations_ab[p[0]]) >= support and len(relations_ab[p[1]]) >= support:
-            dd = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
-            if np.sum([len(k_as_sub[p[0]][d]) * len(k_as_sub[p[1]][d]) for d in dd]) >=support:
-                d1 = {(x,y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]}
-            else:
-                d1 = set()
-
-            dd = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
-            if np.sum([len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d]) for d in dd]) >= support:
-                d2 = {(x,y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d] }
-            else:
-                d2 = set()
-
-        #if p[0] != p[1]:
-        #    k1 = set(k_as_sub[p[0]].keys())
-        #    k2 = set(k_as_sub[p[1]].keys())
-        #    dd = k2.intersection(k1)
-        #else:
-        #    dd = set(k_as_sub[p[0]].keys())
-        #d1 = {(x, y) for el in dd for x in k_as_sub[p[0]][el] for y in k_as_sub[p[1]][el]}
-        ant_subs = len(d1)
+        rel1_k = {k for obj in all_coms if obj[0] in k_as_sub[p[0]] for k in k_as_sub[p[0]][obj[0]]}
+        rel2_k = {k for obj in all_coms if obj[1] in k_as_sub[p[1]] for k in k_as_sub[p[1]][obj[1]]}
+        dd = rel1_k.intersection(rel2_k)
+        zz = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d] if (x, y) in all_coms})
+        if zz >= support:
+            if ant_objs == -1:
+                dd = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
+                ant_objs = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
+            cons_objs[p3] = zz
 
 
-        #if p[0] != p[1]:
-        #    k1 = set(k_as_obj[p[0]].keys())
-        #    k2 = set(k_as_obj[p[1]].keys())
-        #    dd = k2.intersection(k1)
-        #else:
-        #    dd = set(k_as_obj[p[0]].keys())
-        #d2 = {(x, y) for el in dd for x in k_as_obj[p[0]][el] for y in k_as_obj[p[1]][el]}
-        ant_objs = len(d2)
+    return p, cons_sub, cons_objs, ant_subs, ant_objs
 
-        for ant in cleaned_relations:
-            if ant_subs >= support:
-                cons_sub[ant] = len(d1.intersection(relations_ab[ant]))
-            if ant_objs >= support:
-                cons_objs[ant] = len(d2.intersection(relations_ab[ant]))
 
-    return p,cons_sub,cons_objs,ant_subs,ant_objs
 def __proc(t):
     p = t
     ant_subs_p0_p1 = set()
