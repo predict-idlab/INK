@@ -89,12 +89,15 @@ def __agnostic_rules(miner, X_trans):
                 dd = s1.intersection(set(k_as_sub[r2].keys()))
                 try:
                     k_as_sub_intersect[(r1, r2)] = set(itertools.chain.from_iterable([itertools.product(k_as_sub[r1][d], k_as_sub[r2][d]) for d in dd]))
+                    if len(k_as_sub_intersect[(r1, r2)]) <= miner.support:
+                        k_as_sub_intersect[(r1, r2)] = set()
                 except:
                     k_as_sub_intersect[(r1, r2)] = set()
                 try:
-                    k_as_sub_intersect[(r2, r1)] = set(itertools.chain.from_iterable([itertools.product(k_as_sub[r2][d], k_as_sub[r1][d]) for d in dd]))
+                    k_as_sub_intersect[(r2, r1)] = k_as_sub_intersect[(r1, r2)]#set(itertools.chain.from_iterable([itertools.product(k_as_sub[r2][d], k_as_sub[r1][d]) for d in dd]))
                 except:
                     k_as_sub_intersect[(r2, r1)] = set()
+
     k_as_obj_intersect = {}
     for r1 in tqdm(k_as_obj):
         s1 = set(k_as_obj[r1].keys())
@@ -103,12 +106,14 @@ def __agnostic_rules(miner, X_trans):
                 dd = s1.intersection(set(k_as_obj[r2].keys()))
                 try:
                     k_as_obj_intersect[(r1, r2)] = \
-                    seet(itertools.chain.from_iterable([itertools.product(k_as_obj[r1][d], k_as_obj[r2][d]) for d in dd]))
+                    set(itertools.chain.from_iterable([itertools.product(k_as_obj[r1][d], k_as_obj[r2][d]) for d in dd]))
+                    if len(k_as_obj_intersect[(r1, r2)])<=miner.support:
+                        k_as_obj_intersect[(r1, r2)] = set()
                 except:
                     k_as_obj_intersect[(r1, r2)] = set()
                 try:
                     k_as_obj_intersect[(r2, r1)] = \
-                    set(itertools.chain.from_iterable([itertools.product(k_as_obj[r2][d], k_as_obj[r1][d]) for d in dd]))
+                    k_as_obj_intersect[(r1, r2)] #set(itertools.chain.from_iterable([itertools.product(k_as_obj[r2][d], k_as_obj[r1][d]) for d in dd]))
                 except:
                     k_as_obj_intersect[(r2, r1)] = set()
 
