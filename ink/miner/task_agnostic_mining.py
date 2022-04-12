@@ -253,47 +253,50 @@ def exec_f1(p):
 
 def exec(p):
     cons_sub = {}
-    ant_subs = set()
-    if p[0].count(':') + p[1].count(':') <= rule_len-1:
-        k1 = set(k_as_sub[p[0]].keys())
-        k2 = set(k_as_sub[p[1]].keys())
-        dd = k2.intersection(k1)
-        if len(dd) >= support:
-            for el in dd:
-                a = k_as_sub[p[0]][el]
-                b = k_as_sub[p[1]][el]
-                d = {(x, y) for x in a for y in b}
-                ant_subs = ant_subs.union(d)
-                for ant in cleaned_relations:
-                    if ant not in cons_sub:
-                        cons_sub[ant] = set()
-                    cons_sub[ant] = cons_sub[ant].union(relations_ab[ant].intersection(d))
-
-    cons_sub = {k:len(v) for k,v in cons_sub.items()}
-    ant_subs = len(ant_subs)
-
+    ant_subs = 0
     cons_objs = {}
-    ant_objs = set()
+    ant_objs = 0
 
     if p[0].count(':') + p[1].count(':') <= rule_len - 1:
-        k1 = set(k_as_obj[p[0]].keys())
-        k2 = set(k_as_obj[p[1]].keys())
-        dd = k2.intersection(k1)
-        if len(dd) >= support:
-            for el in dd:
-                a = k_as_obj[p[0]][el]
-                b = k_as_obj[p[1]][el]
-                d = {(x, y) for x in a for y in b}
-                ant_objs = ant_objs.union(d)
-                for ant in cleaned_relations:
-                    if ant not in cons_objs:
-                        cons_objs[ant] = set()
-                    cons_objs[ant] = cons_objs[ant].union(relations_ab[ant].intersection(d))
 
-    cons_objs = {k: len(v) for k, v in cons_objs.items()}
-    ant_objs = len(ant_objs)
+        if len(relations_ab[p[0]]) >= support and len(relations_ab[p[1]]) >= support:
+            dd = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
+            if np.sum([len(k_as_sub[p[0]][d]) * len(k_as_sub[p[1]][d]) for d in dd]) >= support:
+                d1 = {(x, y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]}
+            else:
+                d1 = set()
 
-    return p,cons_sub,cons_objs,ant_subs,ant_objs
+            dd = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
+            if np.sum([len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d]) for d in dd]) >= support:
+                d2 = {(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]}
+            else:
+                d2 = set()
+
+        # if p[0] != p[1]:
+        #    k1 = set(k_as_sub[p[0]].keys())
+        #    k2 = set(k_as_sub[p[1]].keys())
+        #    dd = k2.intersection(k1)
+        # else:
+        #    dd = set(k_as_sub[p[0]].keys())
+        # d1 = {(x, y) for el in dd for x in k_as_sub[p[0]][el] for y in k_as_sub[p[1]][el]}
+        ant_subs = len(d1)
+
+        # if p[0] != p[1]:
+        #    k1 = set(k_as_obj[p[0]].keys())
+        #    k2 = set(k_as_obj[p[1]].keys())
+        #    dd = k2.intersection(k1)
+        # else:
+        #    dd = set(k_as_obj[p[0]].keys())
+        # d2 = {(x, y) for el in dd for x in k_as_obj[p[0]][el] for y in k_as_obj[p[1]][el]}
+        ant_objs = len(d2)
+
+        for ant in cleaned_relations:
+            if ant_subs >= support:
+                cons_sub[ant] = len(d1.intersection(relations_ab[ant]))
+            if ant_objs >= support:
+                cons_objs[ant] = len(d2.intersection(relations_ab[ant]))
+
+    return p, cons_sub, cons_objs, ant_subs, ant_objs
 
 
 
