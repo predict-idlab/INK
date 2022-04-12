@@ -87,30 +87,7 @@ def __agnostic_rules(miner, X_trans):
         filter_items[('?b ' + c + ' ?a',)] = len(relations_ab[c])
 
     _pr_comb = list(itertools.combinations_with_replacement(cleaned_relations,2))
-    print("subfields")
-    k_as_sub_intersect = {}
-    k_as_obj_intersect = {}
 
-    for r1,r2 in tqdm(list(itertools.product(cleaned_relations, repeat=2))):
-        if len(relations_ab[r1]) >= miner.support and len(relations_ab[r2]) >= miner.support:
-            if (r2,r1) not in k_as_sub_intersect:
-                dd = set(k_as_sub[r1].keys()).intersection(set(k_as_sub[r2].keys()))
-                k_as_sub_intersect[(r1, r2)] = set(itertools.chain.from_iterable([itertools.product(k_as_sub[r1][d], k_as_sub[r2][d]) for d in dd]))
-                if len(k_as_sub_intersect[(r1, r2)]) < miner.support:
-                    k_as_sub_intersect[(r1, r2)] = set()
-            else:
-                k_as_sub_intersect[(r1,r2)] = k_as_sub_intersect[(r2,r1)]
-
-            if (r2, r1) not in k_as_obj_intersect:
-                dd = set(k_as_obj[r1].keys()).intersection(set(k_as_obj[r2].keys()))
-                k_as_obj_intersect[(r1, r2)] = set(itertools.chain.from_iterable([itertools.product(k_as_obj[r1][d], k_as_obj[r2][d]) for d in dd]))
-                if len(k_as_obj_intersect[(r1, r2)]) < miner.support:
-                    k_as_obj_intersect[(r1, r2)] = set()
-            else:
-                k_as_obj_intersect[(r1, r2)] = k_as_obj_intersect[(r2, r1)]
-        else:
-            k_as_sub_intersect[(r1, r2)] = set()
-            k_as_obj_intersect[(r1, r2)] = set()
 
     cleaned_relations = [c for c in cleaned_relations if
                          len(relations_ab[c]) >= miner.support and c.count(':') < miner.max_rule_set - 1]
@@ -146,7 +123,7 @@ def __agnostic_rules(miner, X_trans):
     #done_objs = set()
     #for p in tqdm(_pr):
     with Pool(mp.cpu_count() - 1, initializer=__init,
-              initargs=(k_as_sub_intersect, k_as_obj_intersect, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
+              initargs=(k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
 
         for r in tqdm(pool.imap_unordered(exec_f1, _pr_comb, chunksize=1000), total=len(_pr_comb)):
             for el in r:
@@ -246,8 +223,8 @@ def __agnostic_rules(miner, X_trans):
     #1miner.rules = None
 
 def __init(d1, d2, d3, d4, d5, d6, d7):
-    global k_as_sub_intersect, k_as_obj_intersect, relations_ab, inv_relations_ab, rule_len,support,cleaned_relations
-    k_as_sub_intersect, k_as_obj_intersect, relations_ab,inv_relations_ab, rule_len,support, cleaned_relations = d1,d2,d3,d4,d5,d6,d7
+    global k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len,support,cleaned_relations
+    k_as_sub, k_as_obj, relations_ab,inv_relations_ab, rule_len,support, cleaned_relations = d1,d2,d3,d4,d5,d6,d7
 
 def exec_f1(p):
     filter_items = {}
@@ -271,6 +248,7 @@ def exec_f1(p):
             filter_items[('?b ' + p[0] + ' ?a', '?a ' + p[1] + ' ?b',)] = d
     return filter_items
 
+import functools, itertools, operator
 def exec(p):
     cons_sub = {}
     ant_subs = 0
@@ -279,6 +257,25 @@ def exec(p):
     ant_objs = 0
 
     if p[0].count(':') + p[1].count(':') <= rule_len-1:
+
+        if len(relations_ab[p[0]]) >= support and len(relations_ab[p[1]]) >= support:
+            dd = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
+            if np.sum([len(k_as_sub[p[0]][d]) * len(k_as_sub[p[1]][d]) for d in dd]) >=support:
+                d1 = set(itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in dd]))
+
+                if len(d1) < support:
+                    d1 = set()
+            else:
+                d1 = set()
+
+            dd = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
+            if np.sum([len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d]) for d in dd]) >= support:
+                d2 = set(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in dd]))
+                if len(d2) < support:
+                    d2 = set()
+            else:
+                d2 = set()
+
         #if p[0] != p[1]:
         #    k1 = set(k_as_sub[p[0]].keys())
         #    k2 = set(k_as_sub[p[1]].keys())
@@ -286,7 +283,7 @@ def exec(p):
         #else:
         #    dd = set(k_as_sub[p[0]].keys())
         #d1 = {(x, y) for el in dd for x in k_as_sub[p[0]][el] for y in k_as_sub[p[1]][el]}
-        ant_subs = len(k_as_sub_intersect[(p[0],p[1])])
+        ant_subs = len(d1)
 
         #if p[0] != p[1]:
         #    k1 = set(k_as_obj[p[0]].keys())
@@ -295,13 +292,13 @@ def exec(p):
         #else:
         #    dd = set(k_as_obj[p[0]].keys())
         #d2 = {(x, y) for el in dd for x in k_as_obj[p[0]][el] for y in k_as_obj[p[1]][el]}
-        ant_objs = len(k_as_obj_intersect[p[0],p[1]])
+        ant_objs = len(d2)
 
         for ant in cleaned_relations:
             if ant_subs >= support:
-                cons_sub[ant] = len(relations_ab[ant].intersection(k_as_sub_intersect[(p[0],p[1])]))
+                cons_sub[ant] = len(relations_ab[ant].intersection(d1))
             if ant_objs >= support:
-                cons_objs[ant] = len(relations_ab[ant].intersection(k_as_obj_intersect[p[0],p[1]]))
+                cons_objs[ant] = len(relations_ab[ant].intersection(d2))
 
     return p,cons_sub,cons_objs,ant_subs,ant_objs
 def __proc(t):
