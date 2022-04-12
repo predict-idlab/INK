@@ -88,11 +88,11 @@ def __agnostic_rules(miner, X_trans):
             if (r1,r2) not in k_as_sub and len(relations_ab[r1]) >= miner.support and len(relations_ab[r2]) >= miner.support:
                 dd = s1.intersection(set(k_as_sub[r2].keys()))
                 try:
-                    k_as_sub_intersect[(r1, r2)] = itertools.chain.from_iterable([itertools.product(k_as_sub[r1][d], k_as_sub[r2][d]) for d in dd])
+                    k_as_sub_intersect[(r1, r2)] = set(itertools.chain.from_iterable([itertools.product(k_as_sub[r1][d], k_as_sub[r2][d]) for d in dd]))
                 except:
                     k_as_sub_intersect[(r1, r2)] = set()
                 try:
-                    k_as_sub_intersect[(r2, r1)] = itertools.chain.from_iterable([itertools.product(k_as_sub[r2][d], k_as_sub[r1][d]) for d in dd])
+                    k_as_sub_intersect[(r2, r1)] = set(itertools.chain.from_iterable([itertools.product(k_as_sub[r2][d], k_as_sub[r1][d]) for d in dd]))
                 except:
                     k_as_sub_intersect[(r2, r1)] = set()
     k_as_obj_intersect = {}
@@ -103,12 +103,12 @@ def __agnostic_rules(miner, X_trans):
                 dd = s1.intersection(set(k_as_obj[r2].keys()))
                 try:
                     k_as_obj_intersect[(r1, r2)] = \
-                    itertools.chain.from_iterable([itertools.product(k_as_obj[r1][d], k_as_obj[r2][d]) for d in dd])
+                    seet(itertools.chain.from_iterable([itertools.product(k_as_obj[r1][d], k_as_obj[r2][d]) for d in dd]))
                 except:
                     k_as_obj_intersect[(r1, r2)] = set()
                 try:
                     k_as_obj_intersect[(r2, r1)] = \
-                    itertools.chain.from_iterable([itertools.product(k_as_obj[r2][d], k_as_obj[r1][d]) for d in dd])
+                    set(itertools.chain.from_iterable([itertools.product(k_as_obj[r2][d], k_as_obj[r1][d]) for d in dd]))
                 except:
                     k_as_obj_intersect[(r2, r1)] = set()
 
@@ -294,8 +294,7 @@ def exec(p):
         #    dd = set(k_as_sub[p[0]].keys())
         #d1 = {(x, y) for el in dd for x in k_as_sub[p[0]][el] for y in k_as_sub[p[1]][el]}
         if (p[0],p[1]) in k_as_sub_intersect:
-            d1 = set(k_as_sub_intersect[(p[0],p[1])])
-            ant_subs = len(d1)
+            ant_subs = len(k_as_sub_intersect[(p[0],p[1])])
         else:
             ant_subs = 0
 
@@ -307,16 +306,15 @@ def exec(p):
         #    dd = set(k_as_obj[p[0]].keys())
         #d2 = {(x, y) for el in dd for x in k_as_obj[p[0]][el] for y in k_as_obj[p[1]][el]}
         if (p[0], p[1]) in k_as_obj_intersect:
-            d2 = set(k_as_obj_intersect[p[0],p[1]])
-            ant_objs = len(d2)
+            ant_objs = len(k_as_obj_intersect[p[0],p[1]])
         else:
             ant_objs = 0
 
         for ant in cleaned_relations:
             if ant_subs >= support:
-                cons_sub[ant] = len(d1.intersection(relations_ab[ant]))
+                cons_sub[ant] = len(relations_ab[ant].intersection(k_as_sub_intersect[(p[0],p[1])]))
             if ant_objs >= support:
-                cons_objs[ant] = len(d2.intersection(relations_ab[ant]))
+                cons_objs[ant] = len(relations_ab[ant].intersection(k_as_obj_intersect[p[0],p[1]]))
 
     return p,cons_sub,cons_objs,ant_subs,ant_objs
 def __proc(t):
