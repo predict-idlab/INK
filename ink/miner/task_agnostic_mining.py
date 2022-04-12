@@ -131,6 +131,7 @@ def __agnostic_rules(miner, X_trans):
 
         for r in tqdm(pool.imap_unordered(exec, _pr, chunksize=1), total=len(_pr)):
             p, cons_sub, cons_objs, ant_subs, ant_objs = r
+            print(p, ant_subs, ant_objs)
         # = exec(p, cleaned_relations,k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support)
             for ant in cons_sub:
                 if cons_sub[ant]>= miner.support:
@@ -140,6 +141,9 @@ def __agnostic_rules(miner, X_trans):
                 if cons_objs[ant] >= miner.support:
                     filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'),)] = ant_objs
                     filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'), '?a ' + ant + ' ?b',)] = cons_objs[ant]
+
+        pool.close()
+        pool.join()
 
 
 
