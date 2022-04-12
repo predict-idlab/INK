@@ -253,29 +253,37 @@ def exec_f1(p):
 
 def exec(p):
     cons_sub = {}
-    dd = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
-    ant_subs = len({(x, y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
+    ant_subs = -1
+    d1 = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
+    ant_subs_upper = sum([len(k_as_sub[p[0]][d])*len(k_as_sub[p[1]][d]) for d in d1])
 
     cons_objs = {}
-    dd = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
-    ant_objs = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
+    ant_objs = -1
+    d2 = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
+    ant_objs_upper = sum([len(k_as_obj[p[0]][d])*len(k_as_obj[p[1]][d]) for d in d2])
+
+    #
 
     for p3 in cleaned_relations:
         all_coms = relations_ab[p3]
-        if ant_subs>=support:
+        if ant_subs_upper>=support:
             rel1_k = {k for obj in all_coms if obj[0] in k_as_obj[p[0]] for k in k_as_obj[p[0]][obj[0]]}
             rel2_k = {k for obj in all_coms if obj[1] in k_as_obj[p[1]] for k in k_as_obj[p[1]][obj[1]]}
             dd = rel1_k.intersection(rel2_k)
             zz = len({(x,y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d] if (x,y) in all_coms})
             if zz>=support:
+                if ant_subs==-1:
+                    ant_subs = len({(x, y) for d in d1 for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
                 cons_sub[p3] = zz
 
-        if ant_objs >= support:
+        if ant_objs_upper >= support:
             rel1_k = {k for obj in all_coms if obj[0] in k_as_sub[p[0]] for k in k_as_sub[p[0]][obj[0]]}
             rel2_k = {k for obj in all_coms if obj[1] in k_as_sub[p[1]] for k in k_as_sub[p[1]][obj[1]]}
             dd = rel1_k.intersection(rel2_k)
             zz = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d] if (x, y) in all_coms})
             if zz >= support:
+                if ant_objs==-1:
+                    ant_objs = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
                 cons_objs[p3] = zz
 
 
