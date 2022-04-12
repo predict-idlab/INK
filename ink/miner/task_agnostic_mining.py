@@ -253,32 +253,30 @@ def exec_f1(p):
 
 def exec(p):
     cons_sub = {}
-    ant_subs = -1
+    dd = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
+    ant_subs = len({(x, y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
 
     cons_objs = {}
-    ant_objs = -1
+    dd = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
+    ant_objs = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
 
     for p3 in cleaned_relations:
         all_coms = relations_ab[p3]
-        rel1_k = {k for obj in all_coms if obj[0] in k_as_obj[p[0]] for k in k_as_obj[p[0]][obj[0]]}
-        rel2_k = {k for obj in all_coms if obj[1] in k_as_obj[p[1]] for k in k_as_obj[p[1]][obj[1]]}
-        dd = rel1_k.intersection(rel2_k)
-        zz = len({(x,y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d] if (x,y) in all_coms})
-        if zz>=support:
-            if ant_subs == -1:
-                dd = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
-                ant_subs = len({(x, y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
-            cons_sub[p3] = zz
+        if ant_subs>=support:
+            rel1_k = {k for obj in all_coms if obj[0] in k_as_obj[p[0]] for k in k_as_obj[p[0]][obj[0]]}
+            rel2_k = {k for obj in all_coms if obj[1] in k_as_obj[p[1]] for k in k_as_obj[p[1]][obj[1]]}
+            dd = rel1_k.intersection(rel2_k)
+            zz = len({(x,y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d] if (x,y) in all_coms})
+            if zz>=support:
+                cons_sub[p3] = zz
 
-        rel1_k = {k for obj in all_coms if obj[0] in k_as_sub[p[0]] for k in k_as_sub[p[0]][obj[0]]}
-        rel2_k = {k for obj in all_coms if obj[1] in k_as_sub[p[1]] for k in k_as_sub[p[1]][obj[1]]}
-        dd = rel1_k.intersection(rel2_k)
-        zz = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d] if (x, y) in all_coms})
-        if zz >= support:
-            if ant_objs == -1:
-                dd = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
-                ant_objs = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
-            cons_objs[p3] = zz
+        if ant_objs >= support:
+            rel1_k = {k for obj in all_coms if obj[0] in k_as_sub[p[0]] for k in k_as_sub[p[0]][obj[0]]}
+            rel2_k = {k for obj in all_coms if obj[1] in k_as_sub[p[1]] for k in k_as_sub[p[1]][obj[1]]}
+            dd = rel1_k.intersection(rel2_k)
+            zz = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d] if (x, y) in all_coms})
+            if zz >= support:
+                cons_objs[p3] = zz
 
 
     return p, cons_sub, cons_objs, ant_subs, ant_objs
