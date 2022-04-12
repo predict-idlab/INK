@@ -12,7 +12,7 @@ import multiprocessing as mp
 from functools import lru_cache
 from multiprocessing import Pool
 from mlxtend.frequent_patterns import association_rules
-
+import mlxtend
 __author__ = 'Bram Steenwinckel'
 __copyright__ = 'Copyright 2020, INK'
 __credits__ = ['Filip De Turck, Femke Ongenae']
@@ -47,7 +47,6 @@ from collections import defaultdict
 def __agnostic_rules(miner, X_trans):
     matrix, inds, cols = X_trans
     filter_items = {}
-
     relations_ab = {}
     inv_relations_ab = {}
     k_as_sub = {}
@@ -269,8 +268,11 @@ def exec(p):
             for p3 in cleaned_relations:
                 all_coms = relations_ab[p3]
                 rel1_k = {k for obj in all_coms if obj[0] in k_as_obj[p[0]] for k in k_as_obj[p[0]][obj[0]]}
-                rel2_k = {k for obj in all_coms if obj[1] in k_as_obj[p[1]] for k in k_as_obj[p[1]][obj[1]]}
-                dd = rel1_k.intersection(rel2_k)
+                if p[0]!=p[1]:
+                    rel2_k = {k for obj in all_coms if obj[1] in k_as_obj[p[1]] for k in k_as_obj[p[1]][obj[1]]}
+                    dd = rel1_k.intersection(rel2_k)
+                else:
+                    dd = rel1_k
                 zz = len({(x,y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d] if (x,y) in all_coms})
                 if zz>=support:
                     if ant_subs==-1:
@@ -282,16 +284,17 @@ def exec(p):
             for p3 in cleaned_relations:
                 all_coms = relations_ab[p3]
                 rel1_k = {k for obj in all_coms if obj[0] in k_as_sub[p[0]] for k in k_as_sub[p[0]][obj[0]]}
-                rel2_k = {k for obj in all_coms if obj[1] in k_as_sub[p[1]] for k in k_as_sub[p[1]][obj[1]]}
-                dd = rel1_k.intersection(rel2_k)
+                if p[0] != p[1]:
+                    rel2_k = {k for obj in all_coms if obj[1] in k_as_sub[p[1]] for k in k_as_sub[p[1]][obj[1]]}
+                    dd = rel1_k.intersection(rel2_k)
+                else:
+                    dd = rel1_k
                 zz = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d] if (x, y) in all_coms})
                 if zz >= support:
                     if ant_objs==-1:
                         ant_objs = len({(x, y) for d in d2 for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
                     if ant_objs>=support:
                         cons_objs[p3] = zz
-    gc.collect()
-
 
     return p, cons_sub, cons_objs, ant_subs, ant_objs
 
