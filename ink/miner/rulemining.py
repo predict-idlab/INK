@@ -56,7 +56,7 @@ class RuleSetMiner(object):
     :type: bool
     """
     def __init__(self, support=10, max_rules=10e13, max_len_rule_set=5, max_iter=10, chains=1000, forest_size=1000,
-                 criteria='precision', propose_threshold=0.1, verbose=False):
+                 criteria='precision', rule_complexity = 2, propose_threshold=0.1, verbose=False):
         self.max_rules = max_rules
         self.max_iter = max_iter
         self.chains = chains
@@ -83,6 +83,7 @@ class RuleSetMiner(object):
         self.Lup = None
         self.patternSpace = []
         self.rules = []
+        self.rule_complexity = rule_complexity
 
     def fit(self, data, label=None):
         """
