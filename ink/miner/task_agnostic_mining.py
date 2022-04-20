@@ -50,6 +50,7 @@ def __agnostic_rules(miner, X_trans):
     k_as_sub = {}
     k_as_obj = {}
     cleaned_relations = set()
+    pairs = {}
     cx = matrix.tocoo()
     for i, j, v in tqdm(list(zip(cx.row, cx.col, cx.data))):
         if '§' in cols[j]:
@@ -59,6 +60,9 @@ def __agnostic_rules(miner, X_trans):
                 inv_relations_ab[rel]=set()
             relations_ab[rel].add((inds[i],obj))
             inv_relations_ab[rel].add((obj,inds[i]))
+            if (inds[i],obj) not in pairs:
+                pairs[(inds[i],obj)] = set()
+            pairs[(inds[i],obj)].add(rel)
 
             if rel not in k_as_sub:
                 k_as_sub[rel] = {}
@@ -94,7 +98,7 @@ def __agnostic_rules(miner, X_trans):
 
     if miner.rule_complexity > 0:
         with Pool(mp.cpu_count() - 1, initializer=__init,
-                  initargs=(k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
+                  initargs=(k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel, pairs)) as pool:
 
             for r in tqdm(pool.imap_unordered(exec_f1, _pr_comb, chunksize=1000), total=len(_pr_comb)):
                 for el in r:
@@ -120,9 +124,9 @@ def __agnostic_rules(miner, X_trans):
     rules = association_rules(df, metric="support", min_threshold=miner.support)
     miner.rules = rules
 
-def __init(d1, d2, d3, d4, d5, d6, d7):
-    global k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len,support,cleaned_relations
-    k_as_sub, k_as_obj, relations_ab,inv_relations_ab, rule_len,support, cleaned_relations = d1,d2,d3,d4,d5,d6,d7
+def __init(d1, d2, d3, d4, d5, d6, d7, d8):
+    global k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len,support,cleaned_relations,pairs
+    k_as_sub, k_as_obj, relations_ab,inv_relations_ab, rule_len,support, cleaned_relations,pairs = d1,d2,d3,d4,d5,d6,d7,d8
 
 def exec_f1(p):
     filter_items = {}
@@ -169,7 +173,10 @@ def exec(p):
                     dd = rel1_k.intersection(rel2_k)
                 else:
                     dd = rel1_k
-                zz = len({(x,y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d] if (x,y) in all_coms})
+
+                total = {(x, y) for d in dd for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]}
+                subs = total.intersection(pairs.keys())
+                zz = len({1 for c in subs if p3 in pairs[c]})
                 if zz>=support:
                     if ant_subs==-1:
                         ant_subs = len({(x, y) for d in d1 for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
@@ -185,7 +192,10 @@ def exec(p):
                     dd = rel1_k.intersection(rel2_k)
                 else:
                     dd = rel1_k
-                zz = len({(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d] if (x, y) in all_coms})
+
+                total = {(x, y) for d in dd for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]}
+                subs = total.intersection(pairs.keys())
+                zz = len({1 for c in subs if p3 in pairs[c]})
                 if zz >= support:
                     if ant_objs==-1:
                         ant_objs = len({(x, y) for d in d2 for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
