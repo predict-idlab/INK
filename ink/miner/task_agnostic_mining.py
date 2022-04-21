@@ -99,30 +99,27 @@ def __agnostic_rules(miner, X_trans):
             for r in tqdm(pool.imap_unordered(exec_f1, _pr_comb, chunksize=1000), total=len(_pr_comb)):
                 for el in r:
                     filter_items[el] = r[el]
-
-            if miner.rule_complexity > 1:
-                funclist = []
-
-                for p in _pr:
-                    f = pool.apply_async(exec, [p])
-                    funclist.append(f)
-                #for r in tqdm(pool.imap_unordered(exec, _pr, chunksize=1), total=len(_pr)):
-                for f in tqdm(funclist):
-                    r = f.get()
-                    #r = exec(p, (k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel))
-                    p, cons_sub, cons_objs, ant_subs, ant_objs = r
-                # = exec(p, cleaned_relations,k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support)
-                    for ant in cons_sub:
-                        if cons_sub[ant]>= miner.support:
-                            filter_items[(('?k ' + p[0] + ' ?a', '?k ' + p[1] + ' ?b'),)] = ant_subs
-                            filter_items[(('?k ' + p[0] + ' ?a', '?k ' + p[1] + ' ?b'), '?a ' + ant + ' ?b',)] = cons_sub[ant]
-                    for ant in cons_objs:
-                        if cons_objs[ant] >= miner.support:
-                            filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'),)] = ant_objs
-                            filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'), '?a ' + ant + ' ?b',)] = cons_objs[ant]
-
             pool.close()
             pool.terminate()
+
+
+        if miner.rule_complexity > 1:
+            funclist = []
+
+            for p in tqdm(_pr):
+                r = exec(p, (k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel))
+                p, cons_sub, cons_objs, ant_subs, ant_objs = r
+            # = exec(p, cleaned_relations,k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support)
+                for ant in cons_sub:
+                    if cons_sub[ant]>= miner.support:
+                        filter_items[(('?k ' + p[0] + ' ?a', '?k ' + p[1] + ' ?b'),)] = ant_subs
+                        filter_items[(('?k ' + p[0] + ' ?a', '?k ' + p[1] + ' ?b'), '?a ' + ant + ' ?b',)] = cons_sub[ant]
+                for ant in cons_objs:
+                    if cons_objs[ant] >= miner.support:
+                        filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'),)] = ant_objs
+                        filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'), '?a ' + ant + ' ?b',)] = cons_objs[ant]
+
+
 
     df = pd.DataFrame(list(filter_items.items()), columns=['itemsets', 'support'])
     rules = association_rules(df, metric="support", min_threshold=miner.support)
@@ -154,13 +151,13 @@ def exec_f1(p):
             filter_items[('?b ' + p[0] + ' ?a', '?a ' + p[1] + ' ?b',)] = d
     return filter_items
 
-def exec(p):
+def exec(p,t):
     cons_sub = {}
     ant_subs = -1
     cons_objs = {}
     ant_objs = -1
 
-    #k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations = t
+    k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations = t
 
     if p[0].count(':') + p[1].count(':') <= rule_len - 1:
 
