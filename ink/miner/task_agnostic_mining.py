@@ -93,7 +93,7 @@ def __agnostic_rules(miner, X_trans):
     _pr = list(itertools.product(cleaned_relations, repeat=2))
 
     if miner.rule_complexity > 0:
-        with Pool(mp.cpu_count() - 1, initializer=__init,
+        with Pool(4, initializer=__init,
                   initargs=(k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
 
             for r in tqdm(pool.imap_unordered(exec_f1, _pr_comb, chunksize=1000), total=len(_pr_comb)):
@@ -101,7 +101,14 @@ def __agnostic_rules(miner, X_trans):
                     filter_items[el] = r[el]
 
             if miner.rule_complexity > 1:
-                for r in tqdm(pool.imap_unordered(exec, _pr, chunksize=1), total=len(_pr)):
+                funclist = []
+
+                for p in _pr:
+                    f = pool.apply_async(exec, [p])
+                    funclist.append(f)
+                #for r in tqdm(pool.imap_unordered(exec, _pr, chunksize=1), total=len(_pr)):
+                for f in tqdm(funclist):
+                    r = f.get()
                     #r = exec(p, (k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel))
                     p, cons_sub, cons_objs, ant_subs, ant_objs = r
                 # = exec(p, cleaned_relations,k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support)
@@ -115,7 +122,7 @@ def __agnostic_rules(miner, X_trans):
                             filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'), '?a ' + ant + ' ?b',)] = cons_objs[ant]
 
             pool.close()
-            pool.join()
+            pool.terminate()
 
     df = pd.DataFrame(list(filter_items.items()), columns=['itemsets', 'support'])
     rules = association_rules(df, metric="support", min_threshold=miner.support)
