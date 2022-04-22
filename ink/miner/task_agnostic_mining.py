@@ -54,28 +54,44 @@ def __agnostic_rules(miner, X_trans):
     k_as_obj = {}
     cleaned_relations = set()
     cx = matrix.tocoo()
+
+    mapper = set()
+    for c in cols:
+        if '§' in c:
+            rel, obj = c.split('§')
+            mapper.add(rel)
+            mapper.add(obj)
+    for i in inds:
+        mapper.add(i)
+
+    mapper_dct = {k: v for v, k in enumerate(mapper)}
+    mapper_dct_inv = {v: k for v, k in enumerate(mapper)}
+
     for i, j, v in tqdm(list(zip(cx.row, cx.col, cx.data))):
         if '§' in cols[j]:
             rel, obj = cols[j].split('§')
+            rel = mapper_dct[rel]
+            obj = mapper_dct[obj]
+            subj = mapper_dct[inds[i]]
             if rel not in relations_ab:
                 relations_ab[rel]=set()
                 inv_relations_ab[rel]=set()
-            relations_ab[rel].add((inds[i],obj))
-            inv_relations_ab[rel].add((obj,inds[i]))
+            relations_ab[rel].add((subj,obj))
+            inv_relations_ab[rel].add((obj,subj))
 
             if rel not in k_as_sub:
                 k_as_sub[rel] = {}
-            if inds[i] not in k_as_sub[rel]:
-                k_as_sub[rel][inds[i]] = set()
-            k_as_sub[rel][inds[i]].add(obj)
+            if subj not in k_as_sub[rel]:
+                k_as_sub[rel][subj] = set()
+            k_as_sub[rel][subj].add(obj)
 
             if rel not in k_as_obj:
                 k_as_obj[rel] = {}
             if obj not in k_as_obj[rel]:
                 k_as_obj[rel][obj] = set()
-            k_as_obj[rel][obj].add(inds[i])
+            k_as_obj[rel][obj].add(subj)
         else:
-            cleaned_relations.add(cols[j])
+            cleaned_relations.add(mapper_dct[cols[j]])
 
     matrix, inds, cols = None, None, None
     gc.collect()
@@ -83,15 +99,16 @@ def __agnostic_rules(miner, X_trans):
     cleaned_relations = [c for c in cleaned_relations if len(relations_ab[c])>=miner.support]
 
     for c in cleaned_relations:
-        filter_items[('?a '+c+' ?b',)] = len(relations_ab[c])
-        filter_items[('?b ' + c + ' ?a',)] = len(relations_ab[c])
+        filter_items[('?a '+mapper_dct_inv[c]+' ?b',)] = len(relations_ab[c])
+        filter_items[('?b ' + mapper_dct_inv[c] + ' ?a',)] = len(relations_ab[c])
 
-    _pr_comb = list(itertools.combinations_with_replacement(cleaned_relations,2))
-
+    _pr_comb = itertools.combinations_with_replacement(cleaned_relations,2)
+    _pr_comb = [(p,(mapper_dct_inv[p[0]],mapper_dct_inv[p[1]])) for p in _pr_comb if mapper_dct_inv[p[0]].count(':') + mapper_dct_inv[p[1]].count(':') <= rule_len]
 
     cleaned_relations = [c for c in cleaned_relations if
-                         len(relations_ab[c]) >= miner.support and c.count(':') < miner.max_rule_set - 1]
-    cleaned_single_rel = [c for c in cleaned_relations if c.count(':') == 1]
+                         len(relations_ab[c]) >= miner.support and mapper_dct_inv[c].count(':') < miner.max_rule_set - 1]
+    cleaned_single_rel = [c for c in cleaned_relations if mapper_dct_inv[c].count(':') == 1]
+    cleaned_single_rel = [mapper_dct_inv[c] for c in cleaned_single_rel]
 
     if miner.rule_complexity > 0:
         with Pool(4, initializer=__init,
@@ -107,6 +124,7 @@ def __agnostic_rules(miner, X_trans):
         gc.collect()
 
         _pr = itertools.product(cleaned_relations, repeat=2)
+        _pr = [p for p in _pr if mapper_dct_inv[p[0]].count(':') + mapper_dct_inv[p[1]].count(':')  <= rule_len - 1]
 
         if miner.rule_complexity > 1:
             for p in tqdm(_pr, total = len(cleaned_relations)**2):
@@ -114,12 +132,12 @@ def __agnostic_rules(miner, X_trans):
             # = exec(p, cleaned_relations,k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support)
                 for ant in cons_sub:
                     if cons_sub[ant]>= miner.support:
-                        filter_items[(('?k ' + p[0] + ' ?a', '?k ' + p[1] + ' ?b'),)] = ant_subs
-                        filter_items[(('?k ' + p[0] + ' ?a', '?k ' + p[1] + ' ?b'), '?a ' + ant + ' ?b',)] = cons_sub[ant]
+                        filter_items[(('?k ' + mapper_dct_inv[p[0]] + ' ?a', '?k ' + mapper_dct_inv[p[1]] + ' ?b'),)] = ant_subs
+                        filter_items[(('?k ' + mapper_dct_inv[p[0]] + ' ?a', '?k ' + mapper_dct_inv[p[1]] + ' ?b'), '?a ' + mapper_dct_inv[ant] + ' ?b',)] = cons_sub[ant]
                 for ant in cons_objs:
                     if cons_objs[ant] >= miner.support:
-                        filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'),)] = ant_objs
-                        filter_items[(('?a ' + p[0] + ' ?k', '?b ' + p[1] + ' ?k'), '?a ' + ant + ' ?b',)] = cons_objs[ant]
+                        filter_items[(('?a ' + mapper_dct_inv[p[0]] + ' ?k', '?b ' + mapper_dct_inv[p[1]] + ' ?k'),)] = ant_objs
+                        filter_items[(('?a ' + mapper_dct_inv[p[0]] + ' ?k', '?b ' + mapper_dct_inv[p[1]] + ' ?k'), '?a ' + mapper_dct_inv[ant] + ' ?b',)] = cons_objs[ant]
 
 
 
@@ -132,25 +150,26 @@ def __init(d1, d2, d3, d4, d5):
     relations_ab,inv_relations_ab, rule_len,support, cleaned_relations = d1,d2,d3,d4,d5
 
 def exec_f1(p):
+    p,e = p
     filter_items = {}
-    if p[0].count(':') + p[1].count(':') <= rule_len:
-        if p[0] != p[1]:
-            d = relations_ab[p[1]].intersection(relations_ab[p[0]])
-            if len(d) >= support:
-                filter_items[('?a ' + p[0] + ' ?b', '?a ' + p[1] + ' ?b',)] = len(d)
+    #if p[0].count(':') + p[1].count(':') <= rule_len:
+    if p[0] != p[1]:
+        d = relations_ab[p[1]].intersection(relations_ab[p[0]])
+        if len(d) >= support:
+            filter_items[('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b',)] = len(d)
 
-                for c in cleaned_relations:
-                    if c != p[0] and c != p[1]:
-                        if p[0].count(':') + p[1].count(':') + c.count(':') <= rule_len:
-                            dd = d.intersection(relations_ab[c])
-                            if len(dd) >= support:
-                                filter_items[(('?a ' + p[0] + ' ?b', '?a ' + p[1] + ' ?b'),)] = len(d)
-                                filter_items[(('?a ' + p[0] + ' ?b', '?a ' + p[1] + ' ?b'), '?a ' + c + ' ?b')] = len(
-                                    dd)
+            for c in cleaned_relations:
+                if c != e[0] and c != e[1]:
+                    if e[0].count(':') + e[1].count(':') + c.count(':') <= rule_len:
+                        dd = d.intersection(relations_ab[c])
+                        if len(dd) >= support:
+                            filter_items[(('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b'),)] = len(d)
+                            filter_items[(('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b'), '?a ' + c + ' ?b')] = len(
+                                dd)
 
-        d = len(inv_relations_ab[p[1]].intersection(relations_ab[p[0]]))
-        if d >= support:
-            filter_items[('?b ' + p[0] + ' ?a', '?a ' + p[1] + ' ?b',)] = d
+    d = len(inv_relations_ab[p[1]].intersection(relations_ab[p[0]]))
+    if d >= support:
+        filter_items[('?b ' + e[0] + ' ?a', '?a ' + e[1] + ' ?b',)] = d
     return filter_items
 
 def exec(p):
@@ -161,19 +180,19 @@ def exec(p):
 
     #k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations = t
 
-    if p[0].count(':') + p[1].count(':') <= rule_len - 1:
+    #if p[0].count(':') + p[1].count(':') <= rule_len - 1:
 
-        d1 = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
-        ant_subs = len({(x, y) for d in d1 for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
+    d1 = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
+    ant_subs = len({(x, y) for d in d1 for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
 
-        d2 = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
-        ant_objs = len({(x, y) for d in d2 for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
+    d2 = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
+    ant_objs = len({(x, y) for d in d2 for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
 
-        for p3 in cleaned_relations:
-            if ant_subs>=support:
-                cons_sub[p3] = sum([1 if len(k_as_obj[p[0]][k[0]].intersection(k_as_obj[p[1]][k[1]])) else 0 for k in relations_ab[p3] if k[0] in k_as_obj[p[0]] and k[1] in k_as_obj[p[1]]])
-            if ant_objs>=support:
-                cons_objs[p3] = sum([1 if len(k_as_sub[p[0]][k[0]].intersection(k_as_sub[p[1]][k[1]])) else 0 for k in relations_ab[p3] if k[0] in k_as_sub[p[0]] and k[1] in k_as_sub[p[1]]])
+    for p3 in cleaned_relations:
+        if ant_subs>=support:
+            cons_sub[p3] = sum([1 if len(k_as_obj[p[0]][k[0]].intersection(k_as_obj[p[1]][k[1]])) else 0 for k in relations_ab[p3] if k[0] in k_as_obj[p[0]] and k[1] in k_as_obj[p[1]]])
+        if ant_objs>=support:
+            cons_objs[p3] = sum([1 if len(k_as_sub[p[0]][k[0]].intersection(k_as_sub[p[1]][k[1]])) else 0 for k in relations_ab[p3] if k[0] in k_as_sub[p[0]] and k[1] in k_as_sub[p[1]]])
             # rel2_set = [ for k in relations_ab[p3] if k[1] ]
             #for c in relations_ab[p3]:
             #     if ant_subs>=support:
