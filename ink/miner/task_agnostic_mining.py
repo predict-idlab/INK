@@ -189,15 +189,11 @@ def exec(p):
 
     #if p[0].count(':') + p[1].count(':') <= rule_len - 1:
 
-    ant_subs = 0
-    for x,y in itertools.product(k_as_obj[p[0]].keys(),k_as_obj[p[1]].keys()):
-        if len(k_as_obj[p[0]][x].intersection(k_as_obj[p[1]][y]))>0:
-            ant_subs+=1
+    ant_subs = len([True for x, y in itertools.product(k_as_obj[p[0]].keys(), k_as_obj[p[1]].keys()) if
+                    len(k_as_obj[p[0]][x].intersection(k_as_obj[p[1]][y])) > 0])
 
-    ant_objs = 0
-    for x, y in itertools.product(k_as_sub[p[0]].keys(), k_as_sub[p[1]].keys()):
-        if len(k_as_sub[p[0]][x].intersection(k_as_sub[p[1]][y])) > 0:
-            ant_objs += 1
+    ant_objs = len([True for x, y in itertools.product(k_as_sub[p[0]].keys(), k_as_sub[p[1]].keys()) if
+                    len(k_as_sub[p[0]][x].intersection(k_as_sub[p[1]][y])) > 0])
 
     #ant_objs = len({(x, y) for d in set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys())) for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
 
