@@ -47,7 +47,6 @@ def __agnostic_rules(miner, X_trans):
     support = miner.support
     rule_len = miner.max_rule_set
     matrix, inds, cols = X_trans
-    manager = Manager()
     filter_items = {}
     relations_ab = {}
     inv_relations_ab = {}
