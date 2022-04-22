@@ -56,11 +56,16 @@ def __agnostic_rules(miner, X_trans):
     cx = matrix.tocoo()
 
     mapper = set()
-    for c in cols:
-        if '§' in c:
-            rel, obj = c.split('§')
+    col_mapper = {}
+    for c in range(len(cols)):
+        value = matrix.getcol(c).nnz
+        if '§' in cols[c]:
+            rel, obj = cols[c].split('§')
             mapper.add(rel)
             mapper.add(obj)
+            if rel not in col_mapper:
+                col_mapper[rel]=0
+            col_mapper[rel]+=value
     for i in inds:
         mapper.add(i)
 
@@ -70,28 +75,30 @@ def __agnostic_rules(miner, X_trans):
     for i, j, v in tqdm(list(zip(cx.row, cx.col, cx.data))):
         if '§' in cols[j]:
             rel, obj = cols[j].split('§')
-            rel = mapper_dct[rel]
-            obj = mapper_dct[obj]
-            subj = mapper_dct[inds[i]]
-            if rel not in relations_ab:
-                relations_ab[rel]=set()
-                inv_relations_ab[rel]=set()
-            relations_ab[rel].add((subj,obj))
-            inv_relations_ab[rel].add((obj,subj))
+            if col_mapper[rel]>=support:
+                rel = mapper_dct[rel]
+                obj = mapper_dct[obj]
+                subj = mapper_dct[inds[i]]
+                if rel not in relations_ab:
+                    relations_ab[rel]=set()
+                    inv_relations_ab[rel]=set()
+                relations_ab[rel].add((subj,obj))
+                inv_relations_ab[rel].add((obj,subj))
 
-            if rel not in k_as_sub:
-                k_as_sub[rel] = {}
-            if subj not in k_as_sub[rel]:
-                k_as_sub[rel][subj] = set()
-            k_as_sub[rel][subj].add(obj)
+                if rel not in k_as_sub:
+                    k_as_sub[rel] = {}
+                if subj not in k_as_sub[rel]:
+                    k_as_sub[rel][subj] = set()
+                k_as_sub[rel][subj].add(obj)
 
-            if rel not in k_as_obj:
-                k_as_obj[rel] = {}
-            if obj not in k_as_obj[rel]:
-                k_as_obj[rel][obj] = set()
-            k_as_obj[rel][obj].add(subj)
+                if rel not in k_as_obj:
+                    k_as_obj[rel] = {}
+                if obj not in k_as_obj[rel]:
+                    k_as_obj[rel][obj] = set()
+                k_as_obj[rel][obj].add(subj)
         else:
-            cleaned_relations.add(mapper_dct[cols[j]])
+            if col_mapper[cols[j]] >= support:
+                cleaned_relations.add(mapper_dct[cols[j]])
 
     matrix, inds, cols = None, None, None
     gc.collect()
@@ -107,9 +114,7 @@ def __agnostic_rules(miner, X_trans):
 
     cleaned_relations = [c for c in cleaned_relations if
                          len(relations_ab[c]) >= miner.support and mapper_dct_inv[c].count(':') < miner.max_rule_set - 1]
-    cleaned_single_rel = [c for c in cleaned_relations if mapper_dct_inv[c].count(':') == 1]
-    cleaned_single_rel = [mapper_dct_inv[c] for c in cleaned_single_rel]
-
+    cleaned_single_rel = [(c,mapper_dct_inv[c]) for c in cleaned_relations if mapper_dct_inv[c].count(':') == 1]
     if miner.rule_complexity > 0:
         with Pool(4, initializer=__init,
                   initargs=(relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
@@ -158,10 +163,10 @@ def exec_f1(p):
         if len(d) >= support:
             filter_items[('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b',)] = len(d)
 
-            for c in cleaned_relations:
+            for x,c in cleaned_relations:
                 if c != e[0] and c != e[1]:
                     if e[0].count(':') + e[1].count(':') + c.count(':') <= rule_len:
-                        dd = d.intersection(relations_ab[c])
+                        dd = d.intersection(relations_ab[x])
                         if len(dd) >= support:
                             filter_items[(('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b'),)] = len(d)
                             filter_items[(('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b'), '?a ' + c + ' ?b')] = len(
