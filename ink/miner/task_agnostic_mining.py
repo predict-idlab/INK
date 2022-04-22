@@ -191,9 +191,13 @@ def exec(p):
 
     d1 = set(k_as_sub[p[0]].keys()).intersection(set(k_as_sub[p[1]].keys()))
     ant_subs = len({(x, y) for d in d1 for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
+    d1 = None
 
     d2 = set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys()))
     ant_objs = len({(x, y) for d in d2 for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
+    d2 = None
+
+    gc.collect()
 
     for p3 in cleaned_relations:
         if ant_subs>=support:
