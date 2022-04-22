@@ -54,7 +54,7 @@ def __agnostic_rules(miner, X_trans):
     k_as_obj = {}
     cleaned_relations = set()
     cx = matrix.tocoo()
-
+    sum_cols = matrix.sum(axis=0).tolist()[0]
     mapper = set()
     col_mapper = {}
     for c in tqdm(range(len(cols))):
@@ -64,7 +64,7 @@ def __agnostic_rules(miner, X_trans):
             mapper.add(obj)
             if rel not in col_mapper:
                 col_mapper[rel]=0
-            col_mapper[rel]+=matrix.getcol(c).nnz
+            col_mapper[rel]+=sum_cols[c]
     for i in tqdm(inds):
         mapper.add(i)
 
