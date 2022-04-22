@@ -43,7 +43,11 @@ def nPr(n, r):
 
 from collections import defaultdict
 def __agnostic_rules(miner, X_trans):
+    global k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations
+    support = miner.support
+    rule_len = miner.max_rule_set
     matrix, inds, cols = X_trans
+    manager = Manager()
     filter_items = {}
     relations_ab = {}
     inv_relations_ab = {}
@@ -90,11 +94,9 @@ def __agnostic_rules(miner, X_trans):
                          len(relations_ab[c]) >= miner.support and c.count(':') < miner.max_rule_set - 1]
     cleaned_single_rel = [c for c in cleaned_relations if c.count(':') == 1]
 
-    _pr = list(itertools.product(cleaned_relations, repeat=2))
-
     if miner.rule_complexity > 0:
         with Pool(4, initializer=__init,
-                  initargs=(k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
+                  initargs=(relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel)) as pool:
 
             for r in tqdm(pool.imap_unordered(exec_f1, _pr_comb, chunksize=1000), total=len(_pr_comb)):
                 for el in r:
@@ -102,13 +104,14 @@ def __agnostic_rules(miner, X_trans):
             pool.close()
             pool.terminate()
 
+        _pr_comb = None
+        gc.collect()
+
+        _pr = itertools.product(cleaned_relations, repeat=2)
 
         if miner.rule_complexity > 1:
-            funclist = []
-
-            for p in tqdm(_pr):
-                r = exec(p, (k_as_sub, k_as_obj, relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_single_rel))
-                p, cons_sub, cons_objs, ant_subs, ant_objs = r
+            for p in tqdm(_pr, total = len(cleaned_relations)**2):
+                p, cons_sub, cons_objs, ant_subs, ant_objs = exec(p)
             # = exec(p, cleaned_relations,k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support)
                 for ant in cons_sub:
                     if cons_sub[ant]>= miner.support:
@@ -125,9 +128,9 @@ def __agnostic_rules(miner, X_trans):
     rules = association_rules(df, metric="support", min_threshold=miner.support)
     miner.rules = rules
 
-def __init(d1, d2, d3, d4, d5, d6, d7):
-    global k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len,support,cleaned_relations
-    k_as_sub, k_as_obj, relations_ab,inv_relations_ab, rule_len,support, cleaned_relations = d1,d2,d3,d4,d5,d6,d7
+def __init(d1, d2, d3, d4, d5):
+    global relations_ab, inv_relations_ab, rule_len,support,cleaned_relations
+    relations_ab,inv_relations_ab, rule_len,support, cleaned_relations = d1,d2,d3,d4,d5
 
 def exec_f1(p):
     filter_items = {}
@@ -151,13 +154,13 @@ def exec_f1(p):
             filter_items[('?b ' + p[0] + ' ?a', '?a ' + p[1] + ' ?b',)] = d
     return filter_items
 
-def exec(p,t):
+def exec(p):
     cons_sub = {}
     ant_subs = -1
     cons_objs = {}
     ant_objs = -1
 
-    k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations = t
+    #k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations = t
 
     if p[0].count(':') + p[1].count(':') <= rule_len - 1:
 
