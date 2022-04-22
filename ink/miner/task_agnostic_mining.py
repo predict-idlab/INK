@@ -57,7 +57,7 @@ def __agnostic_rules(miner, X_trans):
 
     mapper = set()
     col_mapper = {}
-    for c in range(len(cols)):
+    for c in tqdm(range(len(cols))):
         value = matrix.getcol(c).nnz
         if '§' in cols[c]:
             rel, obj = cols[c].split('§')
@@ -66,7 +66,7 @@ def __agnostic_rules(miner, X_trans):
             if rel not in col_mapper:
                 col_mapper[rel]=0
             col_mapper[rel]+=value
-    for i in inds:
+    for i in tqdm(inds):
         mapper.add(i)
 
     mapper_dct = {k: v for v, k in enumerate(mapper)}
