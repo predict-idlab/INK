@@ -100,6 +100,9 @@ def __agnostic_rules(miner, X_trans):
                 cleaned_relations.add(mapper_dct[cols[j]])
 
     matrix, inds, cols = None, None, None
+    mapper_dct = None
+    col_mapper = None
+    sum_cols = None
     gc.collect()
 
     cleaned_relations = [c for c in cleaned_relations if len(relations_ab[c])>=miner.support]
@@ -125,13 +128,15 @@ def __agnostic_rules(miner, X_trans):
             pool.terminate()
 
         _pr_comb = None
+        inv_relations_ab = None
+        cleaned_single_rel = None
         gc.collect()
 
         _pr = itertools.product(cleaned_relations, repeat=2)
         _pr = [p for p in _pr if mapper_dct_inv[p[0]].count(':') + mapper_dct_inv[p[1]].count(':')  <= rule_len - 1]
 
         if miner.rule_complexity > 1:
-            for p in tqdm(_pr, total = len(cleaned_relations)**2):
+            for p in tqdm(_pr):
                 p, cons_sub, cons_objs, ant_subs, ant_objs = exec(p)
             # = exec(p, cleaned_relations,k_as_sub, k_as_obj, relations_ab, miner.max_rule_set, miner.support)
                 for ant in cons_sub:
@@ -178,9 +183,7 @@ def exec_f1(p):
 
 def exec(p):
     cons_sub = {}
-    ant_subs = -1
     cons_objs = {}
-    ant_objs = -1
 
     #k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations = t
 
@@ -194,9 +197,9 @@ def exec(p):
 
     for p3 in cleaned_relations:
         if ant_subs>=support:
-            cons_sub[p3] = sum([1 if len(k_as_obj[p[0]][k[0]].intersection(k_as_obj[p[1]][k[1]])) else 0 for k in relations_ab[p3] if k[0] in k_as_obj[p[0]] and k[1] in k_as_obj[p[1]]])
+            cons_sub[p3] = len([True for k in relations_ab[p3] if k[0] in k_as_obj[p[0]] and k[1] in k_as_obj[p[1]] and len(k_as_obj[p[0]][k[0]].intersection(k_as_obj[p[1]][k[1]]))>0])
         if ant_objs>=support:
-            cons_objs[p3] = sum([1 if len(k_as_sub[p[0]][k[0]].intersection(k_as_sub[p[1]][k[1]])) else 0 for k in relations_ab[p3] if k[0] in k_as_sub[p[0]] and k[1] in k_as_sub[p[1]]])
+            cons_objs[p3] = len([True for k in relations_ab[p3] if k[0] in k_as_sub[p[0]] and k[1] in k_as_sub[p[1]] and len(k_as_sub[p[0]][k[0]].intersection(k_as_sub[p[1]][k[1]]))>0])
             # rel2_set = [ for k in relations_ab[p3] if k[1] ]
             #for c in relations_ab[p3]:
             #     if ant_subs>=support:
