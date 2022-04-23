@@ -180,7 +180,7 @@ def exec_f1(p):
     if d >= support:
         filter_items[('?b ' + e[0] + ' ?a', '?a ' + e[1] + ' ?b',)] = d
     return filter_items
-
+from more_itertools import unique_everseen
 def exec(p):
     cons_sub = {}
     cons_objs = {}
@@ -194,12 +194,23 @@ def exec(p):
 
     #ant_objs = len([True for x, y in itertools.product(k_as_sub[p[0]].keys(), k_as_sub[p[1]].keys()) if
     #                len(k_as_sub[p[0]][x].intersection(k_as_sub[p[1]][y])) > 0])
+    ant_subs = 0
+    # d = set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())
+    # ant_subs = len([True for a, b in itertools.product(k_as_obj[p[0]].keys(), k_as_obj[p[1]].keys()) if
+    #             len(k_as_obj[p[0]][a].intersection(d)) > 0 and len(k_as_obj[p[1]][b].intersection(d)) > 0 and len(
+    #                 k_as_obj[p[0]][a].intersection(k_as_obj[p[1]][b])) > 0])
+    #
+    # d = set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())
+    # ant_objs = len([True for a, b in itertools.product(k_as_sub[p[0]].keys(), k_as_sub[p[1]].keys()) if
+    #                 len(k_as_sub[p[0]][a].intersection(d)) > 0 and len(k_as_sub[p[1]][b].intersection(d)) > 0 and len(
+    #                     k_as_sub[p[0]][a].intersection(k_as_sub[p[1]][b])) > 0])
 
-    ant_subs = len(frozenset(itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
-                               set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())])))
+    ant_subs = len(list(unique_everseen(itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
+                               set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())]))))
 
-    ant_objs = len(frozenset(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
-                                   set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())])))
+    ant_objs = len(list(unique_everseen(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+                                   set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())]))))
+    #print(ant_subs)
     # try:
     #     ant_subs = len(set.union(*[set(itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d])) for d in
     #                            set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())]))
