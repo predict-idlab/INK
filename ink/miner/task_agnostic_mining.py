@@ -180,7 +180,7 @@ def exec_f1(p):
     if d >= support:
         filter_items[('?b ' + e[0] + ' ?a', '?a ' + e[1] + ' ?b',)] = d
     return filter_items
-from more_itertools import unique_everseen
+from more_itertools import unique_everseen, ilen
 def exec(p):
     cons_sub = {}
     cons_objs = {}
@@ -205,18 +205,18 @@ def exec(p):
     #                 len(k_as_sub[p[0]][a].intersection(d)) > 0 and len(k_as_sub[p[1]][b].intersection(d)) > 0 and len(
     #                     k_as_sub[p[0]][a].intersection(k_as_sub[p[1]][b])) > 0])
     if p[0]!=p[1]:
-        ant_subs = len(list(unique_everseen(itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
-                                   set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())]))))
+        ant_subs = ilen(unique_everseen(itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
+                                   set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())])))
 
-        ant_objs = len(list(unique_everseen(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
-                                       set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())]))))
+        ant_objs = ilen(unique_everseen(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+                                       set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())])))
     else:
-        ant_subs = len(list(unique_everseen(
+        ant_subs = ilen(unique_everseen(
             itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
-                                           k_as_sub[p[0]].keys()]))))
-        ant_objs = len(list(unique_everseen(
+                                           k_as_sub[p[0]].keys()])))
+        ant_objs = ilen(unique_everseen(
             itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
-                                           k_as_obj[p[0]].keys()]))))
+                                           k_as_obj[p[0]].keys()])))
         #print(ant_subs)
     # try:
     #     ant_subs = len(set.union(*[set(itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d])) for d in
