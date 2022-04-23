@@ -189,13 +189,34 @@ def exec(p):
 
     #if p[0].count(':') + p[1].count(':') <= rule_len - 1:
 
-    ant_subs = len([True for x, y in itertools.product(k_as_obj[p[0]].keys(), k_as_obj[p[1]].keys()) if
-                    len(k_as_obj[p[0]][x].intersection(k_as_obj[p[1]][y])) > 0])
+    #ant_subs = len([True for x, y in itertools.product(k_as_obj[p[0]].keys(), k_as_obj[p[1]].keys()) if
+    #                len(k_as_obj[p[0]][x].intersection(k_as_obj[p[1]][y])) > 0])
 
-    ant_objs = len([True for x, y in itertools.product(k_as_sub[p[0]].keys(), k_as_sub[p[1]].keys()) if
-                    len(k_as_sub[p[0]][x].intersection(k_as_sub[p[1]][y])) > 0])
+    #ant_objs = len([True for x, y in itertools.product(k_as_sub[p[0]].keys(), k_as_sub[p[1]].keys()) if
+    #                len(k_as_sub[p[0]][x].intersection(k_as_sub[p[1]][y])) > 0])
 
-    #ant_objs = len({(x, y) for d in set(k_as_obj[p[0]].keys()).intersection(set(k_as_obj[p[1]].keys())) for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
+    ant_subs = len(frozenset(itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
+                               set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())])))
+
+    ant_objs = len(frozenset(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+                                   set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())])))
+    # try:
+    #     ant_subs = len(set.union(*[set(itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d])) for d in
+    #                            set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())]))
+    # except:
+    #     ant_subs = 0
+    #
+    # try:
+    #     ant_objs = len(set.union(*[set(itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d])) for d in
+    #                                set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())]))
+    # except:
+    #     ant_objs = 0
+
+
+    #ant_objs = len({c for d in set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys()) for c in itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d])})
+
+    #ant_subs = len({(x,y) for d in set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys()) for x in k_as_sub[p[0]][d] for y in k_as_sub[p[1]][d]})
+    #ant_objs = len({(x,y) for d in set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys()) for x in k_as_obj[p[0]][d] for y in k_as_obj[p[1]][d]})
 
     for p3 in cleaned_relations:
         if ant_subs>=support:
