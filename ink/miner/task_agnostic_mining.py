@@ -79,10 +79,10 @@ def __agnostic_rules(miner, X_trans):
                 obj = mapper_dct[obj]
                 subj = mapper_dct[inds[i]]
                 if rel not in relations_ab:
-                    relations_ab[rel]=[]
-                    inv_relations_ab[rel]=[]
-                relations_ab[rel].append((subj,obj))
-                inv_relations_ab[rel].append((obj,subj))
+                    relations_ab[rel]=set()
+                    inv_relations_ab[rel]=set()
+                relations_ab[rel].add((subj,obj))
+                inv_relations_ab[rel].add((obj,subj))
 
                 # if rel not in k_as_sub:
                 #     k_as_sub[rel] = {}
@@ -130,7 +130,11 @@ def __agnostic_rules(miner, X_trans):
         _pr_comb = None
         inv_relations_ab = None
         cleaned_single_rel = None
+        for p in relations_ab:
+            relations_ab[p] = list(relations_ab[p])
         gc.collect()
+
+
 
         _pr = itertools.product(cleaned_relations, repeat=2)
         _pr = [p for p in _pr if mapper_dct_inv[p[0]].count(':') + mapper_dct_inv[p[1]].count(':')  <= rule_len - 1]
@@ -163,7 +167,7 @@ def exec_f1(p):
     filter_items = {}
     #if p[0].count(':') + p[1].count(':') <= rule_len:
     if p[0] != p[1]:
-        d = set(relations_ab[p[1]]).intersection(relations_ab[p[0]])
+        d = relations_ab[p[1]].intersection(relations_ab[p[0]])
         if len(d) >= support:
             filter_items[('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b',)] = len(d)
 
@@ -176,7 +180,7 @@ def exec_f1(p):
                             filter_items[(('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b'), '?a ' + c + ' ?b')] = len(
                                 dd)
 
-    d = len(set(inv_relations_ab[p[1]]).intersection(relations_ab[p[0]]))
+    d = len(inv_relations_ab[p[1]].intersection(relations_ab[p[0]]))
     if d >= support:
         filter_items[('?b ' + e[0] + ' ?a', '?a ' + e[1] + ' ?b',)] = d
     return filter_items
