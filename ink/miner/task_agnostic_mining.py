@@ -79,10 +79,10 @@ def __agnostic_rules(miner, X_trans):
                 obj = mapper_dct[obj]
                 subj = mapper_dct[inds[i]]
                 if rel not in relations_ab:
-                    relations_ab[rel]=set()
-                    inv_relations_ab[rel]=set()
-                relations_ab[rel].add((subj,obj))
-                inv_relations_ab[rel].add((obj,subj))
+                    relations_ab[rel]=[]
+                    inv_relations_ab[rel]=[]
+                relations_ab[rel].append((subj,obj))
+                inv_relations_ab[rel].append((obj,subj))
 
                 # if rel not in k_as_sub:
                 #     k_as_sub[rel] = {}
@@ -163,7 +163,7 @@ def exec_f1(p):
     filter_items = {}
     #if p[0].count(':') + p[1].count(':') <= rule_len:
     if p[0] != p[1]:
-        d = relations_ab[p[1]].intersection(relations_ab[p[0]])
+        d = set(relations_ab[p[1]]).intersection(relations_ab[p[0]])
         if len(d) >= support:
             filter_items[('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b',)] = len(d)
 
@@ -176,7 +176,7 @@ def exec_f1(p):
                             filter_items[(('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b'), '?a ' + c + ' ?b')] = len(
                                 dd)
 
-    d = len(inv_relations_ab[p[1]].intersection(relations_ab[p[0]]))
+    d = len(set(inv_relations_ab[p[1]]).intersection(relations_ab[p[0]]))
     if d >= support:
         filter_items[('?b ' + e[0] + ' ?a', '?a ' + e[1] + ' ?b',)] = d
     return filter_items
@@ -191,9 +191,13 @@ def exec(p):
         k_as_sub[p[0]][c[0]].add(c[1])
         k_as_obj[p[0]][c[1]].add(c[0])
 
-    for c in relations_ab[p[1]]:
-        k_as_sub[p[1]][c[0]].add(c[1])
-        k_as_obj[p[1]][c[1]].add(c[0])
+    if p[0]!=p[1]:
+        for c in relations_ab[p[1]]:
+            k_as_sub[p[1]][c[0]].add(c[1])
+            k_as_obj[p[1]][c[1]].add(c[0])
+    else:
+        k_as_sub[p[1]] =  k_as_sub[p[0]]
+        k_as_obj[p[1]] = k_as_obj[p[0]]
 
 
     #k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations = t
@@ -216,18 +220,39 @@ def exec(p):
     #                 len(k_as_sub[p[0]][a].intersection(d)) > 0 and len(k_as_sub[p[1]][b].intersection(d)) > 0 and len(
     #                     k_as_sub[p[0]][a].intersection(k_as_sub[p[1]][b])) > 0])
     if p[0]!=p[1]:
-        ant_subs = ilen(unique_everseen(itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
-                                   set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())])))
+        ant_subs = set()
+        for t in itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
+                                   set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())]):
+            ant_subs.add(t)
+        ant_subs = len(ant_subs)
 
-        ant_objs = ilen(unique_everseen(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
-                                       set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())])))
+        ant_objs = set()
+        for t in itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+                  set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())]):
+            ant_objs.add(t)
+        ant_objs = len(ant_objs)
+
+       # ant_objs = len(set(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+        #                               set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())])))
     else:
-        ant_subs = ilen(unique_everseen(
-            itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
-                                           k_as_sub[p[0]].keys()])))
-        ant_objs = ilen(unique_everseen(
-            itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
-                                           k_as_obj[p[0]].keys()])))
+
+        ant_subs = set()
+        for t in itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
+                  k_as_sub[p[0]].keys()]):
+            ant_subs.add(t)
+        ant_subs = len(ant_subs)
+
+        ant_objs = set()
+        for t in itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+                  k_as_obj[p[0]].keys()]):
+            ant_objs.add(t)
+        ant_objs = len(ant_objs)
+        # ant_subs = len(set(
+        #     itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
+        #                                    k_as_sub[p[0]].keys()])))
+        # ant_objs = len(set(
+        #     itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+        #                                    k_as_obj[p[0]].keys()])))
         #print(ant_subs)
     # try:
     #     ant_subs = len(set.union(*[set(itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d])) for d in
