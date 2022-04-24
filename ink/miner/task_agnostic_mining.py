@@ -43,15 +43,15 @@ def nPr(n, r):
 
 from collections import defaultdict
 def __agnostic_rules(miner, X_trans):
-    global k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations
+    global  relations_ab, inv_relations_ab, rule_len, support, cleaned_relations #k_as_sub, k_as_obj,
     support = miner.support
     rule_len = miner.max_rule_set
     matrix, inds, cols = X_trans
     filter_items = {}
     relations_ab = {}
     inv_relations_ab = {}
-    k_as_sub = {}
-    k_as_obj = {}
+    #k_as_sub = {}
+    #k_as_obj = {}
     cleaned_relations = set()
     cx = matrix.tocoo()
     sum_cols = matrix.sum(axis=0).tolist()[0]
@@ -84,17 +84,17 @@ def __agnostic_rules(miner, X_trans):
                 relations_ab[rel].add((subj,obj))
                 inv_relations_ab[rel].add((obj,subj))
 
-                if rel not in k_as_sub:
-                    k_as_sub[rel] = {}
-                if subj not in k_as_sub[rel]:
-                    k_as_sub[rel][subj] = set()
-                k_as_sub[rel][subj].add(obj)
-
-                if rel not in k_as_obj:
-                    k_as_obj[rel] = {}
-                if obj not in k_as_obj[rel]:
-                    k_as_obj[rel][obj] = set()
-                k_as_obj[rel][obj].add(subj)
+                # if rel not in k_as_sub:
+                #     k_as_sub[rel] = {}
+                # if subj not in k_as_sub[rel]:
+                #     k_as_sub[rel][subj] = set()
+                # k_as_sub[rel][subj].add(obj)
+                #
+                # if rel not in k_as_obj:
+                #     k_as_obj[rel] = {}
+                # if obj not in k_as_obj[rel]:
+                #     k_as_obj[rel][obj] = set()
+                # k_as_obj[rel][obj].add(subj)
         else:
             if col_mapper[cols[j]] >= support:
                 cleaned_relations.add(mapper_dct[cols[j]])
@@ -184,6 +184,17 @@ from more_itertools import unique_everseen, ilen
 def exec(p):
     cons_sub = {}
     cons_objs = {}
+
+    k_as_sub = {p[0]:defaultdict(set), p[1]:defaultdict(set)}
+    k_as_obj = {p[0]: defaultdict(set), p[1]: defaultdict(set)}
+    for c in relations_ab[p[0]]:
+        k_as_sub[p[0]][c[0]].add(c[1])
+        k_as_obj[p[0]][c[1]].add(c[0])
+
+    for c in relations_ab[p[1]]:
+        k_as_sub[p[1]][c[0]].add(c[1])
+        k_as_obj[p[1]][c[1]].add(c[0])
+
 
     #k_as_sub, k_as_obj, relations_ab, inv_relations_ab, rule_len, support, cleaned_relations = t
 
