@@ -213,7 +213,7 @@ def exec(p):
 
     #ant_objs = len([True for x, y in itertools.product(k_as_sub[p[0]].keys(), k_as_sub[p[1]].keys()) if
     #                len(k_as_sub[p[0]][x].intersection(k_as_sub[p[1]][y])) > 0])
-    ant_subs = 0
+
     # d = set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())
     # ant_subs = len([True for a, b in itertools.product(k_as_obj[p[0]].keys(), k_as_obj[p[1]].keys()) if
     #             len(k_as_obj[p[0]][a].intersection(d)) > 0 and len(k_as_obj[p[1]][b].intersection(d)) > 0 and len(
@@ -223,34 +223,84 @@ def exec(p):
     # ant_objs = len([True for a, b in itertools.product(k_as_sub[p[0]].keys(), k_as_sub[p[1]].keys()) if
     #                 len(k_as_sub[p[0]][a].intersection(d)) > 0 and len(k_as_sub[p[1]][b].intersection(d)) > 0 and len(
     #                     k_as_sub[p[0]][a].intersection(k_as_sub[p[1]][b])) > 0])
-    if p[0]!=p[1]:
-        ant_subs = set()
-        for t in itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
-                                   set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())]):
-            ant_subs.add(t)
-        ant_subs = len(ant_subs)
+    a = set()
+    b = set()
+    ant_subs = 0
+    order = {}
 
-        ant_objs = set()
-        for t in itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
-                  set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())]):
-            ant_objs.add(t)
-        ant_objs = len(ant_objs)
+    for d in set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys()):
+        order[d] = len(k_as_sub[p[0]][d]) * len(k_as_sub[p[1]][d])
 
-       # ant_objs = len(set(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
-        #                               set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())])))
-    else:
+    for d in dict(sorted(order.items(), key=lambda item: -item[1])):
+        ant_subs += order[d]
+        if len(k_as_sub[p[0]][d].intersection(a))>0:
+            if len(k_as_sub[p[1]][d].intersection(b))>0:
+                ant_subs -= len(k_as_sub[p[0]][d].intersection(a))*len(k_as_sub[p[1]][d].intersection(b))
+            else:
+                ant_subs -= len(k_as_sub[p[0]][d].intersection(a))*len(k_as_sub[p[1]][d])
+        else:
+            if len(k_as_sub[p[1]][d].intersection(b)) > 0:
+                ant_subs -= len(k_as_sub[p[0]][d]) * len(k_as_sub[p[1]][d].intersection(b))
+            #else:
+            #    ant_subs -= len(k_as_sub[p[0]][d])*len(k_as_sub[p[1]][d])
 
-        ant_subs = set()
-        for t in itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
-                  k_as_sub[p[0]].keys()]):
-            ant_subs.add(t)
-        ant_subs = len(ant_subs)
+        a.update(k_as_sub[p[0]][d])
+        b.update(k_as_sub[p[1]][d])
 
-        ant_objs = set()
-        for t in itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
-                  k_as_obj[p[0]].keys()]):
-            ant_objs.add(t)
-        ant_objs = len(ant_objs)
+    a = set()
+    b = set()
+    ant_objs = 0
+    order = {}
+    for d in set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys()):
+        order[d] = len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d])
+
+    for d in dict(sorted(order.items(), key=lambda item: -item[1])):
+        ant_objs += order[d]
+        if len(k_as_obj[p[0]][d].intersection(a)) > 0:
+            if len(k_as_obj[p[1]][d].intersection(b)) > 0:
+                ant_objs -= len(k_as_obj[p[0]][d].intersection(a)) * len(k_as_obj[p[1]][d].intersection(b))
+            else:
+                ant_objs -= len(k_as_obj[p[0]][d].intersection(a)) * len(k_as_obj[p[1]][d])
+        else:
+            if len(k_as_obj[p[1]][d].intersection(b)) > 0:
+                ant_objs -= len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d].intersection(b))
+            #else:
+            #    ant_objs -= len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d])
+
+        a.update(k_as_obj[p[0]][d])
+        b.update(k_as_obj[p[1]][d])
+
+    #########@
+    # if p[0]!=p[1]:
+    #     ant_subs = set()
+    #     for t in itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
+    #                                set(k_as_sub[p[0]].keys()).intersection(k_as_sub[p[1]].keys())]):
+    #         ant_subs.add(t)
+    #     ant_subs = len(ant_subs)
+    #
+    #     ant_objs = set()
+    #     for t in itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+    #               set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())]):
+    #         ant_objs.add(t)
+    #     ant_objs = len(ant_objs)
+    #
+    #    # ant_objs = len(set(itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+    #     #                               set(k_as_obj[p[0]].keys()).intersection(k_as_obj[p[1]].keys())])))
+    # else:
+    #
+    #     ant_subs = set()
+    #     for t in itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
+    #               k_as_sub[p[0]].keys()]):
+    #         ant_subs.add(t)
+    #     ant_subs = len(ant_subs)
+    #
+    #     ant_objs = set()
+    #     for t in itertools.chain.from_iterable([itertools.product(k_as_obj[p[0]][d], k_as_obj[p[1]][d]) for d in
+    #               k_as_obj[p[0]].keys()]):
+    #         ant_objs.add(t)
+    #     ant_objs = len(ant_objs)
+        #############
+
         # ant_subs = len(set(
         #     itertools.chain.from_iterable([itertools.product(k_as_sub[p[0]][d], k_as_sub[p[1]][d]) for d in
         #                                    k_as_sub[p[0]].keys()])))
