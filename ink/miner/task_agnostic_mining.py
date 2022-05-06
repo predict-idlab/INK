@@ -194,16 +194,7 @@ def exec(p):
         order[d] = len(k_as_sub[p[0]][d]) * len(k_as_sub[p[1]][d])
 
     for d in dict(sorted(order.items(), key=lambda item: -item[1])):
-        ant_subs += order[d]
-        if len(k_as_sub[p[0]][d].intersection(a))>0:
-            if len(k_as_sub[p[1]][d].intersection(b))>0:
-                ant_subs -= len(k_as_sub[p[0]][d].intersection(a))*len(k_as_sub[p[1]][d].intersection(b))
-            else:
-                ant_subs -= len(k_as_sub[p[0]][d].intersection(a))*len(k_as_sub[p[1]][d])
-        else:
-            if len(k_as_sub[p[1]][d].intersection(b)) > 0:
-                ant_subs -= len(k_as_sub[p[0]][d]) * len(k_as_sub[p[1]][d].intersection(b))
-
+        ant_subs += order[d] - len(k_as_sub[p[0]][d].intersection(a))*len(k_as_sub[p[1]][d].intersection(b))
 
         a.update(k_as_sub[p[0]][d])
         b.update(k_as_sub[p[1]][d])
@@ -216,23 +207,16 @@ def exec(p):
         order[d] = len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d])
 
     for d in dict(sorted(order.items(), key=lambda item: -item[1])):
-        ant_objs += order[d]
-        if len(k_as_obj[p[0]][d].intersection(a)) > 0:
-            if len(k_as_obj[p[1]][d].intersection(b)) > 0:
-                ant_objs -= len(k_as_obj[p[0]][d].intersection(a)) * len(k_as_obj[p[1]][d].intersection(b))
-            else:
-                ant_objs -= len(k_as_obj[p[0]][d].intersection(a)) * len(k_as_obj[p[1]][d])
-        else:
-            if len(k_as_obj[p[1]][d].intersection(b)) > 0:
-                ant_objs -= len(k_as_obj[p[0]][d]) * len(k_as_obj[p[1]][d].intersection(b))
-
+        ant_objs += order[d] - len(k_as_obj[p[0]][d].intersection(a)) * len(k_as_obj[p[1]][d].intersection(b))
 
         a.update(k_as_obj[p[0]][d])
         b.update(k_as_obj[p[1]][d])
 
+    a = set()
+    b = set()
     for p3 in cleaned_relations:
         if ant_subs>=support:
-            cons_sub[p3] = len(set([(k[0],k[1]) for k in relations_ab[p3] if k[0] in k_as_obj[p[0]] and k[1] in k_as_obj[p[1]] and len(k_as_obj[p[0]][k[0]].intersection(k_as_obj[p[1]][k[1]]))>0]))
+            cons_sub[p3] = len([True for k in relations_ab[p3] if k[0] in k_as_obj[p[0]] and k[1] in k_as_obj[p[1]] and len(k_as_obj[p[0]][k[0]].intersection(k_as_obj[p[1]][k[1]]))>0])
         if ant_objs>=support:
-            cons_objs[p3] = len(set([(k[0],k[1]) for k in relations_ab[p3] if k[0] in k_as_sub[p[0]] and k[1] in k_as_sub[p[1]] and len(k_as_sub[p[0]][k[0]].intersection(k_as_sub[p[1]][k[1]]))>0]))
+            cons_objs[p3] = len([True for k in relations_ab[p3] if k[0] in k_as_sub[p[0]] and k[1] in k_as_sub[p[1]] and len(k_as_sub[p[0]][k[0]].intersection(k_as_sub[p[1]][k[1]]))>0])
     return p, cons_sub, cons_objs, ant_subs, ant_objs
