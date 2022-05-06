@@ -232,7 +232,7 @@ def exec(p):
 
     for p3 in cleaned_relations:
         if ant_subs>=support:
-            cons_sub[p3] = len([True for k in relations_ab[p3] if k[0] in k_as_obj[p[0]] and k[1] in k_as_obj[p[1]] and len(k_as_obj[p[0]][k[0]].intersection(k_as_obj[p[1]][k[1]]))>0])
+            cons_sub[p3] = len(set([(k[0],k[1]) for k in relations_ab[p3] if k[0] in k_as_obj[p[0]] and k[1] in k_as_obj[p[1]] and len(k_as_obj[p[0]][k[0]].intersection(k_as_obj[p[1]][k[1]]))>0]))
         if ant_objs>=support:
-            cons_objs[p3] = len([True for k in relations_ab[p3] if k[0] in k_as_sub[p[0]] and k[1] in k_as_sub[p[1]] and len(k_as_sub[p[0]][k[0]].intersection(k_as_sub[p[1]][k[1]]))>0])
+            cons_objs[p3] = len(set([(k[0],k[1]) for k in relations_ab[p3] if k[0] in k_as_sub[p[0]] and k[1] in k_as_sub[p[1]] and len(k_as_sub[p[0]][k[0]].intersection(k_as_sub[p[1]][k[1]]))>0]))
     return p, cons_sub, cons_objs, ant_subs, ant_objs
