@@ -49,6 +49,7 @@ def __agnostic_rules(miner, X_trans):
     matrix, inds, cols = X_trans
     filter_items = {}
     relations_ab = {}
+    inv_relations_ab = {}
     #k_as_sub = {}
     #k_as_obj = {}
     cleaned_relations = set()
@@ -79,7 +80,9 @@ def __agnostic_rules(miner, X_trans):
                 subj = mapper_dct[inds[i]]
                 if rel not in relations_ab:
                     relations_ab[rel]=set()
+                    inv_relations_ab[rel] = set()
                 relations_ab[rel].add((subj,obj))
+                inv_relations_ab[rel].add((obj, subj))
 
         else:
             if col_mapper[cols[j]] >= support:
@@ -104,8 +107,8 @@ def __agnostic_rules(miner, X_trans):
                          len(relations_ab[c]) >= miner.support and mapper_dct_inv[c].count(':') < miner.max_rule_set - 1]
     cleaned_single_rel = [(c,mapper_dct_inv[c]) for c in cleaned_relations if mapper_dct_inv[c].count(':') == 1]
     if miner.rule_complexity > 0:
-        with Pool(mp.cpu_count()-1, initializer=__init,
-                  initargs=(relations_ab, miner.max_rule_set, miner.support, cleaned_relations, cleaned_single_rel)) as pool:
+        with Pool(4, initializer=__init,
+                  initargs=(relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_relations, cleaned_single_rel)) as pool:
 
             for r in tqdm(pool.imap_unordered(exec_f1, _pr_comb, chunksize=1000), total=len(_pr_comb)):
                 for el in r:
@@ -115,7 +118,12 @@ def __agnostic_rules(miner, X_trans):
             cleaned_single_rel = None
             for p in relations_ab:
                 relations_ab[p] = list(relations_ab[p])
+            inv_relations_ab = None
             gc.collect()
+
+        with Pool(8, initializer=__init,
+                  initargs=(relations_ab,inv_relations_ab, miner.max_rule_set, miner.support, cleaned_relations,
+                            cleaned_single_rel)) as pool:
 
             _pr = itertools.product(cleaned_relations, repeat=2)
             _pr = [p for p in _pr if mapper_dct_inv[p[0]].count(':') + mapper_dct_inv[p[1]].count(':')  <= rule_len - 1]
@@ -139,9 +147,9 @@ def __agnostic_rules(miner, X_trans):
     rules = association_rules(df, metric="support", min_threshold=miner.support)
     miner.rules = rules
 
-def __init(d1, d2, d3, d4, d5):
-    global relations_ab, rule_len,support,cleaned_relations, cleaned_single_rel
-    relations_ab, rule_len,support, cleaned_relations, cleaned_single_rel = d1,d2,d3,d4,d5
+def __init(d1, d2, d3, d4, d5,d6):
+    global relations_ab, inv_relations_ab, rule_len,support,cleaned_relations, cleaned_single_rel
+    relations_ab, inv_relations_ab, rule_len,support, cleaned_relations, cleaned_single_rel = d1,d2,d3,d4,d5,d6
 
 
 def exec_f1(p):
@@ -161,7 +169,7 @@ def exec_f1(p):
                             filter_items[(('?a ' + e[0] + ' ?b', '?a ' + e[1] + ' ?b'), '?a ' + c + ' ?b')] = len(
                                 dd)
 
-    d = len({x[::-1] for x in relations_ab[p[1]]}.intersection(relations_ab[p[0]]))
+    d = len(inv_relations_ab[p[1]].intersection(relations_ab[p[0]]))
     if d >= support:
         filter_items[('?b ' + e[0] + ' ?a', '?a ' + e[1] + ' ?b',)] = d
     return filter_items
