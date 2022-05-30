@@ -1,0 +1,6 @@
+{
+  "forest_size" : 500,
+  "n_models" : 10,
+  "n_jobs" : 4
+
+}

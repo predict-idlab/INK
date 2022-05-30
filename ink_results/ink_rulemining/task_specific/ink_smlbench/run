@@ -1,0 +1,133 @@
+#!/bin/bash -
+#===============================================================================
+#
+#          FILE: run.sh
+#
+#         USAGE: ./run.sh
+#
+#   DESCRIPTION: Wrapper script to read in all necessary settings, set up an
+#                execution environment and run the INK miner
+#
+#       OPTIONS: A property file containing settings to be evaluated
+#===============================================================================
+export PYTHONUNBUFFERED=1
+set -o nounset                              # Treat unset variables as an error
+
+# runtime settings
+smlb_step="train"
+# 0 --> off; 1 --> DEBUG; 2 --> TRACE
+smlb_log_level=1
+
+cd "$(dirname "$0")"
+program_dir="$(pwd)"
+
+
+############################################################
+# Source the commons file to make a bunch of functions available
+. ./common.sh
+
+
+############################################################
+# Read in the main configuration file
+read_property_file "$1"
+
+
+############################################################
+# Read task config
+# TODO: PW: really necessary? Documented nowhere
+
+
+############################################################
+# Read learning problem-specific configuration
+
+
+############################################################
+# Adjust max. execution time based on the loading time (if known)
+
+# if maxExecutionTimeInSeconds is not set in the settings
+if [ -z "${smlb_settings__algorithm__maxExecutionTimeInSeconds+'foo'}" ]
+then
+    # if smlb_loadingTime is not set
+    if [ -z "${smlb_loadingTime+'foo'}" ]
+    then
+        smlb_loadingTime=30
+    fi
+
+    new_maxExecutionTime="$((smlb_maxExecutionTime-smlb_loadingTime))"
+    # Only assign the resulting max. execution time if it is greater than 0!
+    # If it is 0 the DL-Learner will run forever.
+    if [ "$new_maxExecutionTime" -gt 0 ]
+    then
+        smlb_maxExecutionTime=$new_maxExecutionTime
+    fi
+fi
+
+
+############################################################
+# Write out gathered settings
+tmpdir="$smlb_filename__workdir"
+
+config_file="$tmpdir"/run.conf
+write_config "$config_file"
+
+
+############################################################
+eval "model_file"='$tmpdir'/model.pkl
+
+# Add some additional settings
+add_to_config "$algorithm_const.writeSearchTree = false" "$config_file"
+
+# only set the (calculated) maxExecutionTimeInSeconds if was not set
+# explicitly in the learning system settings
+if [ -z "${smlb_settings__algorithm__maxExecutionTimeInSeconds+'foo'}" ]
+then
+    add_to_config "$algorithm_const.maxExecutionTimeInSeconds = $smlb_maxExecutionTime" "$config_file"
+fi
+
+# set default algorithm if no algorithm was set
+if [ $algorithm_is_set -eq 0 ]
+then
+    add_to_config "$algorithm_const.type = \"celoe\"" "$config_file"
+fi
+
+# set default measure if no measure was set
+if [ $measure_is_set -eq 0 ]
+then
+    add_to_config "$measure_const.type = \"gen_fmeasure\"" "$config_file"
+fi
+
+# set knowledge source
+sources=$(add_knowledge_sources_to_config_and_get_sources "$smlb_learningtask" "$config_file")
+
+# set reasoner component if no reasoner component was set
+if [ $reasoner_is_set -eq 0 ]
+then
+    add_to_config "$reasoner_const.type = \"closed world reasoner\"" "$config_file"
+fi
+
+# add knowledge sources for reasoner component
+add_to_config "$reasoner_const.sources = { $sources }" "$config_file"
+
+# set learning problem if no learning problem was set
+if [ $lp_is_set -eq 0 ]
+then
+    add_to_config "$lp_const.type = \"posNegStandard\"" "$config_file"
+fi
+
+# load positive examples
+add_to_config "$lp_const.positiveExamples = {" "$config_file"
+add_to_config "$(read_examples $smlb_filename__pos)" "$config_file"
+add_to_config "}" "$config_file"
+
+# load negative examples
+add_to_config "$lp_const.negativeExamples = {" "$config_file"
+add_to_config "$(read_examples $smlb_filename__neg)" "$config_file"
+add_to_config "}" "$config_file"
+
+
+############################################################
+
+data_dir="../../$learning_tasks_dir_name/$smlb_learningtask/$kr_lang_dir_name/$data_dir_name"
+
+debug "starting script"
+python3.8 -u main_train.py $data_dir owl $smlb_filename__pos $smlb_filename__neg 1 $model_file | sed "s/'//g" | tee $smlb_filename__output

@@ -1,0 +1,47 @@
+DEBUG: Found ../../learningtasks/carcinogenesis/owl/lp/1/dllearner.conf. Will try read it.
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 0%[.....] 1%[.....] 1%[.....] 2%[.....] 3%[.....] 3%[.....] 4%[.....] 4%[.....] 5%[.....] 6%[.....] 6%[.....] 7%[.....] 8%[.....] 8%[.....] 9%[.....] 9%[.....] 10%[.....] 11%[.....] 11%[.....] 12%[.....] 13%[.....] 13%[.....] 14%[.....] 14%[.....] 15%[.....] 16%[.....] 16%[.....] 17%[.....] 18%[.....] 18%[.....] 19%[.....] 19%[=....] 20%[=....] 21%[=....] 21%[=....] 22%[=....] 22%[=....] 23%[=....] 24%[=....] 24%[=....] 25%[=....] 26%[=....] 26%[=....] 27%[=....] 27%[=....] 28%[=....] 29%[=....] 29%[=....] 30%[=....] 31%[=....] 31%[=....] 32%[=....] 32%[=....] 33%[=....] 34%[=....] 34%[=....] 35%[=....] 36%[=....] 36%[=....] 37%[=....] 37%[=....] 38%[=....] 39%[=....] 39%[==...] 40%[==...] 40%[==...] 41%[==...] 42%[==...] 42%[==...] 43%[==...] 44%[==...] 44%[==...] 45%[==...] 45%[==...] 46%[==...] 47%[==...] 47%[==...] 48%[==...] 49%[==...] 49%[==...] 50%[==...] 50%[==...] 51%[==...] 52%[==...] 52%[==...] 53%[==...] 54%[==...] 54%[==...] 55%[==...] 55%[==...] 56%[==...] 57%[==...] 57%[==...] 58%[==...] 59%[==...] 59%[===..] 60%[===..] 60%[===..] 61%[===..] 62%[===..] 62%[===..] 63%[===..] 63%[===..] 64%[===..] 65%[===..] 65%[===..] 66%[===..] 67%[===..] 67%[===..] 68%[===..] 68%[===..] 69%[===..] 70%[===..] 70%[===..] 71%[===..] 72%[===..] 72%[===..] 73%[===..] 73%[===..] 74%[===..] 75%[===..] 75%[===..] 76%[===..] 77%[===..] 77%[===..] 78%[===..] 78%[===..] 79%[====.] 80%[====.] 80%[====.] 81%[====.] 81%[====.] 82%[====.] 83%[====.] 83%[====.] 84%[====.] 85%[====.] 85%[====.] 86%[====.] 86%[====.] 87%materialising object properties ...
+[====.] 88%[====.] 88%[====.] 89%[====.] 90%materialising datatype properties
+[====.] 90%[====.] 91%[====.] 91%[====.] 92%[====.] 93%[====.] 93%[====.] 94%[====.] 95%[====.] 95%[====.] 96%[====.] 96%[====.] 97%[====.] 98%[====.] 98%[====.] 99%Property cytogen_ca has more than one value [false, true] for individual d135. We ignore the value.
+Property cytogen_ca has value [false, true]. Cannot determine whether it is false.
+...TBox materialised in 10171 ms.
+... initialized component 'reasoner' in 14s 718ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 3ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 127ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (54.31%) class expression found after 39ms: Thing
+more accurate (55.06%) class expression found after 13s455ms: hasBond some Bond-1
+more accurate (55.81%) class expression found after 13s597ms: hasAtom some Carbon
+more accurate (56.18%) class expression found after 24s501ms: hasBond min 3 Bond-1
+more accurate (56.55%) class expression found after 10m24s225ms: hasAtom min 5 (not (Iodine-95))
+Algorithm terminated successfully (time: 870s 27ms, 46309 descriptions tested, 38369 nodes in the search tree).
+
+number of retrievals: 50021
+retrieval reasoning time: 815s 527ms ( 16ms per retrieval)
+number of instance checks: 1350 (0 multiple)
+instance check reasoning time: 5ms ( 0ms per instance check)
+overall reasoning time: 815s 533ms
+
+solutions:
+1: hasAtom min 5 (not (Iodine-95)) (pred. acc.: 56.55%, F-measure: 71.43%)
+2: hasAtom min 5 (not (Iodine)) (pred. acc.: 56.55%, F-measure: 71.43%)
+3: hasBond min 4 Thing (pred. acc.: 56.18%, F-measure: 71.25%)
+4: hasBond min 4 Bond-1 (pred. acc.: 56.18%, F-measure: 71.25%)
+5: hasBond min 3 Bond-1 (pred. acc.: 56.18%, F-measure: 71.25%)
+6: hasAtom min 5 Thing (pred. acc.: 56.18%, F-measure: 71.25%)
+7: hasAtom only (not (Phosphorus-60)) (pred. acc.: 56.18%, F-measure: 71.25%)
+8: hasBond min 4 (not (Bond-7)) (pred. acc.: 56.18%, F-measure: 71.25%)
+9: hasBond min 4 (not (Bond-3)) (pred. acc.: 56.18%, F-measure: 71.25%)
+10: hasBond min 4 (not (Bond-2)) (pred. acc.: 56.18%, F-measure: 71.25%)
+

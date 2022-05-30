@@ -1,0 +1,8 @@
+../../learningtasks/premierleague/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[http://dl-learner.org/ont/has_action.http://dl-learner.org/ont/goalkeeper_distribution>=5]

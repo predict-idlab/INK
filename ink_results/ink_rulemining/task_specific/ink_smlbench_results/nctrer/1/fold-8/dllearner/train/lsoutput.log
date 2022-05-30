@@ -1,0 +1,46 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/nctrer/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 1%[.....] 2%[.....] 3%[.....] 4%[.....] 5%[.....] 6%[.....] 7%[.....] 8%[.....] 9%[.....] 10%[.....] 11%[.....] 12%[.....] 13%[.....] 14%[.....] 15%[.....] 16%[.....] 17%[.....] 18%[.....] 19%[=....] 20%[=....] 21%[=....] 22%[=....] 23%[=....] 25%[=....] 26%[=....] 27%[=....] 28%[=....] 29%[=....] 30%[=....] 31%[=....] 32%[=....] 33%[=....] 34%[=....] 35%[=....] 36%[=....] 37%materialising object properties ...
+[=....] 38%[=....] 39%[==...] 40%[==...] 41%[==...] 42%[==...] 43%[==...] 44%[==...] 45%[==...] 46%materialising datatype properties
+[==...] 47%[==...] 48%[==...] 50%[==...] 51%[==...] 52%[==...] 53%[==...] 54%[==...] 55%[==...] 56%[==...] 57%[==...] 58%[==...] 59%[===..] 60%[===..] 61%[===..] 62%[===..] 63%[===..] 64%[===..] 65%[===..] 66%[===..] 67%[===..] 68%[===..] 69%[===..] 70%[===..] 71%[===..] 72%[===..] 73%[===..] 75%[===..] 76%[===..] 77%[===..] 78%[===..] 79%[====.] 80%[====.] 81%[====.] 82%[====.] 83%[====.] 84%[====.] 85%[====.] 86%[====.] 87%[====.] 88%[====.] 89%[====.] 90%[====.] 91%[====.] 92%[====.] 93%[====.] 94%[====.] 95%[====.] 96%[====.] 97%[====.] 98%...TBox materialised in 5879 ms.
+... initialized component 'reasoner' in 11s 294ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 1ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 263ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (58.42%) class expression found after 48ms: Thing
+more accurate (59.41%) class expression found after 632ms: F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]
+more accurate (59.90%) class expression found after 17s420ms: has_bond some (not (NonStereoBond))
+more accurate (60.89%) class expression found after 45s279ms: atom some (atom_coordinate_x some double[>= "4.4191"^^double])
+Algorithm terminated successfully (time: 870s 4ms, 95110 descriptions tested, 65501 nodes in the search tree).
+
+number of retrievals: 96964
+retrieval reasoning time: 809s 641ms ( 8ms per retrieval)
+number of instance checks: 45328 (0 multiple)
+instance check reasoning time: 133ms ( 0ms per instance check)
+(complex) subsumption checks: 40 (0 multiple)
+subsumption reasoning time: 37ms ( 0ms per subsumption check)
+overall reasoning time: 809s 811ms
+
+solutions:
+1: atom some (atom_coordinate_x some double[>= "4.4191"^^double]) (pred. acc.: 60.89%, F-measure: 74.92%)
+2: atom min 2 (atom_coordinate_x some double[>= "3.4527"^^double]) (pred. acc.: 60.40%, F-measure: 74.68%)
+3: has_bond some (not (NonStereoBond)) (pred. acc.: 59.90%, F-measure: 74.45%)
+4: has_bond some (DoubleOrAromaticBond or SingleBondEitherUpOrDownStereochemistry) (pred. acc.: 59.90%, F-measure: 74.45%)
+5: has_bond some (DoubleOrAromaticBond or SingleBondDownStereochemistry) (pred. acc.: 59.90%, F-measure: 74.45%)
+6: has_bond some (DoubleBondDeriveCisOrTransIsomerismFromXYZCoords or SingleBondUpStereochemistry) (pred. acc.: 59.90%, F-measure: 74.45%)
+7: has_bond some (DoubleBondDeriveCisOrTransIsomerismFromXYZCoords or SingleBondEitherUpOrDownStereochemistry) (pred. acc.: 59.90%, F-measure: 74.45%)
+8: has_bond some (DoubleBondDeriveCisOrTransIsomerismFromXYZCoords or SingleBondDownStereochemistry) (pred. acc.: 59.90%, F-measure: 74.45%)
+9: has_bond some (DoubleBond or SingleBondUpStereochemistry) (pred. acc.: 59.90%, F-measure: 74.45%)
+10: has_bond some (DoubleBond or SingleBondEitherUpOrDownStereochemistry) (pred. acc.: 59.90%, F-measure: 74.45%)
+

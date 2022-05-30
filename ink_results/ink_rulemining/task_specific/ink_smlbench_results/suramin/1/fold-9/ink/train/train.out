@@ -1,0 +1,8 @@
+../../learningtasks/suramin/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[count.http://dl-learner.org/suramin#hasBond>=61, count.http://dl-learner.org/suramin#hasAtom.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/suramin#Carbon-22§40, count.http://dl-learner.org/suramin#hasBond.http://dl-learner.org/suramin#inBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/suramin#Hydrogen-1§10, count.http://dl-learner.org/suramin#hasAtom.http://dl-learner.org/suramin#charge.0.77<=4, count.http://dl-learner.org/suramin#hasAtom.http://dl-learner.org/suramin#charge.0.571>=4]

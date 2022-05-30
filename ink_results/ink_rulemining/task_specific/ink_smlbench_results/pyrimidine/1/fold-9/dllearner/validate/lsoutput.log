@@ -1,0 +1,20 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/pyrimidine/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%materialising object properties ...
+materialising datatype properties
+[.....] 3%[.....] 7%[.....] 10%[.....] 14%[.....] 17%[=....] 21%[=....] 25%[=....] 28%[=....] 32%[=....] 35%[=....] 39%[==...] 42%[==...] 46%[==...] 50%[==...] 53%[==...] 57%[===..] 60%[===..] 64%[===..] 67%[===..] 71%[===..] 75%[===..] 78%[====.] 82%[====.] 85%[====.] 89%[====.] 92%[====.] 96%...TBox materialised in 121 ms.
+... initialized component 'reasoner' in 823ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 0ms. Status: OK
+#EVAL# tp: 2
+#EVAL# fp: 1
+#EVAL# tn: 1
+#EVAL# fn: 0

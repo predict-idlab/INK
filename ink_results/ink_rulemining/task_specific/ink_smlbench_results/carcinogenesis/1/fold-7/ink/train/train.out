@@ -1,0 +1,9 @@
+../../learningtasks/carcinogenesis/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[http://dl-learner.org/carcinogenesis#salmonella§true, count.http://dl-learner.org/carcinogenesis#hasBond.http://dl-learner.org/carcinogenesis#inBond<=94, count.http://dl-learner.org/carcinogenesis#hasStructure.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/2002/07/owl#Class<=25, count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/2000/01/rdf-schema#subClassOf.http://dl-learner.org/carcinogenesis#Bond>=7]
+[count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/2000/01/rdf-schema#subClassOf<=10, count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type>=3, count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Bond-1<=43, count.http://dl-learner.org/carcinogenesis#hasStructure.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/2002/07/owl#Class>=3, http://dl-learner.org/carcinogenesis#hasAtom.http://dl-learner.org/carcinogenesis#charge<=-0.1]

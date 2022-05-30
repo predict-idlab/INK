@@ -1,0 +1,1 @@
+(hasAge some double[>= "23.5"^^double]) or (hasBiRads some double[>= "4.5"^^double])

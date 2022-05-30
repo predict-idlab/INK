@@ -1,0 +1,8 @@
+filename.workdir = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/mutagenesis/42/fold-6/dllearner/validate
+filename.pos = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/mutagenesis/42/fold-6/dllearner/validate/pos.txt
+filename.neg = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/mutagenesis/42/fold-6/dllearner/validate/neg.txt
+filename.input = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/mutagenesis/42/fold-6/dllearner/train/train.out
+filename.output = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/mutagenesis/42/fold-6/dllearner/validate/validateResult.prop
+learningtask = mutagenesis
+learningproblem = 42
+step = validate

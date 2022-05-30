@@ -1,0 +1,1 @@
+CIN14_Lac_Margin or (CIN14_Lacunar and (not (SF16_Vesicles))) or (NON19_n0-9 and (not (LNE11_3)))

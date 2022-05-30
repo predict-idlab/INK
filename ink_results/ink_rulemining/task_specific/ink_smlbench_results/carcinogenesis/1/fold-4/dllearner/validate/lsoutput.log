@@ -1,0 +1,22 @@
+DEBUG: Found ../../learningtasks/carcinogenesis/owl/lp/1/dllearner.conf. Will try read it.
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 0%[.....] 1%[.....] 1%[.....] 2%[.....] 3%[.....] 3%[.....] 4%[.....] 4%[.....] 5%[.....] 6%[.....] 6%[.....] 7%[.....] 8%[.....] 8%[.....] 9%[.....] 9%[.....] 10%[.....] 11%[.....] 11%[.....] 12%[.....] 13%[.....] 13%[.....] 14%[.....] 14%[.....] 15%[.....] 16%[.....] 16%[.....] 17%[.....] 18%[.....] 18%[.....] 19%[.....] 19%[=....] 20%[=....] 21%[=....] 21%[=....] 22%[=....] 22%[=....] 23%[=....] 24%[=....] 24%[=....] 25%[=....] 26%[=....] 26%[=....] 27%[=....] 27%[=....] 28%[=....] 29%[=....] 29%[=....] 30%[=....] 31%[=....] 31%[=....] 32%[=....] 32%[=....] 33%[=....] 34%[=....] 34%[=....] 35%[=....] 36%[=....] 36%[=....] 37%[=....] 37%[=....] 38%[=....] 39%[=....] 39%[==...] 40%[==...] 40%[==...] 41%[==...] 42%[==...] 42%[==...] 43%[==...] 44%[==...] 44%[==...] 45%[==...] 45%[==...] 46%[==...] 47%[==...] 47%[==...] 48%[==...] 49%[==...] 49%[==...] 50%[==...] 50%[==...] 51%[==...] 52%[==...] 52%[==...] 53%[==...] 54%[==...] 54%[==...] 55%[==...] 55%[==...] 56%[==...] 57%[==...] 57%[==...] 58%[==...] 59%[==...] 59%[===..] 60%[===..] 60%[===..] 61%[===..] 62%[===..] 62%[===..] 63%[===..] 63%[===..] 64%[===..] 65%[===..] 65%[===..] 66%[===..] 67%[===..] 67%[===..] 68%[===..] 68%[===..] 69%[===..] 70%[===..] 70%[===..] 71%[===..] 72%[===..] 72%[===..] 73%[===..] 73%[===..] 74%[===..] 75%[===..] 75%[===..] 76%[===..] 77%[===..] 77%[===..] 78%[===..] 78%[===..] 79%[====.] 80%[====.] 80%[====.] 81%[====.] 81%[====.] 82%[====.] 83%[====.] 83%[====.] 84%[====.] 85%[====.] 85%[====.] 86%[====.] 86%[====.] 87%materialising object properties ...
+[====.] 88%[====.] 88%[====.] 89%[====.] 90%materialising datatype properties
+[====.] 90%[====.] 91%[====.] 91%[====.] 92%[====.] 93%[====.] 93%[====.] 94%[====.] 95%[====.] 95%[====.] 96%[====.] 96%[====.] 97%[====.] 98%[====.] 98%[====.] 99%Property cytogen_ca has more than one value [false, true] for individual d135. We ignore the value.
+Property cytogen_ca has value [false, true]. Cannot determine whether it is false.
+...TBox materialised in 10300 ms.
+... initialized component 'reasoner' in 14s 965ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 0ms. Status: OK
+#EVAL# tp: 16
+#EVAL# fp: 12
+#EVAL# tn: 1
+#EVAL# fn: 0

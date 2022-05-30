@@ -1,0 +1,45 @@
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 1%[.....] 2%[.....] 3%[.....] 4%[.....] 5%[.....] 6%[.....] 7%[.....] 8%[.....] 9%[.....] 10%[.....] 11%[.....] 12%[.....] 13%[.....] 14%[.....] 15%[.....] 16%[.....] 17%[.....] 18%[.....] 19%[=....] 20%[=....] 21%[=....] 22%[=....] 23%[=....] 24%[=....] 25%[=....] 26%[=....] 27%[=....] 28%[=....] 29%[=....] 30%[=....] 31%[=....] 32%[=....] 34%[=....] 35%[=....] 36%[=....] 37%[=....] 38%[=....] 39%[==...] 40%[==...] 41%[==...] 42%[==...] 43%[==...] 44%[==...] 45%[==...] 46%[==...] 47%[==...] 48%[==...] 49%[==...] 50%[==...] 51%[==...] 52%[==...] 53%[==...] 54%[==...] 55%[==...] 56%[==...] 57%[==...] 58%[==...] 59%[===..] 60%[===..] 61%[===..] 62%[===..] 63%[===..] 64%[===..] 65%[===..] 67%[===..] 68%[===..] 69%[===..] 70%[===..] 71%[===..] 72%[===..] 73%[===..] 74%[===..] 75%[===..] 76%[===..] 77%[===..] 78%[===..] 79%[====.] 80%[====.] 81%[====.] 82%[====.] 83%[====.] 84%[====.] 85%[====.] 86%[====.] 87%materialising object properties ...
+[====.] 88%[====.] 89%[====.] 90%[====.] 91%[====.] 92%materialising datatype properties
+[====.] 93%[====.] 94%[====.] 95%[====.] 96%[====.] 97%[====.] 98%...TBox materialised in 6096 ms.
+... initialized component 'reasoner' in 9s 812ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 0ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 123ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (29.73%) class expression found after 34ms: Thing
+more accurate (32.43%) class expression found after 402ms: lumo some double[>= "-2.333"^^double]
+more accurate (86.49%) class expression found after 410ms: act some double[>= "-1.62"^^double]
+more accurate (94.59%) class expression found after 413ms: act some double[>= "-0.22"^^double]
+Algorithm terminated successfully (time: 870s 5ms, 23526 descriptions tested, 15025 nodes in the search tree).
+
+number of retrievals: 24625
+retrieval reasoning time: 861s 782ms ( 34ms per retrieval)
+number of instance checks: 385 (0 multiple)
+instance check reasoning time: 1ms ( 0ms per instance check)
+(complex) subsumption checks: 36 (0 multiple)
+subsumption reasoning time: 24ms ( 0ms per subsumption check)
+overall reasoning time: 861s 808ms
+
+solutions:
+1: act some double[>= "-0.22"^^double] (pred. acc.: 94.59%, F-measure: 91.67%)
+2: (not (Bond-4)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+3: (not (Bond-3)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+4: (not (Bond-2)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+5: (not (Bond-1)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+6: (not (Benzene)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+7: (not (Barium)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+8: (not (Ball3)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+9: (not (Arsenic)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+10: (not (Anthracene)) and (act some double[>= "-0.22"^^double]) (pred. acc.: 94.59%, F-measure: 91.67%)
+

@@ -1,0 +1,9 @@
+../../learningtasks/mammographic/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[http://dl-learner.org/mammographic#hasBiRads>=5.0]
+[http://dl-learner.org/mammographic#hasAge>=63.0, http://dl-learner.org/mammographic#hasMargin.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/1999/02/22-rdf-syntax-ns#type§http://dl-learner.org/mammographic#ill-defined, http://dl-learner.org/mammographic#hasAge>=70.0]

@@ -1,0 +1,9 @@
+../../learningtasks/nctrer/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[http://dl-learner.org/ont/LOG_ER_RBA>=-2.65, http://dl-learner.org/ont/DSSTox_CID>=2375, http://dl-learner.org/ont/has_bond.http://dl-learner.org/ont/first_bound_atom.http://dl-learner.org/ont/atom_coordinate_x>=5.3142, http://dl-learner.org/ont/atom.http://dl-learner.org/ont/atom_coordinate_x>=5.3175]
+[count.http://dl-learner.org/ont/ActivityCategory_ER_RBA§2]

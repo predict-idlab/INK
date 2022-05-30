@@ -1,0 +1,50 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/lymphography/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 2%[.....] 4%[.....] 6%[.....] 8%[.....] 10%[.....] 12%[.....] 14%[.....] 16%[.....] 18%[=....] 20%[=....] 22%[=....] 24%[=....] 26%[=....] 28%[=....] 30%[=....] 32%[=....] 34%[=....] 36%[=....] 38%[==...] 40%[==...] 42%[==...] 44%[==...] 46%[==...] 48%[==...] 51%[==...] 53%[==...] 55%[==...] 57%[==...] 59%[===..] 61%[===..] 63%[===..] 65%[===..] 67%[===..] 69%[===..] 71%[===..] 73%[===..] 75%[===..] 77%[===..] 79%[====.] 81%[====.] 83%[====.] 85%[====.] 87%[====.] 89%[====.] 91%[====.] 93%[====.] 95%[====.] 97%materialising object properties ...
+materialising datatype properties
+...TBox materialised in 89 ms.
+... initialized component 'reasoner' in 716ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 0ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 13ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (54.89%) class expression found after 33ms: Thing
+more accurate (60.15%) class expression found after 114ms: not (CIS15_stripped)
+more accurate (69.17%) class expression found after 1s707ms: BlockOfAffere3 or (not (Extravasates7))
+more accurate (70.68%) class expression found after 1s816ms: (BlockOfAffere3 and LND10_0) or (not (Extravasates7))
+more accurate (75.19%) class expression found after 5s805ms: BlockOfAffere3 or ((not (CIN14_Lac_Central)) and (not (Extravasates7)))
+more accurate (75.94%) class expression found after 39s128ms: (BlockOfAffere3 and (CIN14_Lac_Margin or LNE11_2)) or (not (Extravasates7))
+more accurate (76.69%) class expression found after 57s862ms: (BlockOfAffere3 and LND10_0) or ((not (CIN14_Lac_Central)) and (not (Extravasates7)))
+more accurate (84.21%) class expression found after 8m56s495ms: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and (not (SF16_Vesicles)))
+more accurate (84.96%) class expression found after 9m3s545ms: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and LND10_0 and (not (SF16_Vesicles)))
+more accurate (85.71%) class expression found after 11m2s159ms: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and (SF16_Chalices or (CIS15_Coarse and NON19_n10-19)))
+Algorithm terminated successfully (time: 870s 0ms, 1957600 descriptions tested, 441889 nodes in the search tree).
+
+number of retrievals: 1960181
+retrieval reasoning time: 342s 52ms ( 0ms per retrieval)
+(complex) subsumption checks: 941 (0 multiple)
+subsumption reasoning time: 158ms ( 0ms per subsumption check)
+overall reasoning time: 342s 210ms
+
+solutions:
+1: CIN14_Lac_Margin or (CIN14_Lacunar and (not (SF16_Vesicles))) or (NON19_n0-9 and (not (LNE11_3))) (pred. acc.: 85.71%, F-measure: 88.48%)
+2: CIN14_Lac_Margin or (CIN14_Lacunar and (not (SF16_Vesicles))) or (NON19_n0-9 and (not (L2_Displaced))) (pred. acc.: 85.71%, F-measure: 88.48%)
+3: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and (not (L2_Deformed)) and (not (SF16_Vesicles))) (pred. acc.: 85.71%, F-measure: 88.48%)
+4: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and (SF16_Chalices or (CIS15_Coarse and NON19_n10-19))) (pred. acc.: 85.71%, F-measure: 88.48%)
+5: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and LND10_0 and (not (SF16_Vesicles))) (pred. acc.: 84.96%, F-measure: 87.95%)
+6: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and EarlyUptakeIn9 and (not (SF16_Vesicles))) (pred. acc.: 84.96%, F-measure: 87.95%)
+7: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and (SF16_Chalices or (LNE11_2 and NON19_n10-19))) (pred. acc.: 84.96%, F-measure: 87.95%)
+8: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and (SF16_Chalices or (L2_Arched and NON19_n10-19))) (pred. acc.: 84.96%, F-measure: 87.95%)
+9: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and (SF16_Chalices or (EarlyUptakeIn9 and NON19_n10-19))) (pred. acc.: 84.96%, F-measure: 87.95%)
+10: CIN14_Lac_Margin or NON19_n0-9 or (CIN14_Lacunar and (SF16_Chalices or (DislocationOf17 and NON19_n10-19))) (pred. acc.: 84.96%, F-measure: 87.95%)
+

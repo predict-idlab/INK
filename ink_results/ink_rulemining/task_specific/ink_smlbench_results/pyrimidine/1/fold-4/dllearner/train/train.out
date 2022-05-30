@@ -1,0 +1,1 @@
+(p1_h_acceptor some double[<= "0.7"^^double]) and (p1_polarizable some double[>= "0.233"^^double])

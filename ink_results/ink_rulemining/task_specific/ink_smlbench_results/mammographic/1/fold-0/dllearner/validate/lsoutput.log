@@ -1,0 +1,20 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/mammographic/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 4%[.....] 8%[.....] 12%[.....] 16%[=....] 20%[=....] 25%[=....] 29%[=....] 33%[=....] 37%[==...] 41%[==...] 45%[==...] 50%[==...] 54%[==...] 58%[===..] 62%[===..] 66%[===..] 70%[===..] 75%materialising object properties ...
+[===..] 79%[====.] 83%[====.] 87%materialising datatype properties
+[====.] 91%[====.] 95%...TBox materialised in 220 ms.
+... initialized component 'reasoner' in 1s 325ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 0ms. Status: OK
+#EVAL# tp: 45
+#EVAL# fp: 50
+#EVAL# tn: 2
+#EVAL# fn: 0

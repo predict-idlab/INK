@@ -1,0 +1,9 @@
+../../learningtasks/lymphography/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[http://www.w3.org/1999/02/22-rdf-syntax-ns#type§http://www.example.org/lymphography#NON19_n0-9]
+[http://www.w3.org/1999/02/22-rdf-syntax-ns#type§http://www.example.org/lymphography#BlockOfAffere3, http://www.w3.org/1999/02/22-rdf-syntax-ns#type§http://www.example.org/lymphography#CIN14_Lac_Margin]

@@ -1,0 +1,9 @@
+../../learningtasks/carcinogenesis/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Bond-7>=11, count.http://dl-learner.org/carcinogenesis#hasBond>=23, count.http://dl-learner.org/carcinogenesis#hasAtom.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Hydrogen-3<=15, count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Bond-7<=24, http://dl-learner.org/carcinogenesis#amesTestPositive§true]
+[count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Bond-1<=37, count.http://dl-learner.org/carcinogenesis#hasStructure.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Ar_halide<=6, count.http://dl-learner.org/carcinogenesis#hasBond<=10, http://dl-learner.org/carcinogenesis#hasAtom.http://dl-learner.org/carcinogenesis#charge<=-0.067]

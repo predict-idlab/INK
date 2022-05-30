@@ -1,0 +1,19 @@
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 1%[.....] 2%[.....] 3%[.....] 4%[.....] 5%[.....] 6%[.....] 7%[.....] 8%[.....] 9%[.....] 10%[.....] 11%[.....] 12%[.....] 13%[.....] 14%[.....] 15%[.....] 16%[.....] 17%[.....] 18%[.....] 19%[=....] 20%[=....] 21%[=....] 22%[=....] 23%[=....] 24%[=....] 25%[=....] 26%[=....] 27%[=....] 28%[=....] 29%[=....] 30%[=....] 31%[=....] 32%[=....] 34%[=....] 35%[=....] 36%[=....] 37%[=....] 38%[=....] 39%[==...] 40%[==...] 41%[==...] 42%[==...] 43%[==...] 44%[==...] 45%[==...] 46%[==...] 47%[==...] 48%[==...] 49%[==...] 50%[==...] 51%[==...] 52%[==...] 53%[==...] 54%[==...] 55%[==...] 56%[==...] 57%[==...] 58%[==...] 59%[===..] 60%[===..] 61%[===..] 62%[===..] 63%[===..] 64%[===..] 65%[===..] 67%[===..] 68%[===..] 69%[===..] 70%[===..] 71%[===..] 72%[===..] 73%[===..] 74%[===..] 75%[===..] 76%[===..] 77%[===..] 78%[===..] 79%[====.] 80%[====.] 81%[====.] 82%[====.] 83%[====.] 84%[====.] 85%[====.] 86%[====.] 87%materialising object properties ...
+[====.] 88%[====.] 89%[====.] 90%[====.] 91%[====.] 92%materialising datatype properties
+[====.] 93%[====.] 94%[====.] 95%[====.] 96%[====.] 97%[====.] 98%...TBox materialised in 6116 ms.
+... initialized component 'reasoner' in 9s 810ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 0ms. Status: OK
+#EVAL# tp: 1
+#EVAL# fp: 0
+#EVAL# tn: 3
+#EVAL# fn: 0

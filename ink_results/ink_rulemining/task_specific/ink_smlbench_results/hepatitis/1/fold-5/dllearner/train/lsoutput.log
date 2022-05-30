@@ -1,0 +1,46 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/hepatitis/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 3%[.....] 6%[.....] 9%[.....] 12%[.....] 16%[.....] 19%[=....] 22%[=....] 25%[=....] 29%[=....] 32%[=....] 35%[=....] 38%[==...] 41%materialising object properties ...
+[==...] 45%[==...] 48%[==...] 51%[==...] 54%[==...] 58%materialising datatype properties
+[===..] 61%[===..] 64%[===..] 67%[===..] 70%[===..] 74%[===..] 77%[====.] 80%[====.] 83%[====.] 87%[====.] 90%[====.] 93%[====.] 96%...TBox materialised in 2204 ms.
+... initialized component 'reasoner' in 6s 114ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 3ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 299ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (41.20%) class expression found after 44ms: Thing
+more accurate (41.65%) class expression found after 2s68ms: hasBiopsy max 3 Thing
+more accurate (42.54%) class expression found after 2s75ms: hasBiopsy max 2 Thing
+more accurate (46.77%) class expression found after 2s81ms: hasBiopsy max 1 Thing
+Algorithm terminated successfully (time: 870s 10ms, 92388 descriptions tested, 48347 nodes in the search tree).
+
+number of retrievals: 92849
+retrieval reasoning time: 774s 907ms ( 8ms per retrieval)
+number of instance checks: 122412 (0 multiple)
+instance check reasoning time: 204ms ( 0ms per instance check)
+(complex) subsumption checks: 26 (0 multiple)
+subsumption reasoning time: 20ms ( 0ms per subsumption check)
+overall reasoning time: 775s 132ms
+
+solutions:
+1: hasBiopsy max 1 Thing (pred. acc.: 46.77%, F-measure: 60.76%)
+2: hasBiopsy max 1 (fibrosisLevel some int[<= "4"^^int]) (pred. acc.: 46.77%, F-measure: 60.76%)
+3: hasBiopsy max 1 (fibrosisLevel some int[>= "0"^^int]) (pred. acc.: 46.77%, F-measure: 60.76%)
+4: hasBiopsy max 1 (biopsyPerformedOnPatient some Thing) (pred. acc.: 46.77%, F-measure: 60.76%)
+5: Screening or (hasBiopsy max 1 Thing) (pred. acc.: 46.77%, F-measure: 60.76%)
+6: Hepatitis or (hasBiopsy max 1 Thing) (pred. acc.: 46.77%, F-measure: 60.76%)
+7: Biopsy or (hasBiopsy max 1 Thing) (pred. acc.: 46.77%, F-measure: 60.76%)
+8: AgeClass0 or (hasBiopsy max 1 Thing) (pred. acc.: 46.77%, F-measure: 60.76%)
+9: AgeClass or (hasBiopsy max 1 Thing) (pred. acc.: 46.77%, F-measure: 60.76%)
+10: Patient and (hasBiopsy max 1 Thing) (pred. acc.: 46.77%, F-measure: 60.76%)
+

@@ -1,0 +1,52 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/pyrimidine/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%materialising object properties ...
+materialising datatype properties
+[.....] 3%[.....] 7%[.....] 10%[.....] 14%[.....] 17%[=....] 21%[=....] 25%[=....] 28%[=....] 32%[=....] 35%[=....] 39%[==...] 42%[==...] 46%[==...] 50%[==...] 53%[==...] 57%[===..] 60%[===..] 64%[===..] 67%[===..] 71%[===..] 75%[===..] 78%[====.] 82%[====.] 85%[====.] 89%[====.] 92%[====.] 96%...TBox materialised in 117 ms.
+... initialized component 'reasoner' in 856ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 0ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 58ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (50.00%) class expression found after 35ms: Thing
+more accurate (52.78%) class expression found after 142ms: p3_pi_donor some double[<= "0.7"^^double]
+more accurate (55.56%) class expression found after 146ms: p3_h_donor some double[<= "0.5"^^double]
+more accurate (58.33%) class expression found after 154ms: p2_sigma some double[<= "0.5"^^double]
+more accurate (75.00%) class expression found after 169ms: p1_size some double[>= "0.18"^^double]
+more accurate (77.78%) class expression found after 190ms: p1_polarizable some double[>= "0.233"^^double]
+more accurate (80.56%) class expression found after 314ms: (p1_polarizable some double[>= "0.233"^^double]) and (p3_pi_donor some double[<= "0.7"^^double])
+more accurate (83.33%) class expression found after 318ms: (p1_polarizable some double[>= "0.233"^^double]) and (p3_h_donor some double[<= "0.5"^^double])
+more accurate (86.11%) class expression found after 345ms: (p1_polarizable some double[>= "0.233"^^double]) and (p1_size some double[<= "0.66"^^double])
+more accurate (88.89%) class expression found after 358ms: (p1_h_donor some double[<= "0.7"^^double]) and (p1_polarizable some double[>= "0.233"^^double])
+more accurate (91.67%) class expression found after 366ms: (p1_h_acceptor some double[<= "0.7"^^double]) and (p1_polarizable some double[>= "0.233"^^double])
+more accurate (94.44%) class expression found after 14s284ms: ((p1_flex some double[<= "0.4"^^double]) and (p1_size some double[>= "0.34"^^double])) or (p3_size some double[>= "0.233"^^double])
+Algorithm terminated successfully (time: 870s 0ms, 1722299 descriptions tested, 912508 nodes in the search tree).
+
+number of retrievals: 1722520
+retrieval reasoning time: 360s 913ms ( 0ms per retrieval)
+(complex) subsumption checks: 1014 (0 multiple)
+subsumption reasoning time: 310ms ( 0ms per subsumption check)
+overall reasoning time: 361s 224ms
+
+solutions:
+1: ((p1_flex some double[<= "0.4"^^double]) and (p1_size some double[>= "0.34"^^double])) or (p3_size some double[>= "0.233"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+2: ((p1_flex some double[<= "0.4"^^double]) and (p1_size some double[>= "0.34"^^double])) or (p3_pi_acceptor some double[>= "0.233"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+3: ((p1_flex some double[<= "0.3"^^double]) and (p1_size some double[>= "0.34"^^double])) or (p3_size some double[>= "0.233"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+4: ((p1_flex some double[<= "0.3"^^double]) and (p1_size some double[>= "0.34"^^double])) or (p3_pi_acceptor some double[>= "0.233"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+5: ((p1_flex some double[<= "0.2"^^double]) and (p1_size some double[>= "0.34"^^double])) or (p3_size some double[>= "0.233"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+6: ((p1_flex some double[<= "0.2"^^double]) and (p1_size some double[>= "0.34"^^double])) or (p3_pi_acceptor some double[>= "0.233"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+7: ((p2_size some double[>= "0.34"^^double]) or (p3_size some double[>= "0.233"^^double])) and (p1_size some double[>= "0.18"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+8: ((p2_size some double[>= "0.34"^^double]) or (p3_size some double[>= "0.233"^^double])) and (p1_polarizable some double[>= "0.233"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+9: ((p2_size some double[>= "0.34"^^double]) or (p3_pi_acceptor some double[>= "0.233"^^double])) and (p1_size some double[>= "0.18"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+10: ((p2_size some double[>= "0.34"^^double]) or (p3_pi_acceptor some double[>= "0.233"^^double])) and (p1_polarizable some double[>= "0.233"^^double]) (pred. acc.: 94.44%, F-measure: 94.74%)
+

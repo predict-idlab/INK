@@ -1,0 +1,45 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/nctrer/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 1%[.....] 2%[.....] 3%[.....] 4%[.....] 5%[.....] 6%[.....] 7%[.....] 8%[.....] 9%[.....] 10%[.....] 11%[.....] 12%[.....] 13%[.....] 14%[.....] 15%[.....] 16%[.....] 17%[.....] 18%[.....] 19%[=....] 20%[=....] 21%[=....] 22%[=....] 23%[=....] 25%[=....] 26%[=....] 27%[=....] 28%[=....] 29%[=....] 30%[=....] 31%[=....] 32%[=....] 33%[=....] 34%[=....] 35%[=....] 36%[=....] 37%materialising object properties ...
+[=....] 38%[=....] 39%[==...] 40%[==...] 41%[==...] 42%[==...] 43%[==...] 44%[==...] 45%[==...] 46%materialising datatype properties
+[==...] 47%[==...] 48%[==...] 50%[==...] 51%[==...] 52%[==...] 53%[==...] 54%[==...] 55%[==...] 56%[==...] 57%[==...] 58%[==...] 59%[===..] 60%[===..] 61%[===..] 62%[===..] 63%[===..] 64%[===..] 65%[===..] 66%[===..] 67%[===..] 68%[===..] 69%[===..] 70%[===..] 71%[===..] 72%[===..] 73%[===..] 75%[===..] 76%[===..] 77%[===..] 78%[===..] 79%[====.] 80%[====.] 81%[====.] 82%[====.] 83%[====.] 84%[====.] 85%[====.] 86%[====.] 87%[====.] 88%[====.] 89%[====.] 90%[====.] 91%[====.] 92%[====.] 93%[====.] 94%[====.] 95%[====.] 96%[====.] 97%[====.] 98%...TBox materialised in 6058 ms.
+... initialized component 'reasoner' in 11s 683ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 1ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 266ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (58.42%) class expression found after 36ms: Thing
+more accurate (60.40%) class expression found after 636ms: F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]
+more accurate (60.89%) class expression found after 45s889ms: atom some (atom_coordinate_x some double[>= "4.4191"^^double])
+Algorithm terminated successfully (time: 870s 12ms, 92138 descriptions tested, 62969 nodes in the search tree).
+
+number of retrievals: 93987
+retrieval reasoning time: 810s 178ms ( 8ms per retrieval)
+number of instance checks: 44520 (0 multiple)
+instance check reasoning time: 135ms ( 0ms per instance check)
+(complex) subsumption checks: 40 (0 multiple)
+subsumption reasoning time: 45ms ( 1ms per subsumption check)
+overall reasoning time: 810s 359ms
+
+solutions:
+1: atom some (atom_coordinate_x some double[>= "4.4191"^^double]) (pred. acc.: 60.89%, F-measure: 74.92%)
+2: F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger] (pred. acc.: 60.40%, F-measure: 74.68%)
+3: Unmarked or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 60.40%, F-measure: 74.68%)
+4: ReactingCenterStatus or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 60.40%, F-measure: 74.68%)
+5: NotACenter or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 60.40%, F-measure: 74.68%)
+6: NoChange or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 60.40%, F-measure: 74.68%)
+7: BondOrderChanges or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 60.40%, F-measure: 74.68%)
+8: BondMadeOrBrokenAndBondOrderChangesAndACenter or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 60.40%, F-measure: 74.68%)
+9: BondMadeOrBrokenAndBondOrderChanges or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 60.40%, F-measure: 74.68%)
+10: BondMadeOrBroken or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 60.40%, F-measure: 74.68%)
+

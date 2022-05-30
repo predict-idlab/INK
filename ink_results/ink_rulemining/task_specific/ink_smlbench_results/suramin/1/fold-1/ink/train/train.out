@@ -1,0 +1,8 @@
+../../learningtasks/suramin/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[count.http://dl-learner.org/suramin#hasBond.http://dl-learner.org/suramin#inBond.http://dl-learner.org/suramin#charge.0.578]

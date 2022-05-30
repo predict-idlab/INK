@@ -1,0 +1,44 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/nctrer/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 1%[.....] 2%[.....] 3%[.....] 4%[.....] 5%[.....] 6%[.....] 7%[.....] 8%[.....] 9%[.....] 10%[.....] 11%[.....] 12%[.....] 13%[.....] 14%[.....] 15%[.....] 16%[.....] 17%[.....] 18%[.....] 19%[=....] 20%[=....] 21%[=....] 22%[=....] 23%[=....] 25%[=....] 26%[=....] 27%[=....] 28%[=....] 29%[=....] 30%[=....] 31%[=....] 32%[=....] 33%[=....] 34%[=....] 35%[=....] 36%[=....] 37%materialising object properties ...
+[=....] 38%[=....] 39%[==...] 40%[==...] 41%[==...] 42%[==...] 43%[==...] 44%[==...] 45%[==...] 46%materialising datatype properties
+[==...] 47%[==...] 48%[==...] 50%[==...] 51%[==...] 52%[==...] 53%[==...] 54%[==...] 55%[==...] 56%[==...] 57%[==...] 58%[==...] 59%[===..] 60%[===..] 61%[===..] 62%[===..] 63%[===..] 64%[===..] 65%[===..] 66%[===..] 67%[===..] 68%[===..] 69%[===..] 70%[===..] 71%[===..] 72%[===..] 73%[===..] 75%[===..] 76%[===..] 77%[===..] 78%[===..] 79%[====.] 80%[====.] 81%[====.] 82%[====.] 83%[====.] 84%[====.] 85%[====.] 86%[====.] 87%[====.] 88%[====.] 89%[====.] 90%[====.] 91%[====.] 92%[====.] 93%[====.] 94%[====.] 95%[====.] 96%[====.] 97%[====.] 98%...TBox materialised in 6936 ms.
+... initialized component 'reasoner' in 12s 721ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 2ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 297ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (58.42%) class expression found after 46ms: Thing
+more accurate (61.39%) class expression found after 698ms: F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]
+Algorithm terminated successfully (time: 870s 0ms, 92117 descriptions tested, 62956 nodes in the search tree).
+
+number of retrievals: 93964
+retrieval reasoning time: 809s 674ms ( 8ms per retrieval)
+number of instance checks: 44520 (0 multiple)
+instance check reasoning time: 131ms ( 0ms per instance check)
+(complex) subsumption checks: 38 (0 multiple)
+subsumption reasoning time: 37ms ( 0ms per subsumption check)
+overall reasoning time: 809s 843ms
+
+solutions:
+1: F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger] (pred. acc.: 61.39%, F-measure: 75.16%)
+2: Unmarked or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+3: ReactingCenterStatus or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+4: NotACenter or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+5: NoChange or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+6: BondOrderChanges or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+7: BondMadeOrBrokenAndBondOrderChangesAndACenter or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+8: BondMadeOrBrokenAndBondOrderChanges or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+9: BondMadeOrBroken or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+10: ACenter or (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) (pred. acc.: 61.39%, F-measure: 75.16%)
+

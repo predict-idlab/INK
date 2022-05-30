@@ -1,0 +1,11 @@
+../../learningtasks/carcinogenesis/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[count.http://dl-learner.org/carcinogenesis#hasAtom.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/1999/02/22-rdf-syntax-ns#type>=21, http://dl-learner.org/carcinogenesis#hasBond.http://dl-learner.org/carcinogenesis#inBond.http://dl-learner.org/carcinogenesis#charge<=-0.142, count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Bond-1<=14, http://dl-learner.org/carcinogenesis#hasAtom.http://dl-learner.org/carcinogenesis#charge>=0.208]
+[count.http://dl-learner.org/carcinogenesis#hasStructure.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/2000/01/rdf-schema#subClassOf<=13, count.http://dl-learner.org/carcinogenesis#hasAtom.http://dl-learner.org/carcinogenesis#charge<=15, http://dl-learner.org/carcinogenesis#hasBond.http://dl-learner.org/carcinogenesis#inBond.http://dl-learner.org/carcinogenesis#charge<=-0.075, count.http://dl-learner.org/carcinogenesis#hasBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://www.w3.org/2002/07/owl#Class<=10]
+[count.http://dl-learner.org/carcinogenesis#hasBond.http://dl-learner.org/carcinogenesis#inBond.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Hydrogen-1<=2, http://dl-learner.org/carcinogenesis#hasAtom.http://dl-learner.org/carcinogenesis#charge<=-0.168, http://dl-learner.org/carcinogenesis#salmonella§true, count.http://dl-learner.org/carcinogenesis#hasAtom.http://www.w3.org/1999/02/22-rdf-syntax-ns#type<=58]
+[http://dl-learner.org/carcinogenesis#hasBond.http://dl-learner.org/carcinogenesis#inBond.http://dl-learner.org/carcinogenesis#charge<=-0.195, count.http://dl-learner.org/carcinogenesis#hasAtom.http://www.w3.org/1999/02/22-rdf-syntax-ns#type.http://dl-learner.org/carcinogenesis#Carbon-22>=10, http://dl-learner.org/carcinogenesis#hasAtom.http://dl-learner.org/carcinogenesis#charge<=-0.247, http://dl-learner.org/carcinogenesis#amesTestPositive§true]

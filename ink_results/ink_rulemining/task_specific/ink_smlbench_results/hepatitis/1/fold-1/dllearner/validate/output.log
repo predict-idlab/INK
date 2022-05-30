@@ -1,0 +1,19 @@
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 3%[.....] 6%[.....] 9%[.....] 12%[.....] 16%[.....] 19%[=....] 22%[=....] 25%[=....] 29%[=....] 32%[=....] 35%[=....] 38%[==...] 41%materialising object properties ...
+[==...] 45%[==...] 48%[==...] 51%[==...] 54%[==...] 58%materialising datatype properties
+[===..] 61%[===..] 64%[===..] 67%[===..] 70%[===..] 74%[===..] 77%[====.] 80%[====.] 83%[====.] 87%[====.] 90%[====.] 93%[====.] 96%...TBox materialised in 1852 ms.
+... initialized component 'reasoner' in 5s 568ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 1ms. Status: OK
+#EVAL# tp: 21
+#EVAL# fp: 27
+#EVAL# tn: 2
+#EVAL# fn: 0

@@ -1,0 +1,1 @@
+((p2_size some double[>= "0.34"^^double]) or (p3_size some double[>= "0.233"^^double])) and (p1_size some double[>= "0.18"^^double])

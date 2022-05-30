@@ -1,0 +1,1 @@
+(has_bond some DoubleOrAromaticBond) and (F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger])

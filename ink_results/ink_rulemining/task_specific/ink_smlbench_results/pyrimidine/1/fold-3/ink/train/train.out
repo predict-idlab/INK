@@ -1,0 +1,8 @@
+../../learningtasks/pyrimidine/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[http://dl-learner.org/ont/p1_polarizable>=0.367, http://dl-learner.org/ont/p1_h_acceptor<=0.5, http://dl-learner.org/ont/p1_size<=0.58]

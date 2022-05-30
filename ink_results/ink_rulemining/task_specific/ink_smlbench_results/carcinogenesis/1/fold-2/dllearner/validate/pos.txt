@@ -1,0 +1,16 @@
+http://dl-learner.org/carcinogenesis#d200
+http://dl-learner.org/carcinogenesis#d201
+http://dl-learner.org/carcinogenesis#d202
+http://dl-learner.org/carcinogenesis#d203
+http://dl-learner.org/carcinogenesis#d204
+http://dl-learner.org/carcinogenesis#d205
+http://dl-learner.org/carcinogenesis#d21
+http://dl-learner.org/carcinogenesis#d22
+http://dl-learner.org/carcinogenesis#d226
+http://dl-learner.org/carcinogenesis#d227
+http://dl-learner.org/carcinogenesis#d228
+http://dl-learner.org/carcinogenesis#d229
+http://dl-learner.org/carcinogenesis#d231
+http://dl-learner.org/carcinogenesis#d232
+http://dl-learner.org/carcinogenesis#d234
+http://dl-learner.org/carcinogenesis#d236

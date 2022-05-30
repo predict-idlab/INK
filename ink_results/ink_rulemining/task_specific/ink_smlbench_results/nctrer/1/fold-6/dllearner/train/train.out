@@ -1,0 +1,1 @@
+(F1_Ring some nonNegativeInteger[>= "1"^^nonNegativeInteger]) and (number_of_bounds some nonNegativeInteger[>= "9"^^nonNegativeInteger])

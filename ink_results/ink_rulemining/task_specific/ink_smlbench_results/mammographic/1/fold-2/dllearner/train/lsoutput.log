@@ -1,0 +1,47 @@
+DEBUG: No learning problem-specific file found under ../../learningtasks/mammographic/owl/lp/1/dllearner.conf
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 4%[.....] 8%[.....] 12%[.....] 16%[=....] 20%[=....] 25%[=....] 29%[=....] 33%[=....] 37%[==...] 41%[==...] 45%[==...] 50%[==...] 54%[==...] 58%[===..] 62%[===..] 66%[===..] 70%[===..] 75%materialising object properties ...
+[===..] 79%[====.] 83%[====.] 87%materialising datatype properties
+[====.] 91%[====.] 95%...TBox materialised in 232 ms.
+... initialized component 'reasoner' in 1s 284ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 1ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 51ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (46.24%) class expression found after 43ms: Thing
+more accurate (46.36%) class expression found after 1m3s351ms: (hasAge some double[>= "49.5"^^double]) or (hasBiRads some double[>= "1.0"^^double])
+more accurate (47.05%) class expression found after 1m3s390ms: (hasAge some double[>= "49.5"^^double]) or (hasBiRads some double[>= "2.5"^^double])
+more accurate (47.28%) class expression found after 1m3s414ms: (hasAge some double[>= "56.5"^^double]) or (hasBiRads some double[>= "2.5"^^double])
+more accurate (48.79%) class expression found after 1m4s109ms: (hasAge some double[>= "23.5"^^double]) or (hasAge some double[<= "0.0"^^double])
+Algorithm terminated successfully (time: 870s 1ms, 245346 descriptions tested, 204763 nodes in the search tree).
+
+number of retrievals: 246077
+retrieval reasoning time: 394s 81ms ( 1ms per retrieval)
+number of instance checks: 192 (0 multiple)
+instance check reasoning time: 1ms ( 0ms per instance check)
+(complex) subsumption checks: 56 (0 multiple)
+subsumption reasoning time: 69ms ( 1ms per subsumption check)
+overall reasoning time: 394s 151ms
+
+solutions:
+1: (hasAge some double[>= "23.5"^^double]) or (hasAge some double[<= "0.0"^^double]) (pred. acc.: 48.79%, F-measure: 64.36%)
+2: (hasAge some double[>= "56.5"^^double]) or (hasBiRads some double[>= "2.5"^^double]) (pred. acc.: 47.28%, F-measure: 63.69%)
+3: (hasAge some double[>= "36.5"^^double]) or (hasBiRads some double[>= "3.5"^^double]) (pred. acc.: 47.28%, F-measure: 63.69%)
+4: (hasDensity only low) or (hasAge some double[>= "29.5"^^double]) (pred. acc.: 47.17%, F-measure: 63.64%)
+5: (hasDensity some low) or (hasAge some double[>= "29.5"^^double]) (pred. acc.: 47.17%, F-measure: 63.64%)
+6: (hasAge some double[>= "49.5"^^double]) or (hasBiRads some double[>= "2.5"^^double]) (pred. acc.: 47.05%, F-measure: 63.59%)
+7: (hasAge some double[>= "29.5"^^double]) or (hasBiRads some double[>= "3.5"^^double]) (pred. acc.: 46.82%, F-measure: 63.49%)
+8: (hasAge some double[>= "42.5"^^double]) or (hasBiRads some double[>= "2.5"^^double]) (pred. acc.: 46.71%, F-measure: 63.44%)
+9: (hasAge some double[>= "23.5"^^double]) or (hasBiRads some double[>= "3.5"^^double]) (pred. acc.: 46.71%, F-measure: 63.44%)
+10: (hasAge some double[>= "63.5"^^double]) or (hasBiRads some double[>= "1.0"^^double]) (pred. acc.: 46.59%, F-measure: 63.39%)
+

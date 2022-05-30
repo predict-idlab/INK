@@ -1,0 +1,30 @@
+; fold 0
+http://dl-learner.org/res/pyrimidine001
+http://dl-learner.org/res/pyrimidine004
+; fold 1
+http://dl-learner.org/res/pyrimidine006
+http://dl-learner.org/res/pyrimidine010
+; fold 2
+http://dl-learner.org/res/pyrimidine011
+http://dl-learner.org/res/pyrimidine012
+; fold 3
+http://dl-learner.org/res/pyrimidine013
+http://dl-learner.org/res/pyrimidine015
+; fold 4
+http://dl-learner.org/res/pyrimidine016
+http://dl-learner.org/res/pyrimidine022
+; fold 5
+http://dl-learner.org/res/pyrimidine027
+http://dl-learner.org/res/pyrimidine032
+; fold 6
+http://dl-learner.org/res/pyrimidine033
+http://dl-learner.org/res/pyrimidine038
+; fold 7
+http://dl-learner.org/res/pyrimidine039
+http://dl-learner.org/res/pyrimidine041
+; fold 8
+http://dl-learner.org/res/pyrimidine044
+http://dl-learner.org/res/pyrimidine045
+; fold 9
+http://dl-learner.org/res/pyrimidine054
+http://dl-learner.org/res/pyrimidine056

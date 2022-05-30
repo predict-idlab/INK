@@ -1,0 +1,45 @@
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 2ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 3%[.....] 6%[.....] 9%[.....] 12%[.....] 16%[.....] 19%[=....] 22%[=....] 25%[=....] 29%[=....] 32%[=....] 35%[=....] 38%[==...] 41%materialising object properties ...
+[==...] 45%[==...] 48%[==...] 51%[==...] 54%[==...] 58%materialising datatype properties
+[===..] 61%[===..] 64%[===..] 67%[===..] 70%[===..] 74%[===..] 77%[====.] 80%[====.] 83%[====.] 87%[====.] 90%[====.] 93%[====.] 96%...TBox materialised in 2095 ms.
+... initialized component 'reasoner' in 5s 871ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 2ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 262ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (41.11%) class expression found after 40ms: Thing
+more accurate (41.56%) class expression found after 1s992ms: hasBiopsy max 3 Thing
+more accurate (42.44%) class expression found after 1s999ms: hasBiopsy max 2 Thing
+more accurate (46.22%) class expression found after 2s5ms: hasBiopsy max 1 Thing
+Algorithm terminated successfully (time: 870s 0ms, 92845 descriptions tested, 48614 nodes in the search tree).
+
+number of retrievals: 93305
+retrieval reasoning time: 774s 756ms ( 8ms per retrieval)
+number of instance checks: 122683 (0 multiple)
+instance check reasoning time: 206ms ( 0ms per instance check)
+(complex) subsumption checks: 26 (0 multiple)
+subsumption reasoning time: 22ms ( 0ms per subsumption check)
+overall reasoning time: 774s 985ms
+
+solutions:
+1: hasBiopsy max 1 Thing (pred. acc.: 46.22%, F-measure: 60.46%)
+2: hasBiopsy max 1 (fibrosisLevel some int[<= "4"^^int]) (pred. acc.: 46.22%, F-measure: 60.46%)
+3: hasBiopsy max 1 (fibrosisLevel some int[>= "0"^^int]) (pred. acc.: 46.22%, F-measure: 60.46%)
+4: hasBiopsy max 1 (biopsyPerformedOnPatient some Thing) (pred. acc.: 46.22%, F-measure: 60.46%)
+5: Screening or (hasBiopsy max 1 Thing) (pred. acc.: 46.22%, F-measure: 60.46%)
+6: Hepatitis or (hasBiopsy max 1 Thing) (pred. acc.: 46.22%, F-measure: 60.46%)
+7: Biopsy or (hasBiopsy max 1 Thing) (pred. acc.: 46.22%, F-measure: 60.46%)
+8: AgeClass0 or (hasBiopsy max 1 Thing) (pred. acc.: 46.22%, F-measure: 60.46%)
+9: AgeClass or (hasBiopsy max 1 Thing) (pred. acc.: 46.22%, F-measure: 60.46%)
+10: Patient and (hasBiopsy max 1 Thing) (pred. acc.: 46.22%, F-measure: 60.46%)
+

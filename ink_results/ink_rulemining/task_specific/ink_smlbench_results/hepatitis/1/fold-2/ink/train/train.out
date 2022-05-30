@@ -1,0 +1,10 @@
+../../learningtasks/hepatitis/owl/data/*.hdt
+#Process: get neighbourhood
+# Transform
+## create counts
+## create levels
+Create classification forests
+Chaining
+[count.http://dl-learner.org/ont/hasBiopsy.http://dl-learner.org/ont/biopsyPerformedOnPatient.http://www.w3.org/1999/02/22-rdf-syntax-ns#type§3, http://dl-learner.org/ont/hasScreening.http://dl-learner.org/ont/colisteraseActivityLevel§5, http://dl-learner.org/ont/hasBiopsy.http://dl-learner.org/ont/activityLevel>=0]
+[http://dl-learner.org/ont/hasScreening.http://dl-learner.org/ont/colisteraseActivityLevel§2]
+[count.http://dl-learner.org/ont/hasBiopsy.http://dl-learner.org/ont/biopsyPerformedOnPatient.http://www.w3.org/1999/02/22-rdf-syntax-ns#type§3, http://dl-learner.org/ont/hasScreening.http://dl-learner.org/ont/zincSulfateTurbidityTestLevel<=3, count.http://dl-learner.org/ont/hasScreening.http://dl-learner.org/ont/totalCholesterolLevel>=14, count.http://dl-learner.org/ont/hasScreening.http://dl-learner.org/ont/albuminLevel.1<=39, count.http://dl-learner.org/ont/hasScreening.http://dl-learner.org/ont/glutamic-pyruvicTransaminaseLevel.3<=19]

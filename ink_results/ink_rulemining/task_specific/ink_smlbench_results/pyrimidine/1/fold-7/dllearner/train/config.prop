@@ -1,0 +1,8 @@
+filename.workdir = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/pyrimidine/1/fold-7/dllearner/train
+filename.pos = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/pyrimidine/1/fold-7/dllearner/train/pos.txt
+filename.neg = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/pyrimidine/1/fold-7/dllearner/train/neg.txt
+filename.output = /users/bsteenwi/SML-Bench-0.3-2022/sml-temp5170403953494312326/pyrimidine/1/fold-7/dllearner/train/train.out
+learningtask = pyrimidine
+learningproblem = 1
+step = train
+maxExecutionTime = 900

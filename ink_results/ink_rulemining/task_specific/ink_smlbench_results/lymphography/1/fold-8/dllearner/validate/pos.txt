@@ -1,0 +1,8 @@
+http://www.example.org/lymphography#123
+http://www.example.org/lymphography#124
+http://www.example.org/lymphography#125
+http://www.example.org/lymphography#127
+http://www.example.org/lymphography#128
+http://www.example.org/lymphography#130
+http://www.example.org/lymphography#131
+http://www.example.org/lymphography#134

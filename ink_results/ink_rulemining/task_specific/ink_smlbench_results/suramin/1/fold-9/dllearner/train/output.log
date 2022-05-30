@@ -1,0 +1,44 @@
+DL-Learner command line interface
+Initializing component 'measure' of type Generalised FMeasure ...
+... initialized component 'measure' in 0ms. Status: OK
+Initializing component 'ks1' of type OWL File ...
+... initialized component 'ks1' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+materialising concepts
+[.....] 0%[.....] 2%[.....] 4%[.....] 6%[.....] 8%[.....] 10%[.....] 12%[.....] 14%[.....] 16%[.....] 18%[=....] 20%[=....] 22%[=....] 24%[=....] 26%[=....] 28%[=....] 30%[=....] 32%[=....] 34%[=....] 36%[=....] 38%[==...] 40%[==...] 42%[==...] 44%[==...] 46%[==...] 48%[==...] 50%[==...] 52%[==...] 54%[==...] 56%[==...] 58%[===..] 60%[===..] 62%[===..] 64%[===..] 66%[===..] 68%[===..] 70%[===..] 72%[===..] 74%[===..] 76%[===..] 78%[====.] 80%[====.] 82%[====.] 84%[====.] 86%[====.] 88%[====.] 90%materialising object properties ...
+[====.] 92%[====.] 94%[====.] 96%materialising datatype properties
+[====.] 98%...TBox materialised in 628 ms.
+... initialized component 'reasoner' in 2s 368ms. Status: OK
+Initializing component 'learningproblem' of type PosNegLPStandard ...
+... initialized component 'learningproblem' in 1ms. Status: OK
+Initializing component 'algorithm' of type CELOE ...
+... initialized component 'algorithm' in 58ms. Status: OK
+Running algorithm instance "algorithm" (CELOE)
+start class:Thing
+more accurate (43.75%) class expression found after 35ms: Thing
+more accurate (50.00%) class expression found after 1s334ms: hasAtom min 3 Sulfur-78
+more accurate (75.00%) class expression found after 22s838ms: hasAtom min 3 (Hydrogen-8 or Nitrogen-32)
+Algorithm terminated successfully (time: 870s 2ms, 369212 descriptions tested, 331090 nodes in the search tree).
+
+number of retrievals: 370219
+retrieval reasoning time: 799s 665ms ( 2ms per retrieval)
+number of instance checks: 833 (0 multiple)
+instance check reasoning time: 3ms ( 0ms per instance check)
+(complex) subsumption checks: 134 (0 multiple)
+subsumption reasoning time: 48ms ( 0ms per subsumption check)
+overall reasoning time: 799s 716ms
+
+solutions:
+1: hasAtom min 4 (Hydrogen-8 or Nitrogen-32) (pred. acc.: 75.00%, F-measure: 77.78%)
+2: hasAtom min 4 (Hydrogen-8 or Nitrogen) (pred. acc.: 75.00%, F-measure: 77.78%)
+3: hasAtom min 3 (Hydrogen-8 or Nitrogen-32) (pred. acc.: 75.00%, F-measure: 77.78%)
+4: hasAtom min 3 (Hydrogen-8 or Nitrogen) (pred. acc.: 75.00%, F-measure: 77.78%)
+5: hasAtom min 3 (Carbon-14 or Hydrogen-8) (pred. acc.: 75.00%, F-measure: 77.78%)
+6: hasAtom min 2 (Carbon-14 or Hydrogen-8) (pred. acc.: 75.00%, F-measure: 77.78%)
+7: hasAtom some (Hydrogen-3 and (charge some double[<= "0.171"^^double])) (pred. acc.: 75.00%, F-measure: 77.78%)
+8: hasAtom some (Hydrogen and (charge some double[<= "0.171"^^double])) (pred. acc.: 75.00%, F-measure: 77.78%)
+9: hasAtom min 4 (Hydrogen-3 and (charge some double[<= "0.171"^^double])) (pred. acc.: 75.00%, F-measure: 77.78%)
+10: hasAtom min 3 (Hydrogen-3 and (charge some double[<= "0.171"^^double])) (pred. acc.: 75.00%, F-measure: 77.78%)
+
