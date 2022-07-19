@@ -30,7 +30,7 @@ class KnowledgeGraph:
     :param prefixes: Optional dictionary of prefixes which should be mapped.
     :type prefixes: list
     """
-    def __init__(self, connector, prefixes=None):
+    def __init__(self, connector, prefixes=None, extract_inverse=False):
         if prefixes is None:
             prefixes = []
         self.connector = connector
@@ -39,6 +39,7 @@ class KnowledgeGraph:
         self.total_parts = {}
         self.neighbour_parts = {}
         self.prefixes = prefixes
+        self.extract_inverse = extract_inverse
 
     def neighborhood_request(self, noi):
         """
@@ -56,8 +57,12 @@ class KnowledgeGraph:
                 noi = noi[:-1]
 
             q = 'SELECT ?p ?o ?dt WHERE { BIND( IRI("' + noi + '") AS ?s ) ?s ?p ?o. BIND (datatype(?o) AS ?dt) }'
+            res = self.connector.query(q)
+            if True:
+                q = 'SELECT ?p ?o ?dt ?dt WHERE { BIND( IRI("' + noi + '") AS ?s ) ?o ?p ?s. BIND (datatype(?o) AS ?dt) }'
+                res += self.connector.inv_query(q)
             #q = 'SELECT ?p ?o WHERE { <'+noi+'> ?p ?o. }'
-            return self.connector.query(q)
+            return res
         except Exception as e:
             #print(e)
             return []

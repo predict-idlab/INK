@@ -49,6 +49,18 @@ class AbstractConnector(ABC):
         """
         pass
 
+    @abstractmethod
+    def inv_query(self, q_str):
+        """
+        Abstract inverse query function.
+        :param q_str: Query string.
+        :type q_str: str
+        :rtype: dict
+        """
+        pass
+
+
+
 
 class StardogConnector(AbstractConnector):
     """
@@ -124,6 +136,19 @@ class StardogConnector(AbstractConnector):
             time.sleep(0.1)
         return r['results']['bindings']
 
+    def inv_query(self, q_str):
+        """
+        Execute a query on the initialized Stardog database
+        :param q_str: Query string.
+        :type q_str: str
+        :return: Dictionary generated from the ['results']['bindings'] json.
+        :rtype: dict
+        """
+        with stardog.Connection(self.db, **self.details) as conn:
+            r = conn.select(q_str)
+            time.sleep(0.1)
+        return r['results']['bindings']
+
     def old_query(self, q_str):
         """
         Execute a query on the initialized Stardog database
@@ -168,6 +193,17 @@ class RDFLibConnector(AbstractConnector):
         self.g.parse(filename, format=dataformat)
 
     def query(self, q_str):
+        """
+        Execute a query through RDFLib
+        :param q_str: Query string.
+        :type q_str: str
+        :return: Dictionary generated from the ['results']['bindings'] json.
+        :rtype: dict
+        """
+        res = self.g.query(q_str)
+        return json.loads(res.serialize(format="json"))['results']['bindings']
+
+    def inv_query(self, q_str):
         """
         Execute a query through RDFLib
         :param q_str: Query string.

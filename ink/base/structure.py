@@ -30,11 +30,11 @@ class InkExtractor:
     :param verbose: Parameter to show tqdm tracker (default False).
     :type verbose: bool
     """
-    def __init__(self, connector, prefixes=None, verbose=False):
+    def __init__(self, connector, prefixes=None, extract_inverse=False, verbose=False):
         if prefixes is None:
             prefixes = []
         self.connector = connector
-        self.kg = KnowledgeGraph(connector, prefixes)
+        self.kg = KnowledgeGraph(connector, prefixes, extract_inverse)
         self.levels = {}
         self.verbose = verbose
         self.train_data = None

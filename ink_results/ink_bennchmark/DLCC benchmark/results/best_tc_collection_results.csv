@@ -1,0 +1,13 @@
+TC Collection,Size Group,Vector Name,Classifier,AVG Accuracy,AVG # missing URLs,Vector Path
+tc04,1000,ink_results,Naive_Bayes,0.7975,0.0,./ink_result.pkl
+tc03,1000,ink_results,Decision_Tree,1.0,0.0,./ink_result.pkl
+tc02,1000,ink_results,Decision_Tree,1.0,0.0,./ink_result.pkl
+tc05,1000,ink_results,Random_Forrest,0.9375,0.0,./ink_result.pkl
+tc11,1000,ink_results,Decision_Tree,1.0,0.0,./ink_result.pkl
+tc10,1000,ink_results,Decision_Tree,1.0,0.0,./ink_result.pkl
+tc07,1000,ink_results,Naive_Bayes,0.5675,0.0,./ink_result.pkl
+tc09,1000,ink_results,Decision_Tree,1.0,0.0,./ink_result.pkl
+tc08,1000,ink_results,SVM,0.5525,0.0,./ink_result.pkl
+tc06,1000,ink_results,Decision_Tree,1.0,0.0,./ink_result.pkl
+tc01,1000,ink_results,Decision_Tree,1.0,0.0,./ink_result.pkl
+tc12,1000,ink_results,Decision_Tree,1.0,0.0,./ink_result.pkl

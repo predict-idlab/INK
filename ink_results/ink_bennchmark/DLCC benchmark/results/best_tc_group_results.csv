@@ -1,0 +1,2 @@
+TC Group,TC Size Group,AVG TC Actual Size,Vector Name,Classifier,AVG Accuracy,AVG # missing URLs,Vector Path
+synthetic_ontology,1000,2000.0,ink_results,Multi_Layer_Perceptron,0.8495138888888888,0.0,./ink_result.pkl
