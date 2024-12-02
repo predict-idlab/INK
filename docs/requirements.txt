@@ -14,7 +14,7 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 tqdm==4.46.0
 mlxtend==0.17.2
-scipy==1.4.1
+scipy==1.10.0
 numpy==1.18.4
 rdflib==5.0.0
 requests==2.23.0
